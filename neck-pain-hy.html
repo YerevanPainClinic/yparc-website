@@ -1,1 +1,1969 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Պարանոցի ցավ | YPARC — Երևանի ցավի և վերականգնողական կլինիկա</title>
+
+  <meta
+    name="description"
+    content="Պարանոցի ցավի գնահատում և բուժման մոտեցումներ YPARC-ում։ Իմացեք հնարավոր պատճառների, ախտանշանների, գնահատման, բուժման և շտապ բժշկական օգնություն պահանջող նշանների մասին։"
+  >
+
+  <style>
+    :root {
+      --green: #0b4f3c;
+      --green-dark: #06392c;
+      --green-soft: #dfece6;
+      --gold: #c89b3c;
+      --gold-soft: #ead7a8;
+      --cream: #f7f4ed;
+      --white: #ffffff;
+      --text: #26332e;
+      --muted: #68736e;
+      --border: rgba(11,79,60,.13);
+      --shadow: 0 20px 60px rgba(6,57,44,.10);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: #fff;
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    section[id] {
+      scroll-margin-top: 110px;
+    }
+
+    .container {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .section-title {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(38px, 5vw, 64px);
+      line-height: 1.03;
+      font-weight: 400;
+      letter-spacing: -.04em;
+      color: var(--green-dark);
+    }
+
+    .section-text {
+      margin-top: 20px;
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .btn {
+      min-height: 52px;
+      padding: 0 24px;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 800;
+      transition: .25s ease;
+    }
+
+    .btn-primary {
+      background: var(--green);
+      color: #fff;
+      border: 1px solid var(--green);
+    }
+
+    .btn-primary:hover {
+      background: var(--green-dark);
+      transform: translateY(-2px);
+    }
+
+    .btn-outline {
+      border: 1px solid rgba(11,79,60,.24);
+      color: var(--green);
+      background: transparent;
+    }
+
+    .btn-outline:hover {
+      background: var(--green);
+      color: #fff;
+    }
+
+    /* TOPBAR */
+
+    .topbar {
+      background: var(--green-dark);
+      color: rgba(255,255,255,.76);
+      font-size: 12px;
+    }
+
+    .topbar-inner {
+      min-height: 38px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .topbar-left,
+    .topbar-right {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+
+    .language-switcher {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .language-switcher a {
+      color: rgba(255,255,255,.7);
+      font-weight: 800;
+    }
+
+    .language-switcher a:hover,
+    .language-switcher a.active {
+      color: var(--gold-soft);
+    }
+
+    /* HEADER */
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255,255,255,.96);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner {
+      min-height: 84px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .logo-wrap {
+      flex-shrink: 0;
+    }
+
+    .logo-wrap img {
+      width: 66px;
+      height: 66px;
+      object-fit: contain;
+    }
+
+    .desktop-nav {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .desktop-nav a {
+      font-size: 13px;
+      font-weight: 700;
+      color: #31423b;
+      position: relative;
+    }
+
+    .desktop-nav a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+      width: 0;
+      height: 1px;
+      background: var(--gold);
+      transition: .25s ease;
+    }
+
+    .desktop-nav a:hover::after,
+    .desktop-nav a.active::after {
+      width: 100%;
+    }
+
+    .desktop-nav a.active {
+      color: var(--green);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .menu-toggle {
+      display: none;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: #fff;
+      color: var(--green);
+      font-size: 21px;
+      cursor: pointer;
+    }
+
+    /* MOBILE MENU */
+
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      inset: 122px 0 0;
+      background: #fff;
+      z-index: 999;
+      padding: 34px 22px 50px;
+      overflow-y: auto;
+    }
+
+    .mobile-menu.open {
+      display: block;
+    }
+
+    .mobile-menu nav {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mobile-menu nav a {
+      padding: 17px 0;
+      border-bottom: 1px solid var(--border);
+      font-family: Georgia, serif;
+      font-size: 26px;
+      color: var(--green-dark);
+    }
+
+    .mobile-menu .mobile-btn {
+      width: 100%;
+      margin-top: 28px;
+    }
+
+    /* BREADCRUMB */
+
+    .breadcrumb {
+      padding: 18px 0;
+      border-bottom: 1px solid var(--border);
+      background: #fff;
+    }
+
+    .breadcrumb-inner {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    /* HERO */
+
+    .condition-hero {
+      background:
+        radial-gradient(circle at 87% 18%, rgba(200,155,60,.16), transparent 27%),
+        var(--cream);
+      padding: 92px 0;
+    }
+
+    .condition-hero-grid {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .condition-hero h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(58px, 7.5vw, 100px);
+      line-height: .93;
+      font-weight: 400;
+      letter-spacing: -.055em;
+      color: var(--green-dark);
+    }
+
+    .condition-hero h1 span {
+      color: var(--green);
+    }
+
+    .hero-text {
+      max-width: 690px;
+      font-size: 18px;
+      color: var(--muted);
+      margin-top: 27px;
+    }
+
+    .hero-buttons {
+      margin-top: 32px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .hero-image {
+      position: relative;
+      overflow: hidden;
+      min-height: 560px;
+      border-radius: 30px;
+      background: var(--green-soft);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-image img {
+      height: 560px;
+      object-fit: cover;
+    }
+
+    .hero-card {
+      position: absolute;
+      left: 24px;
+      right: 24px;
+      bottom: 24px;
+      padding: 24px;
+      border-radius: 18px;
+      background: rgba(255,255,255,.93);
+      backdrop-filter: blur(10px);
+    }
+
+    .hero-card strong {
+      display: block;
+      color: var(--green-dark);
+      font-family: Georgia, serif;
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    .hero-card p {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 7px;
+    }
+
+    /* INTRO */
+
+    .intro {
+      padding: 110px 0;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: .85fr 1.15fr;
+      gap: 85px;
+      align-items: start;
+    }
+
+    .intro-side {
+      background: var(--green-dark);
+      border-radius: 24px;
+      padding: 38px;
+      color: #fff;
+      position: sticky;
+      top: 125px;
+    }
+
+    .intro-side strong {
+      font-family: Georgia, serif;
+      font-size: 30px;
+      line-height: 1.15;
+      font-weight: 400;
+    }
+
+    .intro-side p {
+      margin-top: 15px;
+      color: rgba(255,255,255,.68);
+      font-size: 14px;
+    }
+
+    .intro-copy p {
+      margin-top: 20px;
+      font-size: 17px;
+      color: var(--muted);
+    }
+
+    /* POSSIBLE CAUSES */
+
+    .causes {
+      padding: 110px 0;
+      background: var(--cream);
+    }
+
+    .causes-grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 20px;
+      margin-top: 50px;
+    }
+
+    .cause-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 30px;
+      transition: .3s ease;
+    }
+
+    .cause-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow);
+    }
+
+    .cause-number {
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--gold);
+      letter-spacing: .12em;
+      margin-bottom: 32px;
+    }
+
+    .cause-card h3 {
+      font-family: Georgia, serif;
+      font-size: 27px;
+      font-weight: 400;
+      line-height: 1.1;
+      color: var(--green-dark);
+    }
+
+    .cause-card p {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    /* SYMPTOMS */
+
+    .symptoms {
+      padding: 110px 0;
+    }
+
+    .symptoms-grid {
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      gap: 75px;
+      align-items: center;
+    }
+
+    .symptoms-image {
+      overflow: hidden;
+      min-height: 560px;
+      border-radius: 28px;
+      background: var(--green-soft);
+      box-shadow: var(--shadow);
+    }
+
+    .symptoms-image img {
+      height: 560px;
+      object-fit: cover;
+    }
+
+    .symptom-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 35px;
+    }
+
+    .symptom-item {
+      padding: 17px 20px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      color: var(--text);
+      background: #fff;
+      font-size: 14px;
+    }
+
+    /* ASSESSMENT */
+
+    .assessment {
+      padding: 110px 0;
+      background: var(--cream);
+    }
+
+    .assessment-grid {
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      gap: 75px;
+      align-items: center;
+    }
+
+    .assessment-steps {
+      margin-top: 34px;
+      border-top: 1px solid var(--border);
+    }
+
+    .assessment-step {
+      display: grid;
+      grid-template-columns: 50px 1fr;
+      gap: 18px;
+      padding: 23px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .assessment-step span {
+      width: 40px;
+      height: 40px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: #fff;
+      color: var(--gold);
+      font-family: Georgia, serif;
+      font-size: 18px;
+    }
+
+    .assessment-step h3 {
+      font-size: 16px;
+      color: var(--green-dark);
+    }
+
+    .assessment-step p {
+      font-size: 14px;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+
+    .assessment-note {
+      background: var(--green-dark);
+      border-radius: 26px;
+      padding: 45px;
+      color: #fff;
+    }
+
+    .assessment-note h3 {
+      font-family: Georgia, serif;
+      font-size: 35px;
+      font-weight: 400;
+      line-height: 1.1;
+    }
+
+    .assessment-note p {
+      margin-top: 18px;
+      color: rgba(255,255,255,.68);
+    }
+
+    /* TREATMENT */
+
+    .treatment {
+      padding: 110px 0;
+      background: var(--green-dark);
+      color: #fff;
+    }
+
+    .treatment .section-title {
+      color: #fff;
+    }
+
+    .treatment .section-text {
+      color: rgba(255,255,255,.67);
+    }
+
+    .treatment-grid {
+      margin-top: 52px;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 16px;
+    }
+
+    .treatment-card {
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 20px;
+      padding: 28px;
+    }
+
+    .treatment-card h3 {
+      font-family: Georgia, serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 1.15;
+    }
+
+    .treatment-card p {
+      margin-top: 13px;
+      color: rgba(255,255,255,.63);
+      font-size: 13px;
+    }
+
+    /* RED FLAGS */
+
+    .redflags {
+      padding: 110px 0;
+    }
+
+    .redflags-box {
+      border-radius: 30px;
+      padding: 65px;
+      background: #f4eee6;
+      border: 1px solid rgba(130,70,40,.1);
+    }
+
+    .redflags-grid {
+      display: grid;
+      grid-template-columns: .85fr 1.15fr;
+      gap: 70px;
+      align-items: start;
+    }
+
+    .redflags-list {
+      display: grid;
+      gap: 13px;
+    }
+
+    .redflag-item {
+      padding: 19px 20px;
+      background: #fff;
+      border-radius: 14px;
+      border: 1px solid rgba(130,70,40,.12);
+      font-size: 14px;
+    }
+
+    .emergency-note {
+      color: #885c45;
+      font-size: 13px;
+      margin-top: 18px;
+    }
+
+    /* FAQ */
+
+    .faq {
+      padding: 110px 0;
+      background: var(--cream);
+    }
+
+    .faq-wrap {
+      margin-top: 48px;
+      border-top: 1px solid var(--border);
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .faq-question {
+      width: 100%;
+      border: 0;
+      background: transparent;
+      text-align: left;
+      padding: 24px 0;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      cursor: pointer;
+      color: var(--green-dark);
+      font-weight: 800;
+    }
+
+    .faq-plus {
+      font-size: 23px;
+      font-weight: 400;
+      color: var(--gold);
+      transition: .25s ease;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .35s ease;
+    }
+
+    .faq-answer p {
+      padding: 0 0 24px;
+      color: var(--muted);
+      max-width: 850px;
+      font-size: 14px;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 320px;
+    }
+
+    .faq-item.active .faq-plus {
+      transform: rotate(45deg);
+    }
+
+    /* CTA */
+
+    .final-cta {
+      padding: 105px 0;
+    }
+
+    .final-cta-box {
+      border-radius: 30px;
+      background: var(--green);
+      padding: 70px 50px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .final-cta-box .eyebrow {
+      color: var(--gold-soft);
+    }
+
+    .final-cta-box h2 {
+      font-family: Georgia, serif;
+      font-weight: 400;
+      font-size: clamp(40px,5vw,64px);
+      line-height: 1.03;
+    }
+
+    .final-cta-box p {
+      max-width: 700px;
+      margin: 20px auto 28px;
+      color: rgba(255,255,255,.72);
+    }
+
+    .final-cta-box .btn {
+      background: #fff;
+      color: var(--green-dark);
+      border: 1px solid #fff;
+    }
+
+    /* FOOTER */
+
+    footer {
+      background: var(--green-dark);
+      color: #fff;
+      padding: 75px 0 25px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.3fr repeat(3,1fr);
+      gap: 60px;
+    }
+
+    .footer-brand img {
+      width: 82px;
+      background: #fff;
+      border-radius: 50%;
+      padding: 3px;
+    }
+
+    .footer-brand p {
+      max-width: 340px;
+      margin-top: 20px;
+      color: rgba(255,255,255,.65);
+      font-size: 14px;
+    }
+
+    .footer-column h4 {
+      color: var(--gold-soft);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      margin-bottom: 18px;
+    }
+
+    .footer-column ul {
+      list-style: none;
+    }
+
+    .footer-column li {
+      margin-bottom: 10px;
+      color: rgba(255,255,255,.68);
+      font-size: 14px;
+    }
+
+    .footer-column a:hover {
+      color: #fff;
+    }
+
+    .footer-bottom {
+      margin-top: 55px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(255,255,255,.1);
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      color: rgba(255,255,255,.46);
+      font-size: 12px;
+    }
+
+    @media (max-width: 1100px) {
+      .desktop-nav {
+        display: none;
+      }
+
+      .patient-login {
+        display: none;
+      }
+
+      .menu-toggle {
+        display: inline-grid;
+        place-items: center;
+      }
+
+      .condition-hero-grid,
+      .intro-grid,
+      .symptoms-grid,
+      .assessment-grid,
+      .redflags-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .intro-side {
+        position: static;
+      }
+
+      .causes-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .treatment-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .container {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .topbar-left span:first-child {
+        display: none;
+      }
+
+      .header-inner {
+        min-height: 74px;
+      }
+
+      .logo-wrap img {
+        width: 57px;
+        height: 57px;
+      }
+
+      .header-actions > .btn {
+        display: none;
+      }
+
+      .mobile-menu {
+        inset: 116px 0 0;
+      }
+
+      .condition-hero {
+        padding: 68px 0;
+      }
+
+      .condition-hero-grid {
+        gap: 45px;
+      }
+
+      .hero-image,
+      .hero-image img {
+        min-height: 410px;
+        height: 410px;
+      }
+
+      .intro,
+      .causes,
+      .symptoms,
+      .assessment,
+      .treatment,
+      .redflags,
+      .faq,
+      .final-cta {
+        padding: 78px 0;
+      }
+
+      .causes-grid,
+      .treatment-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .symptoms-image,
+      .symptoms-image img {
+        min-height: 410px;
+        height: 410px;
+      }
+
+      .redflags-box {
+        padding: 38px 24px;
+      }
+
+      .assessment-note {
+        padding: 36px 25px;
+      }
+
+      .final-cta-box {
+        padding: 50px 24px;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 38px;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+
+      <div class="topbar-left">
+        <span>Yerevan Pain & Rehabilitation Clinic</span>
+        <span>Պուշկին 56/1, Երևան</span>
+      </div>
+
+      <div class="topbar-right">
+
+        <a href="tel:+37491092123">
+          +374 91 092123
+        </a>
+
+        <span class="language-switcher">
+          <a href="index.html">EN</a>
+          <span>|</span>
+          <a href="neck-pain-hy.html" class="active">HY</a>
+          <span>|</span>
+          <a href="ru.html">RU</a>
+        </span>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <header class="site-header">
+
+    <div class="container header-inner">
+
+      <a href="hy.html" class="logo-wrap">
+        <img
+          src="yparc-logo.png"
+          alt="YPARC — Երևանի ցավի և վերականգնողական կլինիկա"
+        >
+      </a>
+
+      <nav class="desktop-nav">
+
+        <a href="about-hy.html">
+          Մեր մասին
+        </a>
+
+        <a href="conditions-hy.html" class="active">
+          Ցավային վիճակներ
+        </a>
+
+        <a href="hy.html#treatments">
+          Բուժումներ
+        </a>
+
+        <a href="hy.html#rehabilitation">
+          Վերականգնում
+        </a>
+
+        <a href="hy.html#education">
+          Կրթություն
+        </a>
+
+        <a href="hy.html#resources">
+          Օգտակար նյութեր
+        </a>
+
+      </nav>
+
+      <div class="header-actions">
+
+        <a
+          href="hy.html#appointment"
+          class="btn btn-outline patient-login"
+        >
+          Patient Login
+        </a>
+
+        <a
+          href="hy.html#appointment"
+          class="btn btn-primary"
+        >
+          Գրանցվել այցի
+        </a>
+
+        <button
+          class="menu-toggle"
+          onclick="toggleMenu()"
+          aria-label="Բացել մենյուն"
+        >
+          ☰
+        </button>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <div class="mobile-menu" id="mobileMenu">
+
+    <nav>
+      <a href="about-hy.html">Մեր մասին</a>
+      <a href="conditions-hy.html">Ցավային վիճակներ</a>
+      <a href="hy.html#treatments">Բուժումներ</a>
+      <a href="hy.html#rehabilitation">Վերականգնում</a>
+      <a href="hy.html#education">Կրթություն</a>
+      <a href="hy.html#resources">Օգտակար նյութեր</a>
+    </nav>
+
+    <a href="hy.html#appointment" class="btn btn-primary mobile-btn">
+      Գրանցվել այցի
+    </a>
+
+  </div>
+
+
+  <div class="breadcrumb">
+
+    <div class="container breadcrumb-inner">
+
+      <a href="hy.html">Գլխավոր</a>
+      <span>→</span>
+      <a href="conditions-hy.html">Ցավային վիճակներ</a>
+      <span>→</span>
+      <span>Պարանոցի ցավ</span>
+
+    </div>
+
+  </div>
+
+
+  <main>
+
+    <!-- HERO -->
+
+    <section class="condition-hero">
+
+      <div class="container condition-hero-grid">
+
+        <div>
+
+          <div class="eyebrow">
+            ՊԱՐԱՆՈՑ • ՑԱՎԱՅԻՆ ՎԻՃԱԿՆԵՐ
+          </div>
+
+          <h1>
+            Պարանոցի <span>ցավ</span>
+          </h1>
+
+          <p class="hero-text">
+            Պարանոցի ցավը կարող է կապված լինել մկանների, հոդերի,
+            սկավառակների, նյարդային կառուցվածքների կամ այլ գործոնների հետ։
+            Այն կարող է սահմանափակել շարժումը և երբեմն տարածվել դեպի ուս,
+            թիակ կամ վերին վերջույթ։
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="hy.html#appointment" class="btn btn-primary">
+              Գրանցվել խորհրդատվության →
+            </a>
+
+            <a href="#assessment" class="btn btn-outline">
+              Ինչպես ենք գնահատում
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+          <img
+            src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1400&q=85"
+            alt="Պարանոցի ցավի գնահատում"
+          >
+
+          <div class="hero-card">
+
+            <strong>
+              Պարանոցի ցավի պատճառը միշտ չէ, որ նույնն է։
+            </strong>
+
+            <p>
+              Ցավի տեղակայումը, տարածումը, շարժումների սահմանափակումը և
+              նյարդաբանական ախտանշանները օգնում են ընտրել ճիշտ գնահատման ուղղությունը։
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- INTRO -->
+
+    <section class="intro">
+
+      <div class="container intro-grid">
+
+        <aside class="intro-side">
+
+          <strong>
+            Նպատակը միայն ցավը նվազեցնելը չէ։
+          </strong>
+
+          <p>
+            Կարևոր է հասկանալ, թե ինչն է առաջացնում ցավը և ինչպես է այն
+            ազդում շարժման, աշխատանքի, քնի և առօրյա գործունեության վրա։
+          </p>
+
+        </aside>
+
+
+        <div class="intro-copy">
+
+          <div class="eyebrow">
+            ՊԱՐԱՆՈՑԻ ՑԱՎԻ ՄԱՍԻՆ
+          </div>
+
+          <h2 class="section-title">
+            Պարանոցի ցավը կարող է լինել տեղային կամ տարածվել դեպի այլ շրջաններ։
+          </h2>
+
+          <p>
+            Որոշ դեպքերում ցավը հիմնականում զգացվում է պարանոցի շրջանում և
+            ուղեկցվում է լարվածությամբ կամ շարժումների սահմանափակմամբ։
+            Այլ դեպքերում այն կարող է տարածվել դեպի ուս, թիակ, բազուկ կամ ձեռք։
+          </p>
+
+          <p>
+            Եթե առկա է նյարդային կառուցվածքների գրգռում կամ սեղմում,
+            կարող են առաջանալ նաև թմրածություն, ծակծկոց, զգացողության փոփոխություն
+            կամ մկանային թուլություն։
+          </p>
+
+          <p>
+            Ճիշտ բուժման ընտրության համար կարևոր է տարբերակել մեխանիկական,
+            մկանային, հոդային և նյարդային ծագման հնարավոր պատճառները։
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CAUSES -->
+
+    <section class="causes">
+
+      <div class="container">
+
+        <div class="eyebrow">
+          ՀՆԱՐԱՎՈՐ ՊԱՏՃԱՌՆԵՐ
+        </div>
+
+        <h2 class="section-title">
+          Պարանոցի ցավը կարող է ունենալ տարբեր աղբյուրներ։
+        </h2>
+
+        <p class="section-text">
+          Ստորև ներկայացված պատճառները միայն ընդհանուր օրինակներ են։
+          Ճշգրիտ ախտորոշումը կատարվում է բժշկական գնահատումից հետո։
+        </p>
+
+
+        <div class="causes-grid">
+
+          <article class="cause-card">
+
+            <div class="cause-number">01</div>
+
+            <h3>
+              Մկանային գերլարում
+            </h3>
+
+            <p>
+              Երկարատև նույն դիրքը, ծանրաբեռնվածությունը կամ որոշ շարժումներ
+              կարող են նպաստել պարանոցի մկանային ցավին և լարվածությանը։
+            </p>
+
+          </article>
+
+
+          <article class="cause-card">
+
+            <div class="cause-number">02</div>
+
+            <h3>
+              Ֆասետային հոդերի ցավ
+            </h3>
+
+            <p>
+              Պարանոցային ողերի փոքր հոդերը կարող են լինել ցավի աղբյուր,
+              հատկապես որոշ շարժումների կամ դիրքերի դեպքում։
+            </p>
+
+          </article>
+
+
+          <article class="cause-card">
+
+            <div class="cause-number">03</div>
+
+            <h3>
+              Սկավառակի փոփոխություններ
+            </h3>
+
+            <p>
+              Միջողային սկավառակի որոշ փոփոխություններ կարող են առաջացնել
+              տեղային ցավ կամ ուղեկցվել նյարդային կառուցվածքների գրգռմամբ։
+            </p>
+
+          </article>
+
+
+          <article class="cause-card">
+
+            <div class="cause-number">04</div>
+
+            <h3>
+              Նյարդարմատի գրգռում
+            </h3>
+
+            <p>
+              Նյարդարմատի գրգռման դեպքում ցավը կարող է տարածվել դեպի վերին վերջույթ
+              և ուղեկցվել զգացողության փոփոխություններով։
+            </p>
+
+          </article>
+
+
+          <article class="cause-card">
+
+            <div class="cause-number">05</div>
+
+            <h3>
+              Վնասվածք
+            </h3>
+
+            <p>
+              Ավտովթարից, ընկնելուց կամ այլ վնասվածքից հետո պարանոցի ցավը
+              պահանջում է համապատասխան գնահատում՝ ըստ վիճակի ծանրության։
+            </p>
+
+          </article>
+
+
+          <article class="cause-card">
+
+            <div class="cause-number">06</div>
+
+            <h3>
+              Քրոնիկ ցավային վիճակ
+            </h3>
+
+            <p>
+              Երկարատև ցավի դեպքում կարող են միաժամանակ դեր ունենալ
+              մի քանի գործոններ՝ շարժողական, մկանային և նյարդային։
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SYMPTOMS -->
+
+    <section class="symptoms">
+
+      <div class="container symptoms-grid">
+
+        <div class="symptoms-image">
+
+          <img
+            src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1400&q=85"
+            alt="Պարանոցի շարժման գնահատում"
+          >
+
+        </div>
+
+
+        <div>
+
+          <div class="eyebrow">
+            ԱԽՏԱՆՇԱՆՆԵՐ
+          </div>
+
+          <h2 class="section-title">
+            Ինչպիսի՞ գանգատներ կարող են ուղեկցել պարանոցի ցավին։
+          </h2>
+
+          <p class="section-text">
+            Ախտանշանների համադրությունը կարող է օգնել հասկանալ ցավի հնարավոր աղբյուրը։
+          </p>
+
+
+          <div class="symptom-list">
+
+            <div class="symptom-item">
+              Պարանոցի տեղային ցավ կամ կոշտություն
+            </div>
+
+            <div class="symptom-item">
+              Գլուխը շրջելու կամ թեքելու սահմանափակում
+            </div>
+
+            <div class="symptom-item">
+              Ցավ, որը տարածվում է դեպի ուս կամ թիակ
+            </div>
+
+            <div class="symptom-item">
+              Ցավ՝ դեպի բազուկ, նախաբազուկ կամ ձեռք
+            </div>
+
+            <div class="symptom-item">
+              Թմրածություն կամ ծակծկոց ձեռքում
+            </div>
+
+            <div class="symptom-item">
+              Ձեռքի մկանային ուժի փոփոխություն
+            </div>
+
+            <div class="symptom-item">
+              Պարանոցի շարժումների հետ կապված գլխացավ
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ASSESSMENT -->
+
+    <section class="assessment" id="assessment">
+
+      <div class="container assessment-grid">
+
+        <div>
+
+          <div class="eyebrow">
+            ԳՆԱՀԱՏՈՒՄ
+          </div>
+
+          <h2 class="section-title">
+            Ինչպե՞ս ենք գնահատում պարանոցի ցավը։
+          </h2>
+
+          <p class="section-text">
+            Բուժման պլանը կախված է ցավի հնարավոր աղբյուրից և պացիենտի
+            ֆունկցիոնալ վիճակից։
+          </p>
+
+
+          <div class="assessment-steps">
+
+            <div class="assessment-step">
+
+              <span>01</span>
+
+              <div>
+                <h3>
+                  Ցավի պատմություն
+                </h3>
+
+                <p>
+                  Ուսումնասիրվում են ցավի սկիզբը, տևողությունը, բնույթը,
+                  տեղակայումը և տարածումը։
+                </p>
+              </div>
+
+            </div>
+
+
+            <div class="assessment-step">
+
+              <span>02</span>
+
+              <div>
+                <h3>
+                  Շարժունակության գնահատում
+                </h3>
+
+                <p>
+                  Գնահատվում են պարանոցի շարժումները, ցավ առաջացնող դիրքերը
+                  և ֆունկցիոնալ սահմանափակումները։
+                </p>
+              </div>
+
+            </div>
+
+
+            <div class="assessment-step">
+
+              <span>03</span>
+
+              <div>
+                <h3>
+                  Նյարդաբանական գնահատում
+                </h3>
+
+                <p>
+                  Անհրաժեշտության դեպքում գնահատվում են մկանային ուժը,
+                  զգացողությունը և նյարդաբանական այլ ցուցանիշներ։
+                </p>
+              </div>
+
+            </div>
+
+
+            <div class="assessment-step">
+
+              <span>04</span>
+
+              <div>
+                <h3>
+                  Հետագա հետազոտությունների որոշում
+                </h3>
+
+                <p>
+                  Պատկերային կամ այլ հետազոտությունների անհրաժեշտությունը որոշվում է
+                  միայն կլինիկական տվյալների և ցուցումների հիման վրա։
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="assessment-note">
+
+          <h3>
+            Պատկերային հետազոտության արդյունքը միայնակ միշտ չի բացատրում ցավը։
+          </h3>
+
+          <p>
+            MRI կամ այլ հետազոտության արդյունքները գնահատվում են պացիենտի
+            ախտանշանների և կլինիկական զննման հետ միասին։ Բուժման որոշումը
+            չպետք է հիմնված լինի միայն պատկերի վրա։
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- TREATMENT -->
+
+    <section class="treatment">
+
+      <div class="container">
+
+        <div class="eyebrow">
+          ԲՈՒԺՄԱՆ ՄՈՏԵՑՈՒՄՆԵՐ
+        </div>
+
+        <h2 class="section-title">
+          Պարանոցի ցավի բուժումը ձևավորվում է անհատապես։
+        </h2>
+
+        <p class="section-text">
+          Բուժման տարբերակն ընտրվում է ցավի պատճառի, տևողության,
+          նյարդաբանական ախտանշանների և ֆունկցիոնալ սահմանափակման հիման վրա։
+        </p>
+
+
+        <div class="treatment-grid">
+
+          <article class="treatment-card">
+
+            <h3>
+              Դեղորայքային բուժում
+            </h3>
+
+            <p>
+              Ըստ կլինիկական իրավիճակի կարող են կիրառվել համապատասխան
+              դեղորայքային մոտեցումներ՝ բժշկական ցուցումներով։
+            </p>
+
+          </article>
+
+
+          <article class="treatment-card">
+
+            <h3>
+              Վերականգնում
+            </h3>
+
+            <p>
+              Շարժման, ուժի և շարժողական վերահսկման բարելավման նպատակով
+              կարող է կազմվել անհատական վերականգնողական ծրագիր։
+            </p>
+
+          </article>
+
+
+          <article class="treatment-card">
+
+            <h3>
+              Ինտերվենցիոն ցավաբուժություն
+            </h3>
+
+            <p>
+              Ընտրված դեպքերում և համապատասխան ցուցումների դեպքում
+              կարող են դիտարկվել թիրախային միջամտություններ։
+            </p>
+
+          </article>
+
+
+          <article class="treatment-card">
+
+            <h3>
+              Երկարաժամկետ վերահսկում
+            </h3>
+
+            <p>
+              Քրոնիկ պարանոցի ցավի դեպքում կարևոր է գնահատել նաև
+              աշխատանքային ծանրաբեռնվածությունը, շարժումը և առօրյա գործոնները։
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- RED FLAGS -->
+
+    <section class="redflags">
+
+      <div class="container">
+
+        <div class="redflags-box">
+
+          <div class="redflags-grid">
+
+            <div>
+
+              <div class="eyebrow">
+                ԵՐԲ Է ՊԵՏՔ ՇՏԱՊ ԴԻՄԵԼ
+              </div>
+
+              <h2 class="section-title">
+                Որոշ ախտանշաններ պահանջում են անհապաղ բժշկական օգնություն։
+              </h2>
+
+              <p class="emergency-note">
+                Այս բաժինը տեղեկատվական է։ Արտահայտված կամ արագ զարգացող
+                ախտանշանների դեպքում անհրաժեշտ է դիմել շտապ բժշկական օգնության։
+              </p>
+
+            </div>
+
+
+            <div class="redflags-list">
+
+              <div class="redflag-item">
+                Վնասվածքից հետո առաջացած ուժեղ պարանոցի ցավ
+              </div>
+
+              <div class="redflag-item">
+                Նոր առաջացած արտահայտված ձեռքի կամ ոտքի թուլություն
+              </div>
+
+              <div class="redflag-item">
+                Քայլքի կամ հավասարակշռության նոր խանգարում
+              </div>
+
+              <div class="redflag-item">
+                Միզարձակման կամ աղիքային ֆունկցիայի նոր արտահայտված խանգարում՝
+                նյարդաբանական ախտանշանների հետ
+              </div>
+
+              <div class="redflag-item">
+                Բարձր ջերմություն և ընդհանուր ծանր վիճակ՝ պարանոցի ուժեղ ցավի հետ
+              </div>
+
+              <div class="redflag-item">
+                Վիճակի արագ վատացում կամ արտահայտված նոր նյարդաբանական ախտանշան
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- FAQ -->
+
+    <section class="faq">
+
+      <div class="container">
+
+        <div class="eyebrow">
+          ՀԱՃԱԽ ՏՐՎՈՂ ՀԱՐՑԵՐ
+        </div>
+
+        <h2 class="section-title">
+          Պարանոցի ցավի մասին հաճախ տրվող հարցեր։
+        </h2>
+
+
+        <div class="faq-wrap">
+
+          <div class="faq-item">
+
+            <button class="faq-question">
+              <span>
+                Պարանոցի ցավի դեպքում միշտ պե՞տք է MRI անել։
+              </span>
+              <span class="faq-plus">+</span>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                Ոչ միշտ։ Պատկերային հետազոտության անհրաժեշտությունը որոշվում է
+                ախտանշանների, բժշկական պատմության և կլինիկական զննման հիման վրա։
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="faq-item">
+
+            <button class="faq-question">
+              <span>
+                Պարանոցի ցավը կարո՞ղ է տարածվել դեպի ձեռք։
+              </span>
+              <span class="faq-plus">+</span>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                Այո։ Որոշ վիճակներում ցավը կարող է տարածվել դեպի ուս և վերին վերջույթ,
+                հատկապես երբ ներգրավված են նյարդային կառուցվածքները։
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="faq-item">
+
+            <button class="faq-question">
+              <span>
+                Պարանոցի ցավը կարո՞ղ է գլխացավ առաջացնել։
+              </span>
+              <span class="faq-plus">+</span>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                Որոշ գլխացավեր կարող են կապված լինել պարանոցի կառուցվածքների հետ։
+                Դրա համար անհրաժեշտ է համադրել գլխացավի պատմությունը և պարանոցի գնահատումը։
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="faq-item">
+
+            <button class="faq-question">
+              <span>
+                Վերականգնողական վարժությունները կարո՞ղ են օգնել։
+              </span>
+              <span class="faq-plus">+</span>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                Որոշ պարանոցի ցավային վիճակների դեպքում համապատասխան ընտրված
+                վարժությունները կարող են լինել բուժման կարևոր մաս։
+                Վարժությունների ծրագիրը պետք է համապատասխանեցվի կոնկրետ վիճակին։
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="faq-item">
+
+            <button class="faq-question">
+              <span>
+                Ո՞ր դեպքում կարող է պահանջվել ինտերվենցիոն բուժում։
+              </span>
+              <span class="faq-plus">+</span>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                Ինտերվենցիոն մոտեցումները դիտարկվում են միայն ընտրված դեպքերում,
+                երբ դրա համար առկա են համապատասխան կլինիկական ցուցումներ և
+                պարզված է հնարավոր ցավի աղբյուրը։
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CTA -->
+
+    <section class="final-cta">
+
+      <div class="container">
+
+        <div class="final-cta-box">
+
+          <div class="eyebrow">
+            ԳՐԱՆՑՎԵԼ ԽՈՐՀՐԴԱՏՎՈՒԹՅԱՆ
+          </div>
+
+          <h2>
+            Պարանոցի ցավը սահմանափակո՞ւմ է ձեր շարժումն ու առօրյա կյանքը։
+          </h2>
+
+          <p>
+            Գրանցվեք գնահատման՝ ցավի հնարավոր պատճառը հասկանալու և
+            ձեզ համապատասխան բուժման կամ վերականգնման ծրագիրը որոշելու համար։
+          </p>
+
+          <a href="hy.html#appointment" class="btn">
+            Գրանցվել այցի →
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+
+          <img src="yparc-logo.png" alt="YPARC">
+
+          <p>
+            YPARC — Երևանի ցավի և վերականգնողական կլինիկա։
+            Ցավի գնահատում, անհատական բուժում և վերականգնում՝
+            մեկ համակարգում։
+          </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h4>Կլինիկա</h4>
+
+          <ul>
+            <li><a href="about-hy.html">Մեր մասին</a></li>
+            <li><a href="conditions-hy.html">Ցավային վիճակներ</a></li>
+            <li><a href="hy.html#treatments">Բուժումներ</a></li>
+            <li><a href="hy.html#rehabilitation">Վերականգնում</a></li>
+          </ul>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h4>Պացիենտների համար</h4>
+
+          <ul>
+            <li><a href="hy.html#appointment">Գրանցվել այցի</a></li>
+            <li><a href="hy.html#resources">Օգտակար նյութեր</a></li>
+            <li><a href="conditions-hy.html">Բոլոր ցավային վիճակները</a></li>
+          </ul>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h4>Կապ</h4>
+
+          <ul>
+            <li>Պուշկին 56/1, Երևան</li>
+
+            <li>
+              <a href="tel:+37491092123">
+                +374 91 092123
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:info@painclinicyerevan.am">
+                info@painclinicyerevan.am
+              </a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        <span>© 2026 YPARC. All rights reserved.</span>
+
+        <span>Yerevan Pain & Rehabilitation Clinic</span>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <script>
+
+    function toggleMenu() {
+      const menu = document.getElementById("mobileMenu");
+
+      menu.classList.toggle("open");
+
+      document.body.style.overflow =
+        menu.classList.contains("open") ? "hidden" : "";
+    }
+
+
+    document
+      .querySelectorAll(".mobile-menu a")
+      .forEach(function(link) {
+
+        link.addEventListener("click", function() {
+
+          document
+            .getElementById("mobileMenu")
+            .classList.remove("open");
+
+          document.body.style.overflow = "";
+
+        });
+
+      });
+
+
+    document
+      .querySelectorAll(".faq-question")
+      .forEach(function(button) {
+
+        button.addEventListener("click", function() {
+
+          const current = this.parentElement;
+
+          document
+            .querySelectorAll(".faq-item")
+            .forEach(function(item) {
+
+              if (item !== current) {
+                item.classList.remove("active");
+              }
+
+            });
+
+          current.classList.toggle("active");
+
+        });
+
+      });
+
+
+    document.addEventListener("keydown", function(event) {
+
+      if (event.key === "Escape") {
+
+        document
+          .getElementById("mobileMenu")
+          .classList.remove("open");
+
+        document.body.style.overflow = "";
+
+      }
+
+    });
+
+  </script>
+
+</body>
+</html>
