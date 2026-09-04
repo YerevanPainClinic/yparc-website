@@ -1,1 +1,1980 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Գլխացավ | YPARC — Երևանի ցավի և վերականգնողական կլինիկա</title>
+
+  <meta
+    name="description"
+    content="Գլխացավի գնահատում և բուժման մոտեցումներ YPARC-ում։ Իմացեք գլխացավի հնարավոր տեսակների, բժշկական գնահատման, բուժման և երբ անհապաղ դիմել բժշկի մասին։"
+  >
+
+  <style>
+    :root {
+      --green: #0b4f3c;
+      --green-dark: #06392c;
+      --green-soft: #dfece6;
+      --gold: #c89b3c;
+      --gold-soft: #ead7a8;
+      --cream: #f7f4ed;
+      --white: #ffffff;
+      --text: #26332e;
+      --muted: #68736e;
+      --border: rgba(11,79,60,.13);
+      --shadow: 0 20px 60px rgba(6,57,44,.10);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: #fff;
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    button,
+    input,
+    textarea,
+    select {
+      font: inherit;
+    }
+
+    section[id] {
+      scroll-margin-top: 110px;
+    }
+
+    .container {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .section-title {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(38px, 5vw, 64px);
+      line-height: 1.03;
+      font-weight: 400;
+      letter-spacing: -.04em;
+      color: var(--green-dark);
+    }
+
+    .section-text {
+      margin-top: 20px;
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .btn {
+      min-height: 52px;
+      padding: 0 24px;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 800;
+      transition: .25s ease;
+    }
+
+    .btn-primary {
+      background: var(--green);
+      color: #fff;
+      border: 1px solid var(--green);
+    }
+
+    .btn-primary:hover {
+      background: var(--green-dark);
+      transform: translateY(-2px);
+    }
+
+    .btn-outline {
+      border: 1px solid rgba(11,79,60,.24);
+      color: var(--green);
+      background: transparent;
+    }
+
+    .btn-outline:hover {
+      background: var(--green);
+      color: #fff;
+    }
+
+    /* TOPBAR */
+
+    .topbar {
+      background: var(--green-dark);
+      color: rgba(255,255,255,.76);
+      font-size: 12px;
+    }
+
+    .topbar-inner {
+      min-height: 38px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .topbar-left,
+    .topbar-right {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+
+    .language-switcher {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .language-switcher a {
+      color: rgba(255,255,255,.7);
+      font-weight: 800;
+    }
+
+    .language-switcher a:hover,
+    .language-switcher a.active {
+      color: var(--gold-soft);
+    }
+
+    /* HEADER */
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255,255,255,.96);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner {
+      min-height: 84px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .logo-wrap img {
+      width: 66px;
+      height: 66px;
+      object-fit: contain;
+    }
+
+    .desktop-nav {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .desktop-nav a {
+      font-size: 13px;
+      font-weight: 700;
+      color: #31423b;
+      position: relative;
+    }
+
+    .desktop-nav a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+      height: 1px;
+      width: 0;
+      background: var(--gold);
+      transition: .25s ease;
+    }
+
+    .desktop-nav a:hover::after,
+    .desktop-nav a.active::after {
+      width: 100%;
+    }
+
+    .desktop-nav a.active {
+      color: var(--green);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .menu-toggle {
+      display: none;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: #fff;
+      color: var(--green);
+      font-size: 21px;
+      cursor: pointer;
+    }
+
+    /* MOBILE MENU */
+
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      inset: 122px 0 0;
+      background: #fff;
+      z-index: 999;
+      padding: 34px 22px 50px;
+      overflow-y: auto;
+    }
+
+    .mobile-menu.open {
+      display: block;
+    }
+
+    .mobile-menu nav {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mobile-menu nav a {
+      padding: 17px 0;
+      border-bottom: 1px solid var(--border);
+      font-family: Georgia, serif;
+      font-size: 26px;
+      color: var(--green-dark);
+    }
+
+    .mobile-menu .mobile-btn {
+      width: 100%;
+      margin-top: 28px;
+    }
+
+    /* BREADCRUMB */
+
+    .breadcrumb {
+      padding: 18px 0;
+      border-bottom: 1px solid var(--border);
+      background: #fff;
+    }
+
+    .breadcrumb-inner {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .breadcrumb a:hover {
+      color: var(--green);
+    }
+
+    /* HERO */
+
+    .condition-hero {
+      background:
+        radial-gradient(circle at 87% 18%, rgba(200,155,60,.16), transparent 27%),
+        var(--cream);
+      padding: 92px 0;
+      overflow: hidden;
+    }
+
+    .condition-hero-grid {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .condition-hero h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(62px, 8vw, 105px);
+      line-height: .92;
+      font-weight: 400;
+      letter-spacing: -.055em;
+      color: var(--green-dark);
+    }
+
+    .condition-hero h1 span {
+      color: var(--green);
+    }
+
+    .hero-text {
+      max-width: 690px;
+      font-size: 18px;
+      color: var(--muted);
+      margin-top: 27px;
+    }
+
+    .hero-buttons {
+      margin-top: 32px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .hero-image {
+      position: relative;
+      overflow: hidden;
+      min-height: 560px;
+      border-radius: 30px;
+      background: var(--green-soft);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-image img {
+      height: 560px;
+      object-fit: cover;
+    }
+
+    .hero-card {
+      position: absolute;
+      left: 24px;
+      right: 24px;
+      bottom: 24px;
+      padding: 24px;
+      border-radius: 18px;
+      background: rgba(255,255,255,.93);
+      backdrop-filter: blur(10px);
+    }
+
+    .hero-card strong {
+      display: block;
+      color: var(--green-dark);
+      font-family: Georgia, serif;
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    .hero-card p {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 7px;
+    }
+
+    /* INTRO */
+
+    .intro {
+      padding: 110px 0;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: .85fr 1.15fr;
+      gap: 85px;
+      align-items: start;
+    }
+
+    .intro-side {
+      background: var(--green-dark);
+      border-radius: 24px;
+      padding: 38px;
+      color: #fff;
+      position: sticky;
+      top: 125px;
+    }
+
+    .intro-side strong {
+      font-family: Georgia, serif;
+      font-size: 30px;
+      line-height: 1.15;
+      font-weight: 400;
+    }
+
+    .intro-side p {
+      margin-top: 15px;
+      color: rgba(255,255,255,.68);
+      font-size: 14px;
+    }
+
+    .intro-copy p {
+      margin-top: 20px;
+      font-size: 17px;
+      color: var(--muted);
+    }
+
+    /* TYPES */
+
+    .types {
+      padding: 110px 0;
+      background: var(--cream);
+    }
+
+    .types-grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 20px;
+      margin-top: 50px;
+    }
+
+    .type-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 30px;
+      transition: .3s ease;
+    }
+
+    .type-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow);
+    }
+
+    .type-number {
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--gold);
+      letter-spacing: .12em;
+      margin-bottom: 32px;
+    }
+
+    .type-card h3 {
+      font-family: Georgia, serif;
+      font-size: 27px;
+      font-weight: 400;
+      line-height: 1.1;
+      color: var(--green-dark);
+    }
+
+    .type-card p {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    /* ASSESSMENT */
+
+    .assessment {
+      padding: 110px 0;
+    }
+
+    .assessment-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 75px;
+      align-items: center;
+    }
+
+    .assessment-image {
+      border-radius: 28px;
+      overflow: hidden;
+      min-height: 590px;
+      background: var(--green-soft);
+      box-shadow: var(--shadow);
+    }
+
+    .assessment-image img {
+      min-height: 590px;
+      height: 590px;
+      object-fit: cover;
+    }
+
+    .assessment-steps {
+      margin-top: 34px;
+      border-top: 1px solid var(--border);
+    }
+
+    .assessment-step {
+      display: grid;
+      grid-template-columns: 50px 1fr;
+      gap: 18px;
+      padding: 23px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .assessment-step span {
+      width: 40px;
+      height: 40px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--cream);
+      color: var(--gold);
+      font-family: Georgia, serif;
+      font-size: 18px;
+    }
+
+    .assessment-step h3 {
+      font-size: 16px;
+      color: var(--green-dark);
+    }
+
+    .assessment-step p {
+      font-size: 14px;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+
+    /* TREATMENT */
+
+    .treatment {
+      padding: 110px 0;
+      background: var(--green-dark);
+      color: #fff;
+    }
+
+    .treatment .section-title {
+      color: #fff;
+    }
+
+    .treatment .section-text {
+      color: rgba(255,255,255,.67);
+    }
+
+    .treatment-grid {
+      margin-top: 52px;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 16px;
+    }
+
+    .treatment-card {
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 20px;
+      padding: 28px;
+    }
+
+    .treatment-card h3 {
+      color: #fff;
+      font-family: Georgia, serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 1.15;
+    }
+
+    .treatment-card p {
+      margin-top: 13px;
+      color: rgba(255,255,255,.63);
+      font-size: 13px;
+    }
+
+    /* RED FLAGS */
+
+    .redflags {
+      padding: 110px 0;
+    }
+
+    .redflags-box {
+      border-radius: 30px;
+      padding: 65px;
+      background: #f4eee6;
+      border: 1px solid rgba(130,70,40,.1);
+    }
+
+    .redflags-grid {
+      display: grid;
+      grid-template-columns: .85fr 1.15fr;
+      gap: 70px;
+      align-items: start;
+    }
+
+    .redflags-list {
+      display: grid;
+      gap: 13px;
+    }
+
+    .redflag-item {
+      padding: 19px 20px;
+      background: #fff;
+      border-radius: 14px;
+      border: 1px solid rgba(130,70,40,.12);
+      font-size: 14px;
+    }
+
+    .emergency-note {
+      color: #885c45;
+      font-size: 13px;
+      margin-top: 18px;
+    }
+
+    /* FAQ */
+
+    .faq {
+      padding: 110px 0;
+      background: var(--cream);
+    }
+
+    .faq-wrap {
+      margin-top: 48px;
+      border-top: 1px solid var(--border);
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .faq-question {
+      width: 100%;
+      border: 0;
+      background: transparent;
+      text-align: left;
+      padding: 24px 0;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      cursor: pointer;
+      color: var(--green-dark);
+      font-weight: 800;
+    }
+
+    .faq-plus {
+      font-size: 23px;
+      font-weight: 400;
+      color: var(--gold);
+      transition: .25s ease;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .35s ease;
+    }
+
+    .faq-answer p {
+      padding: 0 0 24px;
+      color: var(--muted);
+      max-width: 850px;
+      font-size: 14px;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 300px;
+    }
+
+    .faq-item.active .faq-plus {
+      transform: rotate(45deg);
+    }
+
+    /* CTA */
+
+    .final-cta {
+      padding: 105px 0;
+    }
+
+    .final-cta-box {
+      border-radius: 30px;
+      background: var(--green);
+      padding: 70px 50px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .final-cta-box .eyebrow {
+      color: var(--gold-soft);
+    }
+
+    .final-cta-box h2 {
+      font-family: Georgia, serif;
+      font-weight: 400;
+      font-size: clamp(40px,5vw,64px);
+      line-height: 1.03;
+    }
+
+    .final-cta-box p {
+      max-width: 700px;
+      margin: 20px auto 28px;
+      color: rgba(255,255,255,.72);
+    }
+
+    .final-cta-box .btn {
+      background: #fff;
+      color: var(--green-dark);
+      border: 1px solid #fff;
+    }
+
+    /* FOOTER */
+
+    footer {
+      background: var(--green-dark);
+      color: #fff;
+      padding: 75px 0 25px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.3fr repeat(3,1fr);
+      gap: 60px;
+    }
+
+    .footer-brand img {
+      width: 82px;
+      background: #fff;
+      border-radius: 50%;
+      padding: 3px;
+    }
+
+    .footer-brand p {
+      max-width: 340px;
+      margin-top: 20px;
+      color: rgba(255,255,255,.65);
+      font-size: 14px;
+    }
+
+    .footer-column h4 {
+      color: var(--gold-soft);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      margin-bottom: 18px;
+    }
+
+    .footer-column ul {
+      list-style: none;
+    }
+
+    .footer-column li {
+      margin-bottom: 10px;
+      color: rgba(255,255,255,.68);
+      font-size: 14px;
+    }
+
+    .footer-column a:hover {
+      color: #fff;
+    }
+
+    .footer-bottom {
+      margin-top: 55px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(255,255,255,.1);
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      color: rgba(255,255,255,.46);
+      font-size: 12px;
+    }
+
+    /* RESPONSIVE */
+
+    @media (max-width: 1100px) {
+      .desktop-nav {
+        display: none;
+      }
+
+      .patient-login {
+        display: none;
+      }
+
+      .menu-toggle {
+        display: inline-grid;
+        place-items: center;
+      }
+
+      .condition-hero-grid,
+      .intro-grid,
+      .assessment-grid,
+      .redflags-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .intro-side {
+        position: static;
+      }
+
+      .types-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .treatment-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .container {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .topbar-left span:first-child {
+        display: none;
+      }
+
+      .topbar-left {
+        gap: 10px;
+      }
+
+      .header-inner {
+        min-height: 74px;
+      }
+
+      .logo-wrap img {
+        width: 57px;
+        height: 57px;
+      }
+
+      .header-actions > .btn {
+        display: none;
+      }
+
+      .mobile-menu {
+        inset: 116px 0 0;
+      }
+
+      .condition-hero {
+        padding: 68px 0;
+      }
+
+      .condition-hero-grid {
+        gap: 45px;
+      }
+
+      .hero-image,
+      .hero-image img {
+        min-height: 410px;
+        height: 410px;
+      }
+
+      .intro,
+      .types,
+      .assessment,
+      .treatment,
+      .redflags,
+      .faq,
+      .final-cta {
+        padding: 78px 0;
+      }
+
+      .types-grid,
+      .treatment-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .assessment-image,
+      .assessment-image img {
+        min-height: 420px;
+        height: 420px;
+      }
+
+      .redflags-box {
+        padding: 38px 24px;
+      }
+
+      .final-cta-box {
+        padding: 50px 24px;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 38px;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+
+      <div class="topbar-left">
+        <span>Yerevan Pain & Rehabilitation Clinic</span>
+        <span>Պուշկին 56/1, Երևան</span>
+      </div>
+
+      <div class="topbar-right">
+
+        <a href="tel:+37491092123">
+          +374 91 092123
+        </a>
+
+        <span class="language-switcher">
+          <a href="index.html">EN</a>
+          <span>|</span>
+          <a href="headache-hy.html" class="active">HY</a>
+          <span>|</span>
+          <a href="ru.html">RU</a>
+        </span>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- HEADER -->
+
+  <header class="site-header">
+
+    <div class="container header-inner">
+
+      <a href="hy.html" class="logo-wrap">
+        <img
+          src="yparc-logo.png"
+          alt="YPARC — Երևանի ցավի և վերականգնողական կլինիկա"
+        >
+      </a>
+
+      <nav class="desktop-nav">
+
+        <a href="about-hy.html">
+          Մեր մասին
+        </a>
+
+        <a href="conditions-hy.html" class="active">
+          Ցավային վիճակներ
+        </a>
+
+        <a href="hy.html#treatments">
+          Բուժումներ
+        </a>
+
+        <a href="hy.html#rehabilitation">
+          Վերականգնում
+        </a>
+
+        <a href="hy.html#education">
+          Կրթություն
+        </a>
+
+        <a href="hy.html#resources">
+          Օգտակար նյութեր
+        </a>
+
+      </nav>
+
+      <div class="header-actions">
+
+        <a
+          href="hy.html#appointment"
+          class="btn btn-outline patient-login"
+        >
+          Patient Login
+        </a>
+
+        <a
+          href="hy.html#appointment"
+          class="btn btn-primary"
+        >
+          Գրանցվել այցի
+        </a>
+
+        <button
+          class="menu-toggle"
+          onclick="toggleMenu()"
+          aria-label="Բացել մենյուն"
+        >
+          ☰
+        </button>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- MOBILE MENU -->
+
+  <div class="mobile-menu" id="mobileMenu">
+
+    <nav>
+
+      <a href="about-hy.html">
+        Մեր մասին
+      </a>
+
+      <a href="conditions-hy.html">
+        Ցավային վիճակներ
+      </a>
+
+      <a href="hy.html#treatments">
+        Բուժումներ
+      </a>
+
+      <a href="hy.html#rehabilitation">
+        Վերականգնում
+      </a>
+
+      <a href="hy.html#education">
+        Կրթություն
+      </a>
+
+      <a href="hy.html#resources">
+        Օգտակար նյութեր
+      </a>
+
+    </nav>
+
+    <a href="hy.html#appointment" class="btn btn-primary mobile-btn">
+      Գրանցվել այցի
+    </a>
+
+  </div>
+
+
+  <!-- BREADCRUMB -->
+
+  <div class="breadcrumb">
+
+    <div class="container breadcrumb-inner">
+
+      <a href="hy.html">
+        Գլխավոր
+      </a>
+
+      <span>→</span>
+
+      <a href="conditions-hy.html">
+        Ցավային վիճակներ
+      </a>
+
+      <span>→</span>
+
+      <span>
+        Գլխացավ
+      </span>
+
+    </div>
+
+  </div>
+
+
+  <main>
+
+
+    <!-- HERO -->
+
+    <section class="condition-hero">
+
+      <div class="container condition-hero-grid">
+
+        <div>
+
+          <div class="eyebrow">
+            ԳԼՈՒԽ • ՑԱՎԱՅԻՆ ՎԻՃԱԿՆԵՐ
+          </div>
+
+          <h1>
+            Գլխա<span>ցավ</span>
+          </h1>
+
+          <p class="hero-text">
+            Գլխացավը շատ տարածված գանգատ է, սակայն տարբեր մարդկանց մոտ
+            այն կարող է ունենալ տարբեր բնույթ, հաճախականություն և պատճառներ։
+            Ճիշտ բուժման առաջին քայլը գլխացավի տեսակի և հնարավոր պատճառների
+            մանրամասն գնահատումն է։
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="hy.html#appointment" class="btn btn-primary">
+              Գրանցվել խորհրդատվության →
+            </a>
+
+            <a href="#assessment" class="btn btn-outline">
+              Ինչպես ենք գնահատում
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+          <img
+            src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=1400&q=85"
+            alt="Գլխացավի գնահատում YPARC-ում"
+          >
+
+          <div class="hero-card">
+
+            <strong>
+              Յուրաքանչյուր գլխացավ նույնը չէ։
+            </strong>
+
+            <p>
+              Բուժման մոտեցումը կախված է գլխացավի բնույթից,
+              հաճախականությունից, ուղեկցող ախտանշաններից և հնարավոր պատճառներից։
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- INTRO -->
+
+    <section class="intro">
+
+      <div class="container intro-grid">
+
+        <aside class="intro-side">
+
+          <strong>
+            Գլխացավի բուժումը սկսվում է ճիշտ ախտորոշումից։
+          </strong>
+
+          <p>
+            Միայն ցավի տեղակայումը բավարար չէ։ Կարևոր են նաև դրա տևողությունը,
+            հաճախականությունը, բնույթը, հարակից ախտանշանները և բժշկական պատմությունը։
+          </p>
+
+        </aside>
+
+
+        <div class="intro-copy">
+
+          <div class="eyebrow">
+            ԳԼԽԱՑԱՎԻ ՄԱՍԻՆ
+          </div>
+
+          <h2 class="section-title">
+            Գլխացավը կարող է լինել ինքնուրույն խնդիր կամ այլ վիճակի ախտանշան։
+          </h2>
+
+          <p>
+            Գլխացավերը սովորաբար բաժանվում են առաջնային և երկրորդային խմբերի։
+            Առաջնային գլխացավերի դեպքում գլխացավն ինքնին հիմնական խնդիրն է,
+            մինչդեռ երկրորդային գլխացավը կարող է կապված լինել մեկ այլ բժշկական վիճակի հետ։
+          </p>
+
+          <p>
+            Գնահատման ընթացքում կարևոր է հասկանալ, թե երբ է սկսվել գլխացավը,
+            որքան հաճախ է կրկնվում, որքան է տևում, ինչ բնույթ ունի,
+            ինչ գործոններ են այն հրահրում կամ մեղմացնում և արդյոք առկա են
+            լրացուցիչ ախտանշաններ։
+          </p>
+
+          <p>
+            Այդ տեղեկատվությունը օգնում է որոշել՝ անհրաժեշտ է միայն
+            կլինիկական գնահատում, լրացուցիչ հետազոտություն, մասնագիտացված
+            խորհրդատվություն կամ անհատական բուժման ծրագիր։
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- TYPES -->
+
+    <section class="types">
+
+      <div class="container">
+
+        <div class="eyebrow">
+          ՀՆԱՐԱՎՈՐ ՏԵՍԱԿՆԵՐ
+        </div>
+
+        <h2 class="section-title">
+          Գլխացավը կարող է տարբեր կերպ արտահայտվել։
+        </h2>
+
+        <p class="section-text">
+          Ստորև ներկայացված են որոշ հաճախ հանդիպող ձևեր։
+          Այս տեղեկությունը չի նախատեսված ինքնուրույն ախտորոշման համար։
+        </p>
+
+
+        <div class="types-grid">
+
+          <article class="type-card">
+
+            <div class="type-number">
+              01
+            </div>
+
+            <h3>
+              Միգրենային գլխացավ
+            </h3>
+
+            <p>
+              Կարող է լինել պուլսացնող բնույթի, հաճախ միակողմանի և ուղեկցվել
+              սրտխառնոցով, ինչպես նաև լույսի կամ ձայնի նկատմամբ զգայունությամբ։
+            </p>
+
+          </article>
+
+
+          <article class="type-card">
+
+            <div class="type-number">
+              02
+            </div>
+
+            <h3>
+              Լարվածության տիպի գլխացավ
+            </h3>
+
+            <p>
+              Հաճախ նկարագրվում է որպես սեղմող կամ ձգող ցավ և կարող է
+              զգացվել գլխի երկու կողմերում։
+            </p>
+
+          </article>
+
+
+          <article class="type-card">
+
+            <div class="type-number">
+              03
+            </div>
+
+            <h3>
+              Պարանոցից ծագող գլխացավ
+            </h3>
+
+            <p>
+              Որոշ դեպքերում գլխացավը կարող է կապված լինել պարանոցի
+              կառուցվածքների և շարժումների հետ։
+            </p>
+
+          </article>
+
+
+          <article class="type-card">
+
+            <div class="type-number">
+              04
+            </div>
+
+            <h3>
+              Նյարդաբանական բնույթի ցավ
+            </h3>
+
+            <p>
+              Որոշ նյարդերի գրգռումը կարող է առաջացնել սուր,
+              ծակող կամ էլեկտրական բնույթի ցավեր գլխի կամ դեմքի շրջանում։
+            </p>
+
+          </article>
+
+
+          <article class="type-card">
+
+            <div class="type-number">
+              05
+            </div>
+
+            <h3>
+              Երկրորդային գլխացավ
+            </h3>
+
+            <p>
+              Գլխացավը երբեմն կարող է լինել այլ բժշկական խնդրի դրսևորում,
+              ինչի պատճառով որոշ դեպքերում անհրաժեշտ է լրացուցիչ գնահատում։
+            </p>
+
+          </article>
+
+
+          <article class="type-card">
+
+            <div class="type-number">
+              06
+            </div>
+
+            <h3>
+              Քրոնիկ գլխացավ
+            </h3>
+
+            <p>
+              Հաճախակի կամ երկարատև գլխացավերը կարող են զգալիորեն ազդել
+              աշխատանքի, քնի և կյանքի որակի վրա և պահանջել համակարգված մոտեցում։
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ASSESSMENT -->
+
+    <section class="assessment" id="assessment">
+
+      <div class="container assessment-grid">
+
+        <div class="assessment-image">
+
+          <img
+            src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=85"
+            alt="Բժշկական գնահատում"
+          >
+
+        </div>
+
+
+        <div>
+
+          <div class="eyebrow">
+            ԳՆԱՀԱՏՈՒՄ
+          </div>
+
+          <h2 class="section-title">
+            Ինչպե՞ս ենք մոտենում գլխացավի գնահատմանը։
+          </h2>
+
+          <p class="section-text">
+            Գնահատումը սկսվում է մանրամասն զրույցից և կլինիկական տվյալների
+            համադրությունից։
+          </p>
+
+
+          <div class="assessment-steps">
+
+            <div class="assessment-step">
+
+              <span>01</span>
+
+              <div>
+                <h3>
+                  Գլխացավի պատմություն
+                </h3>
+
+                <p>
+                  Գնահատվում են սկիզբը, տևողությունը, հաճախականությունը,
+                  ցավի բնույթը և տեղակայումը։
+                </p>
+              </div>
+
+            </div>
+
+
+            <div class="assessment-step">
+
+              <span>02</span>
+
+              <div>
+                <h3>
+                  Ուղեկցող ախտանշաններ
+                </h3>
+
+                <p>
+                  Կարևոր են սրտխառնոցը, տեսողական փոփոխությունները,
+                  զգացողության կամ ուժի փոփոխությունները և այլ գանգատներ։
+                </p>
+              </div>
+
+            </div>
+
+
+            <div class="assessment-step">
+
+              <span>03</span>
+
+              <div>
+                <h3>
+                  Կլինիկական գնահատում
+                </h3>
+
+                <p>
+                  Ըստ անհրաժեշտության գնահատվում են պարանոցը,
+                  նյարդաբանական վիճակը և ցավի հետ կապված այլ համակարգեր։
+                </p>
+              </div>
+
+            </div>
+
+
+            <div class="assessment-step">
+
+              <span>04</span>
+
+              <div>
+                <h3>
+                  Հետագա քայլերի որոշում
+                </h3>
+
+                <p>
+                  Որոշվում է՝ անհրաժեշտ են արդյոք լրացուցիչ հետազոտություններ,
+                  այլ մասնագետի խորհրդատվություն կամ բուժման անհատական ծրագիր։
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- TREATMENT -->
+
+    <section class="treatment">
+
+      <div class="container">
+
+        <div class="eyebrow">
+          ԲՈՒԺՄԱՆ ՄՈՏԵՑՈՒՄ
+        </div>
+
+        <h2 class="section-title">
+          Բուժումը կախված է գլխացավի տեսակից և պատճառից։
+        </h2>
+
+        <p class="section-text">
+          Միևնույն բուժման տարբերակը բոլոր գլխացավերի համար արդյունավետ չէ։
+          Բուժման ծրագիրը ընտրվում է անհատապես՝ բժշկական գնահատումից հետո։
+        </p>
+
+
+        <div class="treatment-grid">
+
+          <article class="treatment-card">
+
+            <h3>
+              Դեղորայքային մոտեցում
+            </h3>
+
+            <p>
+              Ըստ ախտորոշման և կլինիկական պատկերի կարող են ընտրվել
+              սուր գլխացավի վերահսկման կամ կանխարգելիչ բուժման մեթոդներ։
+            </p>
+
+          </article>
+
+
+          <article class="treatment-card">
+
+            <h3>
+              Ինտերվենցիոն մեթոդներ
+            </h3>
+
+            <p>
+              Որոշ ընտրված դեպքերում կարող են դիտարկվել թիրախային
+              ինտերվենցիոն ցավաբուժական մեթոդներ՝ համապատասխան ցուցումների դեպքում։
+            </p>
+
+          </article>
+
+
+          <article class="treatment-card">
+
+            <h3>
+              Պարանոցի և շարժման գնահատում
+            </h3>
+
+            <p>
+              Եթե գլխացավի մեջ դեր ունի պարանոցի կամ մկանային համակարգի
+              գործոնը, կարող է անհրաժեշտ լինել համապատասխան վերականգնողական մոտեցում։
+            </p>
+
+          </article>
+
+
+          <article class="treatment-card">
+
+            <h3>
+              Երկարաժամկետ վերահսկում
+            </h3>
+
+            <p>
+              Հաճախակի գլխացավերի դեպքում կարևոր է հետևել գլխացավի
+              հաճախականությանը, հրահրող գործոններին և բուժման արձագանքին։
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- RED FLAGS -->
+
+    <section class="redflags">
+
+      <div class="container">
+
+        <div class="redflags-box">
+
+          <div class="redflags-grid">
+
+            <div>
+
+              <div class="eyebrow">
+                ԵՐԲ ԴԻՄԵԼ ՇՏԱՊ ՕԳՆՈՒԹՅԱՆ
+              </div>
+
+              <h2 class="section-title">
+                Որոշ գլխացավեր պահանջում են անհապաղ բժշկական գնահատում։
+              </h2>
+
+              <p class="emergency-note">
+                Ստորև նշված իրավիճակների դեպքում կայքի միջոցով գրանցվելը
+                չպետք է փոխարինի շտապ բժշկական օգնությանը։
+              </p>
+
+            </div>
+
+
+            <div class="redflags-list">
+
+              <div class="redflag-item">
+                Հանկարծակի սկսված, չափազանց ուժեղ կամ անսովոր գլխացավ
+              </div>
+
+              <div class="redflag-item">
+                Գլխացավ՝ նոր առաջացած թուլությամբ, խոսքի կամ տեսողության խանգարմամբ
+              </div>
+
+              <div class="redflag-item">
+                Գլխացավ՝ գիտակցության փոփոխությամբ կամ արտահայտված շփոթվածությամբ
+              </div>
+
+              <div class="redflag-item">
+                Ուժեղ գլխացավ՝ գլխի վնասվածքից հետո
+              </div>
+
+              <div class="redflag-item">
+                Գլխացավ՝ բարձր ջերմության և արտահայտված ընդհանուր վատացման հետ
+              </div>
+
+              <div class="redflag-item">
+                Նախկին գլխացավերից զգալիորեն տարբերվող նոր բնույթի գլխացավ
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- FAQ -->
+
+    <section class="faq">
+
+      <div class="container">
+
+        <div class="eyebrow">
+          ՀԱՃԱԽ ՏՐՎՈՂ ՀԱՐՑԵՐ
+        </div>
+
+        <h2 class="section-title">
+          Գլխացավի մասին հաճախ տրվող հարցեր։
+        </h2>
+
+
+        <div class="faq-wrap">
+
+          <div class="faq-item">
+
+            <button class="faq-question">
+              <span>
+                Ամեն գլխացավի դեպքում պե՞տք է հետազոտություն անցնել։
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                Ոչ միշտ։ Հետազոտությունների անհրաժեշտությունը որոշվում է
+                բժշկական պատմության, գլխացավի բնույթի, կլինիկական զննման
+                և հնարավոր վտանգի նշանների հիման վրա։
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="faq-item">
+
+            <button class="faq-question">
+              <span>
+                Ինչո՞ւ է կարևոր գլխացավի օրագիր պահելը։
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                Գլխացավի օրագիրը կարող է օգնել հասկանալ հաճախականությունը,
+                տևողությունը, հնարավոր հրահրող գործոնները և բուժման արդյունավետությունը։
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="faq-item">
+
+            <button class="faq-question">
+              <span>
+                Պարանոցի խնդիրը կարո՞ղ է կապված լինել գլխացավի հետ։
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                Որոշ գլխացավերի դեպքում պարանոցի կառուցվածքները կամ շարժումները
+                կարող են դեր ունենալ։ Դա գնահատվում է կլինիկական զննման ժամանակ։
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="faq-item">
+
+            <button class="faq-question">
+              <span>
+                Երբ գլխացավը համարվում է քրոնիկ։
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                «Քրոնիկ գլխացավ» հասկացությունը կախված է գլխացավի կոնկրետ տեսակից
+                և դրա հաճախականությունից։ Ճշգրիտ դասակարգումը կատարում է բժիշկը։
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="faq-item">
+
+            <button class="faq-question">
+              <span>
+                Կարելի՞ է պարզապես ցավազրկող ընդունել ամեն անգամ։
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                Հաճախակի ինքնուրույն ցավազրկող օգտագործելը միշտ չէ, որ լավագույն
+                երկարաժամկետ մոտեցումն է։ Կրկնվող գլխացավերի դեպքում նպատակահարմար է
+                բժշկական գնահատում և պատճառին համապատասխան բուժման պլան։
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- FINAL CTA -->
+
+    <section class="final-cta">
+
+      <div class="container">
+
+        <div class="final-cta-box">
+
+          <div class="eyebrow">
+            ԳՐԱՆՑՎԵԼ ԽՈՐՀՐԴԱՏՎՈՒԹՅԱՆ
+          </div>
+
+          <h2>
+            Գլխացավը կրկնվո՞ւմ է կամ ազդում ձեր առօրյա կյանքի վրա։
+          </h2>
+
+          <p>
+            Գրանցվեք խորհրդատվության՝ գլխացավի պատճառները գնահատելու
+            և ձեզ համապատասխան հաջորդ քայլը որոշելու համար։
+          </p>
+
+          <a href="hy.html#appointment" class="btn">
+            Գրանցվել այցի →
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+
+          <img src="yparc-logo.png" alt="YPARC">
+
+          <p>
+            YPARC — Երևանի ցավի և վերականգնողական կլինիկա։
+            Ցավի գնահատում, անհատական բուժում և վերականգնում՝
+            մեկ համակարգում։
+          </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h4>
+            Կլինիկա
+          </h4>
+
+          <ul>
+
+            <li>
+              <a href="about-hy.html">
+                Մեր մասին
+              </a>
+            </li>
+
+            <li>
+              <a href="conditions-hy.html">
+                Ցավային վիճակներ
+              </a>
+            </li>
+
+            <li>
+              <a href="hy.html#treatments">
+                Բուժումներ
+              </a>
+            </li>
+
+            <li>
+              <a href="hy.html#rehabilitation">
+                Վերականգնում
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h4>
+            Պացիենտների համար
+          </h4>
+
+          <ul>
+
+            <li>
+              <a href="hy.html#appointment">
+                Գրանցվել այցի
+              </a>
+            </li>
+
+            <li>
+              <a href="hy.html#resources">
+                Օգտակար նյութեր
+              </a>
+            </li>
+
+            <li>
+              <a href="conditions-hy.html">
+                Բոլոր ցավային վիճակները
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h4>
+            Կապ
+          </h4>
+
+          <ul>
+
+            <li>
+              Պուշկին 56/1, Երևան
+            </li>
+
+            <li>
+              <a href="tel:+37491092123">
+                +374 91 092123
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:info@painclinicyerevan.am">
+                info@painclinicyerevan.am
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        <span>
+          © 2026 YPARC. All rights reserved.
+        </span>
+
+        <span>
+          Yerevan Pain & Rehabilitation Clinic
+        </span>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <script>
+
+    function toggleMenu() {
+      const menu = document.getElementById("mobileMenu");
+
+      menu.classList.toggle("open");
+
+      document.body.style.overflow =
+        menu.classList.contains("open")
+          ? "hidden"
+          : "";
+    }
+
+
+    document
+      .querySelectorAll(".mobile-menu a")
+      .forEach(function(link) {
+
+        link.addEventListener("click", function() {
+
+          document
+            .getElementById("mobileMenu")
+            .classList.remove("open");
+
+          document.body.style.overflow = "";
+
+        });
+
+      });
+
+
+    document
+      .querySelectorAll(".faq-question")
+      .forEach(function(button) {
+
+        button.addEventListener("click", function() {
+
+          const current =
+            this.parentElement;
+
+          document
+            .querySelectorAll(".faq-item")
+            .forEach(function(item) {
+
+              if (item !== current) {
+                item.classList.remove("active");
+              }
+
+            });
+
+          current.classList.toggle("active");
+
+        });
+
+      });
+
+
+    document.addEventListener("keydown", function(event) {
+
+      if (event.key === "Escape") {
+
+        document
+          .getElementById("mobileMenu")
+          .classList.remove("open");
+
+        document.body.style.overflow = "";
+
+      }
+
+    });
+
+  </script>
+
+</body>
+</html>
