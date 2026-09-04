@@ -1200,7 +1200,25 @@
   }
 }
 
-</style>
+/* LANGUAGE SWITCHER */
+
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+.language-switcher a {
+  color: rgba(255,255,255,.72);
+  font-weight: 700;
+  transition: .2s ease;
+}
+
+.language-switcher a:hover,
+.language-switcher a.active {
+  color: #ead7a8;
+}</style>
 
 </head>
 <body> </style>
@@ -1221,8 +1239,13 @@
       <div class="topbar-right">
         <span>Pushkin 56/1, Yerevan</span>
         <span>+374 91 092123</span>
-        <span>EN &nbsp; | &nbsp; HY &nbsp; | &nbsp; RU</span>
-      </div>
+<span class="language-switcher">
+  <a href="index.html" class="active" aria-current="page">EN</a>
+  <span>|</span>
+  <a href="hy.html">HY</a>
+  <span>|</span>
+  <a href="ru.html">RU</a>
+</span>      </div>
 
     </div>
   </div>
