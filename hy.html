@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>YPARC | Երևանի ցավի և վերականգնողական բժշկության կլինիկա</title>
+  <title>YPARC | Երևանի ցավի և վերականգնողական կլինիկա</title>
 
   <meta
     name="description"
-    content="YPARC — Երևանի ցավի և վերականգնողական բժշկության կլինիկա։ Ցավի բազմամասնագիտական բուժում, ինտերվենցիոն միջամտություններ, ֆիզիոթերապիա և վերականգնում։"
+    content="YPARC — Երևանի ցավի և վերականգնողական կլինիկա։ Ցավի բազմամասնագիտական բուժում, ինտերվենցիոն միջամտություններ, ֆիզիոթերապիա և վերականգնում։"
   >
 
   <style>
@@ -1220,6 +1220,15 @@
       color: var(--gold-soft);
     }
 
+
+    section[id] {
+      scroll-margin-top: 110px;
+    }
+
+    .condition {
+      cursor: pointer;
+    }
+
 </style>
 
 </head>
@@ -1231,7 +1240,7 @@
     <div class="container topbar-inner">
 
       <span>
-        Երևանի ցավի և վերականգնողական բժշկության կլինիկա
+        Երևանի ցավի և վերականգնողական կլինիկա
       </span>
 
       <div class="topbar-right">
@@ -1265,7 +1274,7 @@
 >
         <div class="brand-name">
           <strong>YPARC</strong>
-          <span>Երևանի ցավի և վերականգնողական բժշկության կլինիկա</span>
+          <span>Երևանի ցավի և վերականգնողական կլինիկա</span>
         </div>
 
       </a>
@@ -1273,7 +1282,7 @@
 
       <nav>
         <a href="#about">Մեր մասին</a>
-        <a href="#conditions">Ցավային սինդրոմներ</a>
+        <a href="#conditions">Ցավային վիճակներ</a>
         <a href="#treatments">Բուժումներ</a>
         <a href="#rehabilitation">Վերականգնում</a>
         <a href="#education">Կրթություն</a>
@@ -1284,7 +1293,7 @@
 
       <div class="nav-actions">
 
-        <a href="#" class="patient-login">
+        <a href="#appointment" class="patient-login">
           ◯ &nbsp; Պացիենտի մուտք
         </a>
 
@@ -1312,7 +1321,7 @@
   <div class="mobile-menu" id="mobileMenu">
 
     <a href="#about" onclick="toggleMenu()">Մեր մասին</a>
-    <a href="#conditions" onclick="toggleMenu()">Ցավային սինդրոմներ</a>
+    <a href="#conditions" onclick="toggleMenu()">Ցավային վիճակներ</a>
     <a href="#treatments" onclick="toggleMenu()">Բուժումներ</a>
     <a href="#rehabilitation" onclick="toggleMenu()">Վերականգնում</a>
     <a href="#education" onclick="toggleMenu()">Կրթություն</a>
@@ -1346,7 +1355,7 @@
         <p class="hero-description">
           Ցավի համալիր բուժում և վերականգնում՝
           հարմարեցված հենց ձեզ։ Ժամանակակից բժշկություն,
-          անհատական բուժում և բազմակողմանի մոտեցում՝
+          անհատական բուժում և բազմամասնագիտական մոտեցում՝
           օգնելու վերադառնալ ձեր ակտիվ և լիարժեք կյանքին։
         </p>
 
@@ -1389,37 +1398,37 @@
 
       <div class="conditions-row">
 
-        <a class="condition" href="#">
+        <a class="condition" href="#treatments">
           <div class="condition-icon">◒</div>
           <span>Մեջքի ցավ</span>
         </a>
 
-        <a class="condition" href="#">
+        <a class="condition" href="#treatments">
           <div class="condition-icon">◐</div>
           <span>Պարանոցի ցավ</span>
         </a>
 
-        <a class="condition" href="#">
+        <a class="condition" href="#treatments">
           <div class="condition-icon">◉</div>
           <span>Գլխացավ</span>
         </a>
 
-        <a class="condition" href="#">
+        <a class="condition" href="#treatments">
           <div class="condition-icon">◌</div>
           <span>Ուսի ցավ</span>
         </a>
 
-        <a class="condition" href="#">
+        <a class="condition" href="#treatments">
           <div class="condition-icon">◇</div>
           <span>Ծնկի ցավ</span>
         </a>
 
-        <a class="condition" href="#">
+        <a class="condition" href="#treatments">
           <div class="condition-icon">⌁</div>
-          <span>Նյարդային ցավեր</span>
+          <span>Նյարդային ցավ</span>
         </a>
 
-        <a class="condition" href="#">
+        <a class="condition" href="#treatments">
           <div class="condition-icon">＋</div>
           <span>Հետվիրահատական ցավ</span>
         </a>
@@ -1471,7 +1480,7 @@
 
             <div class="intro-point">
               <span class="point-number">02</span>
-              <strong>Ինտերվենցիոն միջամտություններ</strong>
+              <strong>Ինտերվենցիոն ցավաբուժական միջամտություններ</strong>
             </div>
 
             <div class="intro-point">
@@ -1486,7 +1495,7 @@
 
           </div>
 
-          <a href="#" class="btn btn-primary">
+          <a href="#about" class="btn btn-primary">
             Բացահայտել YPARC-ը →
           </a>
 
@@ -1515,7 +1524,7 @@
             </h2>
           </div>
 
-          <a href="#" class="btn btn-outline">
+          <a href="#treatments" class="btn btn-outline">
             Դիտել բոլոր բուժումները →
           </a>
 
@@ -1542,7 +1551,7 @@
                 ու անհատական բուժման ռազմավարության կազմումն է։
               </p>
 
-              <a class="text-link" href="#">
+              <a class="text-link" href="#appointment">
                 Իմանալ ավելին →
               </a>
 
@@ -1565,11 +1574,11 @@
               <h3>Ինտերվենցիոն միջամտություններ</h3>
 
               <p>
-                Ժամանակակից նվազ ինվազիվ և գործիքային հսկողությամբ
+                Ժամանակակից նվազ ինվազիվ և պատկերային հսկողությամբ
                 մեթոդներ՝ ցավի թիրախային բուժման համար։
               </p>
 
-              <a class="text-link" href="#">
+              <a class="text-link" href="#appointment">
                 Իմանալ ավելին →
               </a>
 
@@ -1596,7 +1605,7 @@
                 ուժը և առօրյա ֆունկցիան բարելավելու համար։
               </p>
 
-              <a class="text-link" href="#">
+              <a class="text-link" href="#appointment">
                 Իմանալ ավելին →
               </a>
 
@@ -1613,7 +1622,7 @@
 
     <!-- PATIENT STORY -->
 
-    <section class="story">
+    <section class="story" id="stories">
 
       <div class="story-content">
 
@@ -1632,7 +1641,7 @@
             Նպատակն է օգնել մարդուն կրկին շարժվել, մասնակցել և ապրել լիարժեք կյանքով»։
           </p>
 
-          <a href="#" class="btn btn-primary">
+          <a href="#stories" class="btn btn-primary">
             Պացիենտների պատմություններ →
           </a>
 
@@ -1645,7 +1654,7 @@
 
     <!-- JOURNEY -->
 
-    <section class="journey">
+    <section class="journey" id="journey">
 
       <div class="container">
 
@@ -1722,7 +1731,7 @@
           <p class="section-text">
             Մասնագիտական կրթական հնարավորություններ բժիշկների,
             ռեզիդենտների և առողջապահության մասնագետների համար՝
-            ցավի բժշկության, ռեգիոնար անզգայացման տեխնիկաների և
+            ցավի բժշկության, ռեգիոնար տեխնիկաների և
             ուլտրաձայնային հսկողությամբ միջամտությունների ոլորտում։
           </p>
 
@@ -1747,7 +1756,7 @@
 
           </div>
 
-          <a href="#" class="btn btn-primary">
+          <a href="#education" class="btn btn-primary">
             Դիտել կրթական ծրագրերը →
           </a>
 
@@ -1781,7 +1790,7 @@
 
           </div>
 
-          <a href="#" class="btn btn-outline">
+          <a href="#resources" class="btn btn-outline">
             Դիտել բոլոր նյութերը →
           </a>
 
@@ -1812,7 +1821,7 @@
                 և ժամանակակից բուժման մոտեցումներին։
               </p>
 
-              <a href="#" class="text-link">
+              <a href="#resources" class="text-link">
                 Կարդալ հոդվածը →
               </a>
 
@@ -1843,7 +1852,7 @@
                 ու ֆունկցիոնալ վերականգնումը աջակցելու համար։
               </p>
 
-              <a href="#" class="text-link">
+              <a href="#resources" class="text-link">
                 Դիտել տեսանյութը →
               </a>
 
@@ -1874,7 +1883,7 @@
                 և ցավի բուժման մեջ դրանց դերի մասին։
               </p>
 
-              <a href="#" class="text-link">
+              <a href="#resources" class="text-link">
                 Իմանալ ավելին →
               </a>
 
@@ -1955,7 +1964,7 @@
               </option>
 
               <option>
-                Ցավի կառավարման մասնագետի խորհրդատվություն
+                Ցավաբանի խորհրդատվություն
               </option>
 
               <option>
@@ -2016,7 +2025,7 @@
 
             <div class="brand-name">
               <strong>YPARC</strong>
-              <span>Երևանի ցավի և վերականգնողական բժշկության կլինիկա</span>
+              <span>Երևանի ցավի և վերականգնողական կլինիկա</span>
             </div>
 
           </div>
@@ -2049,9 +2058,9 @@
 
           <ul>
             <li><a href="#appointment">Գրանցվել այցի</a></li>
-            <li><a href="#">Պացիենտի մուտք</a></li>
+            <li><a href="#appointment">Պացիենտի մուտք</a></li>
             <li><a href="#resources">Օգտակար նյութեր պացիենտների համար</a></li>
-            <li><a href="#">Հաճախ տրվող հարցեր</a></li>
+            <li><a href="#resources">Հաճախ տրվող հարցեր</a></li>
           </ul>
 
         </div>
@@ -2079,7 +2088,7 @@
       <div class="footer-bottom">
 
         <span>
-          © 2026 Երևանի ցավի և վերականգնողական բժշկության կլինիկա։
+          © 2026 Երևանի ցավի և վերականգնողական կլինիկա։
         </span>
 
         <span>
@@ -2114,11 +2123,26 @@
 
       event.preventDefault();
 
-      alert(
-        "Շնորհակալություն։ Ձեր այցի գրանցման հայտը ստացվել է։"
+      const form = event.target;
+      const fields = form.querySelectorAll("input, select, textarea");
+
+      const name = fields[0]?.value || "";
+      const phone = fields[1]?.value || "";
+      const service = fields[2]?.value || "";
+      const date = fields[3]?.value || "";
+      const message = fields[4]?.value || "";
+
+      const subject = encodeURIComponent("YPARC — այցի գրանցման հայտ");
+      const body = encodeURIComponent(
+        "Անուն Ազգանուն: " + name + "\n" +
+        "Հեռախոսահամար: " + phone + "\n" +
+        "Ծառայություն: " + service + "\n" +
+        "Նախընտրելի ամսաթիվ: " + date + "\n" +
+        "Հաղորդագրություն: " + message
       );
 
-      event.target.reset();
+      window.location.href =
+        "mailto:info@painclinicyerevan.am?subject=" + subject + "&body=" + body;
 
     }
 
