@@ -8,7 +8,7 @@
 
   <meta
     name="description"
-    content="Ուսի ցավի գնահատում և բուժման մոտեցումներ YPARC-ում։ Իմացեք հնարավոր պատճառների, ախտանշանների, գնահատման, բուժման և վերականգնման տարբերակների մասին։"
+    content="Ուսի ցավի գնահատում և բուժման մոտեցումներ YPARC-ում։ Իմացեք ուսի ցավի հնարավոր պատճառների, ախտանշանների, գնահատման, բուժման և վերականգնման մասին։"
   >
 
   <style>
@@ -127,9 +127,9 @@
       color: #fff;
     }
 
-    /* =========================
-       TOPBAR
-    ========================= */
+    /* =========================================
+       TOP BAR
+    ========================================= */
 
     .topbar {
       background: var(--green-dark);
@@ -160,8 +160,9 @@
     }
 
     .language-switcher a {
-      color: rgba(255,255,255,.7);
+      color: rgba(255,255,255,.70);
       font-weight: 800;
+      transition: .2s ease;
     }
 
     .language-switcher a:hover,
@@ -169,9 +170,9 @@
       color: var(--gold-soft);
     }
 
-    /* =========================
+    /* =========================================
        HEADER
-    ========================= */
+    ========================================= */
 
     .site-header {
       position: sticky;
@@ -251,9 +252,9 @@
       cursor: pointer;
     }
 
-    /* =========================
+    /* =========================================
        MOBILE MENU
-    ========================= */
+    ========================================= */
 
     .mobile-menu {
       display: none;
@@ -287,9 +288,9 @@
       margin-top: 28px;
     }
 
-    /* =========================
+    /* =========================================
        BREADCRUMB
-    ========================= */
+    ========================================= */
 
     .breadcrumb {
       padding: 18px 0;
@@ -305,14 +306,23 @@
       font-size: 12px;
     }
 
-    /* =========================
+    .breadcrumb a:hover {
+      color: var(--green);
+    }
+
+    /* =========================================
        HERO
-    ========================= */
+    ========================================= */
 
     .condition-hero {
       background:
-        radial-gradient(circle at 87% 18%, rgba(200,155,60,.16), transparent 27%),
+        radial-gradient(
+          circle at 87% 18%,
+          rgba(200,155,60,.16),
+          transparent 27%
+        ),
         var(--cream);
+
       padding: 92px 0;
     }
 
@@ -381,6 +391,7 @@
       font-family: Georgia, serif;
       font-size: 24px;
       font-weight: 400;
+      line-height: 1.2;
     }
 
     .hero-card p {
@@ -389,9 +400,9 @@
       margin-top: 7px;
     }
 
-    /* =========================
+    /* =========================================
        INTRO
-    ========================= */
+    ========================================= */
 
     .intro {
       padding: 110px 0;
@@ -432,9 +443,9 @@
       color: var(--muted);
     }
 
-    /* =========================
+    /* =========================================
        CAUSES
-    ========================= */
+    ========================================= */
 
     .causes {
       padding: 110px 0;
@@ -483,9 +494,9 @@
       font-size: 14px;
     }
 
-    /* =========================
+    /* =========================================
        SYMPTOMS
-    ========================= */
+    ========================================= */
 
     .symptoms {
       padding: 110px 0;
@@ -526,9 +537,9 @@
       font-size: 14px;
     }
 
-    /* =========================
+    /* =========================================
        ASSESSMENT
-    ========================= */
+    ========================================= */
 
     .assessment {
       padding: 110px 0;
@@ -597,9 +608,9 @@
       color: rgba(255,255,255,.68);
     }
 
-    /* =========================
+    /* =========================================
        TREATMENT
-    ========================= */
+    ========================================= */
 
     .treatment {
       padding: 110px 0;
@@ -626,6 +637,12 @@
       border: 1px solid rgba(255,255,255,.14);
       border-radius: 20px;
       padding: 28px;
+      transition: .3s ease;
+    }
+
+    .treatment-card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(234,215,168,.45);
     }
 
     .treatment-card h3 {
@@ -641,9 +658,9 @@
       font-size: 13px;
     }
 
-    /* =========================
+    /* =========================================
        RED FLAGS
-    ========================= */
+    ========================================= */
 
     .redflags {
       padding: 110px 0;
@@ -682,9 +699,9 @@
       margin-top: 18px;
     }
 
-    /* =========================
+    /* =========================================
        FAQ
-    ========================= */
+    ========================================= */
 
     .faq {
       padding: 110px 0;
@@ -708,6 +725,7 @@
       padding: 24px 0;
       display: flex;
       justify-content: space-between;
+      align-items: center;
       gap: 20px;
       cursor: pointer;
       color: var(--green-dark);
@@ -715,6 +733,7 @@
     }
 
     .faq-plus {
+      flex-shrink: 0;
       font-size: 23px;
       font-weight: 400;
       color: var(--gold);
@@ -735,16 +754,16 @@
     }
 
     .faq-item.active .faq-answer {
-      max-height: 320px;
+      max-height: 350px;
     }
 
     .faq-item.active .faq-plus {
       transform: rotate(45deg);
     }
 
-    /* =========================
-       CTA
-    ========================= */
+    /* =========================================
+       FINAL CTA
+    ========================================= */
 
     .final-cta {
       padding: 105px 0;
@@ -781,9 +800,14 @@
       border: 1px solid #fff;
     }
 
-    /* =========================
+    .final-cta-box .btn:hover {
+      background: var(--gold-soft);
+      border-color: var(--gold-soft);
+    }
+
+    /* =========================================
        FOOTER
-    ========================= */
+    ========================================= */
 
     footer {
       background: var(--green-dark);
@@ -844,11 +868,12 @@
       font-size: 12px;
     }
 
-    /* =========================
-       RESPONSIVE
-    ========================= */
+    /* =========================================
+       TABLET
+    ========================================= */
 
     @media (max-width: 1100px) {
+
       .desktop-nav {
         display: none;
       }
@@ -887,13 +912,30 @@
       }
     }
 
+    /* =========================================
+       MOBILE
+    ========================================= */
+
     @media (max-width: 760px) {
+
       .container {
         width: min(100% - 28px, 1180px);
       }
 
+      .topbar-inner {
+        min-height: 40px;
+      }
+
       .topbar-left span:first-child {
         display: none;
+      }
+
+      .topbar-left {
+        gap: 8px;
+      }
+
+      .topbar-right {
+        gap: 12px;
       }
 
       .header-inner {
@@ -910,7 +952,7 @@
       }
 
       .mobile-menu {
-        inset: 116px 0 0;
+        inset: 114px 0 0;
       }
 
       .condition-hero {
@@ -921,10 +963,37 @@
         gap: 45px;
       }
 
+      .condition-hero h1 {
+        font-size: clamp(54px, 17vw, 78px);
+      }
+
+      .hero-text {
+        font-size: 16px;
+      }
+
+      .hero-buttons {
+        flex-direction: column;
+      }
+
+      .hero-buttons .btn {
+        width: 100%;
+      }
+
       .hero-image,
       .hero-image img {
         min-height: 410px;
         height: 410px;
+      }
+
+      .hero-card {
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        padding: 19px;
+      }
+
+      .hero-card strong {
+        font-size: 20px;
       }
 
       .intro,
@@ -970,12 +1039,33 @@
         flex-direction: column;
       }
     }
+
+    @media (max-width: 480px) {
+
+      .topbar-left {
+        display: none;
+      }
+
+      .topbar-inner {
+        justify-content: flex-end;
+      }
+
+      .section-title {
+        font-size: 39px;
+      }
+
+      .condition-hero h1 {
+        font-size: 58px;
+      }
+    }
   </style>
 </head>
 
 <body>
 
-  <!-- TOP BAR -->
+  <!-- =========================================
+       TOP BAR
+  ========================================== -->
 
   <div class="topbar">
     <div class="container topbar-inner">
@@ -994,7 +1084,13 @@
         <span class="language-switcher">
           <a href="index.html">EN</a>
           <span>|</span>
-          <a href="shoulder-pain-hy.html" class="active" aria-current="page">HY</a>
+          <a
+            href="shoulder-pain-hy.html"
+            class="active"
+            aria-current="page"
+          >
+            HY
+          </a>
           <span>|</span>
           <a href="ru.html">RU</a>
         </span>
@@ -1005,10 +1101,1345 @@
   </div>
 
 
-  <!-- HEADER -->
+  <!-- =========================================
+       HEADER
+  ========================================== -->
 
   <header class="site-header">
 
     <div class="container header-inner">
 
-      <a href="hy.html
+      <a
+        href="hy.html"
+        class="logo-wrap"
+        aria-label="YPARC գլխավոր էջ"
+      >
+        <img
+          src="yparc-logo.png"
+          alt="YPARC — Երևանի ցավի և վերականգնողական կլինիկա"
+        >
+      </a>
+
+
+      <nav class="desktop-nav">
+
+        <a href="about-hy.html">
+          Մեր մասին
+        </a>
+
+        <a
+          href="conditions-hy.html"
+          class="active"
+        >
+          Ցավային վիճակներ
+        </a>
+
+        <a href="hy.html#treatments">
+          Բուժումներ
+        </a>
+
+        <a href="hy.html#rehabilitation">
+          Վերականգնում
+        </a>
+
+        <a href="hy.html#education">
+          Կրթություն
+        </a>
+
+        <a href="hy.html#resources">
+          Օգտակար նյութեր
+        </a>
+
+      </nav>
+
+
+      <div class="header-actions">
+
+        <a
+          href="hy.html#appointment"
+          class="btn btn-outline patient-login"
+        >
+          Patient Login
+        </a>
+
+        <a
+          href="hy.html#appointment"
+          class="btn btn-primary"
+        >
+          Գրանցվել այցի
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          type="button"
+          onclick="toggleMenu()"
+          aria-label="Բացել մենյուն"
+          aria-controls="mobileMenu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- =========================================
+       MOBILE MENU
+  ========================================== -->
+
+  <div
+    class="mobile-menu"
+    id="mobileMenu"
+  >
+
+    <nav>
+
+      <a href="hy.html">
+        Գլխավոր
+      </a>
+
+      <a href="about-hy.html">
+        Մեր մասին
+      </a>
+
+      <a href="conditions-hy.html">
+        Ցավային վիճակներ
+      </a>
+
+      <a href="hy.html#treatments">
+        Բուժումներ
+      </a>
+
+      <a href="hy.html#rehabilitation">
+        Վերականգնում
+      </a>
+
+      <a href="hy.html#education">
+        Կրթություն
+      </a>
+
+      <a href="hy.html#resources">
+        Օգտակար նյութեր
+      </a>
+
+    </nav>
+
+    <a
+      href="hy.html#appointment"
+      class="btn btn-primary mobile-btn"
+    >
+      Գրանցվել այցի
+    </a>
+
+  </div>
+
+
+  <!-- =========================================
+       BREADCRUMB
+  ========================================== -->
+
+  <div class="breadcrumb">
+
+    <div class="container breadcrumb-inner">
+
+      <a href="hy.html">
+        Գլխավոր
+      </a>
+
+      <span>→</span>
+
+      <a href="conditions-hy.html">
+        Ցավային վիճակներ
+      </a>
+
+      <span>→</span>
+
+      <span>
+        Ուսի ցավ
+      </span>
+
+    </div>
+
+  </div>
+
+
+  <main>
+
+    <!-- =========================================
+         HERO
+    ========================================== -->
+
+    <section class="condition-hero">
+
+      <div class="container condition-hero-grid">
+
+        <div>
+
+          <div class="eyebrow">
+            ՈՒՍ • ՑԱՎԱՅԻՆ ՎԻՃԱԿՆԵՐ
+          </div>
+
+          <h1>
+            Ուսի <span>ցավ</span>
+          </h1>
+
+          <p class="hero-text">
+            Ուսի ցավը կարող է սահմանափակել ձեռքի բարձրացումը,
+            հագնվելը, աշխատանքը, ֆիզիկական ակտիվությունը և նույնիսկ
+            քունը։ Ցավի պատճառը հասկանալու համար կարևոր է գնահատել
+            ոչ միայն ուսի հոդը, այլ նաև շրջակա մկանները, ջլերը,
+            շարժունակությունը և անհրաժեշտության դեպքում՝ պարանոցի շրջանը։
+          </p>
+
+          <div class="hero-buttons">
+
+            <a
+              href="hy.html#appointment"
+              class="btn btn-primary"
+            >
+              Գրանցվել խորհրդատվության →
+            </a>
+
+            <a
+              href="#assessment"
+              class="btn btn-outline"
+            >
+              Ինչպես ենք գնահատում
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+          <img
+            src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=85"
+            alt="Ուսի ցավի բժշկական գնահատում"
+          >
+
+          <div class="hero-card">
+
+            <strong>
+              Ուսի ցավը միշտ չէ, որ սկսվում է հենց ուսի հոդից։
+            </strong>
+
+            <p>
+              Ճիշտ գնահատումը օգնում է տարբերակել հոդային,
+              ջլային, մկանային և նյարդային հնարավոր պատճառները։
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         INTRO
+    ========================================== -->
+
+    <section class="intro">
+
+      <div class="container intro-grid">
+
+        <aside class="intro-side">
+
+          <strong>
+            Նպատակը միայն ցավը նվազեցնելը չէ։
+          </strong>
+
+          <p>
+            Կարևոր է վերականգնել շարժումը, ուժը և ձեռքի բնական
+            օգտագործումը առօրյա գործունեության ընթացքում։
+          </p>
+
+        </aside>
+
+
+        <div class="intro-copy">
+
+          <div class="eyebrow">
+            ՈՒՍԻ ՑԱՎԻ ՄԱՍԻՆ
+          </div>
+
+          <h2 class="section-title">
+            Ուսը մարմնի ամենաշարժուն հոդերից մեկն է։
+          </h2>
+
+          <p>
+            Ուսի բնական շարժման համար միասին աշխատում են ուսային հոդը,
+            պտտող մկանների խումբը, ջլերը, թիակը և շրջակա մկանները։
+            Այդ համակարգի տարբեր հատվածների խնդիրները կարող են
+            արտահայտվել նմանատիպ ցավով։
+          </p>
+
+          <p>
+            Որոշ մարդկանց մոտ ցավը հիմնականում առաջանում է ձեռքը
+            բարձրացնելիս կամ կողք տանելու ժամանակ, իսկ մյուսների մոտ
+            այն կարող է առավել արտահայտված լինել գիշերը կամ որոշակի
+            դիրքերում։
+          </p>
+
+          <p>
+            Այդ պատճառով բուժման ընտրությունը սովորաբար սկսվում է
+            ցավի պատմության, շարժունակության, մկանային ուժի և
+            ֆունկցիոնալ սահմանափակումների գնահատումից։
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         POSSIBLE CAUSES
+    ========================================== -->
+
+    <section class="causes">
+
+      <div class="container">
+
+        <div class="eyebrow">
+          ՀՆԱՐԱՎՈՐ ՊԱՏՃԱՌՆԵՐ
+        </div>
+
+        <h2 class="section-title">
+          Ուսի ցավը կարող է ունենալ տարբեր աղբյուրներ։
+        </h2>
+
+        <p class="section-text">
+          Ստորև ներկայացված են տարածված հնարավոր պատճառների օրինակներ։
+          Այս տեղեկատվությունը նախատեսված չէ ինքնուրույն ախտորոշման համար։
+        </p>
+
+
+        <div class="causes-grid">
+
+          <article class="cause-card">
+
+            <div class="cause-number">
+              01
+            </div>
+
+            <h3>
+              Պտտող մկանների ջլերի խնդիրներ
+            </h3>
+
+            <p>
+              Rotator cuff-ի ջլերի ծանրաբեռնվածությունը կամ վնասումը
+              կարող է կապված լինել ցավի և որոշ շարժումների ընթացքում
+              ուժի նվազման հետ։
+            </p>
+
+          </article>
+
+
+          <article class="cause-card">
+
+            <div class="cause-number">
+              02
+            </div>
+
+            <h3>
+              Սուբակրոմիալ ցավ
+            </h3>
+
+            <p>
+              Որոշ դեպքերում ցավը առավել արտահայտված է ձեռքը
+              բարձրացնելիս կամ գլխից վեր գործողություններ կատարելիս։
+            </p>
+
+          </article>
+
+
+          <article class="cause-card">
+
+            <div class="cause-number">
+              03
+            </div>
+
+            <h3>
+              Սառած ուս
+            </h3>
+
+            <p>
+              Adhesive capsulitis-ի դեպքում կարող են աստիճանաբար
+              զարգանալ ուսի ցավ և ակտիվ ու պասիվ շարժումների
+              արտահայտված սահմանափակում։
+            </p>
+
+          </article>
+
+
+          <article class="cause-card">
+
+            <div class="cause-number">
+              04
+            </div>
+
+            <h3>
+              Հոդային փոփոխություններ
+            </h3>
+
+            <p>
+              Ուսի հոդի որոշ դեգեներատիվ կամ բորբոքային վիճակներ
+              կարող են ուղեկցվել ցավով, կոշտությամբ և շարժունակության
+              սահմանափակմամբ։
+            </p>
+
+          </article>
+
+
+          <article class="cause-card">
+
+            <div class="cause-number">
+              05
+            </div>
+
+            <h3>
+              Վնասվածք
+            </h3>
+
+            <p>
+              Ընկնելուց, հարվածից կամ կտրուկ ծանրաբեռնվածությունից
+              հետո կարող են վնասվել ուսի տարբեր կառուցվածքներ։
+            </p>
+
+          </article>
+
+
+          <article class="cause-card">
+
+            <div class="cause-number">
+              06
+            </div>
+
+            <h3>
+              Պարանոցից տարածվող ցավ
+            </h3>
+
+            <p>
+              Երբեմն ուսի շրջանում զգացվող ցավը կարող է կապված լինել
+              պարանոցի կառուցվածքների կամ նյարդային գրգռման հետ։
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         SYMPTOMS
+    ========================================== -->
+
+    <section class="symptoms">
+
+      <div class="container symptoms-grid">
+
+        <div class="symptoms-image">
+
+          <img
+            src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1400&q=85"
+            alt="Ուսի շարժունակության գնահատում"
+          >
+
+        </div>
+
+
+        <div>
+
+          <div class="eyebrow">
+            ԱԽՏԱՆՇԱՆՆԵՐ
+          </div>
+
+          <h2 class="section-title">
+            Ինչպե՞ս կարող է արտահայտվել ուսի ցավը։
+          </h2>
+
+          <p class="section-text">
+            Ախտանշանների բնույթը կարող է տարբեր լինել՝ կախված
+            ցավի պատճառից և խնդրի տևողությունից։
+          </p>
+
+
+          <div class="symptom-list">
+
+            <div class="symptom-item">
+              Ցավ ձեռքը վեր բարձրացնելիս
+            </div>
+
+            <div class="symptom-item">
+              Դժվարություն հագնվելիս կամ ձեռքը մեջքի հետև տանելու ժամանակ
+            </div>
+
+            <div class="symptom-item">
+              Գիշերային ուսի ցավ կամ ցավոտ կողմի վրա պառկելու դժվարություն
+            </div>
+
+            <div class="symptom-item">
+              Ուսի շարժումների սահմանափակում
+            </div>
+
+            <div class="symptom-item">
+              Թուլության զգացում ձեռքը բարձրացնելիս
+            </div>
+
+            <div class="symptom-item">
+              Ցավ, որը կարող է տարածվել դեպի բազուկ
+            </div>
+
+            <div class="symptom-item">
+              Ցավ կամ անհարմարություն կրկնվող շարժումների ժամանակ
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         ASSESSMENT
+    ========================================== -->
+
+    <section
+      class="assessment"
+      id="assessment"
+    >
+
+      <div class="container assessment-grid">
+
+        <div>
+
+          <div class="eyebrow">
+            ԳՆԱՀԱՏՈՒՄ
+          </div>
+
+          <h2 class="section-title">
+            Ինչպե՞ս ենք գնահատում ուսի ցավը։
+          </h2>
+
+          <p class="section-text">
+            Գնահատման նպատակն է հասկանալ ցավի բնույթը,
+            ֆունկցիոնալ սահմանափակումը և հետագա բուժման
+            ամենահարմար ուղղությունը։
+          </p>
+
+
+          <div class="assessment-steps">
+
+            <div class="assessment-step">
+
+              <span>01</span>
+
+              <div>
+
+                <h3>
+                  Ցավի և գանգատների պատմություն
+                </h3>
+
+                <p>
+                  Գնահատվում են ցավի սկիզբը, տևողությունը,
+                  տեղակայումը, վնասվածքի առկայությունը,
+                  ցավ առաջացնող շարժումները և գիշերային ախտանշանները։
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <div class="assessment-step">
+
+              <span>02</span>
+
+              <div>
+
+                <h3>
+                  Շարժունակության գնահատում
+                </h3>
+
+                <p>
+                  Գնահատվում են ուսի ակտիվ և պասիվ շարժումները,
+                  շարժման ծավալը և ցավ առաջացնող ուղղությունները։
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <div class="assessment-step">
+
+              <span>03</span>
+
+              <div>
+
+                <h3>
+                  Ուժի և ֆունկցիայի գնահատում
+                </h3>
+
+                <p>
+                  Անհրաժեշտության դեպքում գնահատվում են մկանային ուժը,
+                  թիակի շարժումը և առօրյա գործողությունների կատարումը։
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <div class="assessment-step">
+
+              <span>04</span>
+
+              <div>
+
+                <h3>
+                  Հետազոտությունների անհրաժեշտության որոշում
+                </h3>
+
+                <p>
+                  Ռենտգեն, ուլտրաձայնային, MRI կամ այլ հետազոտությունների
+                  անհրաժեշտությունը որոշվում է բժշկական ցուցումների
+                  և կլինիկական գնահատման հիման վրա։
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="assessment-note">
+
+          <h3>
+            Պատկերային հետազոտությունը գնահատման միայն մի մասն է։
+          </h3>
+
+          <p>
+            Հետազոտության արդյունքները պետք է համադրել պացիենտի
+            ախտանշանների, կլինիկական զննման, շարժունակության և
+            ֆունկցիոնալ վիճակի հետ։
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         TREATMENT
+    ========================================== -->
+
+    <section class="treatment">
+
+      <div class="container">
+
+        <div class="eyebrow">
+          ԲՈՒԺՈՒՄ ԵՎ ՎԵՐԱԿԱՆԳՆՈՒՄ
+        </div>
+
+        <h2 class="section-title">
+          Բուժման ծրագիրը ձևավորվում է անհատապես։
+        </h2>
+
+        <p class="section-text">
+          Ուսի ցավի բուժումը կախված է հնարավոր պատճառից,
+          ցավի տևողությունից, շարժունակությունից և պացիենտի
+          ֆունկցիոնալ նպատակներից։
+        </p>
+
+
+        <div class="treatment-grid">
+
+          <article class="treatment-card">
+
+            <h3>
+              Ցավի վերահսկում
+            </h3>
+
+            <p>
+              Ըստ կլինիկական իրավիճակի կարող են կիրառվել
+              համապատասխան պահպանողական և դեղորայքային մոտեցումներ։
+            </p>
+
+          </article>
+
+
+          <article class="treatment-card">
+
+            <h3>
+              Վերականգնողական վարժություններ
+            </h3>
+
+            <p>
+              Կարող է կազմվել անհատական ծրագիր՝ շարժունակության,
+              մկանային ուժի, շարժողական վերահսկման և ֆունկցիայի
+              բարելավման նպատակով։
+            </p>
+
+          </article>
+
+
+          <article class="treatment-card">
+
+            <h3>
+              Ինտերվենցիոն մոտեցումներ
+            </h3>
+
+            <p>
+              Ընտրված դեպքերում և համապատասխան բժշկական ցուցումների
+              դեպքում կարող են դիտարկվել թիրախային միջամտություններ։
+            </p>
+
+          </article>
+
+
+          <article class="treatment-card">
+
+            <h3>
+              Ֆունկցիայի վերականգնում
+            </h3>
+
+            <p>
+              Նպատակն է հնարավորինս վերականգնել ձեռքի բնական օգտագործումը,
+              առօրյա գործունեությունը, աշխատանքը և անհրաժեշտության դեպքում
+              սպորտային ակտիվությունը։
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         RED FLAGS
+    ========================================== -->
+
+    <section class="redflags">
+
+      <div class="container">
+
+        <div class="redflags-box">
+
+          <div class="redflags-grid">
+
+            <div>
+
+              <div class="eyebrow">
+                ԵՐԲ Է ՊԵՏՔ ՇՏԱՊ ԴԻՄԵԼ
+              </div>
+
+              <h2 class="section-title">
+                Որոշ ախտանշաններ պահանջում են արագ բժշկական գնահատում։
+              </h2>
+
+              <p class="emergency-note">
+                Այս կայքի տեղեկատվությունը չի փոխարինում շտապ
+                բժշկական օգնությանը։
+              </p>
+
+            </div>
+
+
+            <div class="redflags-list">
+
+              <div class="redflag-item">
+                Ուժեղ ցավ և ուսի ակնհայտ ձևափոխություն վնասվածքից հետո
+              </div>
+
+              <div class="redflag-item">
+                Վնասվածքից հետո ձեռքը շարժելու անկարողություն
+              </div>
+
+              <div class="redflag-item">
+                Նոր առաջացած արտահայտված ձեռքի թուլություն կամ զգացողության կորուստ
+              </div>
+
+              <div class="redflag-item">
+                Ուսի շրջանում արտահայտված կարմրություն, այտուց և բարձր ջերմություն
+              </div>
+
+              <div class="redflag-item">
+                Ուսի կամ ձեռքի ցավ՝ կրծքավանդակի ցավի,
+                շնչառության դժվարացման, սառը քրտինքի կամ
+                ընդհանուր ծանր վիճակի հետ
+              </div>
+
+              <div class="redflag-item">
+                Վիճակի արագ վատացում կամ նոր արտահայտված ախտանշաններ
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         FAQ
+    ========================================== -->
+
+    <section class="faq">
+
+      <div class="container">
+
+        <div class="eyebrow">
+          ՀԱՃԱԽ ՏՐՎՈՂ ՀԱՐՑԵՐ
+        </div>
+
+        <h2 class="section-title">
+          Ուսի ցավի մասին հաճախ տրվող հարցեր։
+        </h2>
+
+
+        <div class="faq-wrap">
+
+          <!-- FAQ 1 -->
+
+          <div class="faq-item">
+
+            <button
+              class="faq-question"
+              type="button"
+            >
+
+              <span>
+                Ուսի ցավի դեպքում միշտ պե՞տք է MRI անել։
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+
+            </button>
+
+            <div class="faq-answer">
+
+              <p>
+                Ոչ միշտ։ Շատ դեպքերում առաջին քայլը բժշկական
+                պատմությունն ու կլինիկական գնահատումն են։
+                Պատկերային հետազոտությունը նշանակվում է ըստ ցուցումների։
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- FAQ 2 -->
+
+          <div class="faq-item">
+
+            <button
+              class="faq-question"
+              type="button"
+            >
+
+              <span>
+                Ինչո՞ւ է ուսի ցավը երբեմն ուժեղանում գիշերը։
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+
+            </button>
+
+            <div class="faq-answer">
+
+              <p>
+                Գիշերային ցավ կարող է հանդիպել տարբեր ուսային
+                վիճակների ժամանակ։ Միայն այդ ախտանշանով հնարավոր չէ
+                որոշել պատճառը, ուստի կարևոր է գնահատել նաև շարժումը,
+                ցավի բնույթը և մյուս ախտանշանները։
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- FAQ 3 -->
+
+          <div class="faq-item">
+
+            <button
+              class="faq-question"
+              type="button"
+            >
+
+              <span>
+                Կարո՞ղ է պարանոցի խնդիրը ուսի ցավ առաջացնել։
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+
+            </button>
+
+            <div class="faq-answer">
+
+              <p>
+                Այո։ Որոշ դեպքերում պարանոցի կառուցվածքներից կամ
+                նյարդերից առաջացող ցավը կարող է զգացվել ուսի
+                կամ վերին վերջույթի շրջանում։
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- FAQ 4 -->
+
+          <div class="faq-item">
+
+            <button
+              class="faq-question"
+              type="button"
+            >
+
+              <span>
+                Ուսի ցավի դեպքում վարժությունները օգտակա՞ր են։
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+
+            </button>
+
+            <div class="faq-answer">
+
+              <p>
+                Շատ ուսային վիճակներում համապատասխան ընտրված
+                վարժությունները կարող են լինել բուժման կարևոր մաս։
+                Վարժությունների ծրագիրը պետք է համապատասխանեցվի
+                կոնկրետ վիճակին և պացիենտի հնարավորություններին։
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- FAQ 5 -->
+
+          <div class="faq-item">
+
+            <button
+              class="faq-question"
+              type="button"
+            >
+
+              <span>
+                Ի՞նչ է «սառած ուսը»։
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+
+            </button>
+
+            <div class="faq-answer">
+
+              <p>
+                «Սառած ուս» անվանումը հաճախ օգտագործվում է adhesive
+                capsulitis-ի համար։ Այն սովորաբար ուղեկցվում է ցավով
+                և ուսի ակտիվ ու պասիվ շարժումների աստիճանական
+                սահմանափակմամբ։
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- FAQ 6 -->
+
+          <div class="faq-item">
+
+            <button
+              class="faq-question"
+              type="button"
+            >
+
+              <span>
+                Ե՞րբ կարող է քննարկվել ինտերվենցիոն բուժում։
+              </span>
+
+              <span class="faq-plus">
+                +
+              </span>
+
+            </button>
+
+            <div class="faq-answer">
+
+              <p>
+                Ինտերվենցիոն մոտեցումները կարող են քննարկվել
+                ընտրված դեպքերում՝ բժշկական գնահատումից հետո և
+                համապատասխան ցուցումների առկայության դեպքում։
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         FINAL CTA
+    ========================================== -->
+
+    <section class="final-cta">
+
+      <div class="container">
+
+        <div class="final-cta-box">
+
+          <div class="eyebrow">
+            ԳՐԱՆՑՎԵԼ ԽՈՐՀՐԴԱՏՎՈՒԹՅԱՆ
+          </div>
+
+          <h2>
+            Ուսի ցավը սահմանափակո՞ւմ է ձեր շարժումն ու առօրյա կյանքը։
+          </h2>
+
+          <p>
+            Գրանցվեք գնահատման՝ ցավի հնարավոր պատճառը հասկանալու
+            և ձեզ համապատասխան բուժման կամ վերականգնման
+            ծրագիրը որոշելու համար։
+          </p>
+
+          <a
+            href="hy.html#appointment"
+            class="btn"
+          >
+            Գրանցվել այցի →
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================================
+       FOOTER
+  ========================================== -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+
+          <a href="hy.html">
+
+            <img
+              src="yparc-logo.png"
+              alt="YPARC"
+            >
+
+          </a>
+
+          <p>
+            YPARC — Երևանի ցավի և վերականգնողական կլինիկա։
+            Ցավի գնահատում, անհատական բուժում և վերականգնում՝
+            մեկ համակարգում։
+          </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h4>
+            Կլինիկա
+          </h4>
+
+          <ul>
+
+            <li>
+              <a href="about-hy.html">
+                Մեր մասին
+              </a>
+            </li>
+
+            <li>
+              <a href="conditions-hy.html">
+                Ցավային վիճակներ
+              </a>
+            </li>
+
+            <li>
+              <a href="hy.html#treatments">
+                Բուժումներ
+              </a>
+            </li>
+
+            <li>
+              <a href="hy.html#rehabilitation">
+                Վերականգնում
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h4>
+            Պացիենտների համար
+          </h4>
+
+          <ul>
+
+            <li>
+              <a href="hy.html#appointment">
+                Գրանցվել այցի
+              </a>
+            </li>
+
+            <li>
+              <a href="hy.html#resources">
+                Օգտակար նյութեր
+              </a>
+            </li>
+
+            <li>
+              <a href="conditions-hy.html">
+                Բոլոր ցավային վիճակները
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <h4>
+            Կապ
+          </h4>
+
+          <ul>
+
+            <li>
+              Պուշկին 56/1, Երևան
+            </li>
+
+            <li>
+
+              <a href="tel:+37491092123">
+                +374 91 092123
+              </a>
+
+            </li>
+
+            <li>
+
+              <a href="mailto:info@painclinicyerevan.am">
+                info@painclinicyerevan.am
+              </a>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        <span>
+          © 2026 YPARC. All rights reserved.
+        </span>
+
+        <span>
+          Yerevan Pain & Rehabilitation Clinic
+        </span>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =========================================
+       JAVASCRIPT
+  ========================================== -->
+
+  <script>
+
+    function toggleMenu() {
+
+      const menu =
+        document.getElementById("mobileMenu");
+
+      const button =
+        document.getElementById("menuToggle");
+
+      menu.classList.toggle("open");
+
+      const isOpen =
+        menu.classList.contains("open");
+
+      document.body.style.overflow =
+        isOpen ? "hidden" : "";
+
+      if (button) {
+        button.setAttribute(
+          "aria-expanded",
+          isOpen ? "true" : "false"
+        );
+      }
+    }
+
+
+    document
+      .querySelectorAll(".mobile-menu a")
+      .forEach(function(link) {
+
+        link.addEventListener(
+          "click",
+          function() {
+
+            const menu =
+              document.getElementById("mobileMenu");
+
+            const button =
+              document.getElementById("menuToggle");
+
+            menu.classList.remove("open");
+
+            document.body.style.overflow = "";
+
+            if (button) {
+              button.setAttribute(
+                "aria-expanded",
+                "false"
+              );
+            }
+
+          }
+        );
+
+      });
+
+
+    document
+      .querySelectorAll(".faq-question")
+      .forEach(function(button) {
+
+        button.addEventListener(
+          "click",
+          function() {
+
+            const current =
+              this.parentElement;
+
+            document
+              .querySelectorAll(".faq-item")
+              .forEach(function(item) {
+
+                if (item !== current) {
+                  item.classList.remove("active");
+                }
+
+              });
+
+            current.classList.toggle("active");
+
+          }
+        );
+
+      });
+
+
+    document.addEventListener(
+      "keydown",
+      function(event) {
+
+        if (event.key === "Escape") {
+
+          const menu =
+            document.getElementById("mobileMenu");
+
+          const button =
+            document.getElementById("menuToggle");
+
+          menu.classList.remove("open");
+
+          document.body.style.overflow = "";
+
+          if (button) {
+            button.setAttribute(
+              "aria-expanded",
+              "false"
+            );
+          }
+
+        }
+
+      }
+    );
+
+  </script>
+
+</body>
+</html>
