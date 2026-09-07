@@ -1,1 +1,1806 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Ծնկի ցավ | Yerevan Pain Clinic</title>
+
+  <meta
+    name="description"
+    content="Ծնկի ցավի պատճառներ, ախտանիշներ և բուժման ժամանակակից մոտեցումներ։ Yerevan Pain Clinic՝ անհատական գնահատում և ցավի կառավարում։"
+  >
+
+  <style>
+
+    /* =====================================================
+       YPARC — KNEE PAIN PAGE
+    ===================================================== */
+
+    :root {
+      --navy: #17385f;
+      --navy-deep: #102b49;
+      --blue-soft: #eaf1f7;
+      --cream: #f7f5ef;
+      --white: #ffffff;
+      --text: #25303c;
+      --muted: #66717d;
+      --line: #dce3e8;
+      --green: #587968;
+      --shadow: 0 20px 50px rgba(23, 56, 95, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--white);
+      color: var(--text);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+      line-height: 1.7;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .yp-container {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+
+    /* =====================================================
+       HEADER
+    ===================================================== */
+
+    .yp-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(23, 56, 95, 0.08);
+    }
+
+    .yp-header-inner {
+      min-height: 78px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .yp-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
+    .yp-brand img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+    }
+
+    .yp-brand-text strong {
+      display: block;
+      color: var(--navy);
+      font-size: 16px;
+      letter-spacing: 0.03em;
+    }
+
+    .yp-brand-text span {
+      display: block;
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .yp-nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .yp-nav a {
+      color: var(--text);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.25s ease;
+    }
+
+    .yp-nav a:hover {
+      color: var(--navy);
+    }
+
+    .yp-header-cta {
+      padding: 11px 18px;
+      background: var(--navy);
+      color: var(--white) !important;
+      border-radius: 999px;
+    }
+
+
+    /* =====================================================
+       HERO
+    ===================================================== */
+
+    .yp-hero {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(
+          circle at 85% 20%,
+          rgba(88, 121, 104, 0.15),
+          transparent 34%
+        ),
+        linear-gradient(
+          135deg,
+          #f7f5ef 0%,
+          #eef3f6 100%
+        );
+    }
+
+    .yp-hero-inner {
+      min-height: 650px;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      align-items: center;
+      gap: 70px;
+      padding: 90px 0;
+    }
+
+    .yp-eyebrow {
+      margin: 0 0 20px;
+      color: var(--green);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
+    .yp-hero h1 {
+      margin: 0;
+      max-width: 720px;
+      color: var(--navy-deep);
+      font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+      font-size: clamp(48px, 7vw, 84px);
+      line-height: 0.98;
+      font-weight: 400;
+      letter-spacing: -0.045em;
+    }
+
+    .yp-hero-lead {
+      max-width: 650px;
+      margin: 28px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.75;
+    }
+
+    .yp-hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 34px;
+    }
+
+    .yp-btn {
+      min-height: 50px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 22px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+
+    .yp-btn-primary {
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    .yp-btn-secondary {
+      border: 1px solid rgba(23, 56, 95, 0.2);
+      color: var(--navy);
+      background: rgba(255, 255, 255, 0.55);
+    }
+
+    .yp-hero-card {
+      position: relative;
+      min-height: 470px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .yp-knee-visual {
+      position: relative;
+      width: min(430px, 100%);
+      aspect-ratio: 1 / 1.08;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 48% 52% 45% 55% / 48% 45% 55% 52%;
+      background:
+        linear-gradient(
+          145deg,
+          rgba(255,255,255,0.92),
+          rgba(220,231,237,0.9)
+        );
+      box-shadow: var(--shadow);
+    }
+
+    .yp-knee-circle {
+      width: 240px;
+      height: 240px;
+      position: relative;
+      border: 2px solid rgba(23, 56, 95, 0.18);
+      border-radius: 50%;
+    }
+
+    .yp-knee-circle::before,
+    .yp-knee-circle::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 92px;
+      border-radius: 60px;
+      background: linear-gradient(
+        180deg,
+        #cfdbe2,
+        #ffffff
+      );
+      border: 1px solid rgba(23,56,95,0.14);
+    }
+
+    .yp-knee-circle::before {
+      height: 145px;
+      top: -78px;
+    }
+
+    .yp-knee-circle::after {
+      height: 155px;
+      bottom: -84px;
+    }
+
+    .yp-pain-point {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 84px;
+      height: 84px;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      background: rgba(184, 94, 78, 0.17);
+      box-shadow:
+        0 0 0 16px rgba(184, 94, 78, 0.07);
+    }
+
+    .yp-floating-note {
+      position: absolute;
+      right: -12px;
+      bottom: 32px;
+      max-width: 185px;
+      padding: 17px 18px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .yp-floating-note strong {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--navy);
+      font-size: 12px;
+    }
+
+
+    /* =====================================================
+       GENERAL SECTIONS
+    ===================================================== */
+
+    .yp-section {
+      padding: 95px 0;
+    }
+
+    .yp-section-soft {
+      background: var(--cream);
+    }
+
+    .yp-section-blue {
+      background: #edf3f7;
+    }
+
+    .yp-section-head {
+      max-width: 760px;
+      margin-bottom: 50px;
+    }
+
+    .yp-section-head h2 {
+      margin: 0;
+      color: var(--navy-deep);
+      font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+      font-size: clamp(34px, 4vw, 54px);
+      line-height: 1.08;
+      font-weight: 400;
+      letter-spacing: -0.035em;
+    }
+
+    .yp-section-head p {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+
+    /* =====================================================
+       INTRO
+    ===================================================== */
+
+    .yp-intro-grid {
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 70px;
+      align-items: start;
+    }
+
+    .yp-big-number {
+      color: rgba(23, 56, 95, 0.1);
+      font-family: Georgia, serif;
+      font-size: 150px;
+      line-height: 0.8;
+    }
+
+    .yp-intro-copy {
+      font-size: 17px;
+      color: var(--muted);
+    }
+
+    .yp-intro-copy strong {
+      color: var(--navy);
+    }
+
+
+    /* =====================================================
+       CAUSES
+    ===================================================== */
+
+    .yp-card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .yp-card {
+      min-height: 245px;
+      padding: 28px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    }
+
+    .yp-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow);
+    }
+
+    .yp-card-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      margin-bottom: 24px;
+      border-radius: 50%;
+      background: var(--blue-soft);
+      color: var(--navy);
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .yp-card h3 {
+      margin: 0 0 10px;
+      color: var(--navy-deep);
+      font-family: Georgia, serif;
+      font-size: 22px;
+      font-weight: 400;
+    }
+
+    .yp-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+
+    /* =====================================================
+       SYMPTOMS
+    ===================================================== */
+
+    .yp-symptom-wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 55px;
+      align-items: center;
+    }
+
+    .yp-symptom-panel {
+      padding: 36px;
+      background: var(--navy);
+      border-radius: 26px;
+      color: var(--white);
+    }
+
+    .yp-symptom-panel h3 {
+      margin: 0 0 24px;
+      font-family: Georgia, serif;
+      font-size: 30px;
+      font-weight: 400;
+    }
+
+    .yp-check-list {
+      display: grid;
+      gap: 15px;
+    }
+
+    .yp-check {
+      display: grid;
+      grid-template-columns: 26px 1fr;
+      gap: 11px;
+      align-items: start;
+      font-size: 14px;
+      color: rgba(255,255,255,0.86);
+    }
+
+    .yp-check-icon {
+      width: 22px;
+      height: 22px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.12);
+      font-size: 11px;
+    }
+
+
+    /* =====================================================
+       RED FLAGS
+    ===================================================== */
+
+    .yp-alert {
+      padding: 34px;
+      border: 1px solid #e9c9c2;
+      border-radius: 24px;
+      background: #fff8f6;
+    }
+
+    .yp-alert-head {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+
+    .yp-alert-icon {
+      width: 42px;
+      height: 42px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: #f5e1dc;
+      color: #9a4e42;
+      font-weight: 700;
+    }
+
+    .yp-alert h3 {
+      margin: 0;
+      color: #733d35;
+      font-size: 21px;
+    }
+
+    .yp-alert ul {
+      margin: 0;
+      padding-left: 20px;
+      color: #725d58;
+    }
+
+    .yp-alert li + li {
+      margin-top: 9px;
+    }
+
+
+    /* =====================================================
+       TREATMENT
+    ===================================================== */
+
+    .yp-treatment {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+    }
+
+    .yp-treatment-card {
+      padding: 32px;
+      border-radius: 24px;
+      background: var(--white);
+      border: 1px solid var(--line);
+    }
+
+    .yp-treatment-card span {
+      color: var(--green);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .yp-treatment-card h3 {
+      margin: 10px 0 11px;
+      color: var(--navy-deep);
+      font-family: Georgia, serif;
+      font-size: 26px;
+      font-weight: 400;
+    }
+
+    .yp-treatment-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+
+    /* =====================================================
+       PROCESS
+    ===================================================== */
+
+    .yp-process {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .yp-process-item {
+      position: relative;
+      padding: 26px 22px;
+      border-top: 1px solid var(--line);
+    }
+
+    .yp-process-item::before {
+      content: "";
+      position: absolute;
+      top: -2px;
+      left: 0;
+      width: 46px;
+      height: 3px;
+      background: var(--navy);
+    }
+
+    .yp-process-item small {
+      color: var(--green);
+      font-weight: 700;
+      letter-spacing: 0.13em;
+    }
+
+    .yp-process-item h3 {
+      margin: 12px 0 9px;
+      font-family: Georgia, serif;
+      color: var(--navy-deep);
+      font-size: 22px;
+      font-weight: 400;
+    }
+
+    .yp-process-item p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+
+    /* =====================================================
+       FAQ
+    ===================================================== */
+
+    .yp-faq {
+      display: grid;
+      gap: 12px;
+      max-width: 900px;
+    }
+
+    .yp-faq details {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+
+    .yp-faq summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 21px 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      color: var(--navy-deep);
+      font-weight: 600;
+    }
+
+    .yp-faq summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .yp-faq summary::after {
+      content: "+";
+      font-size: 24px;
+      font-weight: 300;
+      color: var(--navy);
+    }
+
+    .yp-faq details[open] summary::after {
+      content: "−";
+    }
+
+    .yp-faq-answer {
+      padding: 0 22px 22px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+
+    /* =====================================================
+       CTA
+    ===================================================== */
+
+    .yp-cta {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(
+          circle at 85% 10%,
+          rgba(255,255,255,0.12),
+          transparent 30%
+        ),
+        var(--navy);
+      color: var(--white);
+    }
+
+    .yp-cta-inner {
+      min-height: 420px;
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 60px;
+      align-items: center;
+      padding: 70px 0;
+    }
+
+    .yp-cta h2 {
+      margin: 0;
+      max-width: 700px;
+      font-family: Georgia, serif;
+      font-size: clamp(42px, 5vw, 66px);
+      line-height: 1;
+      font-weight: 400;
+      letter-spacing: -0.04em;
+    }
+
+    .yp-cta p {
+      margin: 21px 0 0;
+      max-width: 620px;
+      color: rgba(255,255,255,0.72);
+      font-size: 16px;
+    }
+
+    .yp-cta-box {
+      padding: 30px;
+      border: 1px solid rgba(255,255,255,0.16);
+      border-radius: 24px;
+      background: rgba(255,255,255,0.07);
+    }
+
+    .yp-cta-box strong {
+      display: block;
+      margin-bottom: 6px;
+      font-family: Georgia, serif;
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    .yp-cta-box span {
+      display: block;
+      color: rgba(255,255,255,0.7);
+      font-size: 13px;
+    }
+
+    .yp-cta-box .yp-btn {
+      width: 100%;
+      margin-top: 22px;
+      background: var(--white);
+      color: var(--navy);
+    }
+
+
+    /* =====================================================
+       FOOTER
+    ===================================================== */
+
+    .yp-footer {
+      padding: 42px 0;
+      background: #0d2743;
+      color: rgba(255,255,255,0.72);
+    }
+
+    .yp-footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .yp-footer strong {
+      color: var(--white);
+    }
+
+    .yp-footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .yp-footer-links a {
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+
+    /* =====================================================
+       MOBILE
+    ===================================================== */
+
+    @media (max-width: 900px) {
+
+      .yp-nav {
+        display: none;
+      }
+
+      .yp-hero-inner,
+      .yp-intro-grid,
+      .yp-symptom-wrap,
+      .yp-cta-inner {
+        grid-template-columns: 1fr;
+      }
+
+      .yp-hero-inner {
+        padding: 65px 0;
+        gap: 45px;
+      }
+
+      .yp-hero-card {
+        min-height: auto;
+      }
+
+      .yp-card-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .yp-process {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .yp-treatment {
+        grid-template-columns: 1fr;
+      }
+
+      .yp-big-number {
+        font-size: 100px;
+      }
+
+    }
+
+
+    @media (max-width: 620px) {
+
+      .yp-container {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .yp-header-inner {
+        min-height: 68px;
+      }
+
+      .yp-brand img {
+        width: 42px;
+        height: 42px;
+      }
+
+      .yp-brand-text strong {
+        font-size: 14px;
+      }
+
+      .yp-brand-text span {
+        display: none;
+      }
+
+      .yp-hero h1 {
+        font-size: 50px;
+      }
+
+      .yp-hero-lead {
+        font-size: 16px;
+      }
+
+      .yp-section {
+        padding: 68px 0;
+      }
+
+      .yp-card-grid,
+      .yp-process {
+        grid-template-columns: 1fr;
+      }
+
+      .yp-card {
+        min-height: auto;
+      }
+
+      .yp-knee-visual {
+        width: 100%;
+        max-width: 360px;
+        margin: auto;
+      }
+
+      .yp-knee-circle {
+        width: 190px;
+        height: 190px;
+      }
+
+      .yp-floating-note {
+        right: 0;
+        bottom: 15px;
+      }
+
+      .yp-symptom-panel,
+      .yp-alert,
+      .yp-treatment-card {
+        padding: 25px;
+      }
+
+      .yp-cta-inner {
+        min-height: auto;
+      }
+
+      .yp-footer-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+    }
+
+
+    /* =====================================================
+       ACCESSIBILITY
+    ===================================================== */
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      * {
+        transition: none !important;
+      }
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="yp-header">
+
+  <div class="yp-container yp-header-inner">
+
+    <a href="hy.html" class="yp-brand">
+
+      <img
+        src="yparc-logo.png"
+        alt="Yerevan Pain Clinic"
+      >
+
+      <div class="yp-brand-text">
+        <strong>Yerevan Pain Clinic</strong>
+        <span>YPARC · Pain Management</span>
+      </div>
+
+    </a>
+
+
+    <nav class="yp-nav">
+
+      <a href="hy.html">Գլխավոր</a>
+
+      <a href="conditions-hy.html">
+        Ցավային վիճակներ
+      </a>
+
+      <a href="about-hy.html">
+        Մեր մասին
+      </a>
+
+      <a href="#appointment" class="yp-header-cta">
+        Ամրագրել այց
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+<main>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="yp-hero">
+
+  <div class="yp-container yp-hero-inner">
+
+    <div>
+
+      <p class="yp-eyebrow">
+        YPARC · ՑԱՎԱՅԻՆ ՎԻՃԱԿՆԵՐ
+      </p>
+
+      <h1>
+        Ծնկի ցավ
+      </h1>
+
+      <p class="yp-hero-lead">
+        Ծնկի ցավը կարող է կապված լինել հոդի,
+        ջլերի, կապանների, մենիսկների կամ շրջակա
+        հյուսվածքների տարբեր խնդիրների հետ։
+        Ճիշտ ախտորոշումը կարևոր է բուժման
+        արդյունավետ ճանապարհը ընտրելու համար։
+      </p>
+
+      <div class="yp-hero-actions">
+
+        <a href="#appointment" class="yp-btn yp-btn-primary">
+          Ամրագրել խորհրդատվություն
+        </a>
+
+        <a href="#causes" class="yp-btn yp-btn-secondary">
+          Իմանալ պատճառների մասին
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="yp-hero-card">
+
+      <div class="yp-knee-visual">
+
+        <div class="yp-knee-circle">
+          <div class="yp-pain-point"></div>
+        </div>
+
+        <div class="yp-floating-note">
+          <strong>Անհատական գնահատում</strong>
+          Բուժման պլանը ընտրվում է ցավի պատճառի,
+          տևողության և ֆունկցիոնալ սահմանափակման հիման վրա։
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     WHAT IS KNEE PAIN
+===================================================== -->
+
+<section class="yp-section">
+
+  <div class="yp-container yp-intro-grid">
+
+    <div class="yp-big-number">
+      01
+    </div>
+
+    <div>
+
+      <div class="yp-section-head">
+
+        <p class="yp-eyebrow">
+          ՀԱՍԿԱՆԱԼ ՑԱՎԸ
+        </p>
+
+        <h2>
+          Ի՞նչ կարող է նշանակել ծնկի ցավը
+        </h2>
+
+      </div>
+
+
+      <div class="yp-intro-copy">
+
+        <p>
+          Ծնկահոդը բարդ կառուցվածք է, որտեղ միասին
+          աշխատում են ոսկրերը, աճառը, մենիսկները,
+          կապանները, ջլերը և մկանները։
+          Այդ համակարգերից ցանկացածի գերբեռնվածությունը
+          կամ վնասումը կարող է առաջացնել ցավ։
+        </p>
+
+        <p>
+          <strong>Ցավի տեղակայումը, բնույթը և առաջացման
+          պայմանները կարևոր հուշումներ են տալիս։</strong>
+          Օրինակ՝ ցավը կարող է լինել ծնկի առաջային,
+          ներքին, արտաքին կամ հետին հատվածում,
+          առաջանալ քայլելիս, աստիճաններով բարձրանալիս,
+          ծալելիս կամ նույնիսկ հանգստի ժամանակ։
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     CAUSES
+===================================================== -->
+
+<section
+  id="causes"
+  class="yp-section yp-section-soft"
+>
+
+  <div class="yp-container">
+
+    <div class="yp-section-head">
+
+      <p class="yp-eyebrow">
+        ՀՆԱՐԱՎՈՐ ՊԱՏՃԱՌՆԵՐ
+      </p>
+
+      <h2>
+        Ծնկի ցավի հաճախ հանդիպող պատճառները
+      </h2>
+
+      <p>
+        Ծնկի ցավի պատճառը միշտ չէ, որ նույնն է։
+        Որոշ դեպքերում այն զարգանում է աստիճանաբար,
+        իսկ մյուսներում՝ վնասվածքից հետո։
+      </p>
+
+    </div>
+
+
+    <div class="yp-card-grid">
+
+
+      <div class="yp-card">
+
+        <div class="yp-card-number">01</div>
+
+        <h3>Օստեոարթրիտ</h3>
+
+        <p>
+          Հոդային աճառի աստիճանական փոփոխությունները
+          կարող են բերել ցավի, կոշտության և շարժման
+          սահմանափակման։
+        </p>
+
+      </div>
+
+
+      <div class="yp-card">
+
+        <div class="yp-card-number">02</div>
+
+        <h3>Մենիսկի վնասում</h3>
+
+        <p>
+          Կարող է առաջանալ պտտական շարժումից,
+          վնասվածքից կամ դեգեներատիվ փոփոխությունների
+          հետևանքով։
+        </p>
+
+      </div>
+
+
+      <div class="yp-card">
+
+        <div class="yp-card-number">03</div>
+
+        <h3>Կապանների վնասումներ</h3>
+
+        <p>
+          Առջևի կամ հետին խաչաձև, ինչպես նաև կողմնային
+          կապանների վնասումները կարող են առաջացնել ցավ
+          և անկայունություն։
+        </p>
+
+      </div>
+
+
+      <div class="yp-card">
+
+        <div class="yp-card-number">04</div>
+
+        <h3>Պաթելոֆեմորալ ցավ</h3>
+
+        <p>
+          Հաճախ արտահայտվում է ծնկի առաջային հատվածի
+          ցավով՝ հատկապես նստելիս, կքանստելիս կամ
+          աստիճաններով շարժվելիս։
+        </p>
+
+      </div>
+
+
+      <div class="yp-card">
+
+        <div class="yp-card-number">05</div>
+
+        <h3>Ջլերի գերբեռնվածություն</h3>
+
+        <p>
+          Կրկնվող ծանրաբեռնվածությունը կարող է
+          առաջացնել ծնկի շուրջ գտնվող ջլերի ցավ
+          և զգայունություն։
+        </p>
+
+      </div>
+
+
+      <div class="yp-card">
+
+        <div class="yp-card-number">06</div>
+
+        <h3>Բուրսիտ և բորբոքային վիճակներ</h3>
+
+        <p>
+          Ծնկի շուրջ գտնվող բուրսաների կամ այլ
+          հյուսվածքների բորբոքումը կարող է բերել
+          տեղային ցավի և այտուցի։
+        </p>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     SYMPTOMS
+===================================================== -->
+
+<section class="yp-section">
+
+  <div class="yp-container yp-symptom-wrap">
+
+    <div>
+
+      <p class="yp-eyebrow">
+        ԱԽՏԱՆԻՇՆԵՐ
+      </p>
+
+      <div class="yp-section-head">
+
+        <h2>
+          Ինչպե՞ս կարող է արտահայտվել խնդիրը
+        </h2>
+
+        <p>
+          Ծնկի ցավի հետ կարող են հանդիպել նաև
+          շարժման կամ հոդի կայունության այլ փոփոխություններ։
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="yp-symptom-panel">
+
+      <h3>
+        Հաճախ հանդիպող գանգատներ
+      </h3>
+
+      <div class="yp-check-list">
+
+        <div class="yp-check">
+          <span class="yp-check-icon">✓</span>
+          <span>
+            ցավ քայլելիս կամ երկար կանգնելիս
+          </span>
+        </div>
+
+        <div class="yp-check">
+          <span class="yp-check-icon">✓</span>
+          <span>
+            ցավ աստիճաններով բարձրանալիս կամ իջնելիս
+          </span>
+        </div>
+
+        <div class="yp-check">
+          <span class="yp-check-icon">✓</span>
+          <span>
+            ծնկի այտուց կամ կոշտություն
+          </span>
+        </div>
+
+        <div class="yp-check">
+          <span class="yp-check-icon">✓</span>
+          <span>
+            կտկտոց, ճռճռոց կամ «արգելափակման» զգացում
+          </span>
+        </div>
+
+        <div class="yp-check">
+          <span class="yp-check-icon">✓</span>
+          <span>
+            ծնկի անկայունության կամ «դուրս գնալու»
+            զգացում
+          </span>
+        </div>
+
+        <div class="yp-check">
+          <span class="yp-check-icon">✓</span>
+          <span>
+            շարժման ծավալի սահմանափակում
+          </span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     WHEN TO SEEK CARE
+===================================================== -->
+
+<section class="yp-section yp-section-blue">
+
+  <div class="yp-container">
+
+    <div class="yp-section-head">
+
+      <p class="yp-eyebrow">
+        ԵՐԲ ԴԻՄԵԼ ԲԺՇԿԻ
+      </p>
+
+      <h2>
+        Որոշ նշաններ պահանջում են ավելի արագ գնահատում
+      </h2>
+
+    </div>
+
+
+    <div class="yp-alert">
+
+      <div class="yp-alert-head">
+
+        <div class="yp-alert-icon">
+          !
+        </div>
+
+        <h3>
+          Դիմեք բժշկական գնահատման, եթե
+        </h3>
+
+      </div>
+
+      <ul>
+        <li>
+          վնասվածքից հետո չեք կարողանում հենվել ոտքին,
+        </li>
+
+        <li>
+          ծնկը զգալիորեն այտուցվել կամ ձևափոխվել է,
+        </li>
+
+        <li>
+          հոդը կարմիր, տաք է կամ ցավը ուղեկցվում է ջերմությամբ,
+        </li>
+
+        <li>
+          ծնկը հաճախ «արգելափակվում» է կամ զգալիորեն անկայուն է,
+        </li>
+
+        <li>
+          ցավը պահպանվում է և խանգարում է առօրյա գործունեությանը,
+        </li>
+
+        <li>
+          ցավը արագ ուժեղանում է կամ չի բարելավվում։
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     TREATMENT
+===================================================== -->
+
+<section class="yp-section yp-section-soft">
+
+  <div class="yp-container">
+
+    <div class="yp-section-head">
+
+      <p class="yp-eyebrow">
+        ԲՈՒԺՄԱՆ ՄՈՏԵՑՈՒՄՆԵՐ
+      </p>
+
+      <h2>
+        Բուժումը կախված է ցավի իրական պատճառից
+      </h2>
+
+      <p>
+        Նպատակը միայն ցավը նվազեցնելը չէ։
+        Կարևոր է նաև պահպանել կամ վերականգնել
+        ծնկի ֆունկցիան և շարժունակությունը։
+      </p>
+
+    </div>
+
+
+    <div class="yp-treatment">
+
+
+      <div class="yp-treatment-card">
+
+        <span>
+          01 · ՊԱՀՊԱՆՈՂԱԿԱՆ
+        </span>
+
+        <h3>
+          Դեղորայքային և ոչ դեղորայքային մոտեցումներ
+        </h3>
+
+        <p>
+          Ըստ կլինիկական իրավիճակի կարող են կիրառվել
+          ակտիվության փոփոխում, ցավի վերահսկման միջոցներ,
+          տեղային թերապիա և այլ պահպանողական քայլեր։
+        </p>
+
+      </div>
+
+
+      <div class="yp-treatment-card">
+
+        <span>
+          02 · ՎԵՐԱԿԱՆԳՆՈՒՄ
+        </span>
+
+        <h3>
+          Ֆիզիկական վերականգնում
+        </h3>
+
+        <p>
+          Ճիշտ ընտրված վարժությունները կարող են
+          բարելավել շարժունակությունը, մկանային ուժը
+          և ծնկի ֆունկցիոնալ կայունությունը։
+        </p>
+
+      </div>
+
+
+      <div class="yp-treatment-card">
+
+        <span>
+          03 · ԻՆՏԵՐՎԵՆՑԻՈՆ
+        </span>
+
+        <h3>
+          Ցավի ինտերվենցիոն կառավարում
+        </h3>
+
+        <p>
+          Որոշ պացիենտների դեպքում կարող են քննարկվել
+          ախտորոշիչ կամ բուժական միջամտություններ՝
+          ընտրված կլինիկական ցուցումներով։
+        </p>
+
+      </div>
+
+
+      <div class="yp-treatment-card">
+
+        <span>
+          04 · ԱՆՀԱՏԱԿԱՆ ՊԼԱՆ
+        </span>
+
+        <h3>
+          Երկարաժամկետ ռազմավարություն
+        </h3>
+
+        <p>
+          Քրոնիկական ցավի դեպքում բուժումը հաճախ
+          պահանջում է մի քանի մեթոդների համակցում
+          և արդյունքի պարբերական վերագնահատում։
+        </p>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     CLINIC PROCESS
+===================================================== -->
+
+<section class="yp-section">
+
+  <div class="yp-container">
+
+    <div class="yp-section-head">
+
+      <p class="yp-eyebrow">
+        YEREVAN PAIN CLINIC
+      </p>
+
+      <h2>
+        Ինչպե՞ս է կազմակերպվում գնահատումը
+      </h2>
+
+    </div>
+
+
+    <div class="yp-process">
+
+
+      <div class="yp-process-item">
+
+        <small>STEP 01</small>
+
+        <h3>
+          Պատմություն
+        </h3>
+
+        <p>
+          Գնահատվում են ցավի տևողությունը,
+          տեղակայումը, բնույթը և առաջացման պայմանները։
+        </p>
+
+      </div>
+
+
+      <div class="yp-process-item">
+
+        <small>STEP 02</small>
+
+        <h3>
+          Զննում
+        </h3>
+
+        <p>
+          Գնահատվում են շարժումները,
+          ցավոտ հատվածները և ֆունկցիոնալ սահմանափակումները։
+        </p>
+
+      </div>
+
+
+      <div class="yp-process-item">
+
+        <small>STEP 03</small>
+
+        <h3>
+          Ախտորոշում
+        </h3>
+
+        <p>
+          Անհրաժեշտության դեպքում գնահատվում են
+          նախկին հետազոտությունները կամ առաջարկվում
+          լրացուցիչ քննություններ։
+        </p>
+
+      </div>
+
+
+      <div class="yp-process-item">
+
+        <small>STEP 04</small>
+
+        <h3>
+          Բուժման պլան
+        </h3>
+
+        <p>
+          Ընտրվում է անհատական մոտեցում՝
+          ըստ ախտորոշման և պացիենտի նպատակների։
+        </p>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     FAQ
+===================================================== -->
+
+<section class="yp-section yp-section-soft">
+
+  <div class="yp-container">
+
+    <div class="yp-section-head">
+
+      <p class="yp-eyebrow">
+        FAQ
+      </p>
+
+      <h2>
+        Հաճախ տրվող հարցեր
+      </h2>
+
+    </div>
+
+
+    <div class="yp-faq">
+
+
+      <details>
+
+        <summary>
+          Ծնկի ցավը միշտ նշանակո՞ւմ է հոդի մաշվածություն։
+        </summary>
+
+        <div class="yp-faq-answer">
+          Ոչ։ Ծնկի ցավը կարող է ունենալ բազմաթիվ պատճառներ՝
+          մենիսկի կամ կապանների խնդիրներից մինչև ջլերի
+          գերբեռնվածություն կամ պաթելոֆեմորալ ցավ։
+          Ախտորոշումը կատարվում է ամբողջական գնահատումից հետո։
+        </div>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          MRI-ն պարտադի՞ր է ծնկի ցավի դեպքում։
+        </summary>
+
+        <div class="yp-faq-answer">
+          Ոչ բոլոր դեպքերում։ Հետազոտության անհրաժեշտությունը
+          որոշվում է կլինիկական զննման, վնասվածքի պատմության
+          և կասկածվող ախտաբանության հիման վրա։
+        </div>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          Կարելի՞ է շարունակել մարզվել ծնկի ցավի դեպքում։
+        </summary>
+
+        <div class="yp-faq-answer">
+          Դա կախված է ցավի պատճառից և ծանրությունից։
+          Որոշ դեպքերում անհրաժեշտ է ժամանակավորապես
+          փոփոխել ծանրաբեռնվածությունը, իսկ հետո աստիճանաբար
+          վերադառնալ ակտիվությանը։
+        </div>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          Ծնկի ցավի դեպքում ներարկումը միշտ անհրաժեշտ՞ է։
+        </summary>
+
+        <div class="yp-faq-answer">
+          Ոչ։ Ներարկային կամ այլ ինտերվենցիոն մեթոդները
+          միայն բուժման հնարավոր տարբերակներից են և ընտրվում
+          են համապատասխան ցուցումների դեպքում։
+        </div>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          Ե՞րբ է ծնկի ցավը համարվում քրոնիկական։
+        </summary>
+
+        <div class="yp-faq-answer">
+          Երկարատև ցավի գնահատման ժամանակ կարևոր է ոչ միայն
+          տևողությունը, այլ նաև դրա ազդեցությունը քայլքի,
+          աշխատանքի, քնի և առօրյա գործունեության վրա։
+        </div>
+
+      </details>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     CTA
+===================================================== -->
+
+<section
+  id="appointment"
+  class="yp-cta"
+>
+
+  <div class="yp-container yp-cta-inner">
+
+    <div>
+
+      <p class="yp-eyebrow" style="color:#aec1b8;">
+        ԱՆՀԱՏԱԿԱՆ ԳՆԱՀԱՏՈՒՄ
+      </p>
+
+      <h2>
+        Մի ապրեք ծնկի ցավի հետ՝ առանց հասկանալու պատճառը։
+      </h2>
+
+      <p>
+        Մանրամասն գնահատումը օգնում է հասկանալ,
+        թե ինչն է առաջացնում ցավը և ինչ բուժման
+        մոտեցում կարող է առավել նպատակահարմար լինել։
+      </p>
+
+    </div>
+
+
+    <div class="yp-cta-box">
+
+      <strong>
+        Ամրագրեք խորհրդատվություն
+      </strong>
+
+      <span>
+        Yerevan Pain Clinic · Pain Management
+      </span>
+
+      <a
+        href="tel:+37400000000"
+        class="yp-btn"
+      >
+        Կապ հաստատել
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="yp-footer">
+
+  <div class="yp-container yp-footer-inner">
+
+    <div>
+      <strong>Yerevan Pain Clinic</strong><br>
+      <span>YPARC · Երևան</span>
+    </div>
+
+
+    <div class="yp-footer-links">
+
+      <a href="hy.html">
+        Գլխավոր
+      </a>
+
+      <a href="conditions-hy.html">
+        Ցավային վիճակներ
+      </a>
+
+      <a href="about-hy.html">
+        Մեր մասին
+      </a>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+</body>
+</html>
