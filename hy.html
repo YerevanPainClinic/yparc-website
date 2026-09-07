@@ -420,7 +420,7 @@
 
     .conditions-row {
       display: grid;
-      grid-template-columns: repeat(7,1fr);
+      grid-template-columns: repeat(8, minmax(0, 1fr));
     }
 
     .condition {
@@ -1222,10 +1222,13 @@
 
 
     /* =====================================================
-       PAIN CHECK
+       PAIN CHECK — FINAL RESPONSIVE
        ===================================================== */
 
     .pain-check-home {
+      width: 100%;
+      clear: both;
+      display: block;
       padding: 92px 0;
       background:
         radial-gradient(circle at 88% 18%, rgba(200,155,60,.12), transparent 28%),
@@ -1233,23 +1236,31 @@
       border-bottom: 1px solid var(--border);
     }
 
+    .pain-check-home > .container {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
     .pain-check-home-box {
       position: relative;
+      isolation: isolate;
       overflow: hidden;
+      width: 100%;
       display: grid;
-      grid-template-columns: 1.15fr .85fr;
-      gap: 70px;
+      grid-template-columns: minmax(0, 1.18fr) minmax(320px, .82fr);
+      gap: 56px;
       align-items: center;
-      padding: 64px;
+      padding: 58px;
       border: 1px solid var(--border);
       border-radius: 34px;
-      background: rgba(255,255,255,.86);
+      background: rgba(255,255,255,.9);
       box-shadow: var(--shadow);
     }
 
     .pain-check-home-box::before {
       content: "";
       position: absolute;
+      z-index: -1;
       width: 330px;
       height: 330px;
       right: -145px;
@@ -1261,6 +1272,7 @@
     .pain-check-home-box::after {
       content: "";
       position: absolute;
+      z-index: -1;
       width: 210px;
       height: 210px;
       right: -75px;
@@ -1269,15 +1281,34 @@
       background: rgba(11,79,60,.05);
     }
 
-    .pain-check-home-copy { position: relative; z-index: 2; }
-    .pain-check-home-copy .section-title { max-width: 760px; }
-    .pain-check-home-copy .section-text { max-width: 700px; }
+    .pain-check-home-copy {
+      min-width: 0;
+      position: relative;
+      z-index: 2;
+    }
+
+    .pain-check-home-copy .section-title {
+      width: 100%;
+      max-width: 680px;
+      margin: 0;
+      font-size: clamp(42px, 4.4vw, 68px);
+      line-height: 1.02;
+      letter-spacing: -.035em;
+      overflow-wrap: normal;
+      word-break: normal;
+      hyphens: none;
+    }
+
+    .pain-check-home-copy .section-text {
+      max-width: 660px;
+      margin-top: 22px;
+    }
 
     .pain-check-meta {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
-      margin: 28px 0 32px;
+      margin: 28px 0 30px;
     }
 
     .pain-check-pill {
@@ -1293,12 +1324,14 @@
       font-size: 11px;
       font-weight: 800;
       letter-spacing: .04em;
+      white-space: nowrap;
     }
 
     .pain-check-card {
+      min-width: 0;
       position: relative;
       z-index: 2;
-      min-height: 340px;
+      min-height: 350px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -1319,6 +1352,7 @@
     .pain-check-number {
       width: 58px;
       height: 58px;
+      flex: 0 0 58px;
       display: grid;
       place-items: center;
       border-radius: 50%;
@@ -1338,15 +1372,17 @@
     }
 
     .pain-check-card h3 {
-      margin: 34px 0 12px;
+      margin: 30px 0 12px;
       font-family: Georgia, serif;
-      font-size: 32px;
-      line-height: 1.08;
+      font-size: clamp(27px, 2.2vw, 34px);
+      line-height: 1.1;
       font-weight: 400;
+      overflow-wrap: normal;
+      word-break: normal;
     }
 
     .pain-check-card p {
-      color: rgba(255,255,255,.68);
+      color: rgba(255,255,255,.72);
       font-size: 14px;
     }
 
@@ -1363,40 +1399,104 @@
     }
 
     .pain-check-disclaimer {
+      max-width: 660px;
       margin-top: 18px;
       color: var(--text);
       font-size: 12px;
       line-height: 1.65;
     }
 
-    .pain-check-disclaimer strong { color: var(--green); }
+    .pain-check-disclaimer strong {
+      color: var(--green);
+    }
 
-    @media (max-width: 1000px) {
+    @media (max-width: 1180px) {
+      .conditions-row {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .condition:nth-child(5) {
+        border-left: 1px solid var(--border);
+      }
+
+      .pain-check-home-box {
+        grid-template-columns: minmax(0, 1.05fr) minmax(300px, .95fr);
+        gap: 36px;
+        padding: 46px;
+      }
+
+      .pain-check-home-copy .section-title {
+        font-size: clamp(40px, 5vw, 58px);
+      }
+    }
+
+    @media (max-width: 900px) {
       .pain-check-home-box {
         grid-template-columns: 1fr;
-        gap: 38px;
-        padding: 48px;
+        gap: 34px;
       }
-      .pain-check-card { min-height: 300px; }
+
+      .pain-check-home-copy .section-title {
+        max-width: 760px;
+        font-size: clamp(40px, 7vw, 56px);
+      }
+
+      .pain-check-card {
+        min-height: auto;
+      }
     }
 
     @media (max-width: 700px) {
-      .pain-check-home { padding: 70px 0; }
+      .conditions-row {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .condition,
+      .condition:nth-child(5) {
+        border-left: 0;
+      }
+
+      .condition:nth-child(odd) {
+        border-left: 1px solid var(--border);
+      }
+
+      .pain-check-home {
+        padding: 62px 0;
+      }
+
+      .pain-check-home > .container {
+        width: calc(100% - 28px);
+      }
+
       .pain-check-home-box {
+        gap: 30px;
         padding: 30px 22px;
         border-radius: 24px;
       }
-      .pain-check-home-copy .section-title { font-size: 40px; }
+
+      .pain-check-home-copy .section-title {
+        font-size: clamp(36px, 11vw, 46px);
+        line-height: 1.04;
+      }
+
       .pain-check-meta {
         display: grid;
         grid-template-columns: 1fr;
       }
-      .pain-check-pill { width: 100%; }
-      .pain-check-card {
-        min-height: auto;
-        padding: 28px 22px;
+
+      .pain-check-pill {
+        width: 100%;
+        white-space: normal;
       }
-      .pain-check-card h3 { font-size: 28px; }
+
+      .pain-check-card {
+        padding: 28px 22px;
+        border-radius: 22px;
+      }
+
+      .pain-check-card h3 {
+        font-size: 28px;
+      }
     }
 
 </style>
@@ -1453,7 +1553,6 @@
       <nav>
         <a href="#about">Մեր մասին</a>
         <a href="#conditions">Ցավային վիճակներ</a>
-        <a href="#treatments">Բուժումներ</a>
         <a href="#rehabilitation">Վերականգնում</a>
         <a href="#education">Կրթություն</a>
         <a href="#resources">Օգտակար նյութեր</a>
@@ -1493,7 +1592,6 @@
 
     <a href="#about" onclick="toggleMenu()">Մեր մասին</a>
     <a href="#conditions" onclick="toggleMenu()">Ցավային վիճակներ</a>
-    <a href="#treatments" onclick="toggleMenu()">Բուժումներ</a>
     <a href="#rehabilitation" onclick="toggleMenu()">Վերականգնում</a>
     <a href="#education" onclick="toggleMenu()">Կրթություն</a>
     <a href="#resources" onclick="toggleMenu()">Օգտակար նյութեր</a>
@@ -1561,43 +1659,53 @@
 
       </div>
 
+    </section>
+
+
+    <!-- CONDITIONS -->
+
     <section class="condition-strip" id="conditions">
 
       <div class="conditions-row">
 
-        <a class="condition" href="#">
+        <a class="condition" href="back-pain-hy.html">
           <div class="condition-icon">◒</div>
           <span>Մեջքի ցավ</span>
         </a>
 
-        <a class="condition" href="#">
+        <a class="condition" href="neck-pain-hy.html">
           <div class="condition-icon">◐</div>
           <span>Պարանոցի ցավ</span>
         </a>
 
-        <a class="condition" href="#">
+        <a class="condition" href="headache-hy.html">
           <div class="condition-icon">◉</div>
           <span>Գլխացավ</span>
         </a>
 
-        <a class="condition" href="#">
+        <a class="condition" href="shoulder-pain-hy.html">
           <div class="condition-icon">◌</div>
           <span>Ուսի ցավ</span>
         </a>
 
-        <a class="condition" href="#">
+        <a class="condition" href="knee-pain-hy.html">
           <div class="condition-icon">◇</div>
           <span>Ծնկի ցավ</span>
         </a>
 
-        <a class="condition" href="#">
+        <a class="condition" href="hip-pain-hy.html">
+          <div class="condition-icon">◈</div>
+          <span>Կոնքազդրային ցավ</span>
+        </a>
+
+        <a class="condition" href="neuropathic-pain-hy.html">
           <div class="condition-icon">⌁</div>
           <span>Նյարդային ցավ</span>
         </a>
 
-        <a class="condition" href="#">
-          <div class="condition-icon">＋</div>
-          <span>Հետվիրահատական ցավ</span>
+        <a class="condition" href="plantar-fasciitis-hy.html">
+          <div class="condition-icon">⌄</div>
+          <span>Ոտնաթաթի / կրունկի ցավ</span>
         </a>
 
       </div>
