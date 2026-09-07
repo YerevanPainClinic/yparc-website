@@ -1,1 +1,1979 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Նյարդային և պերիֆերիկ ցավեր | Yerevan Pain Clinic</title>
+
+  <meta
+    name="description"
+    content="Նյարդային, պերիֆերիկ, դեմքի, սպորտային, հետվնասվածքային և հետվիրահատական ցավերի գնահատում և բուժում Yerevan Pain Clinic-ում։"
+  >
+
+  <style>
+
+    :root {
+      --navy: #17385f;
+      --navy-deep: #102b49;
+      --blue-soft: #eaf1f7;
+      --cream: #f7f5ef;
+      --white: #ffffff;
+      --text: #25303c;
+      --muted: #66717d;
+      --line: #dce3e8;
+      --green: #587968;
+      --warm: #b18a67;
+      --shadow: 0 20px 50px rgba(23, 56, 95, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--white);
+      color: var(--text);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+      line-height: 1.7;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .yp-container {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+
+    /* =====================================================
+       HEADER
+    ===================================================== */
+
+    .yp-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255,255,255,0.94);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(23,56,95,0.08);
+    }
+
+    .yp-header-inner {
+      min-height: 78px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .yp-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
+    .yp-brand img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+    }
+
+    .yp-brand-text strong {
+      display: block;
+      color: var(--navy);
+      font-size: 16px;
+      letter-spacing: 0.03em;
+    }
+
+    .yp-brand-text span {
+      display: block;
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .yp-nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .yp-nav a {
+      color: var(--text);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .yp-nav a:hover {
+      color: var(--navy);
+    }
+
+    .yp-header-cta {
+      padding: 11px 18px;
+      background: var(--navy);
+      color: var(--white) !important;
+      border-radius: 999px;
+    }
+
+
+    /* =====================================================
+       HERO
+    ===================================================== */
+
+    .yp-hero {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(
+          circle at 82% 20%,
+          rgba(88,121,104,0.15),
+          transparent 33%
+        ),
+        linear-gradient(
+          135deg,
+          #f7f5ef 0%,
+          #eef3f6 100%
+        );
+    }
+
+    .yp-hero-inner {
+      min-height: 670px;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 70px;
+      align-items: center;
+      padding: 95px 0;
+    }
+
+    .yp-eyebrow {
+      margin: 0 0 20px;
+      color: var(--green);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
+    .yp-hero h1 {
+      margin: 0;
+      max-width: 760px;
+      color: var(--navy-deep);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(48px, 6.5vw, 82px);
+      line-height: 0.98;
+      font-weight: 400;
+      letter-spacing: -0.045em;
+    }
+
+    .yp-hero-lead {
+      max-width: 680px;
+      margin: 28px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.75;
+    }
+
+    .yp-hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 34px;
+    }
+
+    .yp-btn {
+      min-height: 50px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 22px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .yp-btn-primary {
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    .yp-btn-secondary {
+      border: 1px solid rgba(23,56,95,0.2);
+      color: var(--navy);
+      background: rgba(255,255,255,0.58);
+    }
+
+
+    /* HERO VISUAL */
+
+    .yp-nerve-visual {
+      position: relative;
+      width: min(430px, 100%);
+      aspect-ratio: 1 / 1.05;
+      margin: auto;
+      border-radius: 44% 56% 48% 52% / 50% 45% 55% 50%;
+      background:
+        linear-gradient(
+          145deg,
+          rgba(255,255,255,0.95),
+          rgba(218,229,236,0.92)
+        );
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .yp-nerve-line {
+      position: absolute;
+      width: 2px;
+      background: rgba(23,56,95,0.34);
+      transform-origin: top;
+    }
+
+    .line-1 {
+      height: 260px;
+      left: 50%;
+      top: 60px;
+      transform: rotate(0deg);
+    }
+
+    .line-2 {
+      height: 180px;
+      left: 50%;
+      top: 155px;
+      transform: rotate(42deg);
+    }
+
+    .line-3 {
+      height: 180px;
+      left: 50%;
+      top: 155px;
+      transform: rotate(-42deg);
+    }
+
+    .line-4 {
+      height: 110px;
+      left: 36%;
+      top: 215px;
+      transform: rotate(-50deg);
+    }
+
+    .line-5 {
+      height: 110px;
+      left: 64%;
+      top: 215px;
+      transform: rotate(50deg);
+    }
+
+    .yp-nerve-dot {
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      background: var(--navy);
+      box-shadow: 0 0 0 8px rgba(23,56,95,0.08);
+    }
+
+    .dot-1 {
+      left: calc(50% - 8px);
+      top: 62px;
+    }
+
+    .dot-2 {
+      left: calc(50% - 8px);
+      top: 150px;
+    }
+
+    .dot-3 {
+      left: calc(35% - 8px);
+      top: 257px;
+    }
+
+    .dot-4 {
+      right: calc(35% - 8px);
+      top: 257px;
+    }
+
+    .yp-visual-label {
+      position: absolute;
+      left: 26px;
+      bottom: 24px;
+      padding: 14px 16px;
+      max-width: 190px;
+      background: rgba(255,255,255,0.92);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .yp-visual-label strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--navy);
+      font-size: 12px;
+    }
+
+    .yp-visual-label span {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+
+    /* =====================================================
+       INTRO
+    ===================================================== */
+
+    .yp-section {
+      padding: 95px 0;
+    }
+
+    .yp-section-soft {
+      background: var(--cream);
+    }
+
+    .yp-section-blue {
+      background: #edf3f7;
+    }
+
+    .yp-section-head {
+      max-width: 800px;
+      margin-bottom: 50px;
+    }
+
+    .yp-section-head h2 {
+      margin: 0;
+      color: var(--navy-deep);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(34px, 4vw, 54px);
+      line-height: 1.08;
+      font-weight: 400;
+      letter-spacing: -0.035em;
+    }
+
+    .yp-section-head p {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .yp-intro-grid {
+      display: grid;
+      grid-template-columns: 0.75fr 1.25fr;
+      gap: 70px;
+      align-items: start;
+    }
+
+    .yp-big-number {
+      color: rgba(23,56,95,0.09);
+      font-family: Georgia, serif;
+      font-size: 150px;
+      line-height: 0.8;
+    }
+
+    .yp-intro-copy {
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .yp-intro-copy strong {
+      color: var(--navy);
+    }
+
+
+    /* =====================================================
+       FOUR MAIN GROUPS
+    ===================================================== */
+
+    .yp-groups {
+      display: grid;
+      gap: 28px;
+    }
+
+    .yp-group {
+      display: grid;
+      grid-template-columns: 0.72fr 1.28fr;
+      gap: 40px;
+      padding: 42px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    }
+
+    .yp-group:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow);
+    }
+
+    .yp-group-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 54px;
+      height: 54px;
+      margin-bottom: 22px;
+      border-radius: 50%;
+      background: var(--blue-soft);
+      color: var(--navy);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .yp-group h3 {
+      margin: 0;
+      color: var(--navy-deep);
+      font-family: Georgia, serif;
+      font-size: 34px;
+      line-height: 1.1;
+      font-weight: 400;
+    }
+
+    .yp-group-intro {
+      margin: 16px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+
+    /* DIAGNOSIS GRID */
+
+    .yp-diagnosis-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 11px;
+    }
+
+    .yp-diagnosis {
+      min-height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 14px 16px;
+      background: #fafbfb;
+      border: 1px solid #e7ecef;
+      border-radius: 14px;
+      text-decoration: none;
+      color: var(--text);
+      font-size: 13px;
+      transition:
+        background 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.25s ease;
+    }
+
+    .yp-diagnosis:hover {
+      background: var(--blue-soft);
+      border-color: #cfdbe4;
+      transform: translateX(3px);
+    }
+
+    .yp-diagnosis-arrow {
+      color: var(--navy);
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    .yp-coming {
+      opacity: 0.78;
+    }
+
+
+    /* =====================================================
+       FOOT & SPORTS FEATURE
+    ===================================================== */
+
+    .yp-feature-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .yp-feature-card {
+      padding: 25px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+    }
+
+    .yp-feature-card small {
+      display: block;
+      color: var(--green);
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      margin-bottom: 12px;
+    }
+
+    .yp-feature-card h3 {
+      margin: 0 0 8px;
+      font-family: Georgia, serif;
+      color: var(--navy-deep);
+      font-size: 21px;
+      font-weight: 400;
+    }
+
+    .yp-feature-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+
+    /* =====================================================
+       SYMPTOMS
+    ===================================================== */
+
+    .yp-symptom-wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 55px;
+      align-items: center;
+    }
+
+    .yp-symptom-panel {
+      padding: 36px;
+      background: var(--navy);
+      border-radius: 26px;
+      color: var(--white);
+    }
+
+    .yp-symptom-panel h3 {
+      margin: 0 0 24px;
+      font-family: Georgia, serif;
+      font-size: 30px;
+      font-weight: 400;
+    }
+
+    .yp-check-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .yp-check {
+      display: grid;
+      grid-template-columns: 26px 1fr;
+      gap: 11px;
+      color: rgba(255,255,255,0.86);
+      font-size: 14px;
+    }
+
+    .yp-check-icon {
+      width: 22px;
+      height: 22px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.12);
+      font-size: 11px;
+    }
+
+
+    /* =====================================================
+       PROCESS
+    ===================================================== */
+
+    .yp-process {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .yp-process-item {
+      position: relative;
+      padding: 26px 22px;
+      border-top: 1px solid var(--line);
+    }
+
+    .yp-process-item::before {
+      content: "";
+      position: absolute;
+      top: -2px;
+      left: 0;
+      width: 46px;
+      height: 3px;
+      background: var(--navy);
+    }
+
+    .yp-process-item small {
+      color: var(--green);
+      font-weight: 700;
+      letter-spacing: 0.13em;
+    }
+
+    .yp-process-item h3 {
+      margin: 12px 0 9px;
+      font-family: Georgia, serif;
+      color: var(--navy-deep);
+      font-size: 22px;
+      font-weight: 400;
+    }
+
+    .yp-process-item p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+
+    /* =====================================================
+       CTA
+    ===================================================== */
+
+    .yp-cta {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(
+          circle at 85% 10%,
+          rgba(255,255,255,0.12),
+          transparent 30%
+        ),
+        var(--navy);
+      color: var(--white);
+    }
+
+    .yp-cta-inner {
+      min-height: 420px;
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 60px;
+      align-items: center;
+      padding: 70px 0;
+    }
+
+    .yp-cta h2 {
+      margin: 0;
+      max-width: 700px;
+      font-family: Georgia, serif;
+      font-size: clamp(42px, 5vw, 66px);
+      line-height: 1;
+      font-weight: 400;
+      letter-spacing: -0.04em;
+    }
+
+    .yp-cta p {
+      margin: 21px 0 0;
+      max-width: 620px;
+      color: rgba(255,255,255,0.72);
+      font-size: 16px;
+    }
+
+    .yp-cta-box {
+      padding: 30px;
+      border: 1px solid rgba(255,255,255,0.16);
+      border-radius: 24px;
+      background: rgba(255,255,255,0.07);
+    }
+
+    .yp-cta-box strong {
+      display: block;
+      margin-bottom: 6px;
+      font-family: Georgia, serif;
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    .yp-cta-box span {
+      display: block;
+      color: rgba(255,255,255,0.7);
+      font-size: 13px;
+    }
+
+    .yp-cta-box .yp-btn {
+      width: 100%;
+      margin-top: 22px;
+      background: var(--white);
+      color: var(--navy);
+    }
+
+
+    /* =====================================================
+       FOOTER
+    ===================================================== */
+
+    .yp-footer {
+      padding: 42px 0;
+      background: #0d2743;
+      color: rgba(255,255,255,0.72);
+    }
+
+    .yp-footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .yp-footer strong {
+      color: var(--white);
+    }
+
+    .yp-footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .yp-footer-links a {
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+
+    /* =====================================================
+       MOBILE
+    ===================================================== */
+
+    @media (max-width: 900px) {
+
+      .yp-nav {
+        display: none;
+      }
+
+      .yp-hero-inner,
+      .yp-intro-grid,
+      .yp-group,
+      .yp-symptom-wrap,
+      .yp-cta-inner {
+        grid-template-columns: 1fr;
+      }
+
+      .yp-feature-grid,
+      .yp-process {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+    }
+
+
+    @media (max-width: 620px) {
+
+      .yp-container {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .yp-header-inner {
+        min-height: 68px;
+      }
+
+      .yp-brand img {
+        width: 42px;
+        height: 42px;
+      }
+
+      .yp-brand-text span {
+        display: none;
+      }
+
+      .yp-hero-inner {
+        min-height: auto;
+        padding: 65px 0;
+      }
+
+      .yp-hero h1 {
+        font-size: 46px;
+      }
+
+      .yp-hero-lead {
+        font-size: 16px;
+      }
+
+      .yp-section {
+        padding: 68px 0;
+      }
+
+      .yp-group {
+        padding: 26px 20px;
+      }
+
+      .yp-group h3 {
+        font-size: 28px;
+      }
+
+      .yp-diagnosis-grid,
+      .yp-feature-grid,
+      .yp-process {
+        grid-template-columns: 1fr;
+      }
+
+      .yp-footer-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="yp-header">
+
+  <div class="yp-container yp-header-inner">
+
+    <a href="hy.html" class="yp-brand">
+
+      <img
+        src="yparc-logo.png"
+        alt="Yerevan Pain Clinic"
+      >
+
+      <div class="yp-brand-text">
+        <strong>Yerevan Pain Clinic</strong>
+        <span>YPARC · Pain Management</span>
+      </div>
+
+    </a>
+
+    <nav class="yp-nav">
+
+      <a href="hy.html">
+        Գլխավոր
+      </a>
+
+      <a href="conditions-hy.html">
+        Ցավային վիճակներ
+      </a>
+
+      <a href="about-hy.html">
+        Մեր մասին
+      </a>
+
+      <a href="#appointment" class="yp-header-cta">
+        Ամրագրել այց
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+<main>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="yp-hero">
+
+  <div class="yp-container yp-hero-inner">
+
+    <div>
+
+      <p class="yp-eyebrow">
+        YPARC · ՑԱՎԱՅԻՆ ՎԻՃԱԿՆԵՐ
+      </p>
+
+      <h1>
+        Նյարդային և պերիֆերիկ ցավեր
+      </h1>
+
+      <p class="yp-hero-lead">
+        Նյարդային ցավը կարող է առաջանալ նյարդի սեղմումից,
+        վնասումից, վիրահատությունից, վնասվածքից կամ
+        տարբեր պերիֆերիկ ցավային սինդրոմներից։
+        Ճիշտ ախտորոշումը թույլ է տալիս տարբերակել
+        նեյրոպաթիկ, մկանաջլային և հոդային ցավերը։
+      </p>
+
+      <div class="yp-hero-actions">
+
+        <a
+          href="#pain-groups"
+          class="yp-btn yp-btn-primary"
+        >
+          Տեսնել ցավային խմբերը
+        </a>
+
+        <a
+          href="#appointment"
+          class="yp-btn yp-btn-secondary"
+        >
+          Ամրագրել խորհրդատվություն
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="yp-nerve-visual">
+
+      <div class="yp-nerve-line line-1"></div>
+      <div class="yp-nerve-line line-2"></div>
+      <div class="yp-nerve-line line-3"></div>
+      <div class="yp-nerve-line line-4"></div>
+      <div class="yp-nerve-line line-5"></div>
+
+      <div class="yp-nerve-dot dot-1"></div>
+      <div class="yp-nerve-dot dot-2"></div>
+      <div class="yp-nerve-dot dot-3"></div>
+      <div class="yp-nerve-dot dot-4"></div>
+
+      <div class="yp-visual-label">
+        <strong>Peripheral Pain</strong>
+        <span>
+          Նյարդային, ջլային և հետվնասվածքային
+          ցավային սինդրոմների գնահատում
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     INTRO
+===================================================== -->
+
+<section class="yp-section">
+
+  <div class="yp-container yp-intro-grid">
+
+    <div class="yp-big-number">
+      04
+    </div>
+
+    <div>
+
+      <div class="yp-section-head">
+
+        <p class="yp-eyebrow">
+          ՑԱՎԻ ԴԱՍԱԿԱՐԳՈՒՄ
+        </p>
+
+        <h2>
+          Չորս հիմնական խումբ
+        </h2>
+
+      </div>
+
+      <div class="yp-intro-copy">
+
+        <p>
+          Նույն հատվածում զգացվող ցավը կարող է ունենալ
+          տարբեր պատճառներ։ Օրինակ՝ ոտնաթաթի ցավը
+          կարող է կապված լինել պլանտար ֆասցիայի,
+          ջլի, հոդի կամ պերիֆերիկ նյարդի հետ։
+        </p>
+
+        <p>
+          Այդ պատճառով պայմանները բաժանել ենք
+          <strong>չորս հիմնական խմբերի</strong>,
+          որպեսզի հնարավոր լինի ավելի հեշտ գտնել
+          համապատասխան ցավային վիճակը։
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOUR PAIN GROUPS
+===================================================== -->
+
+<section
+  id="pain-groups"
+  class="yp-section yp-section-soft"
+>
+
+  <div class="yp-container">
+
+    <div class="yp-section-head">
+
+      <p class="yp-eyebrow">
+        CONDITIONS WE TREAT
+      </p>
+
+      <h2>
+        Ցավային վիճակներ
+      </h2>
+
+      <p>
+        Ընտրեք ձեզ համապատասխան խումբը։
+        Առանձին diagnosis էջերը աստիճանաբար
+        կկապվեն այս բաժնից։
+      </p>
+
+    </div>
+
+
+    <div class="yp-groups">
+
+
+      <!-- GROUP 1 -->
+
+      <article class="yp-group">
+
+        <div>
+
+          <div class="yp-group-number">
+            01
+          </div>
+
+          <h3>
+            Նյարդային և պերիֆերիկ նեյրոպաթիկ ցավեր
+          </h3>
+
+          <p class="yp-group-intro">
+            Նյարդի վնասման, սեղմման կամ պերիֆերիկ
+            նյարդային համակարգի ախտահարման հետ
+            կապված ցավային սինդրոմներ։
+          </p>
+
+        </div>
+
+
+        <div class="yp-diagnosis-grid">
+
+          <a
+            href="sciatica-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Սիատիկա / ռադիկուլոպաթիկ ոտքի ցավ
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="peripheral-neuropathic-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Պերիֆերիկ նյարդի վնասումից հետո ցավ
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="nerve-entrapment-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Նյարդի սեղմման սինդրոմներ
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="painful-neuroma-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Ցավոտ նևրինոմա
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="pudendal-neuralgia-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Պուդենտալ նևրալգիա
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="intercostal-neuralgia-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Միջկողային նևրալգիա
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="meralgia-paresthetica-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Meralgia paresthetica
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="postherpetic-neuralgia-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Պոստհերպետիկ նևրալգիա
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="diabetic-neuropathic-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Դիաբետիկ նեյրոպաթիկ ցավ
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="crps-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              CRPS
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="carpal-tunnel-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Carpal tunnel syndrome
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="cubital-tunnel-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Cubital tunnel syndrome
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <!-- GROUP 2 -->
+
+      <article class="yp-group">
+
+        <div>
+
+          <div class="yp-group-number">
+            02
+          </div>
+
+          <h3>
+            Դեմքի ցավ և գանգային նևրալգիաներ
+          </h3>
+
+          <p class="yp-group-intro">
+            Դեմքի և գլխի շրջանում առաջացող
+            նյարդաբանական ցավային սինդրոմներ։
+          </p>
+
+        </div>
+
+
+        <div class="yp-diagnosis-grid">
+
+          <a
+            href="trigeminal-neuralgia-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Տրիգեմինալ նևրալգիա
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="occipital-neuralgia-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Occipital neuralgia
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="glossopharyngeal-neuralgia-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Glossopharyngeal neuralgia
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="facial-neuropathic-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Դեմքի նեյրոպաթիկ ցավ
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="post-traumatic-trigeminal-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Post-traumatic trigeminal neuropathic pain
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="persistent-facial-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Persistent idiopathic facial pain
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <!-- GROUP 3 -->
+
+      <article class="yp-group">
+
+        <div>
+
+          <div class="yp-group-number">
+            03
+          </div>
+
+          <h3>
+            Սպորտային, ջլային և ոտնաթաթի ցավեր
+          </h3>
+
+          <p class="yp-group-intro">
+            Գերբեռնվածության, մարզման, ջլերի,
+            մկանների և ոտնաթաթի կառուցվածքների
+            հետ կապված ցավեր։
+          </p>
+
+        </div>
+
+
+        <div class="yp-diagnosis-grid">
+
+          <a
+            href="plantar-fasciitis-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Պլանտար ֆասցիիտ
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="heel-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Կրունկային / շպորայի ցավ
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="achilles-tendinopathy-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Achilles tendinopathy
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="tennis-elbow-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Tennis elbow
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="golfers-elbow-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Golfer’s elbow
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="rotator-cuff-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Rotator cuff-related shoulder pain
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="patellar-tendinopathy-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Patellar tendinopathy
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="gluteal-tendinopathy-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Gluteal tendinopathy
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="greater-trochanteric-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Greater trochanteric pain syndrome
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="mortons-neuroma-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Morton neuroma
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="metatarsalgia-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Metatarsalgia
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="sports-overuse-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Sports & overuse injuries
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <!-- GROUP 4 -->
+
+      <article class="yp-group">
+
+        <div>
+
+          <div class="yp-group-number">
+            04
+          </div>
+
+          <h3>
+            Վնասվածքից և վիրահատությունից հետո ցավ
+          </h3>
+
+          <p class="yp-group-intro">
+            Վիրահատությունից, վնասվածքից,
+            նյարդի վնասումից կամ ամպուտացիայից
+            հետո պահպանվող քրոնիկական ցավային վիճակներ։
+          </p>
+
+        </div>
+
+
+        <div class="yp-diagnosis-grid">
+
+          <a
+            href="post-surgical-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Persistent post-surgical pain
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="post-traumatic-neuropathic-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Post-traumatic neuropathic pain
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="post-amputation-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Ամպուտացիայից հետո ցավ
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="phantom-limb-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Ֆանտոմային ցավ
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="residual-limb-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Կոճղային / residual limb pain
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="painful-neuroma-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Վնասվածքից հետո ցավոտ նևրինոմա
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="scar-neuropathic-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Սպիի հետ կապված նեյրոպաթիկ ցավ
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="post-thoracotomy-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Post-thoracotomy pain
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="post-hernia-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Հերնիոպլաստիկայից հետո աճուկային ցավ
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="post-mastectomy-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Post-mastectomy pain
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="post-arthroplasty-pain-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              Հոդի փոխարինումից հետո պահպանվող ցավ
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+          <a
+            href="crps-hy.html"
+            class="yp-diagnosis yp-coming"
+          >
+            <span>
+              CRPS վնասվածքից կամ վիրահատությունից հետո
+            </span>
+            <span class="yp-diagnosis-arrow">→</span>
+          </a>
+
+        </div>
+
+      </article>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     FEATURED COMMON CONDITIONS
+===================================================== -->
+
+<section class="yp-section">
+
+  <div class="yp-container">
+
+    <div class="yp-section-head">
+
+      <p class="yp-eyebrow">
+        ՀԱՃԱԽ ՀԱՆԴԻՊՈՂ
+      </p>
+
+      <h2>
+        Հաճախ հանդիպող սպորտային և ոտնաթաթի ցավեր
+      </h2>
+
+      <p>
+        Այս պայմաններից շատերը սկզբնական փուլում կարող են
+        թվալ պարզ գերբեռնվածություն, սակայն երկարատև ցավի
+        դեպքում անհրաժեշտ է պարզել ցավի իրական աղբյուրը։
+      </p>
+
+    </div>
+
+
+    <div class="yp-feature-grid">
+
+      <div class="yp-feature-card">
+
+        <small>FOOT</small>
+
+        <h3>
+          Plantar fasciitis
+        </h3>
+
+        <p>
+          Կրունկի ստորին հատվածի ցավի հաճախ հանդիպող
+          պատճառներից մեկը։
+        </p>
+
+      </div>
+
+
+      <div class="yp-feature-card">
+
+        <small>ELBOW</small>
+
+        <h3>
+          Tennis elbow
+        </h3>
+
+        <p>
+          Արմնկի արտաքին հատվածի գերբեռնվածքային
+          ցավային վիճակ։
+        </p>
+
+      </div>
+
+
+      <div class="yp-feature-card">
+
+        <small>FOOT</small>
+
+        <h3>
+          Morton neuroma
+        </h3>
+
+        <p>
+          Առաջային ոտնաթաթում նյարդի գրգռման հետ
+          կապված ցավային սինդրոմ։
+        </p>
+
+      </div>
+
+
+      <div class="yp-feature-card">
+
+        <small>HIP</small>
+
+        <h3>
+          Gluteal tendinopathy
+        </h3>
+
+        <p>
+          Կոնքազդրային շրջանի կողմնային ցավի
+          հաճախ հանդիպող պատճառներից մեկը։
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     SYMPTOMS
+===================================================== -->
+
+<section class="yp-section yp-section-blue">
+
+  <div class="yp-container yp-symptom-wrap">
+
+    <div>
+
+      <p class="yp-eyebrow">
+        ՆՅԱՐԴԱՅԻՆ ՑԱՎԻ ՆՇԱՆՆԵՐ
+      </p>
+
+      <div class="yp-section-head">
+
+        <h2>
+          Ինչպե՞ս կարող է արտահայտվել նեյրոպաթիկ ցավը
+        </h2>
+
+        <p>
+          Նյարդային ցավը հաճախ տարբերվում է
+          սովորական մկանային կամ հոդային ցավից։
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="yp-symptom-panel">
+
+      <h3>
+        Հնարավոր ախտանիշներ
+      </h3>
+
+      <div class="yp-check-list">
+
+        <div class="yp-check">
+          <span class="yp-check-icon">✓</span>
+          <span>
+            այրող կամ «էլեկտրական» ցավ
+          </span>
+        </div>
+
+        <div class="yp-check">
+          <span class="yp-check-icon">✓</span>
+          <span>
+            ծակծկոց կամ թմրածություն
+          </span>
+        </div>
+
+        <div class="yp-check">
+          <span class="yp-check-icon">✓</span>
+          <span>
+            ցավ, որը տարածվում է նյարդի ընթացքով
+          </span>
+        </div>
+
+        <div class="yp-check">
+          <span class="yp-check-icon">✓</span>
+          <span>
+            հպումից չափազանց ուժեղ ցավ
+          </span>
+        </div>
+
+        <div class="yp-check">
+          <span class="yp-check-icon">✓</span>
+          <span>
+            զգացողության փոփոխություն
+          </span>
+        </div>
+
+        <div class="yp-check">
+          <span class="yp-check-icon">✓</span>
+          <span>
+            որոշ դեպքերում՝ մկանային թուլություն
+          </span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     CLINIC PROCESS
+===================================================== -->
+
+<section class="yp-section">
+
+  <div class="yp-container">
+
+    <div class="yp-section-head">
+
+      <p class="yp-eyebrow">
+        YEREVAN PAIN CLINIC
+      </p>
+
+      <h2>
+        Ինչպե՞ս է կազմակերպվում գնահատումը
+      </h2>
+
+    </div>
+
+
+    <div class="yp-process">
+
+      <div class="yp-process-item">
+
+        <small>STEP 01</small>
+
+        <h3>
+          Ցավի պատմություն
+        </h3>
+
+        <p>
+          Գնահատվում են ցավի տեղակայումը,
+          բնույթը, տևողությունը և առաջացման պատճառները։
+        </p>
+
+      </div>
+
+
+      <div class="yp-process-item">
+
+        <small>STEP 02</small>
+
+        <h3>
+          Կլինիկական զննում
+        </h3>
+
+        <p>
+          Գնահատվում են զգացողությունը,
+          շարժումը, ուժը և հնարավոր ցավային աղբյուրը։
+        </p>
+
+      </div>
+
+
+      <div class="yp-process-item">
+
+        <small>STEP 03</small>
+
+        <h3>
+          Տարբերակիչ ախտորոշում
+        </h3>
+
+        <p>
+          Տարբերակվում է նյարդային,
+          հոդային, մկանային և ջլային ցավը։
+        </p>
+
+      </div>
+
+
+      <div class="yp-process-item">
+
+        <small>STEP 04</small>
+
+        <h3>
+          Անհատական պլան
+        </h3>
+
+        <p>
+          Ընտրվում է նպատակային բուժման
+          և վերականգնման ռազմավարություն։
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     CTA
+===================================================== -->
+
+<section
+  id="appointment"
+  class="yp-cta"
+>
+
+  <div class="yp-container yp-cta-inner">
+
+    <div>
+
+      <p
+        class="yp-eyebrow"
+        style="color:#aec1b8;"
+      >
+        ԱՆՀԱՏԱԿԱՆ ԳՆԱՀԱՏՈՒՄ
+      </p>
+
+      <h2>
+        Ցավի ճիշտ աղբյուրը գտնելը բուժման առաջին քայլն է։
+      </h2>
+
+      <p>
+        Նյարդային և պերիֆերիկ ցավերը հաճախ պահանջում են
+        մանրամասն գնահատում՝ հասկանալու համար՝ խնդիրը
+        նյարդայի՞ն է, հոդայի՞ն, ջլայի՞ն, թե ունի այլ աղբյուր։
+      </p>
+
+    </div>
+
+
+    <div class="yp-cta-box">
+
+      <strong>
+        Ամրագրեք խորհրդատվություն
+      </strong>
+
+      <span>
+        Yerevan Pain Clinic · Pain Management
+      </span>
+
+      <a
+        href="tel:+37400000000"
+        class="yp-btn"
+      >
+        Կապ հաստատել
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="yp-footer">
+
+  <div class="yp-container yp-footer-inner">
+
+    <div>
+
+      <strong>
+        Yerevan Pain Clinic
+      </strong>
+
+      <br>
+
+      <span>
+        YPARC · Երևան
+      </span>
+
+    </div>
+
+
+    <div class="yp-footer-links">
+
+      <a href="hy.html">
+        Գլխավոր
+      </a>
+
+      <a href="conditions-hy.html">
+        Ցավային վիճակներ
+      </a>
+
+      <a href="about-hy.html">
+        Մեր մասին
+      </a>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+</body>
+</html>
