@@ -1221,12 +1221,182 @@
     }
 
 
-    section[id] {
-      scroll-margin-top: 110px;
+    /* =====================================================
+       PAIN CHECK
+       ===================================================== */
+
+    .pain-check-home {
+      padding: 92px 0;
+      background:
+        radial-gradient(circle at 88% 18%, rgba(200,155,60,.12), transparent 28%),
+        linear-gradient(135deg, #f7f4ed 0%, #eef4f0 100%);
+      border-bottom: 1px solid var(--border);
     }
 
-    .condition {
-      cursor: pointer;
+    .pain-check-home-box {
+      position: relative;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 70px;
+      align-items: center;
+      padding: 64px;
+      border: 1px solid var(--border);
+      border-radius: 34px;
+      background: rgba(255,255,255,.86);
+      box-shadow: var(--shadow);
+    }
+
+    .pain-check-home-box::before {
+      content: "";
+      position: absolute;
+      width: 330px;
+      height: 330px;
+      right: -145px;
+      top: -155px;
+      border-radius: 50%;
+      border: 1px solid rgba(200,155,60,.24);
+    }
+
+    .pain-check-home-box::after {
+      content: "";
+      position: absolute;
+      width: 210px;
+      height: 210px;
+      right: -75px;
+      bottom: -120px;
+      border-radius: 50%;
+      background: rgba(11,79,60,.05);
+    }
+
+    .pain-check-home-copy { position: relative; z-index: 2; }
+    .pain-check-home-copy .section-title { max-width: 760px; }
+    .pain-check-home-copy .section-text { max-width: 700px; }
+
+    .pain-check-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 28px 0 32px;
+    }
+
+    .pain-check-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 36px;
+      padding: 0 14px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: white;
+      color: var(--green);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .04em;
+    }
+
+    .pain-check-card {
+      position: relative;
+      z-index: 2;
+      min-height: 340px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 34px;
+      border-radius: 28px;
+      background: var(--green-dark);
+      color: white;
+      box-shadow: 0 22px 55px rgba(6,57,44,.18);
+    }
+
+    .pain-check-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+    }
+
+    .pain-check-number {
+      width: 58px;
+      height: 58px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.14);
+      color: var(--gold-soft);
+      font-family: Georgia, serif;
+      font-size: 22px;
+    }
+
+    .pain-check-time {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      color: rgba(255,255,255,.68);
+      text-transform: uppercase;
+    }
+
+    .pain-check-card h3 {
+      margin: 34px 0 12px;
+      font-family: Georgia, serif;
+      font-size: 32px;
+      line-height: 1.08;
+      font-weight: 400;
+    }
+
+    .pain-check-card p {
+      color: rgba(255,255,255,.68);
+      font-size: 14px;
+    }
+
+    .pain-check-card .btn {
+      width: 100%;
+      margin-top: 28px;
+      background: var(--gold);
+      color: var(--green-dark);
+    }
+
+    .pain-check-card .btn:hover {
+      background: #d4aa50;
+      transform: translateY(-2px);
+    }
+
+    .pain-check-disclaimer {
+      margin-top: 18px;
+      color: var(--text);
+      font-size: 12px;
+      line-height: 1.65;
+    }
+
+    .pain-check-disclaimer strong { color: var(--green); }
+
+    @media (max-width: 1000px) {
+      .pain-check-home-box {
+        grid-template-columns: 1fr;
+        gap: 38px;
+        padding: 48px;
+      }
+      .pain-check-card { min-height: 300px; }
+    }
+
+    @media (max-width: 700px) {
+      .pain-check-home { padding: 70px 0; }
+      .pain-check-home-box {
+        padding: 30px 22px;
+        border-radius: 24px;
+      }
+      .pain-check-home-copy .section-title { font-size: 40px; }
+      .pain-check-meta {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      .pain-check-pill { width: 100%; }
+      .pain-check-card {
+        min-height: auto;
+        padding: 28px 22px;
+      }
+      .pain-check-card h3 { font-size: 28px; }
     }
 
 </style>
@@ -1281,19 +1451,20 @@
 
 
       <nav>
-        <a href="about-hy.html">Մեր մասին</a>
-        <a href="conditions-hy.html">Ցավային վիճակներ</a>
+        <a href="#about">Մեր մասին</a>
+        <a href="#conditions">Ցավային վիճակներ</a>
         <a href="#treatments">Բուժումներ</a>
         <a href="#rehabilitation">Վերականգնում</a>
         <a href="#education">Կրթություն</a>
         <a href="#resources">Օգտակար նյութեր</a>
+        <a href="#pain-check">Pain Check</a>
         <a href="#contact">Կապ</a>
       </nav>
 
 
       <div class="nav-actions">
 
-        <a href="#appointment" class="patient-login">
+        <a href="#" class="patient-login">
           ◯ &nbsp; Պացիենտի մուտք
         </a>
 
@@ -1320,12 +1491,13 @@
 
   <div class="mobile-menu" id="mobileMenu">
 
-    <a href="about-hy.html" onclick="toggleMenu()">Մեր մասին</a>
-    <a href="conditions-hy.html" onclick="toggleMenu()">Ցավային վիճակներ</a>
+    <a href="#about" onclick="toggleMenu()">Մեր մասին</a>
+    <a href="#conditions" onclick="toggleMenu()">Ցավային վիճակներ</a>
     <a href="#treatments" onclick="toggleMenu()">Բուժումներ</a>
     <a href="#rehabilitation" onclick="toggleMenu()">Վերականգնում</a>
     <a href="#education" onclick="toggleMenu()">Կրթություն</a>
     <a href="#resources" onclick="toggleMenu()">Օգտակար նյութեր</a>
+    <a href="#pain-check" onclick="toggleMenu()">Pain Check</a>
     <a href="#contact" onclick="toggleMenu()">Կապ</a>
 
     <a href="#appointment" class="btn btn-primary" onclick="toggleMenu()">
@@ -1398,43 +1570,109 @@
 
       <div class="conditions-row">
 
-        <a class="condition" href="#treatments">
+        <a class="condition" href="#">
           <div class="condition-icon">◒</div>
           <span>Մեջքի ցավ</span>
         </a>
 
-        <a class="condition" href="#treatments">
+        <a class="condition" href="#">
           <div class="condition-icon">◐</div>
           <span>Պարանոցի ցավ</span>
         </a>
 
-        <a class="condition" href="#treatments">
+        <a class="condition" href="#">
           <div class="condition-icon">◉</div>
           <span>Գլխացավ</span>
         </a>
 
-        <a class="condition" href="#treatments">
+        <a class="condition" href="#">
           <div class="condition-icon">◌</div>
           <span>Ուսի ցավ</span>
         </a>
 
-        <a class="condition" href="#treatments">
+        <a class="condition" href="#">
           <div class="condition-icon">◇</div>
           <span>Ծնկի ցավ</span>
         </a>
 
-        <a class="condition" href="#treatments">
+        <a class="condition" href="#">
           <div class="condition-icon">⌁</div>
           <span>Նյարդային ցավ</span>
         </a>
 
-        <a class="condition" href="#treatments">
+        <a class="condition" href="#">
           <div class="condition-icon">＋</div>
           <span>Հետվիրահատական ցավ</span>
         </a>
 
       </div>
 
+    </section>
+
+
+    <!-- PAIN CHECK -->
+
+    <section class="pain-check-home" id="pain-check">
+      <div class="container">
+        <div class="pain-check-home-box">
+
+          <div class="pain-check-home-copy">
+            <div class="eyebrow">YPARC · PAIN CHECK</div>
+
+            <h2 class="section-title">
+              Չգիտե՞ք՝ ինչից կարող է լինել ձեր ցավը։
+            </h2>
+
+            <p class="section-text">
+              Անցեք մեր կարճ ցավի հարցումը և ստացեք նախնական ուղղություն՝
+              հասկանալու համար, թե ձեր գանգատները առավել շատ որ ցավային խմբին
+              կարող են համապատասխանել և արդյոք YPARC-ի խորհրդատվությունը կարող է
+              օգտակար լինել ձեզ համար։
+            </p>
+
+            <div class="pain-check-meta">
+              <span class="pain-check-pill">◷ Մոտ 2 րոպե</span>
+              <span class="pain-check-pill">10 կարճ հարց</span>
+              <span class="pain-check-pill">Նախնական ուղղություն</span>
+            </div>
+
+            <a href="pain-check-hy.html" class="btn btn-primary">
+              Սկսել Pain Check-ը →
+            </a>
+
+            <p class="pain-check-disclaimer">
+              <strong>Կարևոր է.</strong>
+              Հարցման արդյունքը բժշկական ախտորոշում չէ և չի փոխարինում բժշկի զննմանը։
+              Նկարագրված ախտանիշները կարող են համընկնել ձեր խնդրի հետ, սակայն ցավի
+              հստակ պատճառը հասկանալու համար անհրաժեշտ է մասնագետի խորհրդատվություն։
+            </p>
+          </div>
+
+          <div class="pain-check-card">
+            <div>
+              <div class="pain-check-card-top">
+                <div class="pain-check-number">10</div>
+                <span class="pain-check-time">PAIN SCREENING</span>
+              </div>
+
+              <h3>
+                Ձեր ցավի մասին մի քանի պատասխան կարող են օգնել որոշել հաջորդ քայլը։
+              </h3>
+
+              <p>
+                Հարցումը գնահատում է ցավի տեղակայումը, բնույթը, տարածումը,
+                զգացողության փոփոխությունները, վնասվածքի կամ վիրահատության պատմությունը
+                և որոշ կարևոր նախազգուշացնող նշաններ։
+              </p>
+            </div>
+
+            <a href="pain-check-hy.html" class="btn">
+              Անցնել հարցումը →
+            </a>
+          </div>
+
+        </div>
+      </div>
     </section>
 
 
@@ -1495,7 +1733,7 @@
 
           </div>
 
-          <a href="about-hy.html" class="btn btn-primary">
+          <a href="#" class="btn btn-primary">
             Բացահայտել YPARC-ը →
           </a>
 
@@ -1524,7 +1762,7 @@
             </h2>
           </div>
 
-          <a href="#treatments" class="btn btn-outline">
+          <a href="#" class="btn btn-outline">
             Դիտել բոլոր բուժումները →
           </a>
 
@@ -1551,7 +1789,7 @@
                 ու անհատական բուժման ռազմավարության կազմումն է։
               </p>
 
-              <a class="text-link" href="#appointment">
+              <a class="text-link" href="#">
                 Իմանալ ավելին →
               </a>
 
@@ -1578,7 +1816,7 @@
                 մեթոդներ՝ ցավի թիրախային բուժման համար։
               </p>
 
-              <a class="text-link" href="#appointment">
+              <a class="text-link" href="#">
                 Իմանալ ավելին →
               </a>
 
@@ -1605,7 +1843,7 @@
                 ուժը և առօրյա ֆունկցիան բարելավելու համար։
               </p>
 
-              <a class="text-link" href="#appointment">
+              <a class="text-link" href="#">
                 Իմանալ ավելին →
               </a>
 
@@ -1622,7 +1860,7 @@
 
     <!-- PATIENT STORY -->
 
-    <section class="story" id="stories">
+    <section class="story">
 
       <div class="story-content">
 
@@ -1641,7 +1879,7 @@
             Նպատակն է օգնել մարդուն կրկին շարժվել, մասնակցել և ապրել լիարժեք կյանքով»։
           </p>
 
-          <a href="#stories" class="btn btn-primary">
+          <a href="#" class="btn btn-primary">
             Պացիենտների պատմություններ →
           </a>
 
@@ -1654,7 +1892,7 @@
 
     <!-- JOURNEY -->
 
-    <section class="journey" id="journey">
+    <section class="journey">
 
       <div class="container">
 
@@ -1756,7 +1994,7 @@
 
           </div>
 
-          <a href="#education" class="btn btn-primary">
+          <a href="#" class="btn btn-primary">
             Դիտել կրթական ծրագրերը →
           </a>
 
@@ -1790,7 +2028,7 @@
 
           </div>
 
-          <a href="#resources" class="btn btn-outline">
+          <a href="#" class="btn btn-outline">
             Դիտել բոլոր նյութերը →
           </a>
 
@@ -1821,7 +2059,7 @@
                 և ժամանակակից բուժման մոտեցումներին։
               </p>
 
-              <a href="#resources" class="text-link">
+              <a href="#" class="text-link">
                 Կարդալ հոդվածը →
               </a>
 
@@ -1852,7 +2090,7 @@
                 ու ֆունկցիոնալ վերականգնումը աջակցելու համար։
               </p>
 
-              <a href="#resources" class="text-link">
+              <a href="#" class="text-link">
                 Դիտել տեսանյութը →
               </a>
 
@@ -1883,7 +2121,7 @@
                 և ցավի բուժման մեջ դրանց դերի մասին։
               </p>
 
-              <a href="#resources" class="text-link">
+              <a href="#" class="text-link">
                 Իմանալ ավելին →
               </a>
 
@@ -2043,7 +2281,7 @@
           <h4>Բաժիններ</h4>
 
           <ul>
-            <li><a href="about-hy.html">YPARC-ի մասին</a></li>
+            <li><a href="#about">YPARC-ի մասին</a></li>
             <li><a href="#conditions">Ցավային վիճակներ</a></li>
             <li><a href="#treatments">Բուժումներ</a></li>
             <li><a href="#rehabilitation">Վերականգնում</a></li>
@@ -2058,9 +2296,9 @@
 
           <ul>
             <li><a href="#appointment">Գրանցվել այցի</a></li>
-            <li><a href="#appointment">Պացիենտի մուտք</a></li>
+            <li><a href="#">Պացիենտի մուտք</a></li>
             <li><a href="#resources">Օգտակար նյութեր պացիենտների համար</a></li>
-            <li><a href="#resources">Հաճախ տրվող հարցեր</a></li>
+            <li><a href="#">Հաճախ տրվող հարցեր</a></li>
           </ul>
 
         </div>
@@ -2123,26 +2361,11 @@
 
       event.preventDefault();
 
-      const form = event.target;
-      const fields = form.querySelectorAll("input, select, textarea");
-
-      const name = fields[0]?.value || "";
-      const phone = fields[1]?.value || "";
-      const service = fields[2]?.value || "";
-      const date = fields[3]?.value || "";
-      const message = fields[4]?.value || "";
-
-      const subject = encodeURIComponent("YPARC — այցի գրանցման հայտ");
-      const body = encodeURIComponent(
-        "Անուն Ազգանուն: " + name + "\n" +
-        "Հեռախոսահամար: " + phone + "\n" +
-        "Ծառայություն: " + service + "\n" +
-        "Նախընտրելի ամսաթիվ: " + date + "\n" +
-        "Հաղորդագրություն: " + message
+      alert(
+        "Շնորհակալություն։ Ձեր այցի գրանցման հայտը ստացվել է։"
       );
 
-      window.location.href =
-        "mailto:info@painclinicyerevan.am?subject=" + subject + "&body=" + body;
+      event.target.reset();
 
     }
 
