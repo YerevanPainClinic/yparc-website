@@ -1568,7 +1568,7 @@
           ◯ &nbsp; Պացիենտի մուտք
         </a>
 
-        <a href="#appointment" class="btn btn-primary">
+        <a href="booking-hy.html" class="btn btn-primary">
           Գրանցվել այցի →
         </a>
 
@@ -1600,7 +1600,7 @@
     <a href="#pain-check" onclick="toggleMenu()">Pain Check</a>
     <a href="#contact" onclick="toggleMenu()">Կապ</a>
 
-    <a href="#appointment" class="btn btn-primary" onclick="toggleMenu()">
+    <a href="booking-hy.html" class="btn btn-primary" onclick="toggleMenu()">
       Գրանցվել այցի
     </a>
 
@@ -1633,7 +1633,7 @@
 
         <div class="hero-buttons">
 
-          <a href="#appointment" class="btn btn-primary">
+          <a href="booking-hy.html" class="btn btn-primary">
             Գրանցվել այցի →
           </a>
 
@@ -2256,13 +2256,12 @@
             </div>
 
             <h2 class="section-title">
-              Մենք այստեղ ենք՝ օգնելու ձեզ։
+              Ամրագրեք ձեր այցը առցանց։
             </h2>
 
             <p class="section-text">
-              Կապվեք YPARC-ի հետ կամ ուղարկեք այցի գրանցման հայտ։
+              Ընտրեք ձեզ հարմար օրը և ազատ ժամը մեր առցանց գրանցման համակարգում։
             </p>
-
 
             <div class="contact-details">
 
@@ -2282,66 +2281,25 @@
 
           </div>
 
+          <div class="appointment-form" style="display:flex;flex-direction:column;justify-content:center;gap:16px;">
 
-          <form
-            class="appointment-form"
-            onsubmit="appointmentSubmit(event)"
-          >
+            <div style="padding:22px;border:1px solid rgba(11,79,60,.12);border-radius:18px;background:#fff;">
+              <div style="font-size:11px;font-weight:800;letter-spacing:.14em;color:#0b4f3c;margin-bottom:10px;">
+                ONLINE BOOKING
+              </div>
+              <div style="font-size:24px;line-height:1.2;font-family:Georgia,serif;color:#06392c;margin-bottom:10px;">
+                Ցավի մասնագետի խորհրդատվություն
+              </div>
+              <div style="font-size:14px;color:#66736e;">
+                30 րոպե · 15,000 AMD
+              </div>
+            </div>
 
-            <input
-              type="text"
-              placeholder="Անուն Ազգանուն"
-              required
-            >
+            <a href="booking-hy.html" class="btn btn-primary full" style="text-align:center;">
+              Ընտրել օր և ժամ →
+            </a>
 
-            <input
-              type="tel"
-              placeholder="Հեռախոսահամար"
-              required
-            >
-
-            <select required>
-
-              <option value="">
-                Ընտրեք ծառայությունը
-              </option>
-
-              <option>
-                Ցավաբանի խորհրդատվություն
-              </option>
-
-              <option>
-                Ինտերվենցիոն ցավաբուժում
-              </option>
-
-              <option>
-                Ֆիզիոթերապիա
-              </option>
-
-              <option>
-                Rehabilitation
-              </option>
-
-            </select>
-
-            <input
-              type="date"
-              required
-            >
-
-            <textarea
-              class="full"
-              placeholder="Ինչո՞վ կարող ենք օգնել (ըստ ցանկության)"
-            ></textarea>
-
-            <button
-              class="btn btn-primary full"
-              type="submit"
-            >
-              Ուղարկել գրանցման հայտը →
-            </button>
-
-          </form>
+          </div>
 
         </div>
 
@@ -2400,7 +2358,7 @@
           <h4>Պացիենտներին</h4>
 
           <ul>
-            <li><a href="#appointment">Գրանցվել այցի</a></li>
+            <li><a href="booking-hy.html">Գրանցվել այցի</a></li>
             <li><a href="#">Պացիենտի մուտք</a></li>
             <li><a href="#resources">Օգտակար նյութեր պացիենտների համար</a></li>
             <li><a href="#">Հաճախ տրվող հարցեր</a></li>
@@ -2458,19 +2416,6 @@
       } else {
         document.body.style.overflow = "";
       }
-
-    }
-
-
-    function appointmentSubmit(event) {
-
-      event.preventDefault();
-
-      alert(
-        "Շնորհակալություն։ Ձեր այցի գրանցման հայտը ստացվել է։"
-      );
-
-      event.target.reset();
 
     }
 
