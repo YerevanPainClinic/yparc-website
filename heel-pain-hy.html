@@ -1,1 +1,1139 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Կրունկի ցավ | Yerevan Pain Clinic</title>
+
+  <meta
+    name="description"
+    content="Կրունկի ցավի հնարավոր պատճառները, ախտանիշները և երբ դիմել ցավի մասնագետի։ Yerevan Pain Clinic՝ Երևան։"
+  >
+
+  <style>
+
+    :root{
+      --navy:#17385f;
+      --navy-deep:#102b49;
+      --blue-soft:#eaf1f7;
+      --cream:#f7f5ef;
+      --white:#ffffff;
+      --text:#25303c;
+      --muted:#66717d;
+      --line:#dce3e8;
+      --green:#587968;
+      --red:#9a5651;
+      --shadow:0 20px 50px rgba(23,56,95,.08);
+    }
+
+    *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+    body{
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+      color:var(--text);
+      background:var(--white);
+      line-height:1.7;
+    }
+
+    a{
+      color:inherit;
+      text-decoration:none;
+    }
+
+    .yp-container{
+      width:min(1180px, calc(100% - 40px));
+      margin:0 auto;
+    }
+
+    /* HEADER */
+
+    .yp-header{
+      position:sticky;
+      top:0;
+      z-index:1000;
+
+      background:rgba(255,255,255,.95);
+      backdrop-filter:blur(16px);
+      border-bottom:1px solid rgba(23,56,95,.08);
+    }
+
+    .yp-header-inner{
+      min-height:78px;
+
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:30px;
+    }
+
+    .yp-brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+
+    .yp-brand img{
+      width:52px;
+      height:52px;
+      object-fit:contain;
+    }
+
+    .yp-brand strong{
+      display:block;
+      color:var(--navy);
+      font-size:16px;
+    }
+
+    .yp-brand span{
+      display:block;
+      margin-top:2px;
+      color:var(--muted);
+      font-size:9px;
+      letter-spacing:.12em;
+    }
+
+    .yp-nav{
+      display:flex;
+      align-items:center;
+      gap:25px;
+    }
+
+    .yp-nav a{
+      font-size:13px;
+      font-weight:600;
+    }
+
+    .yp-nav a:hover{
+      color:var(--green);
+    }
+
+    .yp-nav-cta{
+      padding:11px 18px;
+      border-radius:999px;
+      background:var(--navy);
+      color:white !important;
+    }
+
+    /* HERO */
+
+    .yp-hero{
+      overflow:hidden;
+
+      background:
+        radial-gradient(circle at 82% 28%, rgba(88,121,104,.18), transparent 30%),
+        linear-gradient(135deg,#f7f5ef,#eef4f7);
+    }
+
+    .yp-hero-grid{
+      min-height:600px;
+
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:65px;
+      align-items:center;
+    }
+
+    .yp-eyebrow{
+      margin-bottom:17px;
+      color:var(--green);
+      font-size:11px;
+      font-weight:800;
+      letter-spacing:.2em;
+      text-transform:uppercase;
+    }
+
+    .yp-hero h1{
+      max-width:720px;
+
+      color:var(--navy-deep);
+      font-family:Georgia,serif;
+      font-size:clamp(52px,6vw,84px);
+      font-weight:400;
+      line-height:.98;
+      letter-spacing:-.045em;
+    }
+
+    .yp-hero-lead{
+      max-width:650px;
+      margin-top:26px;
+      color:var(--muted);
+      font-size:17px;
+    }
+
+    .yp-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:32px;
+    }
+
+    .yp-btn{
+      min-height:52px;
+
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+
+      padding:0 23px;
+      border-radius:999px;
+
+      font-size:13px;
+      font-weight:700;
+      transition:.25s ease;
+    }
+
+    .yp-btn-primary{
+      background:var(--navy);
+      color:white;
+    }
+
+    .yp-btn-primary:hover{
+      transform:translateY(-2px);
+      background:var(--navy-deep);
+    }
+
+    .yp-btn-secondary{
+      border:1px solid rgba(23,56,95,.18);
+      background:rgba(255,255,255,.5);
+      color:var(--navy);
+    }
+
+    /* HEEL VISUAL */
+
+    .heel-visual{
+      position:relative;
+
+      min-height:420px;
+
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+    .foot-outline{
+      position:relative;
+
+      width:320px;
+      height:165px;
+
+      border:2px solid rgba(23,56,95,.28);
+
+      border-radius:
+        55% 45% 42% 58% /
+        60% 55% 45% 40%;
+
+      transform:rotate(-8deg);
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(255,255,255,.75),
+          rgba(255,255,255,.2)
+        );
+
+      box-shadow:
+        inset 0 0 60px rgba(23,56,95,.04);
+    }
+
+    .foot-outline::before{
+      content:"";
+
+      position:absolute;
+      width:95px;
+      height:95px;
+
+      right:-34px;
+      top:1px;
+
+      border:2px solid rgba(23,56,95,.22);
+      border-left:0;
+
+      border-radius:0 70% 60% 0;
+    }
+
+    .pain-zone{
+      position:absolute;
+
+      left:18px;
+      bottom:28px;
+
+      width:25px;
+      height:25px;
+
+      border-radius:50%;
+
+      background:var(--red);
+
+      box-shadow:
+        0 0 0 14px rgba(154,86,81,.12),
+        0 0 0 28px rgba(154,86,81,.05);
+    }
+
+    .pain-label{
+      position:absolute;
+
+      left:-52px;
+      bottom:-52px;
+
+      padding:9px 13px;
+
+      border-radius:999px;
+
+      background:white;
+      box-shadow:var(--shadow);
+
+      color:var(--navy);
+
+      font-size:11px;
+      font-weight:700;
+
+      transform:rotate(8deg);
+    }
+
+    /* CONTENT */
+
+    .yp-section{
+      padding:95px 0;
+    }
+
+    .yp-section-soft{
+      background:#f8fafb;
+    }
+
+    .yp-content-grid{
+      display:grid;
+      grid-template-columns:.75fr 1.25fr;
+      gap:90px;
+      align-items:start;
+    }
+
+    .section-number{
+      font-family:Georgia,serif;
+      font-size:90px;
+      line-height:1;
+      color:#dce5e8;
+    }
+
+    .section-label{
+      margin-top:18px;
+      color:var(--green);
+      font-size:11px;
+      font-weight:800;
+      letter-spacing:.17em;
+      text-transform:uppercase;
+    }
+
+    .content-title{
+      max-width:720px;
+      color:var(--navy-deep);
+      font-family:Georgia,serif;
+      font-size:clamp(34px,4.6vw,55px);
+      font-weight:400;
+      line-height:1.05;
+    }
+
+    .content-text{
+      max-width:780px;
+      margin-top:22px;
+      color:var(--muted);
+      font-size:16px;
+    }
+
+    .content-text strong{
+      color:var(--navy);
+    }
+
+    /* SYMPTOMS */
+
+    .symptom-grid{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:12px;
+      margin-top:32px;
+    }
+
+    .symptom-item{
+      display:flex;
+      gap:14px;
+      align-items:flex-start;
+
+      padding:18px;
+
+      border:1px solid var(--line);
+      border-radius:16px;
+
+      background:white;
+    }
+
+    .symptom-icon{
+      width:32px;
+      height:32px;
+      flex:0 0 32px;
+
+      display:grid;
+      place-items:center;
+
+      border-radius:50%;
+      background:var(--blue-soft);
+      color:var(--navy);
+
+      font-weight:700;
+    }
+
+    .symptom-item p{
+      font-size:14px;
+    }
+
+    /* CAUSES */
+
+    .cause-list{
+      display:grid;
+      gap:0;
+      margin-top:30px;
+      border-top:1px solid var(--line);
+    }
+
+    .cause{
+      display:grid;
+      grid-template-columns:50px 1fr;
+      gap:16px;
+
+      padding:18px 0;
+
+      border-bottom:1px solid var(--line);
+    }
+
+    .cause span{
+      color:var(--green);
+      font-size:12px;
+      font-weight:800;
+    }
+
+    .cause p{
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    /* NOTE */
+
+    .important-box{
+      margin-top:34px;
+
+      padding:28px;
+
+      border-left:4px solid var(--green);
+
+      background:var(--cream);
+
+      border-radius:0 18px 18px 0;
+    }
+
+    .important-box strong{
+      display:block;
+      margin-bottom:8px;
+
+      color:var(--navy);
+
+      font-family:Georgia,serif;
+      font-size:23px;
+      font-weight:400;
+    }
+
+    .important-box p{
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    /* DISCLAIMER */
+
+    .diagnostic-note{
+      padding:78px 0;
+      background:var(--navy-deep);
+      color:white;
+    }
+
+    .diagnostic-box{
+      max-width:900px;
+      margin:0 auto;
+      text-align:center;
+    }
+
+    .diagnostic-box .yp-eyebrow{
+      color:#bfd2c7;
+    }
+
+    .diagnostic-box h2{
+      font-family:Georgia,serif;
+      font-size:clamp(34px,5vw,54px);
+      font-weight:400;
+      line-height:1.08;
+    }
+
+    .diagnostic-box p{
+      max-width:760px;
+      margin:22px auto 0;
+      color:rgba(255,255,255,.72);
+      font-size:15px;
+    }
+
+    /* CTA */
+
+    .consultation{
+      padding:95px 0;
+      background:var(--cream);
+    }
+
+    .consultation-box{
+      padding:65px;
+
+      border-radius:30px;
+
+      background:white;
+      box-shadow:var(--shadow);
+
+      text-align:center;
+    }
+
+    .consultation-box h2{
+      max-width:780px;
+      margin:0 auto;
+
+      color:var(--navy-deep);
+
+      font-family:Georgia,serif;
+      font-size:clamp(37px,5vw,60px);
+      font-weight:400;
+      line-height:1.05;
+    }
+
+    .consultation-box p{
+      max-width:710px;
+      margin:22px auto 0;
+      color:var(--muted);
+    }
+
+    .consultation-box .yp-actions{
+      justify-content:center;
+    }
+
+    /* FOOTER */
+
+    .yp-footer{
+      padding:48px 0;
+      background:#0d2743;
+      color:rgba(255,255,255,.7);
+    }
+
+    .yp-footer-inner{
+      display:flex;
+      justify-content:space-between;
+      gap:30px;
+    }
+
+    .yp-footer strong{
+      color:white;
+    }
+
+    .yp-footer a:hover{
+      color:white;
+    }
+
+    /* MOBILE */
+
+    @media(max-width:900px){
+
+      .yp-nav{
+        display:none;
+      }
+
+      .yp-hero-grid,
+      .yp-content-grid{
+        grid-template-columns:1fr;
+      }
+
+      .yp-hero-grid{
+        gap:20px;
+        padding:55px 0;
+      }
+
+      .heel-visual{
+        min-height:320px;
+      }
+
+      .yp-content-grid{
+        gap:35px;
+      }
+
+      .section-number{
+        font-size:65px;
+      }
+
+    }
+
+    @media(max-width:620px){
+
+      .yp-container{
+        width:calc(100% - 28px);
+      }
+
+      .yp-header-inner{
+        min-height:68px;
+      }
+
+      .yp-brand img{
+        width:42px;
+        height:42px;
+      }
+
+      .yp-brand span{
+        display:none;
+      }
+
+      .yp-hero h1{
+        font-size:46px;
+      }
+
+      .heel-visual{
+        min-height:260px;
+      }
+
+      .foot-outline{
+        width:230px;
+        height:120px;
+      }
+
+      .yp-section{
+        padding:70px 0;
+      }
+
+      .symptom-grid{
+        grid-template-columns:1fr;
+      }
+
+      .consultation-box{
+        padding:42px 22px;
+      }
+
+      .yp-actions{
+        flex-direction:column;
+      }
+
+      .yp-btn{
+        width:100%;
+      }
+
+      .yp-footer-inner{
+        flex-direction:column;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header class="yp-header">
+
+    <div class="yp-container yp-header-inner">
+
+      <a href="hy.html" class="yp-brand">
+
+        <img
+          src="yparc-logo.png"
+          alt="Yerevan Pain Clinic"
+        >
+
+        <div>
+          <strong>Yerevan Pain Clinic</strong>
+          <span>YPARC · PAIN MANAGEMENT</span>
+        </div>
+
+      </a>
+
+      <nav class="yp-nav">
+
+        <a href="hy.html">
+          Գլխավոր
+        </a>
+
+        <a href="conditions-hy.html">
+          Ցավային վիճակներ
+        </a>
+
+        <a href="pain-check-hy.html">
+          Pain Check
+        </a>
+
+        <a href="about-hy.html">
+          Մեր մասին
+        </a>
+
+        <a href="#appointment" class="yp-nav-cta">
+          Ամրագրել այց
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+
+    <section class="yp-hero">
+
+      <div class="yp-container yp-hero-grid">
+
+        <div>
+
+          <div class="yp-eyebrow">
+            YPARC · ԿՐՈՒՆԿԻ ԵՎ ՈՏՆԱԹԱԹԻ ՑԱՎ
+          </div>
+
+          <h1>
+            Կրունկի ցավ
+          </h1>
+
+          <p class="yp-hero-lead">
+            Կրունկի ցավը կարող է ունենալ տարբեր պատճառներ։
+            Ցավի տեղակայումը, բնույթը, առաջացման ժամանակը և
+            ծանրաբեռնվածության հետ կապը կարևոր են ճիշտ պատճառը
+            հասկանալու համար։
+          </p>
+
+          <div class="yp-actions">
+
+            <a
+              href="#symptoms"
+              class="yp-btn yp-btn-secondary"
+            >
+              Դիտել ախտանիշները
+            </a>
+
+            <a
+              href="#appointment"
+              class="yp-btn yp-btn-primary"
+            >
+              Գրանցվել խորհրդատվության →
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="heel-visual">
+
+          <div class="foot-outline">
+
+            <div class="pain-zone"></div>
+
+            <div class="pain-label">
+              Կրունկի հատված
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- WHAT IT MEANS -->
+
+    <section class="yp-section">
+
+      <div class="yp-container yp-content-grid">
+
+        <div>
+
+          <div class="section-number">
+            01
+          </div>
+
+          <div class="section-label">
+            ՀԱՍԿԱՆԱԼ ՑԱՎԸ
+          </div>
+
+        </div>
+
+        <div>
+
+          <h2 class="content-title">
+            Կրունկի ցավը մեկ ախտորոշում չէ
+          </h2>
+
+          <p class="content-text">
+            Կրունկի ցավը ախտանիշ է, որը կարող է կապված լինել
+            տարբեր հյուսվածքների հետ՝ պլանտար ֆասցիա, Աքիլեսյան ջիլ,
+            նյարդեր, ճարպային բարձիկ, ոսկրային կառուցվածքներ կամ
+            հարակից փափուկ հյուսվածքներ։
+          </p>
+
+          <p class="content-text">
+            Օրինակ՝ <strong>առավոտյան առաջին քայլերի ցավը</strong>
+            հաճախ հանդիպում է պլանտար ֆասցիիտի դեպքում, մինչդեռ
+            կրունկի հետևի հատվածի ցավը կարող է ավելի շատ կապված լինել
+            Աքիլեսյան ջլի հետ։
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- SYMPTOMS -->
+
+    <section
+      class="yp-section yp-section-soft"
+      id="symptoms"
+    >
+
+      <div class="yp-container yp-content-grid">
+
+        <div>
+
+          <div class="section-number">
+            02
+          </div>
+
+          <div class="section-label">
+            ԱԽՏԱՆԻՇՆԵՐ
+          </div>
+
+        </div>
+
+        <div>
+
+          <h2 class="content-title">
+            Ինչպիսի՞ գանգատներ կարող են լինել
+          </h2>
+
+          <div class="symptom-grid">
+
+            <div class="symptom-item">
+              <div class="symptom-icon">01</div>
+              <p>
+                Կրունկի ստորին հատվածի ցավ՝ հատկապես քայլելիս։
+              </p>
+            </div>
+
+            <div class="symptom-item">
+              <div class="symptom-icon">02</div>
+              <p>
+                Առավոտյան առաջին քայլերի ժամանակ արտահայտված ցավ։
+              </p>
+            </div>
+
+            <div class="symptom-item">
+              <div class="symptom-icon">03</div>
+              <p>
+                Կրունկի հետևի հատվածի ցավ կամ ձգվածության զգացում։
+              </p>
+            </div>
+
+            <div class="symptom-item">
+              <div class="symptom-icon">04</div>
+              <p>
+                Երկար կանգնելու կամ քայլելուց հետո ուժեղացող ցավ։
+              </p>
+            </div>
+
+            <div class="symptom-item">
+              <div class="symptom-icon">05</div>
+              <p>
+                Այրող, ծակող կամ էլեկտրական բնույթի ցավ։
+              </p>
+            </div>
+
+            <div class="symptom-item">
+              <div class="symptom-icon">06</div>
+              <p>
+                Թմրածություն կամ ծակծկոց ոտնաթաթի կամ կրունկի շրջանում։
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- POSSIBLE CAUSES -->
+
+    <section class="yp-section">
+
+      <div class="yp-container yp-content-grid">
+
+        <div>
+
+          <div class="section-number">
+            03
+          </div>
+
+          <div class="section-label">
+            ՀՆԱՐԱՎՈՐ ՊԱՏՃԱՌՆԵՐ
+          </div>
+
+        </div>
+
+        <div>
+
+          <h2 class="content-title">
+            Կրունկի ցավի հնարավոր աղբյուրները
+          </h2>
+
+          <div class="cause-list">
+
+            <div class="cause">
+              <span>01</span>
+              <p>
+                Պլանտար ֆասցիիտ՝ կրունկի ստորին հատվածի ցավի
+                ամենատարածված պատճառներից մեկը։
+              </p>
+            </div>
+
+            <div class="cause">
+              <span>02</span>
+              <p>
+                Աքիլեսյան ջլի գերբեռնվածություն կամ տենդինոպաթիա։
+              </p>
+            </div>
+
+            <div class="cause">
+              <span>03</span>
+              <p>
+                Կրունկի ճարպային բարձիկի գերբեռնվածություն կամ վնասում։
+              </p>
+            </div>
+
+            <div class="cause">
+              <span>04</span>
+              <p>
+                Նյարդի սեղմում կամ գրգռում՝ օրինակ տարզալ թունելի կամ
+                հարակից փոքր նյարդերի մակարդակում։
+              </p>
+            </div>
+
+            <div class="cause">
+              <span>05</span>
+              <p>
+                Սթրեսային կոտրվածք կամ վնասվածքից հետո պահպանվող ցավ։
+              </p>
+            </div>
+
+            <div class="cause">
+              <span>06</span>
+              <p>
+                Ավելի հազվադեպ՝ բորբոքային կամ համակարգային վիճակներ։
+              </p>
+            </div>
+
+          </div>
+
+          <div class="important-box">
+
+            <strong>
+              «Կրունկի շպորան» միշտ չէ, որ ցավ է առաջացնում։
+            </strong>
+
+            <p>
+              Ռենտգենում կրունկային շպորայի առկայությունը
+              ինքնուրույն չի ապացուցում, որ հենց այն է ցավի պատճառը։
+              Շատ մարդկանց մոտ այն կարող է լինել առանց որևէ գանգատի։
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- WHEN TO CHECK -->
+
+    <section class="yp-section yp-section-soft">
+
+      <div class="yp-container yp-content-grid">
+
+        <div>
+
+          <div class="section-number">
+            04
+          </div>
+
+          <div class="section-label">
+            ԵՐԲ ԱՐԺԵ ԴԻՄԵԼ ՄԱՍՆԱԳԵՏԻ
+          </div>
+
+        </div>
+
+        <div>
+
+          <h2 class="content-title">
+            Երբ ցավը չի անցնում կամ պատճառը պարզ չէ
+          </h2>
+
+          <p class="content-text">
+            Եթե ցավը պահպանվում է, կրկնվում է, խանգարում է քայլելուն
+            կամ սպորտային ակտիվությանը, մասնագիտական գնահատումը օգնում է
+            տարբերակել ցավի հնարավոր աղբյուրները և ընտրել ճիշտ մոտեցումը։
+          </p>
+
+          <p class="content-text">
+            Ավելի արագ բժշկական գնահատում է անհրաժեշտ, եթե ցավը առաջացել է
+            վնասվածքից հետո և դժվարանում եք հենվել ոտքին, կա արտահայտված
+            այտուց, կարմրություն, ջերմություն, զգացողության կորուստ կամ
+            առաջացող թուլություն։
+          </p>
+
+          <div class="important-box">
+
+            <strong>
+              Պատկերային հետազոտությունը միշտ չէ, որ առաջին քայլն է։
+            </strong>
+
+            <p>
+              Շատ դեպքերում բժշկական պատմությունը և կլինիկական զննումը
+              արդեն տալիս են կարևոր տեղեկություն։ Ռենտգեն, ուլտրաձայնային
+              հետազոտություն կամ ՄՌՏ կարող են նշանակվել ընտրովի՝ ըստ
+              ախտանիշների և կասկածվող պատճառի։
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- DISCLAIMER -->
+
+    <section class="diagnostic-note">
+
+      <div class="yp-container diagnostic-box">
+
+        <div class="yp-eyebrow">
+          ԿԱՐԵՎՈՐ ԲԺՇԿԱԿԱՆ ՏԵՂԵԿՈՒԹՅՈՒՆ
+        </div>
+
+        <h2>
+          Նմանատիպ կրունկի ցավը կարող է ունենալ տարբեր պատճառներ։
+        </h2>
+
+        <p>
+          Նկարագրված ախտանիշները կարող են համընկնել ձեր գանգատների հետ,
+          սակայն դրանք ինքնուրույն չեն հաստատում ախտորոշումը։
+          Ցավի հստակ պատճառը հասկանալու և համապատասխան բուժման տարբերակը
+          ընտրելու համար անհրաժեշտ է մասնագետի անհատական խորհրդատվություն։
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- CONSULTATION -->
+
+    <section
+      class="consultation"
+      id="appointment"
+    >
+
+      <div class="yp-container">
+
+        <div class="consultation-box">
+
+          <div class="yp-eyebrow">
+            YEREVAN PAIN CLINIC
+          </div>
+
+          <h2>
+            Կրունկի ցավը խանգարո՞ւմ է քայլելուն կամ առօրյային։
+          </h2>
+
+          <p>
+            Նույն հատվածի ցավը կարող է առաջանալ տարբեր պատճառներից։
+            Խորհրդատվության ընթացքում հնարավոր է գնահատել ցավի բնույթը,
+            կատարել անհրաժեշտ կլինիկական զննում և քննարկել հետագա քայլերը։
+          </p>
+
+          <div class="yp-actions">
+
+            <a
+              href="tel:+37491092123"
+              class="yp-btn yp-btn-primary"
+            >
+              Զանգահարել՝ +374 91 092123
+            </a>
+
+            <a
+              href="pain-check-hy.html"
+              class="yp-btn yp-btn-secondary"
+            >
+              Անցնել Pain Check →
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer class="yp-footer">
+
+    <div class="yp-container yp-footer-inner">
+
+      <div>
+        <strong>Yerevan Pain Clinic</strong><br>
+        YPARC · Երևան
+      </div>
+
+      <div>
+        <a href="hy.html">Գլխավոր</a>
+        &nbsp; · &nbsp;
+        <a href="conditions-hy.html">Ցավային վիճակներ</a>
+        &nbsp; · &nbsp;
+        <a href="plantar-fasciitis-hy.html">Պլանտար ֆասցիիտ</a>
+        &nbsp; · &nbsp;
+        <a href="pain-check-hy.html">Pain Check</a>
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
