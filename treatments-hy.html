@@ -1,1 +1,1470 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Բուժման մոտեցումներ | Yerevan Pain Clinic</title>
+
+  <meta
+    name="description"
+    content="Yerevan Pain Clinic-ում ցավի բուժման մոտեցումը ընտրվում է անհատական գնահատումից հետո։ Հնարավոր ուղղություններն են կոնսերվատիվ բուժումը, թիրախային ներարկումային թերապիան, ֆիզիոթերապիան և անհրաժեշտության դեպքում այլ մասնագետի խորհրդատվությունը։"
+  >
+
+  <style>
+    :root {
+      --navy: #17385f;
+      --navy-deep: #102b49;
+      --blue-soft: #eaf1f7;
+      --cream: #f7f5ef;
+      --white: #ffffff;
+      --text: #25303c;
+      --muted: #66717d;
+      --line: #dce3e8;
+      --green: #587968;
+      --gold: #c5a36a;
+      --shadow: 0 20px 50px rgba(23,56,95,.08);
+      --radius: 28px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .yp-container {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    /* =========================================================
+       HEADER
+    ========================================================= */
+
+    .yp-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255,255,255,.92);
+      backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(220,227,232,.8);
+    }
+
+    .yp-header-inner {
+      min-height: 82px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+    }
+
+    .yp-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 220px;
+    }
+
+    .yp-brand img {
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+    }
+
+    .yp-brand-text strong {
+      display: block;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      color: var(--navy-deep);
+      line-height: 1.15;
+    }
+
+    .yp-brand-text span {
+      display: block;
+      margin-top: 4px;
+      font-size: 10px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .yp-nav {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #43505d;
+    }
+
+    .yp-nav a {
+      transition: .25s ease;
+    }
+
+    .yp-nav a:hover {
+      color: var(--navy);
+    }
+
+    .yp-header-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0 20px;
+      border-radius: 999px;
+      background: var(--navy);
+      color: var(--white) !important;
+      font-size: 13px;
+      font-weight: 700;
+      transition: .25s ease;
+    }
+
+    .yp-header-cta:hover {
+      background: var(--navy-deep);
+      transform: translateY(-1px);
+    }
+
+    /* =========================================================
+       HERO
+    ========================================================= */
+
+    .yp-hero {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 85% 15%, rgba(234,241,247,.95), transparent 34%),
+        linear-gradient(135deg, var(--cream), #ffffff 60%);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .yp-hero-inner {
+      min-height: 610px;
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      align-items: center;
+      gap: 80px;
+      padding: 90px 0;
+    }
+
+    .yp-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--green);
+    }
+
+    .yp-eyebrow::before {
+      content: "";
+      width: 34px;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    .yp-hero h1 {
+      margin: 0;
+      max-width: 720px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(46px, 6vw, 78px);
+      font-weight: 400;
+      line-height: .98;
+      letter-spacing: -.045em;
+      color: var(--navy-deep);
+    }
+
+    .yp-hero-lead {
+      max-width: 680px;
+      margin: 26px 0 0;
+      font-size: 18px;
+      line-height: 1.75;
+      color: #54606d;
+    }
+
+    .yp-hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 34px;
+    }
+
+    .yp-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 54px;
+      padding: 0 24px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 750;
+      transition: .25s ease;
+    }
+
+    .yp-btn-primary {
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    .yp-btn-primary:hover {
+      background: var(--navy-deep);
+      transform: translateY(-2px);
+    }
+
+    .yp-btn-secondary {
+      background: rgba(255,255,255,.85);
+      border: 1px solid var(--line);
+      color: var(--navy);
+    }
+
+    .yp-btn-secondary:hover {
+      border-color: var(--navy);
+      transform: translateY(-2px);
+    }
+
+    /* =========================================================
+       HERO VISUAL
+    ========================================================= */
+
+    .yp-treatment-visual {
+      position: relative;
+      min-height: 430px;
+      display: grid;
+      place-items: center;
+    }
+
+    .yp-orbit {
+      position: relative;
+      width: 360px;
+      height: 360px;
+      border-radius: 50%;
+      border: 1px solid rgba(23,56,95,.15);
+      background:
+        radial-gradient(circle at center, #ffffff 0 26%, transparent 27%),
+        radial-gradient(circle at center, rgba(234,241,247,.9) 0 52%, transparent 53%);
+    }
+
+    .yp-orbit::before,
+    .yp-orbit::after {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      border: 1px dashed rgba(23,56,95,.14);
+    }
+
+    .yp-orbit::before {
+      inset: 42px;
+    }
+
+    .yp-orbit::after {
+      inset: 86px;
+    }
+
+    .yp-center-mark {
+      position: absolute;
+      inset: 50%;
+      width: 96px;
+      height: 96px;
+      transform: translate(-50%,-50%);
+      border-radius: 50%;
+      background: var(--navy);
+      color: var(--white);
+      display: grid;
+      place-items: center;
+      text-align: center;
+      box-shadow: 0 16px 32px rgba(23,56,95,.18);
+    }
+
+    .yp-center-mark span {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      line-height: 1.15;
+    }
+
+    .yp-orbit-item {
+      position: absolute;
+      width: 128px;
+      min-height: 72px;
+      padding: 14px;
+      border-radius: 18px;
+      background: rgba(255,255,255,.96);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.35;
+      color: var(--navy);
+      display: grid;
+      place-items: center;
+      text-align: center;
+    }
+
+    .yp-orbit-item.one {
+      top: -18px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .yp-orbit-item.two {
+      right: -28px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .yp-orbit-item.three {
+      bottom: -18px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .yp-orbit-item.four {
+      left: -28px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    /* =========================================================
+       INTRO
+    ========================================================= */
+
+    .yp-section {
+      padding: 96px 0;
+    }
+
+    .yp-section-soft {
+      background: var(--cream);
+    }
+
+    .yp-section-blue {
+      background: var(--blue-soft);
+    }
+
+    .yp-section-heading {
+      max-width: 800px;
+      margin-bottom: 50px;
+    }
+
+    .yp-section-heading h2 {
+      margin: 10px 0 16px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(36px, 4vw, 54px);
+      font-weight: 400;
+      line-height: 1.08;
+      letter-spacing: -.03em;
+      color: var(--navy-deep);
+    }
+
+    .yp-section-heading p {
+      margin: 0;
+      max-width: 740px;
+      font-size: 17px;
+      color: var(--muted);
+    }
+
+    .yp-intro-panel {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 60px;
+      align-items: start;
+    }
+
+    .yp-intro-number {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 120px;
+      line-height: .8;
+      color: rgba(23,56,95,.08);
+    }
+
+    .yp-intro-content {
+      max-width: 760px;
+    }
+
+    .yp-intro-content p {
+      margin: 0 0 18px;
+      font-size: 17px;
+      color: #4c5864;
+    }
+
+    .yp-intro-highlight {
+      margin-top: 30px;
+      padding: 24px 28px;
+      border-left: 3px solid var(--gold);
+      background: var(--cream);
+      color: var(--navy-deep);
+      font-weight: 650;
+    }
+
+    /* =========================================================
+       TREATMENT CARDS
+    ========================================================= */
+
+    .yp-treatment-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .yp-treatment-card {
+      position: relative;
+      overflow: hidden;
+      min-height: 340px;
+      padding: 32px;
+      border-radius: var(--radius);
+      border: 1px solid var(--line);
+      background: var(--white);
+      box-shadow: var(--shadow);
+      transition: .3s ease;
+    }
+
+    .yp-treatment-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .yp-treatment-index {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      margin-bottom: 28px;
+      background: var(--blue-soft);
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+    }
+
+    .yp-treatment-card h3 {
+      margin: 0 0 15px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 29px;
+      font-weight: 400;
+      color: var(--navy-deep);
+      line-height: 1.13;
+    }
+
+    .yp-treatment-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .yp-treatment-card::after {
+      content: "";
+      position: absolute;
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      right: -45px;
+      bottom: -45px;
+      background: rgba(234,241,247,.7);
+    }
+
+    /* =========================================================
+       INJECTION FEATURE
+    ========================================================= */
+
+    .yp-injection-wrap {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .yp-injection-visual {
+      position: relative;
+      min-height: 500px;
+      border-radius: 34px;
+      background:
+        radial-gradient(circle at 35% 30%, rgba(255,255,255,.22), transparent 20%),
+        linear-gradient(145deg, var(--navy), var(--navy-deep));
+      overflow: hidden;
+      box-shadow: 0 30px 70px rgba(16,43,73,.18);
+    }
+
+    .yp-injection-visual::before {
+      content: "";
+      position: absolute;
+      width: 290px;
+      height: 290px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,.18);
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+    }
+
+    .yp-injection-visual::after {
+      content: "";
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 1px dashed rgba(255,255,255,.25);
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+    }
+
+    .yp-target-dot {
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: var(--gold);
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      box-shadow:
+        0 0 0 12px rgba(197,163,106,.17),
+        0 0 0 28px rgba(197,163,106,.08);
+    }
+
+    .yp-target-line {
+      position: absolute;
+      width: 210px;
+      height: 2px;
+      background: rgba(255,255,255,.75);
+      left: 50%;
+      top: 50%;
+      transform-origin: left center;
+      transform: rotate(-34deg);
+    }
+
+    .yp-target-label {
+      position: absolute;
+      right: 32px;
+      top: 34px;
+      color: rgba(255,255,255,.82);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+
+    .yp-injection-content h2 {
+      margin: 10px 0 22px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(38px, 4vw, 56px);
+      font-weight: 400;
+      line-height: 1.06;
+      color: var(--navy-deep);
+    }
+
+    .yp-injection-content p {
+      margin: 0 0 18px;
+      font-size: 16px;
+      color: #56616d;
+    }
+
+    .yp-injection-points {
+      margin-top: 30px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .yp-injection-point {
+      display: flex;
+      gap: 15px;
+      align-items: flex-start;
+      padding: 16px 18px;
+      border-radius: 16px;
+      background: rgba(255,255,255,.75);
+      border: 1px solid rgba(220,227,232,.9);
+    }
+
+    .yp-check {
+      flex: 0 0 26px;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: var(--navy);
+      color: white;
+      font-size: 13px;
+      margin-top: 1px;
+    }
+
+    .yp-injection-point strong {
+      display: block;
+      margin-bottom: 3px;
+      color: var(--navy-deep);
+      font-size: 14px;
+    }
+
+    .yp-injection-point span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .yp-injection-line {
+      margin-top: 30px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--green);
+    }
+
+    /* =========================================================
+       REFERRAL
+    ========================================================= */
+
+    .yp-referral {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .yp-referral-card {
+      padding: 38px;
+      border-radius: 30px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    .yp-referral-card h3 {
+      margin: 0 0 16px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      font-weight: 400;
+      color: var(--navy-deep);
+    }
+
+    .yp-referral-card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .yp-referral-symbol {
+      width: 82px;
+      height: 82px;
+      margin-bottom: 24px;
+      border-radius: 24px;
+      display: grid;
+      place-items: center;
+      background: var(--blue-soft);
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 36px;
+    }
+
+    /* =========================================================
+       DISCLAIMER
+    ========================================================= */
+
+    .yp-disclaimer {
+      padding: 26px 30px;
+      border-radius: 22px;
+      background: #fbfbfa;
+      border: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .yp-disclaimer strong {
+      color: var(--navy-deep);
+    }
+
+    /* =========================================================
+       CTA
+    ========================================================= */
+
+    .yp-final-cta {
+      padding: 100px 0;
+      background: var(--navy-deep);
+      color: var(--white);
+    }
+
+    .yp-final-cta-inner {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 50px;
+      align-items: center;
+    }
+
+    .yp-final-cta h2 {
+      margin: 0 0 15px;
+      max-width: 760px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(38px, 5vw, 62px);
+      font-weight: 400;
+      line-height: 1.02;
+    }
+
+    .yp-final-cta p {
+      margin: 0;
+      max-width: 720px;
+      color: rgba(255,255,255,.7);
+      font-size: 16px;
+    }
+
+    .yp-final-cta .yp-btn-primary {
+      background: var(--white);
+      color: var(--navy-deep);
+    }
+
+    .yp-final-cta .yp-btn-primary:hover {
+      background: var(--cream);
+    }
+
+    /* =========================================================
+       FOOTER
+    ========================================================= */
+
+    .yp-footer {
+      background: #0c223a;
+      color: rgba(255,255,255,.72);
+      padding: 46px 0;
+    }
+
+    .yp-footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .yp-footer-brand strong {
+      display: block;
+      color: white;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+    .yp-footer-brand span {
+      display: block;
+      margin-top: 5px;
+      font-size: 12px;
+    }
+
+    .yp-footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      font-size: 13px;
+    }
+
+    .yp-footer-links a:hover {
+      color: white;
+    }
+
+    /* =========================================================
+       RESPONSIVE
+    ========================================================= */
+
+    @media (max-width: 980px) {
+      .yp-nav {
+        display: none;
+      }
+
+      .yp-hero-inner,
+      .yp-intro-panel,
+      .yp-injection-wrap,
+      .yp-referral {
+        grid-template-columns: 1fr;
+      }
+
+      .yp-hero-inner {
+        gap: 40px;
+      }
+
+      .yp-treatment-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .yp-treatment-visual {
+        min-height: 400px;
+      }
+
+      .yp-injection-wrap {
+        gap: 45px;
+      }
+
+      .yp-final-cta-inner {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .yp-container {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .yp-header-inner {
+        min-height: 72px;
+      }
+
+      .yp-brand {
+        min-width: auto;
+      }
+
+      .yp-brand img {
+        width: 42px;
+        height: 42px;
+      }
+
+      .yp-brand-text span {
+        display: none;
+      }
+
+      .yp-header-cta {
+        min-height: 42px;
+        padding: 0 15px;
+        font-size: 12px;
+      }
+
+      .yp-hero-inner {
+        min-height: auto;
+        padding: 70px 0;
+      }
+
+      .yp-hero h1 {
+        font-size: 46px;
+      }
+
+      .yp-hero-lead {
+        font-size: 16px;
+      }
+
+      .yp-hero-actions {
+        display: grid;
+      }
+
+      .yp-btn {
+        width: 100%;
+      }
+
+      .yp-treatment-visual {
+        min-height: 340px;
+        overflow: hidden;
+      }
+
+      .yp-orbit {
+        width: 270px;
+        height: 270px;
+      }
+
+      .yp-orbit-item {
+        width: 105px;
+        min-height: 62px;
+        font-size: 10px;
+      }
+
+      .yp-orbit-item.two {
+        right: -20px;
+      }
+
+      .yp-orbit-item.four {
+        left: -20px;
+      }
+
+      .yp-center-mark {
+        width: 78px;
+        height: 78px;
+      }
+
+      .yp-center-mark span {
+        font-size: 15px;
+      }
+
+      .yp-section {
+        padding: 72px 0;
+      }
+
+      .yp-section-heading {
+        margin-bottom: 36px;
+      }
+
+      .yp-intro-number {
+        font-size: 90px;
+      }
+
+      .yp-treatment-card {
+        min-height: auto;
+        padding: 26px;
+      }
+
+      .yp-injection-visual {
+        min-height: 390px;
+      }
+
+      .yp-referral-card {
+        padding: 28px;
+      }
+
+      .yp-final-cta {
+        padding: 76px 0;
+      }
+
+      .yp-footer-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- =========================================================
+       HEADER
+  ========================================================== -->
+
+  <header class="yp-header">
+    <div class="yp-container yp-header-inner">
+
+      <a href="hy.html" class="yp-brand">
+        <img src="yparc-logo.png" alt="Yerevan Pain Clinic logo">
+
+        <div class="yp-brand-text">
+          <strong>Yerevan Pain Clinic</strong>
+          <span>YPARC · Pain Management</span>
+        </div>
+      </a>
+
+      <nav class="yp-nav">
+        <a href="hy.html">Գլխավոր</a>
+        <a href="conditions-hy.html">Ցավային վիճակներ</a>
+        <a href="pain-check-hy.html">Pain Check</a>
+        <a href="about-hy.html">Մեր մասին</a>
+
+        <a href="booking-hy.html" class="yp-header-cta">
+          Ամրագրել այց
+        </a>
+      </nav>
+
+      <a href="booking-hy.html" class="yp-header-cta">
+        Ամրագրել այց
+      </a>
+
+    </div>
+  </header>
+
+
+  <!-- =========================================================
+       HERO
+  ========================================================== -->
+
+  <section class="yp-hero">
+    <div class="yp-container yp-hero-inner">
+
+      <div>
+        <div class="yp-eyebrow">
+          YPARC · Treatment Approach
+        </div>
+
+        <h1>
+          Բուժման ճիշտ ուղին սկսվում է գնահատումից։
+        </h1>
+
+        <p class="yp-hero-lead">
+          Նույն ցավը տարբեր մարդկանց մոտ կարող է ունենալ տարբեր պատճառներ։
+          Այդ պատճառով բուժման տարբերակը ընտրվում է անհատապես՝
+          մասնագետի խորհրդատվությունից և կլինիկական գնահատումից հետո։
+        </p>
+
+        <div class="yp-hero-actions">
+          <a href="booking-hy.html" class="yp-btn yp-btn-primary">
+            Ամրագրել խորհրդատվություն →
+          </a>
+
+          <a href="pain-check-hy.html" class="yp-btn yp-btn-secondary">
+            Անցնել Pain Check
+          </a>
+        </div>
+      </div>
+
+
+      <div class="yp-treatment-visual">
+
+        <div class="yp-orbit">
+
+          <div class="yp-center-mark">
+            <span>Անհատական<br>պլան</span>
+          </div>
+
+          <div class="yp-orbit-item one">
+            Կոնսերվատիվ<br>բուժում
+          </div>
+
+          <div class="yp-orbit-item two">
+            Ներարկումային<br>թերապիա
+          </div>
+
+          <div class="yp-orbit-item three">
+            Ֆիզիոթերապիա և<br>վերականգնում
+          </div>
+
+          <div class="yp-orbit-item four">
+            Նեղ մասնագետի<br>խորհրդատվություն
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================
+       INTRO
+  ========================================================== -->
+
+  <section class="yp-section">
+    <div class="yp-container">
+
+      <div class="yp-intro-panel">
+
+        <div class="yp-intro-number">
+          01
+        </div>
+
+        <div class="yp-intro-content">
+
+          <div class="yp-eyebrow">
+            Անհատական մոտեցում
+          </div>
+
+          <h2 style="
+            margin:0 0 24px;
+            font-family:Georgia,'Times New Roman',serif;
+            font-size:clamp(36px,4vw,54px);
+            font-weight:400;
+            line-height:1.08;
+            color:var(--navy-deep);
+          ">
+            Բուժումը չի սկսվում մեթոդի ընտրությունից։
+          </h2>
+
+          <p>
+            Առաջին քայլը ցավի հնարավոր պատճառի, բնույթի,
+            տեղակայման և դրա ազդեցության գնահատումն է։
+          </p>
+
+          <p>
+            Գնահատումից հետո պացիենտին կարող է առաջարկվել
+            կոնսերվատիվ բուժում, թիրախային ներարկումային թերապիա,
+            ֆիզիոթերապիա կամ վերականգնողական ծրագիր։
+          </p>
+
+          <p>
+            Եթե կլինիկական պատկերը պահանջում է լրացուցիչ
+            մասնագիտացված գնահատում, պացիենտը կարող է նաև
+            ուղղորդվել համապատասխան նեղ մասնագետի խորհրդատվության։
+          </p>
+
+          <div class="yp-intro-highlight">
+            Բուժման նպատակը միայն ցավի ժամանակավոր նվազեցումը չէ,
+            այլ հնարավոր պատճառի գնահատումը, շարժունակության և
+            ֆունկցիայի բարելավումը և պացիենտի համար առավել
+            համապատասխան բուժման ուղու ընտրությունը։
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================
+       3 DIRECTIONS
+  ========================================================== -->
+
+  <section class="yp-section yp-section-soft">
+    <div class="yp-container">
+
+      <div class="yp-section-heading">
+
+        <div class="yp-eyebrow">
+          Բուժման հնարավոր ուղղություններ
+        </div>
+
+        <h2>
+          Գնահատումից հետո բուժման պլանը կարող է ներառել տարբեր մոտեցումներ։
+        </h2>
+
+        <p>
+          Բուժման ընտրությունը կախված է ցավի տեսակից,
+          կլինիկական պատկերից և պացիենտի անհատական կարիքներից։
+        </p>
+
+      </div>
+
+
+      <div class="yp-treatment-grid">
+
+        <!-- CARD 1 -->
+
+        <article class="yp-treatment-card">
+
+          <div class="yp-treatment-index">01</div>
+
+          <h3>
+            Կոնսերվատիվ բուժում
+          </h3>
+
+          <p>
+            Կարող է ներառել դեղորայքային և այլ ոչ ինվազիվ մոտեցումներ,
+            որոնք ընտրվում են ցավի բնույթի, ախտանիշների և կլինիկական
+            գնահատման հիման վրա։
+          </p>
+
+        </article>
+
+
+        <!-- CARD 2 -->
+
+        <article class="yp-treatment-card">
+
+          <div class="yp-treatment-index">02</div>
+
+          <h3>
+            Ներարկումային թերապիա
+          </h3>
+
+          <p>
+            Որոշ ցավային վիճակների դեպքում կարող են քննարկվել
+            թիրախային ներարկումային միջամտություններ՝ համապատասխան
+            ցուցումների առկայության դեպքում։
+          </p>
+
+        </article>
+
+
+        <!-- CARD 3 -->
+
+        <article class="yp-treatment-card">
+
+          <div class="yp-treatment-index">03</div>
+
+          <h3>
+            Ֆիզիոթերապիա և վերականգնում
+          </h3>
+
+          <p>
+            Անհատական ծրագիրը կարող է ուղղված լինել շարժունակության,
+            ֆունկցիայի, ուժի և առօրյա ակտիվության աստիճանական վերականգնմանը։
+          </p>
+
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================
+       INJECTION THERAPY
+  ========================================================== -->
+
+  <section class="yp-section yp-section-blue">
+    <div class="yp-container">
+
+      <div class="yp-injection-wrap">
+
+        <div class="yp-injection-visual">
+
+          <div class="yp-target-label">
+            Targeted procedure
+          </div>
+
+          <div class="yp-target-line"></div>
+          <div class="yp-target-dot"></div>
+
+        </div>
+
+
+        <div class="yp-injection-content">
+
+          <div class="yp-eyebrow">
+            Թիրախային ներարկումային թերապիա
+          </div>
+
+          <h2>
+            Միջամտությունը կատարվում է կոնկրետ անատոմիական թիրախի ուղղությամբ։
+          </h2>
+
+          <p>
+            Որոշ ցավային վիճակների դեպքում, մասնագետի գնահատումից
+            և համապատասխան ցուցումների որոշումից հետո, բուժման ծրագրում
+            կարող է ներառվել թիրախային ներարկումային թերապիա։
+          </p>
+
+          <p>
+            Ի տարբերություն սովորական ներարկումների՝ այս միջամտությունները
+            կատարվում են կոնկրետ անատոմիական թիրախի ուղղությամբ՝ օրինակ
+            հոդի, նյարդի, ջլի շրջանի կամ ողնաշարի համապատասխան հատվածի մոտ։
+          </p>
+
+          <p>
+            Ճշգրտությունն ու անվտանգությունը բարձրացնելու նպատակով
+            միջամտությունները կարող են իրականացվել
+            <strong>գործիքային հսկողությամբ՝ ՈՒՁՀ սարքի կամ ԷՕՊ-ի միջոցով</strong>։
+          </p>
+
+
+          <div class="yp-injection-points">
+
+            <div class="yp-injection-point">
+
+              <div class="yp-check">✓</div>
+
+              <div>
+                <strong>Թիրախային մոտեցում</strong>
+                <span>
+                  Միջամտությունն ուղղվում է նախապես որոշված անատոմիական թիրախի։
+                </span>
+              </div>
+
+            </div>
+
+
+            <div class="yp-injection-point">
+
+              <div class="yp-check">✓</div>
+
+              <div>
+                <strong>Գործիքային հսկողություն</strong>
+                <span>
+                  Ըստ միջամտության տեսակի կարող է կիրառվել
+                  ուլտրաձայնային հսկողություն կամ ԷՕՊ։
+                </span>
+              </div>
+
+            </div>
+
+
+            <div class="yp-injection-point">
+
+              <div class="yp-check">✓</div>
+
+              <div>
+                <strong>Անհատական հաճախականություն</strong>
+                <span>
+                  Ներարկումները կարող են լինել մեկանգամյա,
+                  կուրսային կամ ամրապնդող՝ կախված կլինիկական իրավիճակից։
+                </span>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="yp-injection-line">
+            Թիրախային մոտեցում · Գործիքային հսկողություն · Անհատական բուժման պլան
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================
+       OTHER SPECIALISTS
+  ========================================================== -->
+
+  <section class="yp-section">
+    <div class="yp-container">
+
+      <div class="yp-referral">
+
+        <div>
+
+          <div class="yp-eyebrow">
+            Երբ անհրաժեշտ է այլ մասնագետ
+          </div>
+
+          <div class="yp-section-heading" style="margin-bottom:0;">
+
+            <h2>
+              Երբեմն ցավի ճիշտ բուժումը սկսվում է ճիշտ ուղղորդումից։
+            </h2>
+
+            <p>
+              Ոչ բոլոր ցավային վիճակներն են պահանջում միայն ցավի
+              մասնագետի կողմից բուժում։
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="yp-referral-card">
+
+          <div class="yp-referral-symbol">
+            →
+          </div>
+
+          <h3>
+            Նեղ մասնագետի խորհրդատվություն
+          </h3>
+
+          <p>
+            Եթե գնահատման ընթացքում հայտնաբերվում է լրացուցիչ
+            մասնագիտացված հետազոտության կամ բուժման անհրաժեշտություն,
+            պացիենտը կարող է ուղղորդվել համապատասխան նեղ մասնագետի
+            խորհրդատվության։
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================
+       DISCLAIMER
+  ========================================================== -->
+
+  <section style="padding:0 0 90px;">
+    <div class="yp-container">
+
+      <div class="yp-disclaimer">
+
+        <strong>Կարևոր տեղեկատվություն։</strong>
+
+        Կայքում ներկայացված բուժման մոտեցումները ընդհանուր տեղեկատվական
+        բնույթ ունեն և ինքնուրույն չեն հանդիսանում բժշկական նշանակման կամ
+        անհատական բուժման առաջարկ։
+
+        Բուժման կոնկրետ մեթոդը, միջամտության անհրաժեշտությունը,
+        կիրառվող դեղամիջոցը և բուժման հաճախականությունը որոշվում են
+        միայն մասնագետի խորհրդատվությունից և համապատասխան բժշկական
+        գնահատումից հետո։
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================
+       FINAL CTA
+  ========================================================== -->
+
+  <section class="yp-final-cta">
+    <div class="yp-container yp-final-cta-inner">
+
+      <div>
+
+        <div
+          style="
+            margin-bottom:14px;
+            font-size:11px;
+            font-weight:800;
+            letter-spacing:.18em;
+            text-transform:uppercase;
+            color:#c8d5df;
+          "
+        >
+          YPARC · Consultation
+        </div>
+
+        <h2>
+          Բուժման ճիշտ ուղին սկսվում է գնահատումից։
+        </h2>
+
+        <p>
+          Ամրագրեք մասնագետի խորհրդատվություն՝ ձեր ցավի հնարավոր
+          պատճառը գնահատելու և համապատասխան բուժման տարբերակները
+          քննարկելու համար։
+        </p>
+
+      </div>
+
+      <div>
+        <a href="booking-hy.html" class="yp-btn yp-btn-primary">
+          Ամրագրել խորհրդատվություն →
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+
+  <footer class="yp-footer">
+    <div class="yp-container yp-footer-inner">
+
+      <div class="yp-footer-brand">
+        <strong>Yerevan Pain Clinic</strong>
+        <span>YPARC · Pain Management & Rehabilitation Center</span>
+      </div>
+
+      <div class="yp-footer-links">
+
+        <a href="hy.html">
+          Գլխավոր
+        </a>
+
+        <a href="conditions-hy.html">
+          Ցավային վիճակներ
+        </a>
+
+        <a href="pain-check-hy.html">
+          Pain Check
+        </a>
+
+        <a href="booking-hy.html">
+          Ամրագրել այց
+        </a>
+
+        <a href="tel:+37491092123">
+          +374 91 092123
+        </a>
+
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
