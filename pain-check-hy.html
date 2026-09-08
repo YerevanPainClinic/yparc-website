@@ -1547,7 +1547,7 @@
         "Նոր կամ արագ զարգացող թուլությունը, միզարձակման կամ աղիքային ֆունկցիայի նոր խանգարումը, շեքի շրջանի թմրածությունը կամ ցավի հետ արտահայտված ընդհանուր վատացումը կարող են պահանջել անհետաձգելի բժշկական գնահատում։";
 
       actions.innerHTML =
-        '<a href="tel:112" class="result-link result-primary">Շտապ օգնություն՝ 112</a>';
+        '<a href="tel:103" class="result-link result-primary">Շտապ օգնություն՝ 103</a>';
 
       return;
     }
@@ -1658,17 +1658,10 @@
 
 
   function consultationActions(container) {
-
-    /*
-      Փոխարինեք +37400000000-ը
-      կլինիկայի իրական հեռախոսահամարով։
-    */
-
-    container.innerHTML =
-      '<a href="tel:+37491092123" class="result-link result-primary">Ամրագրել խորհրդատվություն</a>' +
-      '<a href="conditions-hy.html" class="result-link result-secondary">Տեսնել ցավային վիճակները</a>';
-
-  }
+  container.innerHTML =
+    '<a href="booking-hy.html" class="result-link result-primary">Ամրագրել մասնագետի խորհրդատվություն →</a>' +
+    '<a href="conditions-hy.html" class="result-link result-secondary">Տեսնել ցավային վիճակները</a>';
+}
 
 
   function restartQuiz() {
