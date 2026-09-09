@@ -1,3 +1,4 @@
+```
 <!DOCTYPE html>
 <html lang="hy">
 <head>
@@ -1499,6 +1500,288 @@
       }
     }
 
+
+    /* =====================================================
+       YPARC — LAUNCH MOBILE POLISH
+       ===================================================== */
+
+    .mobile-patient-login {
+      display: block;
+      margin-top: 22px;
+      padding: 15px 18px !important;
+      border: 1px solid var(--green) !important;
+      border-radius: 14px;
+      color: var(--green);
+      background: var(--green-soft);
+      font-family: inherit !important;
+      font-size: 14px !important;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    @media (max-width: 1100px) {
+      header {
+        top: 0;
+      }
+
+      .nav {
+        min-height: 78px;
+        gap: 14px;
+      }
+
+      .nav-actions {
+        margin-left: auto;
+      }
+
+      .mobile-menu {
+        inset: 78px 0 0 0;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        padding-bottom: calc(32px + env(safe-area-inset-bottom));
+      }
+
+      .hero-copy::after {
+        width: 240px;
+        height: 240px;
+        left: -120px;
+        bottom: -120px;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        width: min(92%, calc(100% - 28px));
+      }
+
+      header {
+        box-shadow: 0 8px 24px rgba(6,57,44,.06);
+      }
+
+      .nav {
+        width: calc(100% - 28px);
+        min-height: 70px;
+        gap: 10px;
+      }
+
+      .yparc-real-logo {
+        width: 106px;
+      }
+
+      .menu-toggle {
+        width: 42px;
+        height: 42px;
+        flex: 0 0 42px;
+        font-size: 20px;
+      }
+
+      .mobile-menu {
+        inset: 70px 0 0 0;
+        padding: 20px 20px calc(28px + env(safe-area-inset-bottom));
+      }
+
+      .mobile-menu a:not(.btn):not(.mobile-patient-login) {
+        padding: 14px 2px;
+        font-size: 21px;
+        line-height: 1.2;
+      }
+
+      .mobile-menu .btn {
+        min-height: 52px;
+        margin-top: 12px;
+      }
+
+      .hero-copy {
+        min-height: auto;
+        padding: 54px 22px 58px;
+      }
+
+      .hero h1 {
+        max-width: 100%;
+        font-size: clamp(43px, 13.2vw, 62px);
+        line-height: .98;
+        letter-spacing: -.045em;
+      }
+
+      .hero-description {
+        margin: 22px 0 28px;
+        font-size: 15px;
+        line-height: 1.65;
+      }
+
+      .hero-buttons {
+        gap: 10px;
+      }
+
+      .hero-image {
+        height: 390px;
+      }
+
+      .hero-note {
+        top: 16px;
+        right: 14px;
+        width: 138px;
+        padding: 17px;
+        font-size: 9px;
+      }
+
+      .conditions-row {
+        grid-template-columns: repeat(2, minmax(0,1fr));
+      }
+
+      .condition {
+        min-width: 0;
+        min-height: 108px;
+        padding: 18px 8px;
+      }
+
+      .condition span {
+        font-size: 12px;
+        line-height: 1.35;
+      }
+
+      .condition-icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 9px;
+        font-size: 18px;
+      }
+
+      .intro,
+      .treatments,
+      .journey,
+      .resources,
+      .appointment {
+        padding: 64px 0;
+      }
+
+      .section-title {
+        font-size: clamp(36px, 10.5vw, 48px);
+        line-height: 1.04;
+      }
+
+      .section-text {
+        margin-top: 18px;
+        font-size: 15px;
+      }
+
+      .intro-grid {
+        gap: 34px;
+      }
+
+      .intro-image {
+        height: 330px;
+        border-radius: 20px;
+      }
+
+      .treatment-heading {
+        margin-bottom: 34px;
+      }
+
+      .treatment-grid {
+        gap: 16px;
+      }
+
+      .treatment-image {
+        height: 220px;
+      }
+
+      .treatment-content {
+        padding: 23px 21px 25px;
+      }
+
+      .treatment-content h3 {
+        font-size: 24px;
+      }
+
+      .treatment-content p {
+        min-height: auto;
+      }
+
+      .story {
+        min-height: 560px;
+        background-position: 58% center;
+      }
+
+      .story-content {
+        width: calc(100% - 36px);
+      }
+
+      .story-content > div {
+        max-width: 94%;
+      }
+
+      .quote {
+        font-size: 21px;
+        line-height: 1.45;
+      }
+
+      .journey-grid {
+        margin-top: 40px;
+        gap: 0;
+      }
+
+      .journey-step {
+        padding: 24px 4px 28px 24px;
+        border-left: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      }
+
+      .journey-number {
+        font-size: 42px;
+        margin-bottom: 14px;
+      }
+
+      .resource-header {
+        margin-bottom: 32px;
+      }
+
+      .resource-card img {
+        height: 205px;
+      }
+
+      .appointment-box {
+        gap: 32px;
+        padding: 28px 20px;
+        border-radius: 22px;
+      }
+
+      .contact-details {
+        font-size: 13px;
+        overflow-wrap: anywhere;
+      }
+
+      .footer-grid {
+        gap: 34px;
+      }
+
+      footer {
+        padding: 54px 0 24px;
+      }
+
+      .footer-bottom {
+        margin-top: 42px;
+        gap: 10px;
+      }
+    }
+
+    @media (max-width: 380px) {
+      .hero h1 {
+        font-size: 41px;
+      }
+
+      .yparc-real-logo {
+        width: 96px;
+      }
+
+      .condition {
+        min-height: 102px;
+      }
+
+      .pain-check-home-box {
+        padding: 26px 18px;
+      }
+    }
+
 </style>
 
 </head>
@@ -1555,7 +1838,6 @@
         <a href="conditions-hy.html">Ցավային վիճակներ</a>
         <a href="pain-check-hy.html">Pain Check</a>
         <a href="rehabilitation-hy.html">Վերականգնում</a>
-        <a href="#education">Կրթություն</a>
         <a href="#resources">Օգտակար նյութեր</a>
         <a href="treatments-hy.html">Բուժումներ</a>
         <a href="#contact">Կապ</a>
@@ -1564,7 +1846,11 @@
 
       <div class="nav-actions">
 
-        <a href="#" class="patient-login">
+        <a href="https://apps.physiapp.com/login"
+           class="patient-login"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Բացել պացիենտի վերականգնողական ծրագիրը PhysiApp-ում">
           ◯ &nbsp; Պացիենտի մուտք
         </a>
 
@@ -1576,6 +1862,7 @@
           class="menu-toggle"
           onclick="toggleMenu()"
           aria-label="Բացել ընտրացանկը"
+          aria-expanded="false"
         >
           ☰
         </button>
@@ -1595,10 +1882,17 @@
     <a href="conditions-hy.html" onclick="toggleMenu()">Ցավային վիճակներ</a>
     <a href="pain-check-hy.html" onclick="toggleMenu()">Pain Check</a>
     <a href="rehabilitation-hy.html" onclick="toggleMenu()">Վերականգնում</a>
-    <a href="#education" onclick="toggleMenu()">Կրթություն</a>
     <a href="#resources" onclick="toggleMenu()">Օգտակար նյութեր</a>
     <a href="treatments-hy.html" onclick="toggleMenu()">Բուժումներ</a>
     <a href="#contact" onclick="toggleMenu()">Կապ</a>
+
+    <a href="https://apps.physiapp.com/login"
+       class="mobile-patient-login"
+       target="_blank"
+       rel="noopener noreferrer"
+       onclick="toggleMenu()">
+      ◯ &nbsp; Պացիենտի մուտք / PhysiApp
+    </a>
 
     <a href="booking-hy.html" class="btn btn-primary" onclick="toggleMenu()">
       Գրանցվել այցի
@@ -2054,65 +2348,6 @@
 
     </section>
 
-
-    <!-- EDUCATION -->
-
-    <section class="education" id="education">
-
-      <div class="education-grid">
-
-        <div class="education-copy">
-
-          <div class="eyebrow">
-            YPARC ԲԺՇԿԱԿԱՆ ԿՐԹՈՒԹՅՈՒՆ
-          </div>
-
-          <h2 class="section-title">
-            Գիտելիքը ձևավորում է ավելի լավ բուժում։
-          </h2>
-
-          <p class="section-text">
-            Մասնագիտական կրթական հնարավորություններ բժիշկների,
-            ռեզիդենտների և առողջապահության մասնագետների համար՝
-            ցավի բժշկության, ռեգիոնար տեխնիկաների և
-            ուլտրաձայնային հսկողությամբ միջամտությունների ոլորտում։
-          </p>
-
-
-          <div class="education-list">
-
-            <span class="education-pill">
-              Ռեգիոնար անզգայացում
-            </span>
-
-            <span class="education-pill">
-              Ուլտրաձայնային հսկողությամբ տեխնիկաներ
-            </span>
-
-            <span class="education-pill">
-              Ցավի բժշկություն
-            </span>
-
-            <span class="education-pill">
-              Գործնական աշխատարաններ
-            </span>
-
-          </div>
-
-          <a href="#" class="btn btn-primary">
-            Դիտել կրթական ծրագրերը →
-          </a>
-
-        </div>
-
-
-        <div class="education-image"></div>
-
-      </div>
-
-    </section>
-
-
     <!-- RESOURCES -->
 
     <section class="resources" id="resources">
@@ -2359,7 +2594,7 @@
 
           <ul>
             <li><a href="booking-hy.html">Գրանցվել այցի</a></li>
-            <li><a href="#">Պացիենտի մուտք</a></li>
+            <li><a href="https://apps.physiapp.com/login" target="_blank" rel="noopener noreferrer">Պացիենտի մուտք / PhysiApp</a></li>
             <li><a href="#resources">Օգտակար նյութեր պացիենտների համար</a></li>
             <li><a href="#">Հաճախ տրվող հարցեր</a></li>
           </ul>
@@ -2423,3 +2658,4 @@
 
 </body>
 </html>
+```
