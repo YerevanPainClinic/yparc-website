@@ -1782,6 +1782,151 @@
       }
     }
 
+
+    /* =====================================================
+       YPARC — MOBILE OVERFLOW + LONG TEXT FIX
+       Prevent horizontal page movement and text overflow
+       ===================================================== */
+
+    html,
+    body {
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden !important;
+    }
+
+    body {
+      position: relative;
+    }
+
+    main,
+    header,
+    footer,
+    section,
+    .container,
+    .nav,
+    .hero,
+    .hero-copy,
+    .hero-image,
+    .conditions-row,
+    .pain-check-home,
+    .pain-check-home-box,
+    .intro-grid,
+    .treatment-grid,
+    .journey-grid,
+    .resource-grid,
+    .appointment-box,
+    .footer-grid {
+      max-width: 100%;
+      min-width: 0;
+    }
+
+    img,
+    video,
+    iframe,
+    svg {
+      max-width: 100%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    a,
+    span,
+    strong,
+    li,
+    .section-title,
+    .section-text,
+    .hero-description,
+    .quote,
+    .treatment-content,
+    .resource-body,
+    .journey-step,
+    .pain-check-card,
+    .pain-check-home-copy {
+      min-width: 0;
+      max-width: 100%;
+      overflow-wrap: break-word;
+      word-break: normal;
+      hyphens: auto;
+    }
+
+    @media (max-width: 700px) {
+      body {
+        overscroll-behavior-x: none;
+      }
+
+      .hero,
+      .hero-copy,
+      .hero-image {
+        width: 100%;
+      }
+
+      .hero-copy {
+        overflow: hidden;
+      }
+
+      .hero-copy::after {
+        display: none;
+      }
+
+      .hero-image {
+        overflow: hidden;
+        touch-action: pan-y;
+      }
+
+      .hero-image img {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        user-select: none;
+        -webkit-user-drag: none;
+      }
+
+      .hero h1,
+      .section-title,
+      .pain-check-home-copy .section-title {
+        width: 100%;
+        overflow-wrap: break-word;
+        word-break: normal;
+      }
+
+      .hero h1 {
+        font-size: clamp(40px, 12vw, 56px);
+      }
+
+      .section-title {
+        font-size: clamp(34px, 9.5vw, 44px);
+      }
+
+      .mobile-menu,
+      .mobile-menu a {
+        max-width: 100%;
+        overflow-wrap: break-word;
+        word-break: normal;
+      }
+
+      .condition span,
+      .treatment-content h3,
+      .resource-body h3,
+      .journey-step h3 {
+        overflow-wrap: break-word;
+        word-break: normal;
+      }
+
+      .appointment-box,
+      .appointment-form,
+      .appointment-form > * {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+      }
+    }
+
 </style>
 
 </head>
@@ -2526,7 +2671,7 @@
                 Ցավի մասնագետի խորհրդատվություն
               </div>
               <div style="font-size:14px;color:#66736e;">
-                30 րոպե · 15,000 AMD
+                30 րոպե
               </div>
             </div>
 
