@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Դոկտոր Արման Քեյան | Ցավի կառավարման մասնագետ | YPARC</title>
+  <meta name="description" content="Դոկտոր Արման Քեյան՝ անեսթեզիոլոգ-ռեանիմատոլոգ և ցավի կառավարման մասնագետ։ Կրթություն, աշխատանքային փորձ, մասնագիտական անդամակցություններ և գիտական հրապարակումներ։">
+
+  <style>
+    :root{
+      --green:#0b4f3c;
+      --green-dark:#06392c;
+      --green-soft:#eaf2ee;
+      --gold:#c89b3c;
+      --gold-soft:#ead7a8;
+      --cream:#f7f4ed;
+      --white:#ffffff;
+      --ink:#102b25;
+      --muted:#66736e;
+      --border:#dce5e0;
+      --shadow:0 22px 60px rgba(6,57,44,.10);
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+      background:var(--cream);
+      color:var(--ink);
+      line-height:1.65;
+    }
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .container{width:min(1180px,calc(100% - 40px));margin:0 auto}
+
+    /* HEADER */
+    .header{
+      position:sticky;
+      top:0;
+      z-index:1000;
+      background:rgba(255,255,255,.94);
+      backdrop-filter:blur(16px);
+      border-bottom:1px solid rgba(11,79,60,.08);
+    }
+    .header-inner{
+      min-height:78px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:28px;
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+    .brand img{width:52px;height:52px;object-fit:contain}
+    .brand strong{
+      display:block;
+      color:var(--green);
+      font-size:16px;
+    }
+    .brand span{
+      display:block;
+      margin-top:2px;
+      color:var(--muted);
+      font-size:9px;
+      font-weight:700;
+      letter-spacing:.13em;
+      text-transform:uppercase;
+    }
+    .nav{
+      display:flex;
+      align-items:center;
+      gap:24px;
+    }
+    .nav a{
+      font-size:13px;
+      font-weight:650;
+      transition:.2s ease;
+    }
+    .nav a:hover{color:var(--green)}
+
+    /* HERO */
+    .hero{
+      padding:90px 0 76px;
+      background:
+        radial-gradient(circle at 90% 15%,rgba(200,155,60,.17),transparent 28%),
+        linear-gradient(135deg,#f7f4ed 0%,#edf4f0 100%);
+    }
+    .hero-grid{
+      display:grid;
+      grid-template-columns:minmax(0,1.05fr) minmax(360px,.95fr);
+      gap:72px;
+      align-items:center;
+    }
+    .eyebrow{
+      margin-bottom:16px;
+      color:var(--gold);
+      font-size:11px;
+      font-weight:800;
+      letter-spacing:.19em;
+      text-transform:uppercase;
+    }
+    .hero h1{
+      max-width:760px;
+      color:var(--green-dark);
+      font-family:Georgia,serif;
+      font-size:clamp(48px,6vw,78px);
+      font-weight:400;
+      line-height:.98;
+      letter-spacing:-.045em;
+    }
+    .hero-role{
+      margin-top:18px;
+      color:#2f5c50;
+      font-size:16px;
+      font-weight:750;
+    }
+    .hero p{
+      max-width:700px;
+      margin-top:24px;
+      color:var(--muted);
+      font-size:17px;
+    }
+    .hero-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:30px;
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:50px;
+      padding:0 23px;
+      border-radius:999px;
+      border:1px solid var(--green);
+      font-size:13px;
+      font-weight:800;
+      transition:.25s ease;
+    }
+    .btn-primary{background:var(--green);color:white}
+    .btn-primary:hover{background:var(--green-dark);transform:translateY(-2px)}
+    .btn-secondary{background:transparent;color:var(--green)}
+    .btn-secondary:hover{background:white;transform:translateY(-2px)}
+    .hero-photo{
+      position:relative;
+      max-width:480px;
+      margin-left:auto;
+    }
+    .hero-photo-frame{
+      overflow:hidden;
+      border-radius:4px 92px 4px 4px;
+      background:#ebe7de;
+      box-shadow:var(--shadow);
+    }
+    .hero-photo img{
+      width:100%;
+      aspect-ratio:4/5;
+      object-fit:cover;
+      object-position:center top;
+    }
+    .hero-badge{
+      position:absolute;
+      left:-28px;
+      bottom:30px;
+      padding:18px 22px;
+      min-width:220px;
+      background:var(--green-dark);
+      color:white;
+      box-shadow:0 18px 42px rgba(6,57,44,.18);
+    }
+    .hero-badge span{
+      display:block;
+      color:var(--gold-soft);
+      font-size:10px;
+      font-weight:800;
+      letter-spacing:.14em;
+    }
+    .hero-badge strong{
+      display:block;
+      margin-top:5px;
+      font-size:13px;
+      font-weight:600;
+    }
+
+    /* INTRO */
+    .intro{padding:85px 0;background:white}
+    .intro-grid{
+      display:grid;
+      grid-template-columns:.8fr 1.2fr;
+      gap:70px;
+      align-items:start;
+    }
+    .section-title{
+      color:var(--green-dark);
+      font-family:Georgia,serif;
+      font-size:clamp(36px,5vw,56px);
+      font-weight:400;
+      line-height:1.05;
+    }
+    .intro-copy p{
+      color:var(--muted);
+      font-size:16px;
+      margin-bottom:18px;
+    }
+    .stats{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      margin-top:35px;
+      border-top:1px solid var(--border);
+      border-bottom:1px solid var(--border);
+    }
+    .stat{padding:20px 18px 18px 0}
+    .stat + .stat{padding-left:18px;border-left:1px solid var(--border)}
+    .stat strong{
+      display:block;
+      color:var(--green);
+      font-family:Georgia,serif;
+      font-size:24px;
+      font-weight:400;
+    }
+    .stat span{
+      display:block;
+      margin-top:4px;
+      color:var(--muted);
+      font-size:11px;
+      line-height:1.45;
+    }
+
+    /* TIMELINE / CARDS */
+    .section{padding:88px 0}
+    .section.soft{background:#eef4f0}
+    .section.white{background:#fff}
+    .section-head{
+      display:flex;
+      align-items:end;
+      justify-content:space-between;
+      gap:40px;
+      margin-bottom:42px;
+    }
+    .section-head p{
+      max-width:620px;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .timeline{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:18px;
+    }
+    .timeline-item{
+      padding:28px;
+      border:1px solid var(--border);
+      background:white;
+      border-radius:18px;
+      box-shadow:0 8px 24px rgba(6,57,44,.04);
+    }
+    .timeline-item .year{
+      display:block;
+      margin-bottom:10px;
+      color:var(--gold);
+      font-size:11px;
+      font-weight:800;
+      letter-spacing:.12em;
+    }
+    .timeline-item h3{
+      color:var(--green-dark);
+      font-family:Georgia,serif;
+      font-size:23px;
+      font-weight:400;
+      line-height:1.2;
+    }
+    .timeline-item p{
+      margin-top:10px;
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    .edu-list{
+      display:grid;
+      gap:14px;
+    }
+    .edu-item{
+      display:grid;
+      grid-template-columns:110px 1fr;
+      gap:22px;
+      padding:22px 0;
+      border-bottom:1px solid var(--border);
+    }
+    .edu-item strong{
+      color:var(--gold);
+      font-family:Georgia,serif;
+      font-size:18px;
+      font-weight:400;
+    }
+    .edu-item h3{
+      color:var(--green-dark);
+      font-size:16px;
+      margin-bottom:5px;
+    }
+    .edu-item p{color:var(--muted);font-size:14px}
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:18px;
+    }
+    .card{
+      padding:30px;
+      border:1px solid var(--border);
+      border-radius:20px;
+      background:white;
+    }
+    .card h3{
+      color:var(--green-dark);
+      font-family:Georgia,serif;
+      font-size:25px;
+      font-weight:400;
+      margin-bottom:10px;
+    }
+    .card p{color:var(--muted);font-size:14px}
+
+    .publication-list{
+      display:grid;
+      gap:14px;
+    }
+    .publication{
+      padding:24px 26px;
+      border-left:3px solid var(--gold);
+      background:#fff;
+      box-shadow:0 8px 24px rgba(6,57,44,.04);
+    }
+    .publication strong{
+      display:block;
+      color:var(--green-dark);
+      font-size:15px;
+      margin-bottom:6px;
+    }
+    .publication span{
+      color:var(--muted);
+      font-size:13px;
+    }
+
+    .awards{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:18px;
+    }
+    .award{
+      padding:28px;
+      border:1px solid var(--border);
+      border-radius:18px;
+      background:white;
+    }
+    .award .num{
+      display:block;
+      margin-bottom:12px;
+      color:var(--gold);
+      font-family:Georgia,serif;
+      font-size:18px;
+    }
+    .award h3{
+      color:var(--green-dark);
+      font-size:16px;
+      margin-bottom:7px;
+    }
+    .award p{color:var(--muted);font-size:13px}
+
+    /* CTA */
+    .cta{
+      padding:84px 0;
+      background:var(--green-dark);
+      color:white;
+    }
+    .cta-box{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:40px;
+    }
+    .cta h2{
+      font-family:Georgia,serif;
+      font-size:clamp(36px,5vw,58px);
+      font-weight:400;
+      line-height:1.03;
+    }
+    .cta p{
+      max-width:650px;
+      margin-top:12px;
+      color:rgba(255,255,255,.72);
+      font-size:14px;
+    }
+    .cta .btn-primary{
+      background:var(--gold);
+      color:var(--green-dark);
+      border-color:var(--gold);
+      flex-shrink:0;
+    }
+    .cta .btn-primary:hover{background:#d4aa50}
+
+    /* FOOTER */
+    footer{
+      padding:42px 0;
+      background:#052f25;
+      color:rgba(255,255,255,.64);
+    }
+    .footer-inner{
+      display:flex;
+      justify-content:space-between;
+      gap:30px;
+      font-size:13px;
+    }
+    footer strong{color:white}
+
+    @media(max-width:900px){
+      .nav{display:none}
+      .hero-grid,.intro-grid{grid-template-columns:1fr}
+      .hero-photo{margin:0 auto}
+      .hero-badge{left:18px}
+      .timeline,.cards{grid-template-columns:1fr}
+      .awards{grid-template-columns:1fr}
+      .cta-box{flex-direction:column;align-items:flex-start}
+    }
+
+    @media(max-width:620px){
+      .container{width:calc(100% - 28px)}
+      .header-inner{min-height:68px}
+      .brand img{width:42px;height:42px}
+      .brand span{display:none}
+      .hero{padding:62px 0 58px}
+      .hero h1{font-size:46px}
+      .hero-badge{
+        position:relative;
+        left:auto;
+        bottom:auto;
+        width:calc(100% - 28px);
+        margin:-24px auto 0;
+      }
+      .intro,.section{padding:62px 0}
+      .stats{grid-template-columns:1fr}
+      .stat{padding:15px 0}
+      .stat + .stat{padding-left:0;border-left:0;border-top:1px solid var(--border)}
+      .section-head{flex-direction:column;align-items:flex-start}
+      .edu-item{grid-template-columns:1fr;gap:6px}
+      .footer-inner{flex-direction:column}
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container header-inner">
+
+      <a href="index.html" class="brand">
+        <img src="yparc-logo.png" alt="Yerevan Pain Clinic">
+        <div>
+          <strong>Yerevan Pain Clinic</strong>
+          <span>YPARC · Pain Management</span>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Գլխավոր</a>
+        <a href="index.html#conditions">Ցավային վիճակներ</a>
+        <a href="pain-check-hy.html">Pain Check</a>
+        <a href="about-hy.html">Մեր մասին</a>
+        <a href="booking-hy.html">Ամրագրել այց</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container hero-grid">
+
+        <div>
+          <div class="eyebrow">YPARC · ԲԺՇԿԻ ՊՐՈՖԻԼ</div>
+
+          <h1>Դոկտոր Արման Քեյան</h1>
+
+          <div class="hero-role">
+            Անեսթեզիոլոգ-ռեանիմատոլոգ · Ցավի կառավարման մասնագետ
+          </div>
+
+          <p>
+            Ցավի կառավարման ժամանակակից մոտեցումներ՝ կլինիկական գնահատման,
+            միջամտական ցավաբուժության և վերականգնողական սկզբունքների համադրմամբ։
+          </p>
+
+          <div class="hero-actions">
+            <a href="booking-hy.html" class="btn btn-primary">Ամրագրել այց →</a>
+            <a href="#experience" class="btn btn-secondary">Դիտել փորձը</a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <div class="hero-photo-frame">
+            <img src="dr-arman-keyan.png" alt="Դոկտոր Արման Քեյան">
+          </div>
+
+          <div class="hero-badge">
+            <span>YPARC · PAIN MEDICINE</span>
+            <strong>Ցավի կառավարման մասնագետ · Երևան</strong>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="intro white">
+      <div class="container intro-grid">
+
+        <div>
+          <div class="eyebrow">ՄԱՍՆԱԳԻՏԱԿԱՆ ՄՈՏԵՑՈՒՄ</div>
+          <h2 class="section-title">Բուժում, որը կենտրոնացած է ոչ միայն ցավի, այլև ֆունկցիայի վրա։</h2>
+        </div>
+
+        <div class="intro-copy">
+          <p>
+            Դոկտոր Արման Քեյանը անեսթեզիոլոգ-ռեանիմատոլոգ և ցավի կառավարման մասնագետ է։
+            Նրա մասնագիտական ուղին ներառում է մանկական և մեծահասակների անեսթեզիոլոգիա,
+            ինտենսիվ թերապիա և ցավի բժշկություն։
+          </p>
+
+          <p>
+            YPARC-ում բուժման նպատակը ցավի պատճառի գնահատումն է և անհատական պլանի
+            ձևավորումը՝ ըստ հիվանդի կլինիկական վիճակի, ֆունկցիոնալ սահմանափակումների
+            և բուժման կարիքների։
+          </p>
+
+          <div class="stats">
+            <div class="stat">
+              <strong>2013-ից</strong>
+              <span>կլինիկական աշխատանքային փորձ</span>
+            </div>
+            <div class="stat">
+              <strong>ESRA</strong>
+              <span>European Society of Regional Anaesthesia &amp; Pain Therapy</span>
+            </div>
+            <div class="stat">
+              <strong>ESAIC</strong>
+              <span>European Society of Anaesthesiology &amp; Intensive Care</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="container">
+
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">ԿՐԹՈՒԹՅՈՒՆ</div>
+            <h2 class="section-title">Բժշկական կրթություն և մասնագիտացում</h2>
+          </div>
+          <p>
+            Բժշկական կրթությունն ու հետդիպլոմային մասնագիտացումը կենտրոնացած են
+            անեսթեզիոլոգիայի, ինտենսիվ թերապիայի և ցավի կառավարման ոլորտների վրա։
+          </p>
+        </div>
+
+        <div class="edu-list">
+          <div class="edu-item">
+            <strong>2005–2011</strong>
+            <div>
+              <h3>Երևանի Մխիթար Հերացու անվան պետական բժշկական համալսարան</h3>
+              <p>Ընդհանուր բժշկության ֆակուլտետ</p>
+            </div>
+          </div>
+
+          <div class="edu-item">
+            <strong>2011–2013</strong>
+            <div>
+              <h3>ԵՊԲՀ</h3>
+              <p>Մանկական անեսթեզիոլոգիա և ինտենսիվ թերապիա</p>
+            </div>
+          </div>
+
+          <div class="edu-item">
+            <strong>2013–2017</strong>
+            <div>
+              <h3>ԵՊԲՀ</h3>
+              <p>Մեծահասակների անեսթեզիոլոգիա և ինտենսիվ թերապիա</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section white" id="experience">
+      <div class="container">
+
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">ԱՇԽԱՏԱՆՔԱՅԻՆ ՓՈՐՁ</div>
+            <h2 class="section-title">Կլինիկական գործունեություն</h2>
+          </div>
+          <p>
+            Փորձը ներառում է մանկական և մեծահասակների անեսթեզիոլոգիա,
+            ինտենսիվ թերապիա, ծառայության ղեկավարում և ցավի կառավարում։
+          </p>
+        </div>
+
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <span class="year">2013–2019</span>
+            <h3>«Սուրբ Աստվածամայր» ԲԿ</h3>
+            <p>Մանկական անեսթեզիոլոգ-ռեանիմատոլոգ</p>
+          </div>
+
+          <div class="timeline-item">
+            <span class="year">2014–2016</span>
+            <h3>ՀՀ ՊԲ «Իվանյանի» զինվորական հոսպիտալ</h3>
+            <p>Անեսթեզիոլոգ-ռեանիմատոլոգ · պարտադիր զինվորական ծառայություն</p>
+          </div>
+
+          <div class="timeline-item">
+            <span class="year">2019–2022</span>
+            <h3>«Ուիգմոր» Քլինիք</h3>
+            <p>Մանկական և մեծահասակների անեսթեզիոլոգիական ծառայության ղեկավար</p>
+          </div>
+
+          <div class="timeline-item">
+            <span class="year">2020</span>
+            <h3>«Սուրբ Աստվածամայր» ԲԿ ինֆեկցիոն մասնաճյուղ</h3>
+            <p>Ռեանիմատոլոգ · COVID-19</p>
+          </div>
+
+          <div class="timeline-item">
+            <span class="year">2022–2023</span>
+            <h3>«Երևան» ԲԿ</h3>
+            <p>Մանկական անեսթեզիոլոգ · ցավի կառավարման մասնագետ</p>
+          </div>
+
+          <div class="timeline-item">
+            <span class="year">2022–առ այսօր</span>
+            <h3>«Շենգավիթ» ԲԿ</h3>
+            <p>Մանկական և մեծահասակների անեսթեզիոլոգ</p>
+          </div>
+
+          <div class="timeline-item">
+            <span class="year">2023–առ այսօր</span>
+            <h3>«Ցենտրալ Քլինիք»</h3>
+            <p>Անեսթեզիոլոգ · ցավի կառավարման մասնագետ</p>
+          </div>
+
+          <div class="timeline-item">
+            <span class="year">2023–առ այսօր</span>
+            <h3>«Փեյն Քլինիք»</h3>
+            <p>Գործադիր տնօրեն · ցավի կառավարման մասնագետ</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="container">
+
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">ՄԱՍՆԱԳԻՏԱԿԱՆ ԱՆԴԱՄԱԿՑՈՒԹՅՈՒՆ</div>
+            <h2 class="section-title">Մասնագիտական համայնքներ</h2>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <h3>ESRA</h3>
+            <p>European Society of Regional Anaesthesia &amp; Pain Therapy</p>
+          </div>
+
+          <div class="card">
+            <h3>ESAIC</h3>
+            <p>European Society of Anaesthesiology and Intensive Care</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section white">
+      <div class="container">
+
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">ԳԻՏԱԿԱՆ ՀՐԱՊԱՐԱԿՈՒՄՆԵՐ</div>
+            <h2 class="section-title">Հոդվածներ և ներկայացումներ</h2>
+          </div>
+        </div>
+
+        <div class="publication-list">
+
+          <div class="publication">
+            <strong>
+              Pulmonary vasodilator effects of Norepinephrine in combination with high epidural analgesia during the thoracoscopic correction of esophageal atresia
+            </strong>
+            <span>ESAIC · EJA · 2018</span>
+          </div>
+
+          <div class="publication">
+            <strong>
+              40 years of finger pain – misdiagnosed glomus tumor – a case presentation
+            </strong>
+            <span>ESAIC · EJA · 2020</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="container">
+
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">ԿՈՉՈՒՄՆԵՐ ԵՎ ՊԱՐԳԵՎԱՏՐՈՒԹՅՈՒՆՆԵՐ</div>
+            <h2 class="section-title">Մասնագիտական և ծառայողական գնահատանք</h2>
+          </div>
+        </div>
+
+        <div class="awards">
+
+          <div class="award">
+            <span class="num">01</span>
+            <h3>Պահեստազորի ավագ լեյտենանտ</h3>
+          </div>
+
+          <div class="award">
+            <span class="num">02</span>
+            <h3>Մարտական ծառայության մեդալ</h3>
+            <p>2021</p>
+          </div>
+
+          <div class="award">
+            <span class="num">03</span>
+            <h3>«Մխիթար Հերացի» մեդալ</h3>
+            <p>2021</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-box">
+
+        <div>
+          <div class="eyebrow" style="color:#ead7a8">ԽՈՐՀՐԴԱՏՎՈՒԹՅՈՒՆ</div>
+          <h2>Ցավի պատճառը հասկանալը բուժման առաջին քայլն է։</h2>
+          <p>
+            Ամրագրեք խորհրդատվություն՝ ձեր ցավային վիճակի գնահատման և
+            անհատական բուժման պլանի քննարկման համար։
+          </p>
+        </div>
+
+        <a href="booking-hy.html" class="btn btn-primary">Ամրագրել այց →</a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <strong>Yerevan Pain Clinic</strong><br>
+        YPARC · Pain Management
+      </div>
+
+      <div>
+        Պուշկին 56/1, Երևան<br>
+        +374 91 092123
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
