@@ -1218,13 +1218,209 @@
 .language-switcher a:hover,
 .language-switcher a.active {
   color: #ead7a8;
-}</style>
+}
+
+    /* =====================================================
+       HOMEPAGE CONVERSION UPGRADE — HERO + PAIN FINDER
+       ===================================================== */
+
+    .hero-copy {
+      overflow: hidden;
+    }
+
+    .hero-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      width: fit-content;
+      padding: 9px 13px;
+      margin-bottom: 22px;
+      border-radius: 999px;
+      background: rgba(11,79,60,.08);
+      color: var(--green);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+
+    .hero-kicker::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 0 5px rgba(200,155,60,.14);
+    }
+
+    .hero-trust {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 18px;
+      margin-top: 28px;
+      color: var(--text);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .hero-trust span {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .hero-trust span::before {
+      content: "✓";
+      color: var(--green);
+      font-weight: 900;
+    }
+
+    .hero-image::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(
+        180deg,
+        rgba(6,57,44,.02) 0%,
+        rgba(6,57,44,.03) 62%,
+        rgba(6,57,44,.18) 100%
+      );
+    }
+
+    .hero-image img {
+      object-position: center 28%;
+    }
+
+    .hero-note {
+      z-index: 2;
+      width: 205px;
+      border-radius: 18px;
+      box-shadow: 0 18px 45px rgba(6,57,44,.12);
+      letter-spacing: .09em;
+      text-transform: none;
+      font-size: 12px;
+    }
+
+    .hero-note strong {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--green);
+      font-family: Georgia, serif;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: -.02em;
+    }
+
+    .pain-finder {
+      padding: 72px 0 28px;
+      background: white;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .pain-finder-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+
+    .pain-finder-title {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(32px, 4vw, 52px);
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: -.035em;
+    }
+
+    .pain-finder-copy {
+      max-width: 450px;
+      color: var(--text);
+      font-size: 14px;
+    }
+
+    .condition-strip {
+      border-bottom: 0;
+    }
+
+    .conditions-row {
+      gap: 10px;
+      padding-bottom: 42px;
+    }
+
+    .condition {
+      min-height: 128px;
+      border: 1px solid var(--border) !important;
+      border-radius: 18px;
+      background: #fff;
+    }
+
+    .condition:hover {
+      border-color: rgba(11,79,60,.28) !important;
+      box-shadow: 0 12px 32px rgba(11,79,60,.08);
+    }
+
+    .condition-icon {
+      transition: .25s ease;
+    }
+
+    .condition:hover .condition-icon {
+      background: var(--green);
+      color: white;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 700px) {
+      .hero-kicker {
+        font-size: 9px;
+        letter-spacing: .08em;
+      }
+
+      .hero-trust {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+
+      .hero-image img {
+        object-position: 56% 25%;
+      }
+
+      .hero-note {
+        width: 165px;
+        padding: 17px;
+      }
+
+      .hero-note strong {
+        font-size: 17px;
+      }
+
+      .pain-finder {
+        padding-top: 58px;
+      }
+
+      .pain-finder-head {
+        display: block;
+      }
+
+      .pain-finder-copy {
+        margin-top: 14px;
+      }
+
+      .conditions-row {
+        gap: 8px;
+      }
+
+      .condition {
+        min-height: 112px;
+        border-radius: 15px;
+      }
+    }
+
+</style>
 
 </head>
-<body> </style>
-</head>
-
-
 <body>
 
   <!-- TOP INFO BAR -->
@@ -1335,48 +1531,49 @@
 
       <div class="hero-copy">
 
-        <div class="eyebrow">
-          Less Pain. More Life.
+        <div class="hero-kicker">
+          Yerevan Pain & Rehabilitation Clinic
         </div>
 
         <h1>
-          Move Forward<br>
-          <span>With Confidence.</span>
+          Pain Shouldn’t<br>
+          <span>Control Your Life.</span>
         </h1>
 
         <p class="hero-description">
-          Comprehensive pain management and rehabilitation
-          designed around you. Modern medicine, personalized
-          treatment and a multidisciplinary approach to help
-          you return to the life you love.
+          Personalized pain medicine, image-guided procedures and rehabilitation
+          focused on helping you move better, function better and return to the
+          activities that matter to you.
         </p>
 
         <div class="hero-buttons">
-
           <a href="#appointment" class="btn btn-primary">
-            Book an Appointment →
+            Book a Consultation →
           </a>
 
-          <a href="#treatments" class="btn btn-outline">
-            Explore Our Approach
+          <a href="#conditions" class="btn btn-outline">
+            Find Your Pain Area
           </a>
+        </div>
 
+        <div class="hero-trust" aria-label="Clinic care highlights">
+          <span>Evidence-based care</span>
+          <span>Ultrasound-guided procedures</span>
+          <span>Personalized rehabilitation</span>
         </div>
 
       </div>
 
-
       <div class="hero-image">
 
         <img
-          src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=85"
-          alt="Healthcare professional providing patient care"
+          src="hero-doctor.png"
+          alt="Pain management physician at Yerevan Pain & Rehabilitation Clinic"
         >
 
         <div class="hero-note">
-          Expert Care<br>
-          Modern Methods<br>
-          Real Progress
+          <strong>Care that looks beyond the symptom.</strong>
+          Assessment · Treatment · Rehabilitation
         </div>
 
       </div>
@@ -1384,46 +1581,64 @@
     </section>
 
 
-    <!-- CONDITIONS -->
+    <!-- PAIN FINDER / CONDITIONS -->
 
-    <section class="condition-strip" id="conditions">
+    <section class="pain-finder" id="conditions">
 
-      <div class="conditions-row">
+      <div class="container">
 
-        <a class="condition" href="#">
-          <div class="condition-icon">◒</div>
-          <span>Back Pain</span>
-        </a>
+        <div class="pain-finder-head">
+          <div>
+            <div class="eyebrow">Start With Your Symptoms</div>
+            <h2 class="pain-finder-title">Where does it hurt?</h2>
+          </div>
 
-        <a class="condition" href="#">
-          <div class="condition-icon">◐</div>
-          <span>Neck Pain</span>
-        </a>
+          <p class="pain-finder-copy">
+            Choose the area that best matches your symptoms to learn about common
+            causes, treatment options and when a specialist assessment may help.
+          </p>
+        </div>
 
-        <a class="condition" href="#">
-          <div class="condition-icon">◉</div>
-          <span>Headache</span>
-        </a>
+        <div class="condition-strip">
+          <div class="conditions-row">
 
-        <a class="condition" href="#">
-          <div class="condition-icon">◌</div>
-          <span>Shoulder Pain</span>
-        </a>
+            <a class="condition" href="conditions/back-pain.html">
+              <div class="condition-icon">◒</div>
+              <span>Back Pain</span>
+            </a>
 
-        <a class="condition" href="#">
-          <div class="condition-icon">◇</div>
-          <span>Knee Pain</span>
-        </a>
+            <a class="condition" href="conditions/neck-pain.html">
+              <div class="condition-icon">◐</div>
+              <span>Neck Pain</span>
+            </a>
 
-        <a class="condition" href="#">
-          <div class="condition-icon">⌁</div>
-          <span>Nerve Pain</span>
-        </a>
+            <a class="condition" href="conditions/headache.html">
+              <div class="condition-icon">◉</div>
+              <span>Headache</span>
+            </a>
 
-        <a class="condition" href="#">
-          <div class="condition-icon">＋</div>
-          <span>Post-Surgical Pain</span>
-        </a>
+            <a class="condition" href="conditions/shoulder-pain.html">
+              <div class="condition-icon">◌</div>
+              <span>Shoulder Pain</span>
+            </a>
+
+            <a class="condition" href="conditions/knee-pain.html">
+              <div class="condition-icon">◇</div>
+              <span>Knee Pain</span>
+            </a>
+
+            <a class="condition" href="conditions/nerve-pain.html">
+              <div class="condition-icon">⌁</div>
+              <span>Nerve Pain</span>
+            </a>
+
+            <a class="condition" href="conditions/post-surgical-pain.html">
+              <div class="condition-icon">＋</div>
+              <span>Post-Surgical Pain</span>
+            </a>
+
+          </div>
+        </div>
 
       </div>
 
