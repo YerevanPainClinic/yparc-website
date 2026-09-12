@@ -3041,6 +3041,33 @@
 }
 </style>
 
+
+<style id="doctor-more-link-style">
+.doctor-action-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  align-items:center;
+  justify-content:flex-end;
+}
+.doctor-btn-secondary{
+  background:transparent !important;
+  color:#0b4f3c !important;
+  border:1px solid rgba(11,79,60,.28) !important;
+}
+.doctor-btn-secondary:hover{
+  background:#eef4f0 !important;
+  border-color:#0b4f3c !important;
+  transform:translateY(-2px);
+}
+@media(max-width:700px){
+  .doctor-action-links{
+    width:100%;
+    justify-content:flex-start;
+  }
+}
+</style>
+
 </head>
 <body>
 
@@ -3334,9 +3361,14 @@
           <span><strong>ESAIC</strong></span>
         </div>
 
-        <a href="booking-hy.html" class="doctor-btn doctor-btn-primary">
-          Ամրագրել այց →
-        </a>
+        <div class="doctor-action-links">
+          <a href="doctor-arman-keyan-hy.html" class="doctor-btn doctor-btn-secondary">
+            Իմանալ ավելին →
+          </a>
+          <a href="booking-hy.html" class="doctor-btn doctor-btn-primary">
+            Ամրագրել այց →
+          </a>
+        </div>
       </div>
 
     </div>
