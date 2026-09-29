@@ -1,1 +1,1276 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Մեր մասին | YPARC</title>
+  <meta
+    name="description"
+    content="Ծանոթացեք Երևանի ցավի և վերականգնողական կլինիկայի՝ YPARC-ի պատմությանը, մոտեցմանը և հիմնական ուղղություններին։"
+  >
+
+  <style>
+    :root {
+      --green: #06392c;
+      --green-2: #0b4f3c;
+      --green-3: #eaf1ed;
+      --gold: #c89b3c;
+      --cream: #f7f4ed;
+      --white: #ffffff;
+      --text: #18302a;
+      --muted: #66736f;
+      --border: rgba(6, 57, 44, 0.12);
+      --shadow: 0 18px 50px rgba(6, 57, 44, 0.10);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.7;
+    }
+
+    img {
+      width: 100%;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    /* HEADER */
+
+    header {
+      background: rgba(255,255,255,0.97);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .nav {
+      min-height: 84px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--green);
+      font-weight: 700;
+    }
+
+    .brand img {
+      width: 58px;
+      height: 58px;
+      object-fit: contain;
+    }
+
+    .brand-text {
+      line-height: 1.2;
+    }
+
+    .brand-text strong {
+      display: block;
+      font-size: 19px;
+      letter-spacing: 0.03em;
+    }
+
+    .brand-text span {
+      display: block;
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    nav a {
+      transition: 0.2s ease;
+    }
+
+    nav a:hover {
+      color: var(--gold);
+    }
+
+    .nav-cta {
+      padding: 12px 19px;
+      border-radius: 30px;
+      color: white;
+      background: var(--green);
+    }
+
+    .nav-cta:hover {
+      color: white;
+      background: var(--green-2);
+    }
+
+    /* HERO */
+
+    .hero {
+      min-height: 620px;
+      background:
+        radial-gradient(circle at 80% 20%, rgba(200,155,60,.16), transparent 30%),
+        linear-gradient(135deg, #052f25 0%, #074535 100%);
+      color: white;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 430px;
+      height: 430px;
+      border: 1px solid rgba(255,255,255,.09);
+      border-radius: 50%;
+      right: -100px;
+      bottom: -180px;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 2;
+      max-width: 850px;
+      padding: 100px 0;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: #e0bd70;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .18em;
+      font-weight: 700;
+      margin-bottom: 24px;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 38px;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    .hero h1 {
+      font-size: clamp(45px, 7vw, 82px);
+      line-height: 1.02;
+      letter-spacing: -0.04em;
+      margin-bottom: 28px;
+    }
+
+    .hero p {
+      max-width: 680px;
+      font-size: 19px;
+      line-height: 1.8;
+      color: rgba(255,255,255,.78);
+    }
+
+    /* INTRO */
+
+    .intro {
+      padding: 110px 0;
+      background: var(--cream);
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 90px;
+      align-items: start;
+    }
+
+    .section-number {
+      color: var(--gold);
+      font-size: 13px;
+      letter-spacing: .15em;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .intro h2,
+    .section-title {
+      color: var(--green);
+      font-size: clamp(34px, 5vw, 55px);
+      line-height: 1.12;
+      letter-spacing: -0.035em;
+    }
+
+    .intro-copy p {
+      margin-bottom: 22px;
+      font-size: 17px;
+      color: #465650;
+    }
+
+    .intro-copy p:first-child {
+      font-size: 21px;
+      color: var(--green);
+    }
+
+    /* TIMELINE */
+
+    .timeline-section {
+      padding: 120px 0;
+    }
+
+    .timeline-head {
+      max-width: 700px;
+      margin-bottom: 70px;
+    }
+
+    .timeline {
+      position: relative;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 108px;
+      top: 10px;
+      bottom: 10px;
+      width: 1px;
+      background: #d7ddd9;
+    }
+
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 55px;
+      position: relative;
+      padding-bottom: 80px;
+    }
+
+    .timeline-item:last-child {
+      padding-bottom: 0;
+    }
+
+    .year {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--gold);
+      position: relative;
+    }
+
+    .year::after {
+      content: "";
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      background: var(--green);
+      border: 5px solid white;
+      box-shadow: 0 0 0 1px #cad3ce;
+      border-radius: 50%;
+      right: -7px;
+      top: 10px;
+    }
+
+    .timeline-content {
+      padding-left: 10px;
+    }
+
+    .timeline-content h3 {
+      color: var(--green);
+      font-size: 26px;
+      margin-bottom: 15px;
+    }
+
+    .timeline-content p {
+      color: #53615c;
+      font-size: 16px;
+      max-width: 700px;
+    }
+
+    /* MEDICINE */
+
+    .feature {
+      padding: 120px 0;
+      background: var(--green);
+      color: white;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+
+    .feature h2 {
+      font-size: clamp(35px, 5vw, 55px);
+      line-height: 1.1;
+      margin-bottom: 28px;
+    }
+
+    .feature p {
+      color: rgba(255,255,255,.76);
+      margin-bottom: 20px;
+      font-size: 17px;
+    }
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .photo {
+      background: #174f41;
+      border-radius: 20px;
+      min-height: 440px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .photo:nth-child(2) {
+      margin-top: 55px;
+    }
+
+    .photo img {
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .photo-placeholder {
+      height: 100%;
+      min-height: 440px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 30px;
+      color: rgba(255,255,255,.55);
+      font-size: 14px;
+    }
+
+    /* REHAB */
+
+    .rehab {
+      padding: 120px 0;
+      background: var(--cream);
+    }
+
+    .rehab-grid {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 90px;
+      align-items: center;
+    }
+
+    .rehab-images {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .rehab-photo {
+      height: 480px;
+      border-radius: 20px;
+      overflow: hidden;
+      background: #e2e8e4;
+    }
+
+    .rehab-photo:nth-child(2) {
+      margin-top: 55px;
+    }
+
+    .rehab-photo img {
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .rehab-placeholder {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 25px;
+      color: #718078;
+      font-size: 14px;
+    }
+
+    .rehab-copy h2 {
+      color: var(--green);
+      font-size: clamp(35px, 5vw, 54px);
+      line-height: 1.12;
+      margin-bottom: 25px;
+    }
+
+    .rehab-copy p {
+      color: #53615c;
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+
+    /* APPROACH */
+
+    .approach {
+      padding: 120px 0;
+    }
+
+    .approach-header {
+      max-width: 760px;
+      margin-bottom: 60px;
+    }
+
+    .approach-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .approach-card {
+      padding: 40px 32px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      min-height: 270px;
+      transition: .25s ease;
+    }
+
+    .approach-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow);
+    }
+
+    .card-number {
+      color: var(--gold);
+      font-weight: 700;
+      font-size: 13px;
+      margin-bottom: 45px;
+    }
+
+    .approach-card h3 {
+      color: var(--green);
+      font-size: 22px;
+      margin-bottom: 14px;
+    }
+
+    .approach-card p {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* SPORTS */
+
+    .sports {
+      padding: 120px 0;
+      background: #eef3f0;
+    }
+
+    .sports-inner {
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .sports h2 {
+      color: var(--green);
+      font-size: clamp(35px, 5vw, 54px);
+      line-height: 1.12;
+      margin: 15px 0 30px;
+    }
+
+    .sports p {
+      color: #52615b;
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+
+    /* QUOTE */
+
+    .quote {
+      padding: 120px 0;
+      background: white;
+      text-align: center;
+    }
+
+    .quote blockquote {
+      max-width: 900px;
+      margin: auto;
+      color: var(--green);
+      font-size: clamp(30px, 4.5vw, 52px);
+      line-height: 1.25;
+      letter-spacing: -0.025em;
+      font-weight: 600;
+    }
+
+    .quote-line {
+      width: 50px;
+      height: 2px;
+      background: var(--gold);
+      margin: 35px auto 0;
+    }
+
+    /* CTA */
+
+    .cta {
+      background: var(--green);
+      color: white;
+      padding: 90px 0;
+    }
+
+    .cta-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 50px;
+    }
+
+    .cta h2 {
+      font-size: clamp(32px, 5vw, 50px);
+      line-height: 1.1;
+      max-width: 650px;
+    }
+
+    .cta-button {
+      flex: 0 0 auto;
+      display: inline-block;
+      background: var(--gold);
+      color: #183027;
+      padding: 17px 27px;
+      border-radius: 40px;
+      font-weight: 700;
+      transition: .2s;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      background: #d7ad54;
+    }
+
+    /* FOOTER */
+
+    footer {
+      background: #04271f;
+      color: rgba(255,255,255,.72);
+      padding: 60px 0 30px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr 1fr;
+      gap: 60px;
+      margin-bottom: 50px;
+    }
+
+    footer h3 {
+      color: white;
+      margin-bottom: 15px;
+    }
+
+    footer p,
+    footer a {
+      font-size: 14px;
+      line-height: 2;
+    }
+
+    footer a:hover {
+      color: var(--gold);
+    }
+
+    .copyright {
+      padding-top: 25px;
+      border-top: 1px solid rgba(255,255,255,.1);
+      font-size: 12px;
+    }
+
+    /* MOBILE */
+
+    @media (max-width: 850px) {
+      nav {
+        display: none;
+      }
+
+      .nav {
+        min-height: 70px;
+      }
+
+      .brand img {
+        width: 48px;
+        height: 48px;
+      }
+
+      .brand-text span {
+        display: none;
+      }
+
+      .hero {
+        min-height: 520px;
+      }
+
+      .hero-inner {
+        padding: 80px 0;
+      }
+
+      .hero p {
+        font-size: 17px;
+      }
+
+      .intro,
+      .timeline-section,
+      .feature,
+      .rehab,
+      .approach,
+      .sports,
+      .quote {
+        padding: 80px 0;
+      }
+
+      .intro-grid,
+      .feature-grid,
+      .rehab-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+      }
+
+      .approach-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .timeline::before {
+        left: 68px;
+      }
+
+      .timeline-item {
+        grid-template-columns: 70px 1fr;
+        gap: 30px;
+      }
+
+      .year {
+        font-size: 20px;
+      }
+
+      .year::after {
+        right: -7px;
+        top: 6px;
+      }
+
+      .photo,
+      .photo-placeholder {
+        min-height: 330px;
+      }
+
+      .rehab-photo {
+        height: 350px;
+      }
+
+      .cta-inner {
+        display: block;
+      }
+
+      .cta-button {
+        margin-top: 35px;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .container {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .hero h1 {
+        font-size: 44px;
+      }
+
+      .photo-grid,
+      .rehab-images {
+        gap: 9px;
+      }
+
+      .photo:nth-child(2),
+      .rehab-photo:nth-child(2) {
+        margin-top: 30px;
+      }
+
+      .photo,
+      .photo-placeholder {
+        min-height: 280px;
+      }
+
+      .rehab-photo {
+        height: 300px;
+      }
+
+      .timeline-content h3 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container nav">
+
+    <a href="index.html" class="brand">
+      <img src="yparc-logo.png" alt="YPARC">
+      <div class="brand-text">
+        <strong>YPARC</strong>
+        <span>Երևանի ցավի և վերականգնողական կլինիկա</span>
+      </div>
+    </a>
+
+    <nav>
+      <a href="index.html">Գլխավոր</a>
+      <a href="about-hy.html">Մեր մասին</a>
+      <a href="index.html#conditions">Ցավային վիճակներ</a>
+      <a href="index.html#resources">Օգտակար նյութեր</a>
+      <a href="booking-hy.html" class="nav-cta">Ամրագրել այց</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<main>
+
+  <!-- HERO -->
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner">
+
+        <div class="eyebrow">YPARC · Մեր պատմությունը</div>
+
+        <h1>
+          Ցավից դեպի<br>
+          շարժում և կյանք
+        </h1>
+
+        <p>
+          Երևանի ցավի և վերականգնողական կլինիկան ստեղծվել է մեկ
+          գաղափարի շուրջ՝ ցավը բուժել ոչ միայն որպես ախտանիշ,
+          այլ հասկանալ դրա պատճառը և օգնել մարդուն վերադառնալ
+          լիարժեք շարժման ու առօրյա կյանքին։
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- STORY INTRO -->
+
+  <section class="intro">
+    <div class="container intro-grid">
+
+      <div>
+        <div class="section-number">01 · ՍԿԻԶԲ</div>
+        <h2>Փորձից ծնված գաղափար</h2>
+      </div>
+
+      <div class="intro-copy">
+
+        <p>
+          Երևանի ցավի և վերականգնողական կլինիկան (YPARC)
+          հիմնադրվել է 2022 թվականին՝ բժիշկ Արման Քեյանի
+          նախաձեռնությամբ՝ որպես ցավի բժշկության և
+          վերականգնման մասնագիտացված կենտրոն։
+        </p>
+
+        <p>
+          Կլինիկայի ստեղծման գաղափարը ձևավորվել է տարիների
+          կլինիկական փորձի ընթացքում։
+        </p>
+
+        <p>
+          Դեռևս անեսթեզիոլոգիայի ոլորտում աշխատելու տարիներին
+          բժիշկ Քեյանը լայնորեն կիրառել է ռեգիոնալ անզգայացման
+          և նյարդային բլոկադաների մեթոդները։
+        </p>
+
+        <p>
+          Այս մոտեցումները հնարավորություն են տալիս ապահովել
+          նպատակային ցավազրկում՝ ազդելով ցավային ազդակների
+          փոխանցման վրա և համապատասխան դեպքերում նվազեցնելով
+          համակարգային ցավազրկողների կամ ընդհանուր անզգայացման
+          անհրաժեշտությունը։
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- TIMELINE -->
+
+  <section class="timeline-section">
+    <div class="container">
+
+      <div class="timeline-head">
+        <div class="section-number">02 · ՃԱՆԱՊԱՐՀ</div>
+        <h2 class="section-title">
+          Փորձ, որը ձևավորեց հետագա ուղղությունը
+        </h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+
+          <div class="year">2020</div>
+
+          <div class="timeline-content">
+            <h3>Ռազմական բժշկության փորձ</h3>
+
+            <p>
+              2020 թվականի պատերազմի ընթացքում ռեգիոնալ
+              անզգայացման մեթոդները կիրառվել են նաև ռազմական
+              բժշկության բարդ պայմաններում՝ ծանր վնասվածքներով
+              պացիենտների ցավի վերահսկման նպատակով։
+            </p>
+
+            <p style="margin-top:15px;">
+              Նյարդային բլոկադաները համապատասխան դեպքերում
+              հնարավորություն են տալիս ապահովել վնասված հատվածի
+              նպատակային ցավազրկում և կարող են նվազեցնել
+              համակարգային ցավազրկողների պահանջը։
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+          <div class="year">2021</div>
+
+          <div class="timeline-content">
+            <h3>Ցավի բուժման նոր ուղղություն</h3>
+
+            <p>
+              Երևան վերադառնալուց հետո աշխատանքը շարունակվեց
+              պատերազմի հետևանքով առաջացած և երկարատև ցավային
+              համախտանիշներ ունեցող պացիենտների հետ։
+            </p>
+
+            <p style="margin-top:15px;">
+              Այս փորձը աստիճանաբար ձևավորեց ավելի լայն գաղափար՝
+              ստեղծել կենտրոն, որտեղ ցավը չի դիտարկվի միայն որպես
+              մեկ ախտանիշ, այլ կգնահատվի բազմակողմանի։
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+          <div class="year">2022</div>
+
+          <div class="timeline-content">
+            <h3>YPARC-ի հիմնադրումը</h3>
+
+            <p>
+              2022 թվականին այդ գաղափարը դարձավ առանձին
+              մասնագիտացված կլինիկա՝ Երևանի ցավի և
+              վերականգնողական կլինիկան։
+            </p>
+
+            <p style="margin-top:15px;">
+              Կենտրոնի հիմքում դրվեց բազմամասնագիտական մոտեցումը՝
+              համատեղելով ցավի բժշկությունը, ինտերվենցիոն
+              մեթոդները, ֆիզիոթերապիան և վերականգնումը։
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- INTERVENTIONAL PAIN MEDICINE -->
+
+  <section class="feature">
+    <div class="container feature-grid">
+
+      <div>
+
+        <div class="eyebrow">ՑԱՎԻ ԲԺՇԿՈՒԹՅՈՒՆ</div>
+
+        <h2>
+          Ցավի բուժումը՝ մեկ ամբողջական համակարգում
+        </h2>
+
+        <p>
+          YPARC-ի հիմքում բազմամասնագիտական մոտեցումն է։
+          Ցավի պատճառի գնահատումը, ինտերվենցիոն ցավի
+          բժշկությունը, ֆիզիոթերապիան և վերականգնումը
+          դիտարկվում են որպես մեկ շարունակական բուժական ճանապարհ։
+        </p>
+
+        <p>
+          Կենտրոնը աշխատում է ցավային վիճակների լայն շրջանակի
+          հետ՝ ողնաշարի և հոդերի ցավերից մինչև նյարդաբանական,
+          հետվիրահատական, հետվնասվածքային և քրոնիկ ցավային
+          համախտանիշներ։
+        </p>
+
+        <p>
+          Մեր նպատակը միայն ցավի ինտենսիվությունը նվազեցնելը չէ։
+          Մենք ձգտում ենք օգնել պացիենտին վերականգնել
+          շարժունակությունը, ֆունկցիան և հնարավորինս վերադառնալ
+          իր սովորական կյանքին։
+        </p>
+
+      </div>
+
+
+      <div class="photo-grid">
+
+        <div class="photo">
+
+          <!--
+          ՆԿԱՐ 1
+          Երբ նկարը GitHub upload անենք,
+          ներքևի placeholder-ը կփոխարինենք օրինակ՝
+
+          <img src="images/pain-intervention-1.jpg"
+               alt="YPARC ցավի բժշկություն">
+          -->
+
+          <div class="photo-placeholder">
+            YPARC<br>
+            կլինիկական լուսանկար 01
+          </div>
+
+        </div>
+
+
+        <div class="photo">
+
+          <!-- ՆԿԱՐ 4 -->
+
+          <div class="photo-placeholder">
+            YPARC<br>
+            ինտերվենցիոն բուժում
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- REHABILITATION -->
+
+  <section class="rehab">
+    <div class="container rehab-grid">
+
+      <div class="rehab-images">
+
+        <div class="rehab-photo">
+
+          <!-- ՆԿԱՐ 2 -->
+
+          <div class="rehab-placeholder">
+            Վերականգնում · լուսանկար 01
+          </div>
+
+        </div>
+
+
+        <div class="rehab-photo">
+
+          <!-- ՆԿԱՐ 3 -->
+
+          <div class="rehab-placeholder">
+            Վերականգնում · լուսանկար 02
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="rehab-copy">
+
+        <div class="section-number">
+          03 · ՎԵՐԱԿԱՆԳՆՈՒՄ
+        </div>
+
+        <h2>
+          Վերականգնումը բուժման շարունակությունն է
+        </h2>
+
+        <p>
+          YPARC-ում առանձնահատուկ տեղ են զբաղեցնում
+          վերականգնումն ու ֆիզիոթերապիան։
+        </p>
+
+        <p>
+          Շատ ցավային վիճակների դեպքում բուժումը չի ավարտվում
+          միջամտությամբ կամ ցավի ժամանակավոր նվազեցմամբ։
+        </p>
+
+        <p>
+          Անհատական վերականգնողական ծրագիրը կարող է օգնել
+          վերականգնել շարժումը, ուժը և ֆունկցիան՝ նպաստելով
+          առօրյա ակտիվությանը անվտանգ վերադարձին։
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- APPROACH -->
+
+  <section class="approach">
+    <div class="container">
+
+      <div class="approach-header">
+
+        <div class="section-number">
+          04 · ՄԵՐ ՄՈՏԵՑՈՒՄԸ
+        </div>
+
+        <h2 class="section-title">
+          Ոչ միայն նվազեցնել ցավը
+        </h2>
+
+      </div>
+
+
+      <div class="approach-grid">
+
+        <div class="approach-card">
+
+          <div class="card-number">01</div>
+
+          <h3>Գտնել պատճառը</h3>
+
+          <p>
+            Յուրաքանչյուր բուժական ճանապարհ սկսվում է
+            պացիենտի վիճակի գնահատումից և ցավի հնարավոր
+            պատճառների ուսումնասիրությունից։
+          </p>
+
+        </div>
+
+
+        <div class="approach-card">
+
+          <div class="card-number">02</div>
+
+          <h3>Ընտրել անհատական մոտեցում</h3>
+
+          <p>
+            Բուժման ծրագիրը կազմվում է՝ հաշվի առնելով
+            ախտորոշումը, ցավի բնույթը, շարժունակությունը
+            և պացիենտի անհատական կարիքները։
+          </p>
+
+        </div>
+
+
+        <div class="approach-card">
+
+          <div class="card-number">03</div>
+
+          <h3>Վերադարձնել ֆունկցիան</h3>
+
+          <p>
+            Նպատակը հնարավորության դեպքում ոչ միայն ցավի
+            նվազեցումն է, այլ նաև շարժման, ֆունկցիայի և
+            առօրյա ակտիվության վերականգնումը։
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- SPORTS MEDICINE -->
+
+  <section class="sports">
+    <div class="container sports-inner">
+
+      <div class="section-number">
+        05 · ՍՊՈՐՏԱՅԻՆ ԲԺՇԿՈՒԹՅՈՒՆ
+      </div>
+
+      <h2>
+        Վերադարձ դեպի շարժում և սպորտ
+      </h2>
+
+      <p>
+        Կենտրոնի աշխատանքի կարևոր ուղղություններից է
+        սպորտային բժշկությունը։
+      </p>
+
+      <p>
+        YPARC-ի մասնագետները ներգրավված են մարզիկների
+        բժշկական գնահատման, ցավի կառավարման, վնասվածքներից
+        հետո վերականգնման և սպորտ անվտանգ վերադարձի
+        գործընթացներում։
+      </p>
+
+      <p>
+        Մեր թիմի մասնագետները համագործակցում են նաև
+        Հայաստանի ֆուտբոլի ֆեդերացիայի հետ՝ իրենց
+        մասնագիտական փորձը կիրառելով սպորտային բժշկության
+        ոլորտում։
+      </p>
+
+      <p>
+        Պրոֆեսիոնալ և ակտիվ մարզիկների համար կենտրոնում
+        մշակվում են անհատական ծրագրեր՝ հաշվի առնելով
+        վնասվածքի բնույթը, մարզաձևը, ֆիզիկական
+        ծանրաբեռնվածությունը և մարզիկի նպատակները։
+      </p>
+
+      <p>
+        Այս աշխատանքում համատեղվում են ցավի բժշկությունը,
+        ֆիզիոթերապիան և վերականգնումը՝ նպատակ ունենալով
+        վերականգնել շարժունակությունը, ուժը և ֆունկցիան ու
+        նպաստել անվտանգ վերադարձին մարզումներին և
+        մրցակցային սպորտին։
+      </p>
+
+    </div>
+  </section>
+
+
+  <!-- PHILOSOPHY -->
+
+  <section class="quote">
+    <div class="container">
+
+      <blockquote>
+        «Ավելի քիչ ցավ։<br>
+        Ավելի լիարժեք կյանք»։
+      </blockquote>
+
+      <div class="quote-line"></div>
+
+    </div>
+  </section>
+
+
+  <!-- CTA -->
+
+  <section class="cta">
+    <div class="container cta-inner">
+
+      <h2>
+        Ձեր ճանապարհը դեպի ավելի ակտիվ կյանք կարող է սկսվել այստեղ։
+      </h2>
+
+      <a href="booking-hy.html" class="cta-button">
+        Ամրագրել այց →
+      </a>
+
+    </div>
+  </section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <div>
+        <h3>YPARC</h3>
+
+        <p>
+          Երևանի ցավի և վերականգնողական կլինիկա
+        </p>
+      </div>
+
+
+      <div>
+        <h3>Կապ</h3>
+
+        <p>Պուշկին 56/1, Երևան, Հայաստան</p>
+
+        <p>
+          <a href="tel:+37491092123">
+            +374 91 092123
+          </a>
+        </p>
+
+        <p>
+          <a href="mailto:info@painclinicyerevan.am">
+            info@painclinicyerevan.am
+          </a>
+        </p>
+      </div>
+
+
+      <div>
+        <h3>Արագ հղումներ</h3>
+
+        <p><a href="index.html">Գլխավոր</a></p>
+        <p><a href="about-hy.html">Մեր մասին</a></p>
+        <p><a href="booking-hy.html">Ամրագրել այց</a></p>
+      </div>
+
+    </div>
+
+
+    <div class="copyright">
+      © YPARC · Երևանի ցավի և վերականգնողական կլինիկա
+    </div>
+
+  </div>
+
+</footer>
+
+</body>
+</html>
