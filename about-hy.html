@@ -5,23 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Մեր մասին | YPARC</title>
-  <meta
-    name="description"
-    content="Ծանոթացեք Երևանի ցավի և վերականգնողական կլինիկայի՝ YPARC-ի պատմությանը, մոտեցմանը և հիմնական ուղղություններին։"
-  >
+  <meta name="description"
+        content="Ծանոթացեք Երևանի ցավի և վերականգնողական կլինիկայի՝ YPARC-ի պատմությանը, մոտեցմանը և հիմնական ուղղություններին։">
 
   <style>
     :root {
       --green: #06392c;
       --green-2: #0b4f3c;
-      --green-3: #eaf1ed;
       --gold: #c89b3c;
       --cream: #f7f4ed;
       --white: #ffffff;
       --text: #18302a;
       --muted: #66736f;
-      --border: rgba(6, 57, 44, 0.12);
-      --shadow: 0 18px 50px rgba(6, 57, 44, 0.10);
+      --border: rgba(6,57,44,.12);
+      --shadow: 0 18px 50px rgba(6,57,44,.10);
     }
 
     * {
@@ -59,7 +56,7 @@
     /* HEADER */
 
     header {
-      background: rgba(255,255,255,0.97);
+      background: rgba(255,255,255,.97);
       border-bottom: 1px solid var(--border);
       position: sticky;
       top: 0;
@@ -95,7 +92,7 @@
     .brand-text strong {
       display: block;
       font-size: 19px;
-      letter-spacing: 0.03em;
+      letter-spacing: .03em;
     }
 
     .brand-text span {
@@ -115,7 +112,7 @@
     }
 
     nav a {
-      transition: 0.2s ease;
+      transition: .2s ease;
     }
 
     nav a:hover {
@@ -186,9 +183,9 @@
     }
 
     .hero h1 {
-      font-size: clamp(45px, 7vw, 82px);
+      font-size: clamp(45px,7vw,82px);
       line-height: 1.02;
-      letter-spacing: -0.04em;
+      letter-spacing: -.04em;
       margin-bottom: 28px;
     }
 
@@ -224,9 +221,9 @@
     .intro h2,
     .section-title {
       color: var(--green);
-      font-size: clamp(34px, 5vw, 55px);
+      font-size: clamp(34px,5vw,55px);
       line-height: 1.12;
-      letter-spacing: -0.035em;
+      letter-spacing: -.035em;
     }
 
     .intro-copy p {
@@ -315,7 +312,7 @@
       max-width: 700px;
     }
 
-    /* MEDICINE */
+    /* PAIN MEDICINE */
 
     .feature {
       padding: 120px 0;
@@ -331,7 +328,7 @@
     }
 
     .feature h2 {
-      font-size: clamp(35px, 5vw, 55px);
+      font-size: clamp(35px,5vw,55px);
       line-height: 1.1;
       margin-bottom: 28px;
     }
@@ -346,14 +343,15 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 15px;
+      align-items: start;
     }
 
     .photo {
-      background: #174f41;
+      height: 440px;
       border-radius: 20px;
-      min-height: 440px;
       overflow: hidden;
-      position: relative;
+      background: #174f41;
+      box-shadow: 0 20px 45px rgba(0,0,0,.15);
     }
 
     .photo:nth-child(2) {
@@ -361,20 +359,9 @@
     }
 
     .photo img {
+      width: 100%;
       height: 100%;
       object-fit: cover;
-    }
-
-    .photo-placeholder {
-      height: 100%;
-      min-height: 440px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 30px;
-      color: rgba(255,255,255,.55);
-      font-size: 14px;
     }
 
     /* REHAB */
@@ -395,6 +382,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 16px;
+      align-items: start;
     }
 
     .rehab-photo {
@@ -402,6 +390,7 @@
       border-radius: 20px;
       overflow: hidden;
       background: #e2e8e4;
+      box-shadow: var(--shadow);
     }
 
     .rehab-photo:nth-child(2) {
@@ -409,24 +398,14 @@
     }
 
     .rehab-photo img {
+      width: 100%;
       height: 100%;
       object-fit: cover;
     }
 
-    .rehab-placeholder {
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 25px;
-      color: #718078;
-      font-size: 14px;
-    }
-
     .rehab-copy h2 {
       color: var(--green);
-      font-size: clamp(35px, 5vw, 54px);
+      font-size: clamp(35px,5vw,54px);
       line-height: 1.12;
       margin-bottom: 25px;
     }
@@ -450,7 +429,7 @@
 
     .approach-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3,1fr);
       gap: 22px;
     }
 
@@ -460,6 +439,7 @@
       border-radius: 20px;
       min-height: 270px;
       transition: .25s ease;
+      background: white;
     }
 
     .approach-card:hover {
@@ -500,7 +480,7 @@
 
     .sports h2 {
       color: var(--green);
-      font-size: clamp(35px, 5vw, 54px);
+      font-size: clamp(35px,5vw,54px);
       line-height: 1.12;
       margin: 15px 0 30px;
     }
@@ -515,7 +495,6 @@
 
     .quote {
       padding: 120px 0;
-      background: white;
       text-align: center;
     }
 
@@ -523,9 +502,9 @@
       max-width: 900px;
       margin: auto;
       color: var(--green);
-      font-size: clamp(30px, 4.5vw, 52px);
+      font-size: clamp(30px,4.5vw,52px);
       line-height: 1.25;
-      letter-spacing: -0.025em;
+      letter-spacing: -.025em;
       font-weight: 600;
     }
 
@@ -552,7 +531,7 @@
     }
 
     .cta h2 {
-      font-size: clamp(32px, 5vw, 50px);
+      font-size: clamp(32px,5vw,50px);
       line-height: 1.1;
       max-width: 650px;
     }
@@ -680,9 +659,8 @@
         top: 6px;
       }
 
-      .photo,
-      .photo-placeholder {
-        min-height: 330px;
+      .photo {
+        height: 330px;
       }
 
       .rehab-photo {
@@ -705,7 +683,7 @@
 
     @media (max-width: 520px) {
       .container {
-        width: min(100% - 28px, 1180px);
+        width: min(100% - 28px,1180px);
       }
 
       .hero h1 {
@@ -722,9 +700,8 @@
         margin-top: 30px;
       }
 
-      .photo,
-      .photo-placeholder {
-        min-height: 280px;
+      .photo {
+        height: 280px;
       }
 
       .rehab-photo {
@@ -744,7 +721,8 @@
   <div class="container nav">
 
     <a href="index.html" class="brand">
-      <img src="yparc-logo.png" alt="YPARC">
+      <img src="yparc-logo.png" alt="YPARC logo">
+
       <div class="brand-text">
         <strong>YPARC</strong>
         <span>Երևանի ցավի և վերականգնողական կլինիկա</span>
@@ -771,7 +749,9 @@
     <div class="container">
       <div class="hero-inner">
 
-        <div class="eyebrow">YPARC · Մեր պատմությունը</div>
+        <div class="eyebrow">
+          YPARC · Մեր պատմությունը
+        </div>
 
         <h1>
           Ցավից դեպի<br>
@@ -779,10 +759,10 @@
         </h1>
 
         <p>
-          Երևանի ցավի և վերականգնողական կլինիկան ստեղծվել է մեկ
-          գաղափարի շուրջ՝ ցավը բուժել ոչ միայն որպես ախտանիշ,
-          այլ հասկանալ դրա պատճառը և օգնել մարդուն վերադառնալ
-          լիարժեք շարժման ու առօրյա կյանքին։
+          Երևանի ցավի և վերականգնողական կլինիկան ստեղծվել է
+          մեկ գաղափարի շուրջ՝ ցավը բուժել ոչ միայն որպես
+          ախտանիշ, այլ հասկանալ դրա պատճառը և օգնել մարդուն
+          վերադառնալ լիարժեք շարժման ու առօրյա կյանքին։
         </p>
 
       </div>
@@ -790,14 +770,19 @@
   </section>
 
 
-  <!-- STORY INTRO -->
+  <!-- INTRO -->
 
   <section class="intro">
     <div class="container intro-grid">
 
       <div>
-        <div class="section-number">01 · ՍԿԻԶԲ</div>
-        <h2>Փորձից ծնված գաղափար</h2>
+        <div class="section-number">
+          01 · ՍԿԻԶԲ
+        </div>
+
+        <h2>
+          Փորձից ծնված գաղափար
+        </h2>
       </div>
 
       <div class="intro-copy">
@@ -816,16 +801,16 @@
 
         <p>
           Դեռևս անեսթեզիոլոգիայի ոլորտում աշխատելու տարիներին
-          բժիշկ Քեյանը լայնորեն կիրառել է ռեգիոնալ անզգայացման
-          և նյարդային բլոկադաների մեթոդները։
+          բժիշկ Քեյանը լայնորեն կիրառել է ռեգիոնալ
+          անզգայացման և նյարդային բլոկադաների մեթոդները։
         </p>
 
         <p>
           Այս մոտեցումները հնարավորություն են տալիս ապահովել
           նպատակային ցավազրկում՝ ազդելով ցավային ազդակների
           փոխանցման վրա և համապատասխան դեպքերում նվազեցնելով
-          համակարգային ցավազրկողների կամ ընդհանուր անզգայացման
-          անհրաժեշտությունը։
+          համակարգային ցավազրկողների կամ ընդհանուր
+          անզգայացման անհրաժեշտությունը։
         </p>
 
       </div>
@@ -840,16 +825,19 @@
     <div class="container">
 
       <div class="timeline-head">
-        <div class="section-number">02 · ՃԱՆԱՊԱՐՀ</div>
+        <div class="section-number">
+          02 · ՃԱՆԱՊԱՐՀ
+        </div>
+
         <h2 class="section-title">
           Փորձ, որը ձևավորեց հետագա ուղղությունը
         </h2>
       </div>
 
+
       <div class="timeline">
 
         <div class="timeline-item">
-
           <div class="year">2020</div>
 
           <div class="timeline-content">
@@ -864,17 +852,15 @@
 
             <p style="margin-top:15px;">
               Նյարդային բլոկադաները համապատասխան դեպքերում
-              հնարավորություն են տալիս ապահովել վնասված հատվածի
-              նպատակային ցավազրկում և կարող են նվազեցնել
-              համակարգային ցավազրկողների պահանջը։
+              հնարավորություն են տալիս ապահովել վնասված
+              հատվածի նպատակային ցավազրկում և կարող են
+              նվազեցնել համակարգային ցավազրկողների պահանջը։
             </p>
           </div>
-
         </div>
 
 
         <div class="timeline-item">
-
           <div class="year">2021</div>
 
           <div class="timeline-content">
@@ -882,22 +868,21 @@
 
             <p>
               Երևան վերադառնալուց հետո աշխատանքը շարունակվեց
-              պատերազմի հետևանքով առաջացած և երկարատև ցավային
-              համախտանիշներ ունեցող պացիենտների հետ։
+              պատերազմի հետևանքով առաջացած և երկարատև
+              ցավային համախտանիշներ ունեցող պացիենտների հետ։
             </p>
 
             <p style="margin-top:15px;">
-              Այս փորձը աստիճանաբար ձևավորեց ավելի լայն գաղափար՝
-              ստեղծել կենտրոն, որտեղ ցավը չի դիտարկվի միայն որպես
-              մեկ ախտանիշ, այլ կգնահատվի բազմակողմանի։
+              Այս փորձը աստիճանաբար ձևավորեց ավելի լայն
+              գաղափար՝ ստեղծել կենտրոն, որտեղ ցավը չի
+              դիտարկվի միայն որպես մեկ ախտանիշ, այլ
+              կգնահատվի բազմակողմանի։
             </p>
           </div>
-
         </div>
 
 
         <div class="timeline-item">
-
           <div class="year">2022</div>
 
           <div class="timeline-content">
@@ -910,27 +895,30 @@
             </p>
 
             <p style="margin-top:15px;">
-              Կենտրոնի հիմքում դրվեց բազմամասնագիտական մոտեցումը՝
-              համատեղելով ցավի բժշկությունը, ինտերվենցիոն
-              մեթոդները, ֆիզիոթերապիան և վերականգնումը։
+              Կենտրոնի հիմքում դրվեց բազմամասնագիտական
+              մոտեցումը՝ համատեղելով ցավի բժշկությունը,
+              ինտերվենցիոն մեթոդները, ֆիզիոթերապիան և
+              վերականգնումը։
             </p>
           </div>
-
         </div>
 
       </div>
+
     </div>
   </section>
 
 
-  <!-- INTERVENTIONAL PAIN MEDICINE -->
+  <!-- PAIN MEDICINE -->
 
   <section class="feature">
     <div class="container feature-grid">
 
       <div>
 
-        <div class="eyebrow">ՑԱՎԻ ԲԺՇԿՈՒԹՅՈՒՆ</div>
+        <div class="eyebrow">
+          ՑԱՎԻ ԲԺՇԿՈՒԹՅՈՒՆ
+        </div>
 
         <h2>
           Ցավի բուժումը՝ մեկ ամբողջական համակարգում
@@ -940,21 +928,22 @@
           YPARC-ի հիմքում բազմամասնագիտական մոտեցումն է։
           Ցավի պատճառի գնահատումը, ինտերվենցիոն ցավի
           բժշկությունը, ֆիզիոթերապիան և վերականգնումը
-          դիտարկվում են որպես մեկ շարունակական բուժական ճանապարհ։
+          դիտարկվում են որպես մեկ շարունակական բուժական
+          ճանապարհ։
         </p>
 
         <p>
-          Կենտրոնը աշխատում է ցավային վիճակների լայն շրջանակի
-          հետ՝ ողնաշարի և հոդերի ցավերից մինչև նյարդաբանական,
-          հետվիրահատական, հետվնասվածքային և քրոնիկ ցավային
-          համախտանիշներ։
+          Կենտրոնը աշխատում է ցավային վիճակների լայն
+          շրջանակի հետ՝ ողնաշարի և հոդերի ցավերից մինչև
+          նյարդաբանական, հետվիրահատական, հետվնասվածքային
+          և քրոնիկ ցավային համախտանիշներ։
         </p>
 
         <p>
-          Մեր նպատակը միայն ցավի ինտենսիվությունը նվազեցնելը չէ։
-          Մենք ձգտում ենք օգնել պացիենտին վերականգնել
-          շարժունակությունը, ֆունկցիան և հնարավորինս վերադառնալ
-          իր սովորական կյանքին։
+          Մեր նպատակը միայն ցավի ինտենսիվությունը
+          նվազեցնելը չէ։ Մենք ձգտում ենք օգնել պացիենտին
+          վերականգնել շարժունակությունը, ֆունկցիան և
+          հնարավորինս վերադառնալ իր սովորական կյանքին։
         </p>
 
       </div>
@@ -963,33 +952,17 @@
       <div class="photo-grid">
 
         <div class="photo">
-
-          <!--
-          ՆԿԱՐ 1
-          Երբ նկարը GitHub upload անենք,
-          ներքևի placeholder-ը կփոխարինենք օրինակ՝
-
-          <img src="images/pain-intervention-1.jpg"
-               alt="YPARC ցավի բժշկություն">
-          -->
-
-          <div class="photo-placeholder">
-            YPARC<br>
-            կլինիկական լուսանկար 01
-          </div>
-
+          <img
+            src="images/pain-intervention-1.jpg"
+            alt="YPARC-ում ուլտրաձայնային հսկողությամբ ցավի բուժում"
+            loading="lazy">
         </div>
 
-
         <div class="photo">
-
-          <!-- ՆԿԱՐ 4 -->
-
-          <div class="photo-placeholder">
-            YPARC<br>
-            ինտերվենցիոն բուժում
-          </div>
-
+          <img
+            src="images/pain-intervention-2.jpg"
+            alt="YPARC ինտերվենցիոն ցավի բժշկություն"
+            loading="lazy">
         </div>
 
       </div>
@@ -1006,24 +979,17 @@
       <div class="rehab-images">
 
         <div class="rehab-photo">
-
-          <!-- ՆԿԱՐ 2 -->
-
-          <div class="rehab-placeholder">
-            Վերականգնում · լուսանկար 01
-          </div>
-
+          <img
+            src="images/rehabilitation-1.jpg"
+            alt="YPARC ֆիզիոթերապիա և վերականգնում"
+            loading="lazy">
         </div>
 
-
         <div class="rehab-photo">
-
-          <!-- ՆԿԱՐ 3 -->
-
-          <div class="rehab-placeholder">
-            Վերականգնում · լուսանկար 02
-          </div>
-
+          <img
+            src="images/rehabilitation-2.jpg"
+            alt="YPARC անհատական վերականգնողական վարժություններ"
+            loading="lazy">
         </div>
 
       </div>
@@ -1045,8 +1011,9 @@
         </p>
 
         <p>
-          Շատ ցավային վիճակների դեպքում բուժումը չի ավարտվում
-          միջամտությամբ կամ ցավի ժամանակավոր նվազեցմամբ։
+          Շատ ցավային վիճակների դեպքում բուժումը չի
+          ավարտվում միջամտությամբ կամ ցավի ժամանակավոր
+          նվազեցմամբ։
         </p>
 
         <p>
@@ -1082,7 +1049,6 @@
       <div class="approach-grid">
 
         <div class="approach-card">
-
           <div class="card-number">01</div>
 
           <h3>Գտնել պատճառը</h3>
@@ -1092,12 +1058,10 @@
             պացիենտի վիճակի գնահատումից և ցավի հնարավոր
             պատճառների ուսումնասիրությունից։
           </p>
-
         </div>
 
 
         <div class="approach-card">
-
           <div class="card-number">02</div>
 
           <h3>Ընտրել անհատական մոտեցում</h3>
@@ -1107,12 +1071,10 @@
             ախտորոշումը, ցավի բնույթը, շարժունակությունը
             և պացիենտի անհատական կարիքները։
           </p>
-
         </div>
 
 
         <div class="approach-card">
-
           <div class="card-number">03</div>
 
           <h3>Վերադարձնել ֆունկցիան</h3>
@@ -1122,7 +1084,6 @@
             նվազեցումն է, այլ նաև շարժման, ֆունկցիայի և
             առօրյա ակտիվության վերականգնումը։
           </p>
-
         </div>
 
       </div>
@@ -1131,7 +1092,7 @@
   </section>
 
 
-  <!-- SPORTS MEDICINE -->
+  <!-- SPORTS -->
 
   <section class="sports">
     <div class="container sports-inner">
@@ -1151,9 +1112,9 @@
 
       <p>
         YPARC-ի մասնագետները ներգրավված են մարզիկների
-        բժշկական գնահատման, ցավի կառավարման, վնասվածքներից
-        հետո վերականգնման և սպորտ անվտանգ վերադարձի
-        գործընթացներում։
+        բժշկական գնահատման, ցավի կառավարման,
+        վնասվածքներից հետո վերականգնման և սպորտ անվտանգ
+        վերադարձի գործընթացներում։
       </p>
 
       <p>
@@ -1173,8 +1134,8 @@
       <p>
         Այս աշխատանքում համատեղվում են ցավի բժշկությունը,
         ֆիզիոթերապիան և վերականգնումը՝ նպատակ ունենալով
-        վերականգնել շարժունակությունը, ուժը և ֆունկցիան ու
-        նպաստել անվտանգ վերադարձին մարզումներին և
+        վերականգնել շարժունակությունը, ուժը և ֆունկցիան
+        ու նպաստել անվտանգ վերադարձին մարզումներին և
         մրցակցային սպորտին։
       </p>
 
@@ -1204,7 +1165,8 @@
     <div class="container cta-inner">
 
       <h2>
-        Ձեր ճանապարհը դեպի ավելի ակտիվ կյանք կարող է սկսվել այստեղ։
+        Ձեր ճանապարհը դեպի ավելի ակտիվ կյանք կարող է
+        սկսվել այստեղ։
       </h2>
 
       <a href="booking-hy.html" class="cta-button">
@@ -1217,22 +1179,15 @@
 </main>
 
 
-<!-- FOOTER -->
-
 <footer>
-
   <div class="container">
 
     <div class="footer-grid">
 
       <div>
         <h3>YPARC</h3>
-
-        <p>
-          Երևանի ցավի և վերականգնողական կլինիկա
-        </p>
+        <p>Երևանի ցավի և վերականգնողական կլինիկա</p>
       </div>
-
 
       <div>
         <h3>Կապ</h3>
@@ -1252,7 +1207,6 @@
         </p>
       </div>
 
-
       <div>
         <h3>Արագ հղումներ</h3>
 
@@ -1263,13 +1217,11 @@
 
     </div>
 
-
     <div class="copyright">
       © YPARC · Երևանի ցավի և վերականգնողական կլինիկա
     </div>
 
   </div>
-
 </footer>
 
 </body>
