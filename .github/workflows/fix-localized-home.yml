@@ -1,0 +1,60 @@
+name: Fix localized homepage links
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-localized-home.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fix localized links
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          replacements = {
+              'en.html': {
+                  'conditions/back-pain.html': 'back-pain-en.html',
+                  'conditions/neck-pain.html': 'neck-pain-en.html',
+                  'conditions/headache.html': 'headache-en.html',
+                  'conditions/shoulder-pain.html': 'shoulder-pain-en.html',
+                  'conditions/knee-pain.html': 'knee-pain-en.html',
+                  'conditions/nerve-pain.html': 'neuropathic-pain-en.html',
+                  'conditions/post-surgical-pain.html': 'conditions-en.html',
+              },
+              'ru.html': {
+                  'conditions/back-pain.html': 'back-pain-ru.html',
+                  'conditions/neck-pain.html': 'neck-pain-ru.html',
+                  'conditions/headache.html': 'headache-ru.html',
+                  'conditions/shoulder-pain.html': 'shoulder-pain-ru.html',
+                  'conditions/knee-pain.html': 'knee-pain-ru.html',
+                  'conditions/nerve-pain.html': 'neuropathic-pain-ru.html',
+                  'conditions/post-surgical-pain.html': 'conditions-ru.html',
+              },
+          }
+
+          for filename, mapping in replacements.items():
+              p = Path(filename)
+              s = p.read_text(encoding='utf-8')
+              lang = 'en' if filename == 'en.html' else 'ru'
+              s = re.sub(r'([A-Za-z0-9-]+)-hy\.html', rf'\1-{lang}.html', s)
+              for old, new in mapping.items():
+                  s = s.replace(old, new)
+              p.write_text(s, encoding='utf-8')
+          PY
+
+          git config user.name "YPARC site fix"
+          git config user.email "actions@users.noreply.github.com"
+          git add en.html ru.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Fix English and Russian homepage links"
+            git push
+          fi
