@@ -2322,11 +2322,11 @@
         <span>Պուշկին 56/1, Երևան</span>
         <span>+374 91 092123</span>
         <span class="language-switcher">
-          <a href="index.html">EN</a>
+          <a href="conditions-en.html">EN</a>
           <span>|</span>
-          <a href="index.html"" class="active" aria-current="page">HY</a>
+          <a href="conditions-hy.html" class="active" aria-current="page">HY</a>
           <span>|</span>
-          <a href="ru.html">RU</a>
+          <a href="conditions-ru.html">RU</a>
         </span>
       </div>
 
@@ -2340,7 +2340,7 @@
 
     <div class="container nav">
 
-      <a href="#home" class="brand">
+      <a href="index.html" class="brand">
 
 <img
   src="yparc-logo.png"
@@ -2817,7 +2817,7 @@
             Նպատակն է օգնել մարդուն կրկին շարժվել, մասնակցել և ապրել լիարժեք կյանքով»։
           </p>
 
-          <a href="#" class="btn btn-primary">
+          <a href="pain-library-hy.html" class="btn btn-primary">
             Պացիենտների պատմություններ →
           </a>
 
@@ -2907,7 +2907,7 @@
 
           </div>
 
-          <a href="#" class="btn btn-outline">
+          <a href="pain-library-hy.html" class="btn btn-outline">
             Դիտել բոլոր նյութերը →
           </a>
 
@@ -2938,7 +2938,7 @@
                 և ժամանակակից բուժման մոտեցումներին։
               </p>
 
-              <a href="#" class="text-link">
+              <a href="pain-library-hy.html" class="text-link">
                 Կարդալ հոդվածը →
               </a>
 
@@ -2969,7 +2969,7 @@
                 ու ֆունկցիոնալ վերականգնումը աջակցելու համար։
               </p>
 
-              <a href="#" class="text-link">
+              <a href="pain-library-hy.html" class="text-link">
                 Դիտել տեսանյութը →
               </a>
 
@@ -3000,7 +3000,7 @@
                 և ցավի բուժման մեջ դրանց դերի մասին։
               </p>
 
-              <a href="#" class="text-link">
+              <a href="pain-library-hy.html" class="text-link">
                 Իմանալ ավելին →
               </a>
 
@@ -3135,7 +3135,7 @@
             <li><a href="booking-hy.html">Գրանցվել այցի</a></li>
             <li><a href="https://apps.physiapp.com/login" target="_blank" rel="noopener noreferrer">Պացիենտի մուտք / PhysiApp</a></li>
             <li><a href="#resources">Օգտակար նյութեր պացիենտների համար</a></li>
-            <li><a href="#">Հաճախ տրվող հարցեր</a></li>
+            <li><a href="pain-library-hy.html">Հաճախ տրվող հարցեր</a></li>
           </ul>
 
         </div>
@@ -3182,10 +3182,14 @@
     function toggleMenu() {
 
       const menu = document.getElementById("mobileMenu");
+      const toggle = document.querySelector(".menu-toggle");
 
       menu.classList.toggle("active");
 
-      if (menu.classList.contains("active")) {
+      const isOpen = menu.classList.contains("active");
+      toggle.setAttribute("aria-expanded", String(isOpen));
+
+      if (isOpen) {
         document.body.style.overflow = "hidden";
       } else {
         document.body.style.overflow = "";
@@ -3197,4 +3201,3 @@
 
 </body>
 </html>
-```
