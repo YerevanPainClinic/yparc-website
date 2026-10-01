@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>О нас | YPARC</title>
+<meta name="description" content="История, подход и основные направления Ереванского центра лечения боли и реабилитации YPARC.">
+
+<style>
+:root{
+  --green:#06392c;
+  --green2:#0b4f3c;
+  --gold:#c89b3c;
+  --cream:#f7f4ed;
+  --text:#18302a;
+  --muted:#63716c;
+  --border:rgba(6,57,44,.12);
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+html{scroll-behavior:smooth}
+
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  color:var(--text);
+  line-height:1.7;
+  background:#fff;
+}
+
+a{text-decoration:none;color:inherit}
+img{display:block;width:100%}
+
+.container{
+  width:min(1180px,calc(100% - 40px));
+  margin:auto;
+}
+
+/* HEADER */
+
+header{
+  position:sticky;
+  top:0;
+  z-index:100;
+  background:rgba(255,255,255,.97);
+  border-bottom:1px solid var(--border);
+}
+
+.nav{
+  min-height:84px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:30px;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:13px;
+  color:var(--green);
+}
+
+.brand img{
+  width:58px;
+  height:58px;
+  object-fit:contain;
+}
+
+.brand strong{
+  display:block;
+  font-size:19px;
+}
+
+.brand span{
+  display:block;
+  font-size:11px;
+  color:#718078;
+}
+
+nav{
+  display:flex;
+  align-items:center;
+  gap:27px;
+  font-size:14px;
+  font-weight:600;
+}
+
+nav a:hover{color:var(--gold)}
+
+.nav-cta{
+  padding:12px 20px;
+  background:var(--green);
+  color:#fff;
+  border-radius:30px;
+}
+
+.nav-cta:hover{
+  background:var(--green2);
+  color:#fff;
+}
+
+/* HERO */
+
+.hero{
+  position:relative;
+  overflow:hidden;
+  color:#fff;
+  background:
+    radial-gradient(circle at 5% 10%,rgba(200,155,60,.15),transparent 30%),
+    linear-gradient(135deg,#052f25,#07503d);
+  padding:72px 0 82px;
+}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:.9fr 1.1fr;
+  gap:70px;
+  align-items:center;
+}
+
+.label{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  color:#e2bd6c;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.16em;
+  margin-bottom:24px;
+}
+
+.label:before{
+  content:"";
+  width:36px;
+  height:1px;
+  background:var(--gold);
+}
+
+.hero h1{
+  font-size:clamp(48px,5.5vw,75px);
+  line-height:1.04;
+  letter-spacing:-.045em;
+  margin-bottom:26px;
+}
+
+.hero-copy>p{
+  color:rgba(255,255,255,.78);
+  font-size:17px;
+  max-width:570px;
+}
+
+.tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:9px;
+  margin-top:30px;
+}
+
+.tag{
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:30px;
+  padding:8px 13px;
+  font-size:12px;
+  color:rgba(255,255,255,.84);
+}
+
+.hero-photos{
+  position:relative;
+  min-height:505px;
+}
+
+.hero-main{
+  position:absolute;
+  right:0;
+  top:0;
+  width:82%;
+  height:450px;
+  overflow:hidden;
+  border-radius:27px;
+  box-shadow:0 30px 70px rgba(0,0,0,.28);
+}
+
+.hero-main img,
+.hero-small img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.hero-small{
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:42%;
+  height:225px;
+  overflow:hidden;
+  border-radius:20px;
+  border:6px solid var(--green);
+  box-shadow:0 20px 45px rgba(0,0,0,.3);
+}
+
+.year-card{
+  position:absolute;
+  right:22px;
+  bottom:10px;
+  background:var(--gold);
+  color:var(--green);
+  padding:19px 23px;
+  border-radius:17px;
+  box-shadow:0 15px 35px rgba(0,0,0,.2);
+}
+
+.year-card span{
+  display:block;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.15em;
+}
+
+.year-card strong{
+  display:block;
+  font-size:33px;
+  line-height:1.1;
+}
+
+/* STORY */
+
+.story{
+  background:var(--cream);
+  padding:95px 0;
+}
+
+.story-head{
+  display:grid;
+  grid-template-columns:.8fr 1.2fr;
+  gap:80px;
+  align-items:start;
+}
+
+.section-label{
+  color:var(--gold);
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.15em;
+  margin-bottom:13px;
+}
+
+.title{
+  color:var(--green);
+  font-size:clamp(35px,4.5vw,55px);
+  line-height:1.1;
+  letter-spacing:-.035em;
+}
+
+.story-lead{
+  font-size:20px;
+  color:#29483f;
+}
+
+.stats{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  margin:65px 0;
+}
+
+.stat{
+  padding:28px 30px;
+  border-right:1px solid var(--border);
+}
+
+.stat:first-child{padding-left:0}
+.stat:last-child{border-right:0}
+
+.stat strong{
+  display:block;
+  color:var(--green);
+  font-size:23px;
+}
+
+.stat span{
+  font-size:11px;
+  color:#718078;
+  letter-spacing:.06em;
+}
+
+.story-text{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:55px;
+}
+
+.story-text p{
+  color:#53615c;
+  margin-bottom:18px;
+}
+
+/* TIMELINE */
+
+.journey{
+  padding:110px 0;
+}
+
+.journey-header{
+  max-width:720px;
+  margin-bottom:65px;
+}
+
+.timeline{
+  max-width:940px;
+  margin:auto;
+}
+
+.timeline-item{
+  display:grid;
+  grid-template-columns:120px 1fr;
+  gap:45px;
+  padding:0 0 65px;
+}
+
+.timeline-item:last-child{padding-bottom:0}
+
+.timeline-year{
+  color:var(--gold);
+  font-size:27px;
+  font-weight:700;
+}
+
+.timeline-content{
+  border-left:1px solid #d8dedb;
+  padding-left:45px;
+  position:relative;
+}
+
+.timeline-content:before{
+  content:"";
+  position:absolute;
+  left:-7px;
+  top:8px;
+  width:13px;
+  height:13px;
+  border-radius:50%;
+  background:var(--green);
+}
+
+.timeline-content h3{
+  color:var(--green);
+  font-size:25px;
+  margin-bottom:13px;
+}
+
+.timeline-content p{
+  color:#586660;
+  max-width:690px;
+}
+
+/* PAIN */
+
+.pain{
+  padding:110px 0;
+  background:var(--green);
+  color:#fff;
+}
+
+.pain-grid{
+  display:grid;
+  grid-template-columns:.95fr 1.05fr;
+  gap:75px;
+  align-items:center;
+}
+
+.pain .title{color:#fff}
+
+.pain-copy p{
+  color:rgba(255,255,255,.75);
+  margin-top:20px;
+}
+
+.pain-images{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:15px;
+  align-items:start;
+}
+
+.pain-image{
+  height:430px;
+  border-radius:21px;
+  overflow:hidden;
+  box-shadow:0 20px 50px rgba(0,0,0,.2);
+}
+
+.pain-image:nth-child(2){margin-top:50px}
+
+.pain-image img{
+  height:100%;
+  object-fit:cover;
+}
+
+/* REHAB */
+
+.rehab{
+  padding:110px 0;
+  background:var(--cream);
+}
+
+.rehab-grid{
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:80px;
+  align-items:center;
+}
+
+.rehab-images{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:15px;
+  align-items:start;
+}
+
+.rehab-image{
+  height:450px;
+  overflow:hidden;
+  border-radius:21px;
+  box-shadow:0 18px 45px rgba(6,57,44,.12);
+}
+
+.rehab-image:nth-child(2){margin-top:50px}
+
+.rehab-image img{
+  height:100%;
+  object-fit:cover;
+}
+
+.rehab-copy p{
+  color:#586660;
+  margin-top:20px;
+}
+
+/* APPROACH */
+
+.approach{
+  padding:110px 0;
+}
+
+.approach-head{
+  max-width:720px;
+  margin-bottom:55px;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.card{
+  border:1px solid var(--border);
+  border-radius:20px;
+  padding:35px 30px;
+  min-height:250px;
+  transition:.25s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 20px 50px rgba(6,57,44,.1);
+}
+
+.card-num{
+  color:var(--gold);
+  font-size:12px;
+  font-weight:700;
+  margin-bottom:40px;
+}
+
+.card h3{
+  color:var(--green);
+  font-size:21px;
+  margin-bottom:12px;
+}
+
+.card p{
+  color:var(--muted);
+  font-size:15px;
+}
+
+/* SPORTS */
+
+.sports{
+  padding:105px 0;
+  background:#edf3ef;
+}
+
+.sports-inner{
+  max-width:900px;
+  margin:auto;
+}
+
+.sports-header{
+  text-align:center;
+  max-width:700px;
+  margin:0 auto 50px;
+}
+
+.sports-copy{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:55px;
+}
+
+.sports-copy p{
+  color:#56645f;
+  margin-bottom:18px;
+}
+
+/* FINAL */
+
+.final{
+  padding:100px 0;
+  text-align:center;
+}
+
+.final blockquote{
+  max-width:850px;
+  margin:auto;
+  color:var(--green);
+  font-size:clamp(32px,4.5vw,53px);
+  line-height:1.2;
+  font-weight:600;
+  letter-spacing:-.03em;
+}
+
+.gold-line{
+  width:50px;
+  height:2px;
+  background:var(--gold);
+  margin:30px auto;
+}
+
+.final p{
+  max-width:650px;
+  margin:auto;
+  color:#66736f;
+}
+
+/* CTA */
+
+.cta{
+  background:var(--green);
+  color:#fff;
+  padding:80px 0;
+}
+
+.cta-inner{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:40px;
+}
+
+.cta h2{
+  font-size:clamp(30px,4vw,48px);
+  max-width:650px;
+  line-height:1.15;
+}
+
+.cta a{
+  background:var(--gold);
+  color:var(--green);
+  padding:16px 25px;
+  border-radius:30px;
+  font-weight:700;
+  white-space:nowrap;
+}
+
+/* FOOTER */
+
+footer{
+  background:#04271f;
+  color:rgba(255,255,255,.7);
+  padding:55px 0 25px;
+}
+
+.footer-grid{
+  display:grid;
+  grid-template-columns:1.3fr 1fr 1fr;
+  gap:50px;
+  margin-bottom:40px;
+}
+
+footer h3{
+  color:#fff;
+  margin-bottom:12px;
+}
+
+footer p,footer a{
+  font-size:14px;
+  line-height:2;
+}
+
+footer a:hover{color:var(--gold)}
+
+.copyright{
+  border-top:1px solid rgba(255,255,255,.1);
+  padding-top:20px;
+  font-size:12px;
+}
+
+/* MOBILE */
+
+@media(max-width:850px){
+
+  nav{display:none}
+
+  .nav{min-height:70px}
+
+  .brand img{
+    width:48px;
+    height:48px;
+  }
+
+  .brand span{display:none}
+
+  .hero-grid,
+  .story-head,
+  .story-text,
+  .pain-grid,
+  .rehab-grid,
+  .sports-copy{
+    grid-template-columns:1fr;
+  }
+
+  .hero-grid{gap:45px}
+
+  .hero-photos{min-height:430px}
+
+  .hero-main{
+    width:90%;
+    height:380px;
+  }
+
+  .hero-small{
+    height:180px;
+  }
+
+  .story-head{gap:30px}
+
+  .stats{
+    grid-template-columns:1fr;
+  }
+
+  .stat,
+  .stat:first-child{
+    padding:18px 0;
+    border-right:0;
+    border-bottom:1px solid var(--border);
+  }
+
+  .stat:last-child{border-bottom:0}
+
+  .timeline-item{
+    grid-template-columns:75px 1fr;
+    gap:20px;
+  }
+
+  .timeline-content{padding-left:30px}
+
+  .cards{grid-template-columns:1fr}
+
+  .cta-inner{
+    display:block;
+  }
+
+  .cta a{
+    display:inline-block;
+    margin-top:30px;
+  }
+
+  .footer-grid{
+    grid-template-columns:1fr;
+    gap:25px;
+  }
+}
+
+@media(max-width:520px){
+
+  .container{
+    width:calc(100% - 28px);
+  }
+
+  .hero{
+    padding:55px 0 65px;
+  }
+
+  .hero h1{
+    font-size:43px;
+  }
+
+  .hero-photos{
+    min-height:375px;
+  }
+
+  .hero-main{
+    height:320px;
+    width:94%;
+  }
+
+  .hero-small{
+    height:150px;
+    width:46%;
+    border-width:4px;
+  }
+
+  .year-card{
+    padding:14px 17px;
+  }
+
+  .year-card strong{
+    font-size:27px;
+  }
+
+  .story,
+  .journey,
+  .pain,
+  .rehab,
+  .approach,
+  .sports,
+  .final{
+    padding:75px 0;
+  }
+
+  .pain-image{
+    height:280px;
+  }
+
+  .pain-image:nth-child(2){
+    margin-top:25px;
+  }
+
+  .rehab-image{
+    height:300px;
+  }
+
+  .rehab-image:nth-child(2){
+    margin-top:25px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container nav">
+
+<a href="ru.html" class="brand">
+<img src="yparc-logo.png" alt="YPARC">
+
+<div>
+<strong>YPARC</strong>
+<span>Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.</span>
+</div>
+</a>
+
+<nav>
+<a href="ru.html">Главная</a>
+<a href="about-ru.html">О нас</a>
+<a href="ru.html#conditions">Болевые состояния</a>
+<a href="ru.html#resources">Полезные материалы</a>
+<a href="booking-ru.html" class="nav-cta">Записаться на приём</a>
+
+        <span class="language-switcher" aria-label="Язык"><a href="about-hy.html" lang="hy">HY</a> / <a href="about-en.html" lang="en">EN</a> / <a href="about-ru.html" lang="ru">RU</a></span>
+      </nav>
+
+</div>
+</header>
+
+<main>
+
+<!-- HERO -->
+
+<section class="hero">
+<div class="container hero-grid">
+
+<div class="hero-copy">
+
+<div class="label">YPARC — специализированный многопрофильный центр медицины боли, физиотерапии и реабилитации.</div>
+
+<h1>
+Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.<br>
+Программа составляется индивидуально с учётом состояния пациента, функциональных ограничений, повседневных потребностей и целей.
+</h1>
+
+<p>
+Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.
+</p>
+
+<div class="tags">
+<span class="tag">Медицина боли</span>
+<span class="tag">Реабилитация</span>
+<span class="tag">Физиотерапия</span>
+<span class="tag">Спортивная медицина</span>
+</div>
+
+</div>
+
+<div class="hero-photos">
+
+<div class="hero-main">
+<img src="images/pain-intervention-1.jpg"
+alt="Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.">
+</div>
+
+<div class="hero-small">
+<img src="images/rehabilitation-2.jpg"
+alt="YPARC — специализированный многопрофильный центр медицины боли, физиотерапии и реабилитации.">
+</div>
+
+<div class="year-card">
+<span>ОСНОВАНА</span>
+<strong>2022</strong>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- STORY -->
+
+<section class="story">
+<div class="container">
+
+<div class="story-head">
+
+<div>
+<div class="section-label">НАША ИСТОРИЯ</div>
+<h2 class="title">Идея, рождённая опытом</h2>
+</div>
+
+<p class="story-lead">
+Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.
+</p>
+
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<strong>2022</strong>
+<span>YPARC — специализированный многопрофильный центр медицины боли, физиотерапии и реабилитации.</span>
+</div>
+
+<div class="stat">
+<strong>Pain Medicine</strong>
+<span>РЕАБИЛИТАЦИЯ И ФИЗИОТЕРАПИЯ</span>
+</div>
+
+<div class="stat">
+<strong>Rehabilitation</strong>
+<span>Идея создания клиники сформировалась за годы клинической практики.</span>
+</div>
+
+</div>
+
+<div class="story-text">
+
+<div>
+<p>
+YPARC — специализированный многопрофильный центр медицины боли, физиотерапии и реабилитации.
+</p>
+
+<p>
+Доктор Арман Кеян
+</p>
+</div>
+
+<div>
+<p>
+Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.
+</p>
+
+<p>
+Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- HISTORY -->
+
+<section class="journey">
+<div class="container">
+
+<div class="journey-header">
+<div class="section-label">НАША ИСТОРИЯ</div>
+
+<h2 class="title">
+МЕДИЦИНА БОЛИ
+</h2>
+</div>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<div class="timeline-year">2020</div>
+
+<div class="timeline-content">
+<h3>Опыт военной медицины</h3>
+
+<p>
+Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.
+</p>
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-year">2021</div>
+
+<div class="timeline-content">
+<h3>Новое направление лечения боли</h3>
+
+<p>
+Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.
+</p>
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-year">2022</div>
+
+<div class="timeline-content">
+<h3>Основание YPARC</h3>
+
+<p>
+Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- PAIN MEDICINE -->
+
+<section class="pain">
+<div class="container pain-grid">
+
+<div class="pain-copy">
+
+<div class="label">03 · РЕАБИЛИТАЦИЯ</div>
+
+<h2 class="title">
+Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.
+</h2>
+
+<p>
+Лечение подбирается индивидуально после консультации специалиста и тщательной клинической оценки.
+</p>
+
+<p>
+Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.
+</p>
+
+<p>
+Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.
+</p>
+
+</div>
+
+<div class="pain-images">
+
+<div class="pain-image">
+<img src="images/pain-intervention-1.jpg"
+alt="Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции."
+loading="lazy">
+</div>
+
+<div class="pain-image">
+<img src="images/pain-intervention-2.jpg"
+alt="При наличии показаний таргетные процедуры могут выполняться в области конкретной анатомической цели под контролем УЗИ или ЭОП."
+loading="lazy">
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- REHABILITATION -->
+
+<section class="rehab">
+<div class="container rehab-grid">
+
+<div class="rehab-images">
+
+<div class="rehab-image">
+<img src="images/rehabilitation-1.jpg"
+alt="YPARC — специализированный многопрофильный центр медицины боли, физиотерапии и реабилитации."
+loading="lazy">
+</div>
+
+<div class="rehab-image">
+<img src="images/rehabilitation-2.jpg"
+alt="Программа составляется индивидуально с учётом состояния пациента, функциональных ограничений, повседневных потребностей и целей."
+loading="lazy">
+</div>
+
+</div>
+
+<div class="rehab-copy">
+
+<div class="section-label">При многих болевых состояниях лечение не заканчивается вмешательством или временным уменьшением боли.</div>
+
+<h2 class="title">
+Реабилитация — продолжение лечения
+</h2>
+
+<p>
+YPARC — специализированный многопрофильный центр медицины боли, физиотерапии и реабилитации.
+</p>
+
+<p>
+При наличии показаний таргетные процедуры могут выполняться в области конкретной анатомической цели под контролем УЗИ или ЭОП.
+</p>
+
+<p>
+Программа составляется индивидуально с учётом состояния пациента, функциональных ограничений, повседневных потребностей и целей.
+</p>
+
+</div>
+
+</div>
+</section>
+
+<!-- APPROACH -->
+
+<section class="approach">
+<div class="container">
+
+<div class="approach-head">
+<div class="section-label">НАШ ПОДХОД</div>
+<h2 class="title">Не только уменьшить боль</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<div class="card-num">01</div>
+<h3>Найти причину</h3>
+<p>
+Лечение подбирается индивидуально после консультации специалиста и тщательной клинической оценки.
+</p>
+</div>
+
+<div class="card">
+<div class="card-num">02</div>
+<h3>Выбрать индивидуальный подход</h3>
+<p>
+Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.
+</p>
+</div>
+
+<div class="card">
+<div class="card-num">03</div>
+<h3>Восстановить функцию</h3>
+<p>
+Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- SPORTS -->
+
+<section class="sports">
+<div class="container">
+
+<div class="sports-header">
+<div class="section-label">СПОРТИВНАЯ МЕДИЦИНА</div>
+
+<h2 class="title">
+Возвращение к движению и спорту
+</h2>
+</div>
+
+<div class="sports-copy">
+
+<div>
+<p>
+Программы для спортсменов объединяют лечение боли и реабилитацию для безопасного возвращения к тренировкам и спорту.
+</p>
+
+<p>
+Программы для спортсменов объединяют лечение боли и реабилитацию для безопасного возвращения к тренировкам и спорту.
+</p>
+</div>
+
+<div>
+<p>
+Программы для спортсменов объединяют лечение боли и реабилитацию для безопасного возвращения к тренировкам и спорту.
+</p>
+
+<p>
+Программы для спортсменов объединяют лечение боли и реабилитацию для безопасного возвращения к тренировкам и спорту.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- FINAL -->
+
+<section class="final">
+<div class="container">
+
+<blockquote>
+Меньше боли.<br>
+Более полноценная жизнь.
+</blockquote>
+
+<div class="gold-line"></div>
+
+<p>
+Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.
+</p>
+
+</div>
+</section>
+
+<!-- CTA -->
+
+<section class="cta">
+<div class="container cta-inner">
+
+<h2>
+Ваш путь к более активной жизни может начаться здесь.
+</h2>
+
+<a href="booking-ru.html">
+Записаться на приём →
+</a>
+
+</div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+<div class="container">
+
+<div class="footer-grid">
+
+<div>
+<h3>YPARC</h3>
+<p>Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.</p>
+</div>
+
+<div>
+<h3>Контакты</h3>
+<p>ул. Пушкина 56/1, Ереван, Армения</p>
+<p><a href="tel:+37491092123">+374 91 092123</a></p>
+<p>
+<a href="mailto:info@painclinicyerevan.am">
+info@painclinicyerevan.am
+</a>
+</p>
+</div>
+
+<div>
+<h3>Быстрые ссылки</h3>
+<p><a href="ru.html">Главная</a></p>
+<p><a href="about-ru.html">О нас</a></p>
+<p><a href="booking-ru.html">Записаться на приём</a></p>
+</div>
+
+</div>
+
+<div class="copyright">
+Наш подход направлен на выявление причины боли, уменьшение симптомов и восстановление движения и функции.
+</div>
+
+</div>
+</footer>
+
+</body>
+</html>
