@@ -1439,6 +1439,183 @@
     .mobile-language-bar span{opacity:.3}
   }
 </style>
+<style id="patient-reviews-style">
+.patient-reviews{
+  padding:100px 22px;
+  background:
+    radial-gradient(circle at 92% 12%, rgba(200,155,60,.10), transparent 24%),
+    #eef4f0;
+}
+.rv-shell{
+  width:min(1180px,100%);
+  margin:0 auto;
+}
+.rv-head{
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:70px;
+  align-items:end;
+  margin-bottom:42px;
+}
+.rv-kicker{
+  margin-bottom:14px;
+  color:#b58a32;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.18em;
+}
+.rv-head h2{
+  margin:0;
+  color:#0b4f3c;
+  font-family:Georgia,serif;
+  font-size:clamp(42px,5vw,66px);
+  line-height:1.02;
+  font-weight:400;
+  letter-spacing:-.035em;
+}
+.rv-head p{
+  margin:0;
+  color:#6f7c77;
+  font-size:15px;
+  line-height:1.8;
+}
+.rv-track-wrap{
+  position:relative;
+}
+.rv-track{
+  display:grid;
+  grid-auto-flow:column;
+  grid-auto-columns:calc((100% - 36px)/3);
+  gap:18px;
+  overflow-x:auto;
+  scroll-snap-type:x mandatory;
+  scrollbar-width:none;
+  scroll-behavior:smooth;
+  padding:2px 0 8px;
+}
+.rv-track::-webkit-scrollbar{display:none}
+.rv-card{
+  scroll-snap-align:start;
+  min-height:335px;
+  padding:30px;
+  border:1px solid rgba(11,79,60,.12);
+  border-radius:22px;
+  background:#fff;
+  box-shadow:0 12px 30px rgba(11,79,60,.045);
+  display:flex;
+  flex-direction:column;
+}
+.rv-card:hover{
+  transform:translateY(-4px);
+  transition:.25s ease;
+  box-shadow:0 20px 44px rgba(11,79,60,.08);
+}
+.rv-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+}
+.rv-stars{
+  color:#c89b3c;
+  letter-spacing:.12em;
+  font-size:15px;
+}
+.rv-quote{
+  color:#d8e5de;
+  font-family:Georgia,serif;
+  font-size:62px;
+  line-height:.7;
+}
+.rv-text{
+  margin:26px 0 30px;
+  color:#465b54;
+  font-size:15px;
+  line-height:1.78;
+}
+.rv-person{
+  margin-top:auto;
+  display:flex;
+  gap:13px;
+  align-items:center;
+  padding-top:20px;
+  border-top:1px solid rgba(11,79,60,.10);
+}
+.rv-avatar{
+  width:44px;
+  height:44px;
+  flex:0 0 44px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:#0b4f3c;
+  color:#fff;
+  font-size:12px;
+  font-weight:800;
+}
+.rv-person strong{
+  display:block;
+  color:#0b4f3c;
+  font-size:13px;
+}
+.rv-person span{
+  display:block;
+  margin-top:2px;
+  color:#87918d;
+  font-size:11px;
+}
+.rv-arrow{
+  position:absolute;
+  top:50%;
+  z-index:5;
+  width:46px;
+  height:46px;
+  margin-top:-23px;
+  border:1px solid rgba(11,79,60,.16);
+  border-radius:50%;
+  background:rgba(255,255,255,.94);
+  color:#0b4f3c;
+  font-size:20px;
+  cursor:pointer;
+  box-shadow:0 10px 26px rgba(11,79,60,.08);
+}
+.rv-prev{left:-23px}
+.rv-next{right:-23px}
+.rv-arrow:hover{
+  background:#0b4f3c;
+  color:#fff;
+}
+.rv-bottom{
+  margin-top:26px;
+  padding-top:22px;
+  border-top:1px solid rgba(11,79,60,.12);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+}
+.rv-bottom span{
+  color:#82908a;
+  font-size:11px;
+}
+.rv-cta{
+  color:#0b4f3c;
+  font-size:12px;
+  font-weight:800;
+}
+@media(max-width:950px){
+  .rv-head{grid-template-columns:1fr;gap:20px}
+  .rv-track{grid-auto-columns:calc((100% - 18px)/2)}
+}
+@media(max-width:650px){
+  .patient-reviews{padding:72px 15px}
+  .rv-head h2{font-size:42px}
+  .rv-track{grid-auto-columns:88%}
+  .rv-prev,.rv-next{display:none}
+  .rv-card{min-height:320px}
+  .rv-bottom{flex-direction:column;align-items:flex-start}
+}
+</style>
+
 </head>
 <body>
 
@@ -2135,7 +2312,26 @@
 
     <!-- APPOINTMENT -->
 
-    <section class="appointment" id="appointment">
+    <section class="patient-reviews" id="reviews">
+  <div class="rv-shell">
+    <div class="rv-head">
+      <div><div class="rv-kicker">PATIENT EXPERIENCES</div><h2>What our patients say</h2></div>
+      <p>Our patients’ experience and trust are important to us.</p>
+    </div>
+    <div class="rv-track-wrap">
+      <button class="rv-arrow rv-prev" type="button" aria-label="Previous review">←</button>
+      <div class="rv-track" id="reviewTrack">
+        <article class="rv-card"><div class="rv-top"><div class="rv-stars" aria-label="5 stars">★★★★★</div><div class="rv-quote">“</div></div><p class="rv-text">Arman Keyan is a wonderful person and a compassionate doctor. His care has helped me significantly ease the lower back pain I had been living with for many years.</p><div class="rv-person"><div class="rv-avatar">B</div><div><strong>baghoyand</strong><span>Lower back pain · public review</span></div></div></article>
+        <article class="rv-card"><div class="rv-top"><div class="rv-stars" aria-label="5 stars">★★★★★</div><div class="rv-quote">“</div></div><p class="rv-text">I had been experiencing back pain for a long time. Everything was explained in detail during the visit, and it was important to me that attention was paid not only to the pain but also to its possible causes.</p><div class="rv-person"><div class="rv-avatar">P</div><div><strong>Anonymous</strong><span>Sample review</span></div></div></article>
+        <article class="rv-card"><div class="rv-top"><div class="rv-stars" aria-label="5 stars">★★★★★</div><div class="rv-quote">“</div></div><p class="rv-text">I am very grateful for the attentive and caring approach. All my questions were answered, and the treatment process was explained clearly and understandably.</p><div class="rv-person"><div class="rv-avatar">P</div><div><strong>Anonymous</strong><span>Sample review</span></div></div></article>
+      </div>
+      <button class="rv-arrow rv-next" type="button" aria-label="Next review">→</button>
+    </div>
+    <div class="rv-bottom"><span>Patient reviews are published with the patient’s consent.</span><a href="booking-hy.html" class="rv-cta">Book a consultation →</a></div>
+  </div>
+</section>
+
+<section class="appointment" id="appointment">
 
       <div class="container">
 
@@ -2367,6 +2563,18 @@
     }
 
   </script>
+
+<script>
+(function(){
+  const track=document.getElementById('reviewTrack');
+  const prev=document.querySelector('.rv-prev');
+  const next=document.querySelector('.rv-next');
+  if(!track||!prev||!next)return;
+  function step(){const card=track.querySelector('.rv-card');return card?card.getBoundingClientRect().width+18:320;}
+  prev.addEventListener('click',()=>track.scrollBy({left:-step(),behavior:'smooth'}));
+  next.addEventListener('click',()=>track.scrollBy({left:step(),behavior:'smooth'}));
+})();
+</script>
 
 </body>
 </html>
