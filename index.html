@@ -3068,6 +3068,13 @@
 }
 </style>
 
+
+<style id="mobile-language-switcher-style">
+  .mobile-language-switcher{display:flex;align-items:center;justify-content:center;gap:12px;padding:14px 0 18px;margin-bottom:8px;border-bottom:1px solid rgba(11,79,60,.14)}
+  .mobile-language-switcher a{display:inline-flex!important;width:auto!important;padding:6px 4px!important;font-weight:700;letter-spacing:.08em;text-decoration:none}
+  .mobile-language-switcher a.active{color:#b38a4a!important}
+  .mobile-language-switcher span{opacity:.35}
+</style>
 </head>
 <body>
 
@@ -3161,6 +3168,14 @@
   <!-- MOBILE MENU -->
 
   <div class="mobile-menu" id="mobileMenu">
+
+    <div class="mobile-language-switcher" aria-label="Language selection">
+      <a href="index.html" class="active" aria-current="page">HY</a>
+      <span>|</span>
+      <a href="en.html">EN</a>
+      <span>|</span>
+      <a href="ru.html">RU</a>
+    </div>
 
     <a href="about-hy.html" onclick="toggleMenu()">Մեր մասին</a>
     <a href="#conditions" onclick="toggleMenu()">Ցավային վիճակներ</a>
