@@ -3131,7 +3131,7 @@
         <a href="about-hy.html">Մեր մասին</a>
         <a href="#conditions">Ցավային վիճակներ</a>
         <a href="pain-check-hy.html">Pain Check</a>
-        <a href="#rehabilitation">Վերականգնում</a>
+        <a href="rehabilitation-hy.html">Վերականգնում</a>
         <a href="#resources">Օգտակար նյութեր</a>
         <a href="treatments-hy.html">Բուժումներ</a>
         <a href="#contact">Կապ</a>
@@ -3184,7 +3184,7 @@
     <a href="about-hy.html" onclick="toggleMenu()">Մեր մասին</a>
     <a href="#conditions" onclick="toggleMenu()">Ցավային վիճակներ</a>
     <a href="pain-check-hy.html" onclick="toggleMenu()">Pain Check</a>
-    <a href="#rehabilitation" onclick="toggleMenu()">Վերականգնում</a>
+    <a href="rehabilitation-hy.html" onclick="toggleMenu()">Վերականգնում</a>
     <a href="#resources" onclick="toggleMenu()">Օգտակար նյութեր</a>
     <a href="treatments-hy.html" onclick="toggleMenu()">Բուժումներ</a>
     <a href="#contact" onclick="toggleMenu()">Կապ</a>
@@ -3587,7 +3587,7 @@
             Նպատակն է օգնել մարդուն կրկին շարժվել, մասնակցել և ապրել լիարժեք կյանքով»։
           </p>
 
-          <a href="#" class="btn btn-primary">
+          <a href="pain-library-hy.html" class="btn btn-primary">
             Պացիենտների պատմություններ →
           </a>
 
@@ -3677,7 +3677,7 @@
 
           </div>
 
-          <a href="#" class="btn btn-outline">
+          <a href="pain-library-hy.html" class="btn btn-outline">
             Դիտել բոլոր նյութերը →
           </a>
 
@@ -3708,7 +3708,7 @@
                 և ժամանակակից բուժման մոտեցումներին։
               </p>
 
-              <a href="#" class="text-link">
+              <a href="pain-library-hy.html" class="text-link">
                 Կարդալ հոդվածը →
               </a>
 
@@ -3739,7 +3739,7 @@
                 ու ֆունկցիոնալ վերականգնումը աջակցելու համար։
               </p>
 
-              <a href="#" class="text-link">
+              <a href="pain-library-hy.html" class="text-link">
                 Դիտել տեսանյութը →
               </a>
 
@@ -3770,7 +3770,7 @@
                 և ցավի բուժման մեջ դրանց դերի մասին։
               </p>
 
-              <a href="#" class="text-link">
+              <a href="pain-library-hy.html" class="text-link">
                 Իմանալ ավելին →
               </a>
 
@@ -3969,10 +3969,10 @@
           <h4>Բաժիններ</h4>
 
           <ul>
-            <li><a href="#about">YPARC-ի մասին</a></li>
+            <li><a href="about-hy.html">YPARC-ի մասին</a></li>
             <li><a href="#conditions">Ցավային վիճակներ</a></li>
-            <li><a href="#treatments">Բուժումներ</a></li>
-            <li><a href="#rehabilitation">Վերականգնում</a></li>
+            <li><a href="treatments-hy.html">Բուժումներ</a></li>
+            <li><a href="rehabilitation-hy.html">Վերականգնում</a></li>
           </ul>
 
         </div>
@@ -3986,7 +3986,7 @@
             <li><a href="booking-hy.html">Գրանցվել այցի</a></li>
             <li><a href="https://apps.physiapp.com/login" target="_blank" rel="noopener noreferrer">Պացիենտի մուտք / PhysiApp</a></li>
             <li><a href="#resources">Օգտակար նյութեր պացիենտների համար</a></li>
-            <li><a href="#">Հաճախ տրվող հարցեր</a></li>
+            <li><a href="pain-library-hy.html">Հաճախ տրվող հարցեր</a></li>
           </ul>
 
         </div>
@@ -4033,10 +4033,14 @@
     function toggleMenu() {
 
       const menu = document.getElementById("mobileMenu");
+      const toggle = document.querySelector(".menu-toggle");
 
       menu.classList.toggle("active");
 
-      if (menu.classList.contains("active")) {
+      const isOpen = menu.classList.contains("active");
+      toggle.setAttribute("aria-expanded", String(isOpen));
+
+      if (isOpen) {
         document.body.style.overflow = "hidden";
       } else {
         document.body.style.overflow = "";
