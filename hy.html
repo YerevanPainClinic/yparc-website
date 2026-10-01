@@ -2097,10 +2097,13 @@
 
 
 <style id="mobile-language-switcher-style">
-  .mobile-language-switcher{display:flex;align-items:center;justify-content:center;gap:12px;padding:14px 0 18px;margin-bottom:8px;border-bottom:1px solid rgba(11,79,60,.14)}
-  .mobile-language-switcher a{display:inline-flex!important;width:auto!important;padding:6px 4px!important;font-weight:700;letter-spacing:.08em;text-decoration:none}
-  .mobile-language-switcher a.active{color:#b38a4a!important}
-  .mobile-language-switcher span{opacity:.35}
+  .mobile-language-bar{display:none}
+  @media(max-width:900px){
+    .mobile-language-bar{display:flex;align-items:center;justify-content:center;gap:14px;padding:9px 12px;background:#fff;border-bottom:1px solid rgba(11,79,60,.14);position:relative;z-index:20}
+    .mobile-language-bar a{font-weight:700;letter-spacing:.08em;text-decoration:none;color:#0b4f3c;font-size:13px;padding:4px 6px}
+    .mobile-language-bar a.active{color:#b38a4a}
+    .mobile-language-bar span{opacity:.3}
+  }
 </style>
 </head>
 <body>
@@ -2191,18 +2194,19 @@
 
   </header>
 
+  <div class="mobile-language-bar" aria-label="Language selection">
+    <a href="index.html" class="active" aria-current="page">HY</a>
+    <span>|</span>
+    <a href="en.html">EN</a>
+    <span>|</span>
+    <a href="ru.html">RU</a>
+  </div>
+
+
 
   <!-- MOBILE MENU -->
 
-  <div class="mobile-menu" id="mobileMenu">
-
-    <div class="mobile-language-switcher" aria-label="Language selection">
-      <a href="index.html" class="active" aria-current="page">HY</a>
-      <span>|</span>
-      <a href="en.html">EN</a>
-      <span>|</span>
-      <a href="ru.html">RU</a>
-    </div>
+  <div class="mobile-menu" id="mobileMenu"> 
 
     <a href="#about" onclick="toggleMenu()">Մեր մասին</a>
     <a href="conditions-hy.html" onclick="toggleMenu()">Ցավային վիճակներ</a>
