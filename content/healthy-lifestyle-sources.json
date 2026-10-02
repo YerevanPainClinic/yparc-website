@@ -1,0 +1,32 @@
+{
+  "topic": "healthy-lifestyle-and-pain",
+  "sources": [
+    [
+      "Finan et al. · J Pain, 2013 · Sleep and pain",
+      "https://pubmed.ncbi.nlm.nih.gov/24290442/"
+    ],
+    [
+      "NIH / NHLBI · Healthy sleep habits",
+      "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits"
+    ],
+    [
+      "Cochrane · Exercise for chronic low back pain, 2021",
+      "https://www.cochrane.org/evidence/CD009790_exercise-treatment-chronic-low-back-pain"
+    ],
+    [
+      "Cochrane · Psychological therapies for chronic pain, 2020",
+      "https://www.cochrane.org/evidence/CD007407_what-are-benefits-and-risks-psychological-therapies-adults-persistent-and-distressing-pain-neither"
+    ],
+    [
+      "IASP · Nutrition and chronic pain, 2021",
+      "https://www.iasp-pain.org/resources/fact-sheets/nutrition-and-chronic-pain/"
+    ],
+    [
+      "IASP · Chronic pain",
+      "https://www.iasp-pain.org/resources/topics/chronic-pain/"
+    ]
+  ],
+  "source_check_date": "2026-10-02",
+  "image_prompt": "Natural editorial photograph of two ordinary adults walking slowly in a quiet green park; beige and sage clothes; no text; illustrative people, not actual patients.",
+  "image_method": "built-in ImageGen"
+}
