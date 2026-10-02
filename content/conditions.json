@@ -1,0 +1,2049 @@
+[
+  {
+    "slug": "back-pain",
+    "group": "spine",
+    "title": {
+      "hy": "Մեջքի և գոտկատեղի ցավ",
+      "en": "Back and lower back pain",
+      "ru": "Боль в спине и пояснице"
+    },
+    "intro": {
+      "hy": "Գոտկատեղի ցավը կարող է կապված լինել մկանների, հոդերի, սկավառակների կամ նյարդարմատների հետ։ Այն կարող է մնալ մեջքի շրջանում կամ տարածվել դեպի հետույք ու ոտք։",
+      "en": "Lower back pain may involve muscles, joints, discs or nerve roots. It may stay in the back or spread to the buttock and leg.",
+      "ru": "Боль в пояснице может быть связана с мышцами, суставами, дисками или нервными корешками. Она может оставаться в спине или распространяться в ягодицу и ногу."
+    },
+    "symptoms": {
+      "hy": [
+        "Ցավ կռանալիս կամ ուղղվելիս",
+        "Ցավ երկար նստելիս կամ կանգնելիս",
+        "Դեպի ոտք տարածվող ցավ",
+        "Թմրածություն, ծակծկոց կամ ուժի փոփոխություն"
+      ],
+      "en": [
+        "Pain when bending or straightening",
+        "Pain with prolonged sitting or standing",
+        "Pain spreading down the leg",
+        "Numbness, tingling or a change in strength"
+      ],
+      "ru": [
+        "Боль при наклонах или выпрямлении",
+        "Боль при длительном сидении или стоянии",
+        "Боль, распространяющаяся в ногу",
+        "Онемение, покалывание или изменение силы"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են ցավի պատմությունը, շարժումները, քայլքը և անհրաժեշտության դեպքում ուժը, զգացողությունն ու ռեֆլեքսները։ MRI-ն կամ ռենտգենը նշանակվում են ըստ կլինիկական ցուցումների։",
+      "en": "Assessment includes the pain history, movement and walking, and strength, sensation and reflexes when needed. MRI or X-rays are selected according to clinical findings.",
+      "ru": "Оценивают историю боли, движения и ходьбу, при необходимости — силу, чувствительность и рефлексы. МРТ или рентген назначают по клиническим показаниям."
+    },
+    "care": {
+      "hy": "Ծրագիրը կարող է ներառել ցավի վերահսկում, անհատական վարժություններ և ակտիվության աստիճանական վերականգնում։ Թիրախային միջամտությունները քննարկվում են միայն համապատասխան ցուցումների դեպքում։",
+      "en": "Care may include pain management, personalised exercise and a gradual return to activity. Targeted procedures are considered only when clinically appropriate.",
+      "ru": "План может включать контроль боли, индивидуальные упражнения и постепенное возвращение к активности. Прицельные вмешательства рассматривают только при соответствующих показаниях."
+    },
+    "related": [
+      "sciatica",
+      "neck-pain"
+    ],
+    "note": {
+      "hy": "MRI-ի փոփոխությունները միշտ չէ, որ բացատրում են ցավը կամ նշանակում վիրահատության անհրաժեշտություն։",
+      "en": "MRI changes do not always explain the pain or mean that surgery is needed.",
+      "ru": "Изменения на МРТ не всегда объясняют боль или означают необходимость операции."
+    }
+  },
+  {
+    "slug": "neck-pain",
+    "group": "spine",
+    "title": {
+      "hy": "Պարանոցի ցավ",
+      "en": "Neck pain",
+      "ru": "Боль в шее"
+    },
+    "intro": {
+      "hy": "Պարանոցի ցավը կարող է ունենալ մկանային, հոդային, սկավառակային կամ նյարդային աղբյուր։ Երբեմն այն տարածվում է դեպի ուս, թիակ կամ ձեռք։",
+      "en": "Neck pain may arise from muscles, joints, discs or nerves. It sometimes spreads to the shoulder, shoulder blade or arm.",
+      "ru": "Боль в шее может иметь мышечный, суставной, дисковый или нервный источник. Иногда она распространяется в плечо, лопатку или руку."
+    },
+    "symptoms": {
+      "hy": [
+        "Տեղային ցավ կամ կոշտություն",
+        "Գլուխը շրջելու սահմանափակում",
+        "Դեպի ուս կամ ձեռք տարածվող ցավ",
+        "Ձեռքի թմրածություն, ծակծկոց կամ թուլություն"
+      ],
+      "en": [
+        "Local pain or stiffness",
+        "Difficulty turning the head",
+        "Pain spreading to the shoulder or arm",
+        "Arm numbness, tingling or weakness"
+      ],
+      "ru": [
+        "Местная боль или скованность",
+        "Ограничение поворота головы",
+        "Боль, распространяющаяся в плечо или руку",
+        "Онемение, покалывание или слабость в руке"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են ցավի սկիզբը, վնասվածքի պատմությունը, շարժունակությունն ու նյարդաբանական նշանները։ Հետազոտության պատասխանը համադրվում է գանգատների և զննման հետ։",
+      "en": "Assessment considers onset, injury history, movement and neurological signs. Test results are interpreted alongside symptoms and examination findings.",
+      "ru": "Оценивают начало боли, травмы в анамнезе, подвижность и неврологические признаки. Результаты исследований сопоставляют с жалобами и осмотром."
+    },
+    "care": {
+      "hy": "Ըստ պատճառի՝ քննարկվում են ցավի վերահսկում, շարժումների ու ծանրաբեռնվածության հարմարեցում և անհատական վերականգնում։ Միջամտությունների անհրաժեշտությունը որոշվում է զննումից հետո։",
+      "en": "Depending on the cause, care may involve pain management, adjustments to movement and workload, and personalised rehabilitation. Procedures are considered after assessment.",
+      "ru": "В зависимости от причины обсуждают контроль боли, адаптацию движений и нагрузки, индивидуальную реабилитацию. Необходимость вмешательств определяют после осмотра."
+    },
+    "related": [
+      "back-pain",
+      "shoulder-pain"
+    ],
+    "image": "neck"
+  },
+  {
+    "slug": "headache",
+    "group": "head",
+    "title": {
+      "hy": "Գլխացավ",
+      "en": "Headache",
+      "ru": "Головная боль"
+    },
+    "intro": {
+      "hy": "Գլխացավը մեկ ախտորոշում չէ։ Կարևոր է տարբերակել միգրենը, լարվածության տիպի գլխացավը, պարանոցային կամ նյարդային ցավը և այլ պատճառները։",
+      "en": "Headache is not a single diagnosis. Assessment distinguishes migraine, tension-type headache, neck-related or nerve pain, and other causes.",
+      "ru": "Головная боль — не один диагноз. Важно различать мигрень, головную боль напряжения, боль шейного или нервного происхождения и другие причины."
+    },
+    "symptoms": {
+      "hy": [
+        "Սեղմող կամ զարկող ցավ",
+        "Միակողմանի կամ երկկողմանի տեղակայում",
+        "Սրտխառնոց, լույսի կամ ձայնի նկատմամբ զգայունություն",
+        "Պարանոցի շարժումների հետ կապ կամ ծոծրակային ցավ"
+      ],
+      "en": [
+        "Pressing or throbbing pain",
+        "Pain on one or both sides",
+        "Nausea or sensitivity to light or sound",
+        "A link with neck movement or pain at the back of the head"
+      ],
+      "ru": [
+        "Давящая или пульсирующая боль",
+        "Боль с одной или обеих сторон",
+        "Тошнота, чувствительность к свету или звуку",
+        "Связь с движениями шеи или боль в затылке"
+      ]
+    },
+    "assessment": {
+      "hy": "Գրանցվում են նոպաների տևողությունն ու հաճախականությունը, ուղեկցող նշանները և օգտագործվող դեղերը։ Գլխացավի օրագիրը կարող է օգնել։ Պատկերային հետազոտությունը պետք չէ բոլոր դեպքերում։",
+      "en": "Assessment reviews attack duration and frequency, associated symptoms and medication use. A headache diary can help. Imaging is not necessary in every case.",
+      "ru": "Оценивают длительность и частоту приступов, сопутствующие симптомы и принимаемые лекарства. Дневник головной боли может помочь. Визуализация нужна не во всех случаях."
+    },
+    "care": {
+      "hy": "Բուժումը ընտրվում է գլխացավի տեսակի հիման վրա։ Կարող են քննարկվել նոպաների վերահսկում, կանխարգելիչ մոտեցումներ, քնի ու առօրյա ռեժիմի կարգավորում և համապատասխան մասնագետի ուղղորդում։",
+      "en": "Treatment depends on the headache type. Options may include attack management, prevention, sleep and routine adjustments, and referral to an appropriate specialist.",
+      "ru": "Лечение зависит от вида головной боли. Возможны купирование приступов, профилактика, коррекция сна и режима, направление к соответствующему специалисту."
+    },
+    "related": [
+      "occipital-neuralgia",
+      "trigeminal-neuralgia"
+    ],
+    "note": {
+      "hy": "Հաճախակի ցավազրկող օգտագործումը երբեմն կարող է պահպանել կամ ուժեղացնել գլխացավերը։ Դեղերի փոփոխությունը քննարկեք բժշկի հետ։",
+      "en": "Frequent painkiller use can sometimes maintain or worsen headaches. Discuss medication changes with a clinician.",
+      "ru": "Частое применение обезболивающих иногда поддерживает или усиливает головную боль. Изменение лекарств обсудите с врачом."
+    }
+  },
+  {
+    "slug": "shoulder-pain",
+    "group": "upper",
+    "title": {
+      "hy": "Ուսի ցավ",
+      "en": "Shoulder pain",
+      "ru": "Боль в плече"
+    },
+    "intro": {
+      "hy": "Ուսի ցավը կարող է կապված լինել ջլերի, բուրսայի, հոդերի, շարժունակության սահմանափակման կամ պարանոցից տարածվող ցավի հետ։ Ճիշտ մոտեցումը կախված է ցավի աղբյուրից։",
+      "en": "Shoulder pain may involve tendons, bursae, joints, restricted movement or pain referred from the neck. The source guides treatment.",
+      "ru": "Боль в плече может быть связана с сухожилиями, бурсой, суставами, ограничением подвижности или отражённой болью из шеи. Тактика зависит от источника боли."
+    },
+    "symptoms": {
+      "hy": [
+        "Ցավ ձեռքը բարձրացնելիս",
+        "Դժվարություն հագնվելիս կամ մեջքին հասնելիս",
+        "Գիշերային ցավ կամ ցավոտ կողմի վրա պառկելու դժվարություն",
+        "Թուլություն կամ շարժումների սահմանափակում"
+      ],
+      "en": [
+        "Pain when raising the arm",
+        "Difficulty dressing or reaching behind the back",
+        "Night pain or difficulty lying on the painful side",
+        "Weakness or restricted movement"
+      ],
+      "ru": [
+        "Боль при поднятии руки",
+        "Трудности при одевании или заведении руки за спину",
+        "Ночная боль или трудности при лежании на больной стороне",
+        "Слабость или ограничение движений"
+      ]
+    },
+    "assessment": {
+      "hy": "Զննմամբ համեմատվում են ակտիվ ու պասիվ շարժումները, ուժը և պարանոցի հնարավոր ներգրավվածությունը։ Ուլտրաձայն, ռենտգեն կամ MRI կիրառվում են ըստ կասկածվող պատճառի։",
+      "en": "Examination compares active and passive movement, strength and possible neck involvement. Ultrasound, X-rays or MRI are selected for the suspected cause.",
+      "ru": "Сравнивают активные и пассивные движения, силу и возможное участие шеи. УЗИ, рентген или МРТ выбирают с учётом предполагаемой причины."
+    },
+    "care": {
+      "hy": "Կարող են կիրառվել ծանրաբեռնվածության հարմարեցում, ցավի վերահսկում և աստիճանական վարժություններ։ Ներարկումը կամ վիրաբուժական գնահատումը քննարկվում են ընտրված դեպքերում։",
+      "en": "Options include activity adjustment, pain management and progressive exercise. Injections or surgical assessment are considered in selected cases.",
+      "ru": "Возможны адаптация нагрузки, контроль боли и постепенные упражнения. Инъекции или хирургическую оценку рассматривают в отдельных случаях."
+    },
+    "related": [
+      "rotator-cuff-pain",
+      "neck-pain"
+    ]
+  },
+  {
+    "slug": "knee-pain",
+    "group": "lower",
+    "title": {
+      "hy": "Ծնկի ցավ",
+      "en": "Knee pain",
+      "ru": "Боль в колене"
+    },
+    "intro": {
+      "hy": "Ծնկի ցավը կարող է լինել հոդային, մենիսկային, կապանային, ջլային կամ գերբեռնվածքային։ Ցավի ուժը միշտ չէ, որ համապատասխանում է ռենտգենի կամ MRI-ի փոփոխություններին։",
+      "en": "Knee pain may arise from joints, menisci, ligaments, tendons or overload. Pain severity does not always match X-ray or MRI findings.",
+      "ru": "Боль в колене может быть суставной, менисковой, связочной, сухожильной или связанной с перегрузкой. Сила боли не всегда соответствует изменениям на рентгене или МРТ."
+    },
+    "symptoms": {
+      "hy": [
+        "Ցավ քայլելիս կամ աստիճաններով",
+        "Կոշտություն կամ այտուց",
+        "Դժվարություն նստելուց կանգնելիս",
+        "Անկայունության զգացում կամ շարժման արգելակում"
+      ],
+      "en": [
+        "Pain with walking or stairs",
+        "Stiffness or swelling",
+        "Difficulty rising from a chair",
+        "Instability or a locked knee"
+      ],
+      "ru": [
+        "Боль при ходьбе или на лестнице",
+        "Скованность или отёк",
+        "Трудности при вставании со стула",
+        "Чувство нестабильности или блокирование колена"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են վնասվածքի մեխանիզմը, քայլքը, այտուցը, շարժումների ծավալը և կայունությունը։ Հետազոտություններն ընտրվում են ըստ զննման արդյունքների։",
+      "en": "Assessment considers injury mechanism, walking, swelling, range of motion and stability. Tests are selected according to the examination.",
+      "ru": "Оценивают механизм травмы, ходьбу, отёк, объём движений и стабильность. Исследования выбирают по результатам осмотра."
+    },
+    "care": {
+      "hy": "Ծրագիրը կարող է ներառել ակտիվության հարմարեցում, մկանային ուժի և շարժունակության վերականգնում ու անհատական ցավի վերահսկում։ Միջամտությունները կախված են ախտորոշումից։",
+      "en": "Care may include activity modification, rebuilding strength and movement, and individual pain management. Procedures depend on the diagnosis.",
+      "ru": "План может включать адаптацию активности, восстановление силы и подвижности, индивидуальный контроль боли. Вмешательства зависят от диагноза."
+    },
+    "related": [
+      "patellar-tendinopathy",
+      "sports-overuse-pain"
+    ],
+    "image": "knee"
+  },
+  {
+    "slug": "hip-pain",
+    "group": "lower",
+    "title": {
+      "hy": "Կոնքազդրային ցավ",
+      "en": "Hip pain",
+      "ru": "Боль в тазобедренной области"
+    },
+    "intro": {
+      "hy": "Ցավը աճուկում, կոնքազդրային շրջանի կողային մասում կամ հետույքում կարող է ունենալ տարբեր աղբյուրներ՝ հոդ, ջլեր, փափուկ հյուսվածքներ կամ գոտկատեղից տարածվող ցավ։",
+      "en": "Pain in the groin, side of the hip or buttock may come from the joint, tendons, soft tissues or referred lower back pain.",
+      "ru": "Боль в паху, сбоку тазобедренной области или в ягодице может исходить из сустава, сухожилий, мягких тканей или поясницы."
+    },
+    "symptoms": {
+      "hy": [
+        "Ցավ քայլելիս կամ աստիճաններով",
+        "Ցավ աճուկում կամ ազդրի կողային մասում",
+        "Ցավ կողքի վրա պառկելիս",
+        "Շարժունակության նվազում կամ կաղություն"
+      ],
+      "en": [
+        "Pain with walking or stairs",
+        "Groin or outer-thigh pain",
+        "Pain when lying on the side",
+        "Reduced movement or limping"
+      ],
+      "ru": [
+        "Боль при ходьбе или на лестнице",
+        "Боль в паху или по наружной стороне бедра",
+        "Боль при лежании на боку",
+        "Снижение подвижности или хромота"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են հոդի շարժումները, քայլքը, ջլերի ցավոտությունը և գոտկատեղի մասնակցությունը։ Հետազոտությունների անհրաժեշտությունը որոշվում է կլինիկական գնահատմամբ։",
+      "en": "Assessment reviews hip movement, gait, tendon tenderness and possible lower back involvement. Clinical findings determine which tests are needed.",
+      "ru": "Оценивают движения сустава, походку, болезненность сухожилий и участие поясницы. Необходимость исследований определяют клинически."
+    },
+    "care": {
+      "hy": "Կարևոր են ծանրաբեռնվածության հարմարեցումը, համապատասխան վարժություններն ու ցավի վերահսկումը։ Կողային ցավի և ներհոդային խնդիրների բուժման մոտեցումները կարող են տարբեր լինել։",
+      "en": "Care includes suitable activity adjustment, exercise and pain management. Lateral hip pain and problems inside the joint may need different approaches.",
+      "ru": "Важны адаптация нагрузки, подходящие упражнения и контроль боли. При боковой боли и внутрисуставных проблемах подходы могут различаться."
+    },
+    "related": [
+      "greater-trochanteric-pain",
+      "gluteal-tendinopathy"
+    ]
+  },
+  {
+    "slug": "heel-pain",
+    "group": "lower",
+    "title": {
+      "hy": "Կրունկի ցավ",
+      "en": "Heel pain",
+      "ru": "Боль в пятке"
+    },
+    "intro": {
+      "hy": "Կրունկի ցավը կարող է առաջանալ պլանտար ֆասցիայից, Աքիլեսյան ջլից, ճարպային բարձիկից, նյարդերից կամ ոսկրային կառուցվածքներից։ Ցավի ճշգրիտ տեղակայումը կարևոր է։",
+      "en": "Heel pain can arise from the plantar fascia, Achilles tendon, fat pad, nerves or bone. Its precise location matters.",
+      "ru": "Боль в пятке может исходить из подошвенной фасции, ахиллова сухожилия, жировой подушки, нервов или костных структур. Важна точная локализация."
+    },
+    "symptoms": {
+      "hy": [
+        "Ստորին կրունկի ցավ առաջին քայլերին",
+        "Հետևի կրունկի ցավ ծանրաբեռնվածության ժամանակ",
+        "Քայլելուց կամ կանգնելուց հետո ցավ",
+        "Այրող ցավ, թմրածություն կամ ծակծկոց"
+      ],
+      "en": [
+        "Pain under the heel with first steps",
+        "Pain at the back of the heel with activity",
+        "Pain after walking or standing",
+        "Burning, numbness or tingling"
+      ],
+      "ru": [
+        "Боль снизу пятки при первых шагах",
+        "Боль сзади пятки при нагрузке",
+        "Боль после ходьбы или стояния",
+        "Жжение, онемение или покалывание"
+      ]
+    },
+    "assessment": {
+      "hy": "Բժիշկը տարբերակում է ֆասցիայի, ջլի, նյարդի և վնասվածքի հետ կապված պատճառները։ Ռենտգեն, ուլտրաձայն կամ MRI նշանակվում են ընտրովի։",
+      "en": "Examination distinguishes fascia, tendon, nerve and injury-related causes. X-rays, ultrasound or MRI are used selectively.",
+      "ru": "Врач различает фасциальные, сухожильные, нервные и посттравматические причины. Рентген, УЗИ или МРТ назначают выборочно."
+    },
+    "care": {
+      "hy": "Բուժումը հարմարեցվում է պատճառին՝ ծանրաբեռնվածության, կոշիկի, վարժությունների և ցավի վերահսկման միջոցով։ Նույն կրունկային ցավը բոլորի մոտ նույն բուժումը չի պահանջում։",
+      "en": "Care is tailored to the cause through activity, footwear, exercise and pain management. Similar heel pain does not always need the same treatment.",
+      "ru": "Лечение подбирают по причине: нагрузка, обувь, упражнения и контроль боли. Похожая боль в пятке не всегда требует одинакового лечения."
+    },
+    "related": [
+      "plantar-fasciitis",
+      "achilles-tendinopathy"
+    ],
+    "note": {
+      "hy": "Կրունկային շպորան կարող է լինել առանց ցավի։ Ռենտգենում դրա առկայությունը ինքնուրույն չի հաստատում ցավի պատճառը։",
+      "en": "A heel spur may be present without pain. An X-ray finding alone does not establish the cause of pain.",
+      "ru": "Пяточная шпора может существовать без боли. Одно её наличие на рентгене не устанавливает причину боли."
+    }
+  },
+  {
+    "slug": "plantar-fasciitis",
+    "group": "lower",
+    "title": {
+      "hy": "Պլանտար ֆասցիիտ",
+      "en": "Plantar fasciitis",
+      "ru": "Подошвенный фасциит"
+    },
+    "intro": {
+      "hy": "Պլանտար ֆասցիան աջակցում է ոտնաթաթի կամարին։ Այս հյուսվածքի հետ կապված ցավը հաճախ զգացվում է կրունկի ստորին մասում՝ առավոտյան կամ հանգստից հետո առաջին քայլերին։",
+      "en": "The plantar fascia supports the arch of the foot. Pain associated with it is often felt under the heel during the first steps in the morning or after rest.",
+      "ru": "Подошвенная фасция поддерживает свод стопы. Связанная с ней боль часто ощущается снизу пятки при первых шагах утром или после отдыха."
+    },
+    "symptoms": {
+      "hy": [
+        "Ցավ կրունկի ստորին կամ ներքին մասում",
+        "Առավոտյան առաջին քայլերի ցավ",
+        "Ցավի վերադարձ երկար քայլելուց կամ կանգնելուց հետո"
+      ],
+      "en": [
+        "Pain under or on the inner side of the heel",
+        "Pain with first steps in the morning",
+        "Pain returning after prolonged walking or standing"
+      ],
+      "ru": [
+        "Боль снизу или с внутренней стороны пятки",
+        "Боль при первых шагах утром",
+        "Возвращение боли после длительной ходьбы или стояния"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են ցավի տեղակայումը, ծանրաբեռնվածության փոփոխությունը, ոտնաթաթի մեխանիկան և սրունքի ճկունությունը։ Նյարդային ցավը, ջլի խնդիրը կամ սթրեսային վնասվածքը կարող են նման լինել։",
+      "en": "Assessment reviews pain location, changes in activity, foot mechanics and calf flexibility. Nerve pain, tendon problems or stress injury may resemble this condition.",
+      "ru": "Оценивают локализацию, изменения нагрузки, механику стопы и гибкость голени. Нервная боль, проблемы сухожилий или стрессовое повреждение могут выглядеть похоже."
+    },
+    "care": {
+      "hy": "Մոտեցումը կարող է ներառել հարմար կոշիկ, ծանրաբեռնվածության աստիճանական կարգավորում և անհատապես ընտրված ձգման ու ուժային վարժություններ։ Հետագա տարբերակները քննարկվում են, եթե ցավը պահպանվում է։",
+      "en": "Options include suitable footwear, gradual activity adjustment and individually selected stretching and strengthening. Further options are discussed if pain persists.",
+      "ru": "Возможны подходящая обувь, постепенная коррекция нагрузки и индивидуальные упражнения на растяжение и силу. При сохраняющейся боли обсуждают дальнейшие варианты."
+    },
+    "related": [
+      "heel-pain",
+      "achilles-tendinopathy"
+    ],
+    "note": {
+      "hy": "Պլանտար ֆասցիիտը կարող է լինել առանց շպորայի, իսկ շպորան՝ առանց ցավի։",
+      "en": "Plantar fasciitis can occur without a heel spur, and a spur can occur without pain.",
+      "ru": "Фасциит возможен без шпоры, а шпора — без боли."
+    }
+  },
+  {
+    "slug": "neuropathic-pain",
+    "group": "nerve",
+    "title": {
+      "hy": "Նեյրոպաթիկ ցավ",
+      "en": "Neuropathic pain",
+      "ru": "Нейропатическая боль"
+    },
+    "intro": {
+      "hy": "Նեյրոպաթիկ ցավը կապված է զգացողությունը փոխանցող նյարդային համակարգի ախտահարման կամ հիվանդության հետ։ Սա ընդհանուր ցավային մեխանիզմ է, ոչ թե մեկ առանձին ախտորոշում։",
+      "en": "Neuropathic pain is linked to a lesion or disease of the nervous system that carries sensation. It describes a pain mechanism rather than one diagnosis.",
+      "ru": "Нейропатическая боль связана с поражением или заболеванием нервной системы, передающей чувствительность. Это механизм боли, а не один диагноз."
+    },
+    "symptoms": {
+      "hy": [
+        "Այրող կամ էլեկտրական ցավ",
+        "Ծակծկոց կամ թմրածություն",
+        "Հպումից առաջացող ցավ",
+        "Նյարդի տարածքով տարածվող ցավ"
+      ],
+      "en": [
+        "Burning or electric pain",
+        "Tingling or numbness",
+        "Pain caused by light touch",
+        "Pain spreading along a nerve distribution"
+      ],
+      "ru": [
+        "Жгучая боль или боль как удар током",
+        "Покалывание или онемение",
+        "Боль от лёгкого прикосновения",
+        "Боль в зоне определённого нерва"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են զգացողությունը, ուժը, ցավի տարածումը և վնասվածքի կամ հիվանդության պատմությունը։ Երբեմն անհրաժեշտ են նյարդահաղորդականության հետազոտություն կամ լրացուցիչ քննություններ։",
+      "en": "Assessment considers sensation, strength, pain distribution and injury or illness history. Nerve conduction testing or further investigations may sometimes be needed.",
+      "ru": "Оценивают чувствительность, силу, распространение боли и историю травм или заболеваний. Иногда нужны исследование проводимости нервов или дополнительные обследования."
+    },
+    "care": {
+      "hy": "Բուժումը կարող է ներառել պատճառի կառավարում, նեյրոպաթիկ ցավին համապատասխան դեղորայքային մոտեցում, վերականգնում և ընտրված դեպքերում միջամտություններ։ Այրող ցավը միայնակ չի հաստատում ախտորոշումը։",
+      "en": "Care may include management of the cause, medication suited to neuropathic pain, rehabilitation and selected procedures. Burning pain alone does not confirm the diagnosis.",
+      "ru": "Лечение может включать контроль причины, лекарства для нейропатической боли, реабилитацию и отдельные вмешательства. Одно жжение не подтверждает диагноз."
+    },
+    "related": [
+      "peripheral-neuropathic-pain",
+      "nerve-entrapment"
+    ],
+    "image": "wrist"
+  },
+  {
+    "slug": "sciatica",
+    "group": "spine",
+    "title": {
+      "hy": "Իշիաս",
+      "en": "Sciatica",
+      "ru": "Ишиас"
+    },
+    "intro": {
+      "hy": "Իշիասը ոտք տարածվող ցավ է՝ նստանյարդի ուղու կամ դրա նյարդարմատների գրգռման հետևանքով։ Հաճախ այն կապված է գոտկատեղի խնդրի հետ։",
+      "en": "Sciatica is pain spreading down the leg due to irritation of the sciatic nerve or its nerve roots, often from a lower back problem.",
+      "ru": "Ишиас — боль, распространяющаяся в ногу при раздражении седалищного нерва или его корешков, часто из-за проблемы в пояснице."
+    },
+    "symptoms": {
+      "hy": [
+        "Հետույքից ոտք իջնող ցավ",
+        "Ծակծկոց, թմրածություն կամ թուլություն"
+      ],
+      "en": [
+        "Pain from the buttock down the leg",
+        "Tingling, numbness or weakness"
+      ],
+      "ru": [
+        "Боль от ягодицы вниз по ноге",
+        "Покалывание, онемение или слабость"
+      ]
+    },
+    "assessment": {
+      "hy": "Զննումը ներառում է ոտքի ուժի, զգացողության և ռեֆլեքսների ստուգում։ Պատկերային քննությունը ընտրվում է ըստ նշանների և ընթացքի։",
+      "en": "Examination checks leg strength, sensation and reflexes. Imaging is selected according to findings and progress.",
+      "ru": "Проверяют силу, чувствительность и рефлексы ноги. Необходимость визуализации зависит от признаков и течения."
+    },
+    "care": {
+      "hy": "Ըստ ծանրության՝ կիրառվում են հարմարեցված ակտիվություն, վերականգնում և ցավի վերահսկում։ Աճող թուլությունը պահանջում է արագ գնահատում։",
+      "en": "Care depends on severity and may include adjusted activity, rehabilitation and pain management. Increasing weakness needs prompt assessment.",
+      "ru": "Возможны адаптация активности, реабилитация и контроль боли. Нарастающая слабость требует быстрой оценки."
+    },
+    "related": [
+      "back-pain",
+      "neuropathic-pain"
+    ]
+  },
+  {
+    "slug": "rotator-cuff-pain",
+    "group": "upper",
+    "title": {
+      "hy": "Ուսի պտտող մանժետի ցավ",
+      "en": "Rotator cuff pain",
+      "ru": "Боль в ротаторной манжете плеча"
+    },
+    "intro": {
+      "hy": "Պտտող մանժետը ուսը շարժող և կայունացնող մկանների ու ջլերի խումբ է։ Ցավը կարող է կապված լինել ջլի գրգռման կամ պատռվածքի հետ։",
+      "en": "The rotator cuff is a group of muscles and tendons that move and stabilise the shoulder. Pain may involve tendon irritation or a tear.",
+      "ru": "Ротаторная манжета — мышцы и сухожилия, двигающие и стабилизирующие плечо. Боль может быть связана с раздражением или разрывом сухожилия."
+    },
+    "symptoms": {
+      "hy": [
+        "Ցավ ձեռքը բարձրացնելիս",
+        "Գիշերային ցավ կամ ուժի նվազում"
+      ],
+      "en": [
+        "Pain when lifting the arm",
+        "Night pain or reduced strength"
+      ],
+      "ru": [
+        "Боль при подъёме руки",
+        "Ночная боль или снижение силы"
+      ]
+    },
+    "assessment": {
+      "hy": "Ստուգվում են ակտիվ ու պասիվ շարժումները և ուժը։ Ուլտրաձայնը կամ MRI-ն կարող են օգնել, երբ պատասխանը կփոխի բուժման պլանը։",
+      "en": "Active and passive movement and strength are checked. Ultrasound or MRI may help when the result would change care.",
+      "ru": "Проверяют активные и пассивные движения, силу. УЗИ или МРТ полезны, если результат изменит план лечения."
+    },
+    "care": {
+      "hy": "Բուժումը հաճախ հիմնվում է ծանրաբեռնվածության կարգավորման և աստիճանական ուժային վերականգնման վրա։ Վնասվածքից հետո արտահայտված թուլությունը պետք է գնահատել։",
+      "en": "Care often centres on load adjustment and gradual strengthening. Marked weakness after an injury needs assessment.",
+      "ru": "Лечение часто включает коррекцию нагрузки и постепенное укрепление. Выраженная слабость после травмы требует оценки."
+    },
+    "related": [
+      "shoulder-pain"
+    ]
+  },
+  {
+    "slug": "tennis-elbow",
+    "group": "upper",
+    "title": {
+      "hy": "Թենիսիստի արմունկ",
+      "en": "Tennis elbow",
+      "ru": "Локоть теннисиста"
+    },
+    "intro": {
+      "hy": "Արմունկի արտաքին կողմի ցավը կարող է կապված լինել դաստակը բացող ջլերի ծանրաբեռնման հետ։ Այն առաջանում է նաև սպորտով չզբաղվող մարդկանց մոտ։",
+      "en": "Pain on the outer elbow may involve the tendons that extend the wrist. It also affects people who do not play sports.",
+      "ru": "Боль с наружной стороны локтя может быть связана с нагрузкой на сухожилия разгибателей кисти. Она бывает и у людей, не занимающихся спортом."
+    },
+    "symptoms": {
+      "hy": [
+        "Ցավ բռնելիս կամ բարձրացնելիս",
+        "Արմունկի արտաքին կողմի զգայունություն"
+      ],
+      "en": [
+        "Pain with gripping or lifting",
+        "Tenderness on the outer elbow"
+      ],
+      "ru": [
+        "Боль при захвате или подъёме",
+        "Болезненность снаружи локтя"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են բռնելու ուժը, դաստակի շարժումից ցավը և աշխատանքային ծանրաբեռնվածությունը։",
+      "en": "Assessment considers grip strength, pain with wrist movement and work demands.",
+      "ru": "Оценивают силу захвата, боль при движении кистью и рабочую нагрузку."
+    },
+    "care": {
+      "hy": "Օգնում է ծանրաբեռնվածության հարմարեցումը և ջլի աստիճանական մարզումը։ Արդյունքը գնահատվում է ժամանակի ընթացքում։",
+      "en": "Care includes adjusting load and progressively exercising the tendon. Progress is reviewed over time.",
+      "ru": "План включает коррекцию нагрузки и постепенные упражнения для сухожилия. Результат оценивают в динамике."
+    },
+    "related": [
+      "golfers-elbow",
+      "sports-overuse-pain"
+    ]
+  },
+  {
+    "slug": "golfers-elbow",
+    "group": "upper",
+    "title": {
+      "hy": "Գոլֆիստի արմունկ",
+      "en": "Golfer’s elbow",
+      "ru": "Локоть гольфиста"
+    },
+    "intro": {
+      "hy": "Արմունկի ներքին կողմի ջլային ցավը հաճախ կապված է կրկնվող բռնելու կամ դաստակը ծալելու ծանրաբեռնվածության հետ։",
+      "en": "Tendon pain on the inner elbow is often linked to repeated gripping or wrist flexion.",
+      "ru": "Сухожильная боль с внутренней стороны локтя часто связана с повторным захватом или сгибанием кисти."
+    },
+    "symptoms": {
+      "hy": [
+        "Ներքին կողմի ցավ և զգայունություն",
+        "Ցավ բռնելիս կամ դաստակը ծալելիս"
+      ],
+      "en": [
+        "Inner elbow pain and tenderness",
+        "Pain with gripping or wrist flexion"
+      ],
+      "ru": [
+        "Боль и болезненность внутри локтя",
+        "Боль при захвате или сгибании кисти"
+      ]
+    },
+    "assessment": {
+      "hy": "Զննումը տարբերակում է ջլային խնդիրը ծղիկային նյարդի ախտահարումից, հատկապես մատների թմրածության դեպքում։",
+      "en": "Examination distinguishes a tendon problem from ulnar nerve involvement, especially if fingers are numb.",
+      "ru": "Осмотр отличает проблему сухожилия от поражения локтевого нерва, особенно при онемении пальцев."
+    },
+    "care": {
+      "hy": "Ծանրաբեռնվածության փոփոխությունը համադրվում է աստիճանական ուժային վարժությունների հետ։",
+      "en": "Load modification is combined with progressive strengthening.",
+      "ru": "Коррекцию нагрузки сочетают с постепенными силовыми упражнениями."
+    },
+    "related": [
+      "tennis-elbow",
+      "cubital-tunnel"
+    ]
+  },
+  {
+    "slug": "carpal-tunnel",
+    "group": "nerve",
+    "title": {
+      "hy": "Կարպալ թունելի համախտանիշ",
+      "en": "Carpal tunnel syndrome",
+      "ru": "Синдром запястного канала"
+    },
+    "intro": {
+      "hy": "Դաստակի թունելում միջնակ նյարդի սեղմումը կարող է առաջացնել ձեռքի ցավ ու զգացողության փոփոխություններ։",
+      "en": "Compression of the median nerve in the wrist tunnel can cause hand pain and altered sensation.",
+      "ru": "Сдавление срединного нерва в канале запястья может вызвать боль и изменения чувствительности кисти."
+    },
+    "symptoms": {
+      "hy": [
+        "Բթամատի, ցուցամատի ու միջնամատի ծակծկոց",
+        "Գիշերային թմրածություն կամ բռնելու թուլություն"
+      ],
+      "en": [
+        "Tingling in the thumb, index and middle fingers",
+        "Night numbness or weak grip"
+      ],
+      "ru": [
+        "Покалывание в большом, указательном и среднем пальцах",
+        "Ночное онемение или слабый захват"
+      ]
+    },
+    "assessment": {
+      "hy": "Ստուգվում են զգացողությունն ու մկանային ուժը։ Նյարդահաղորդականության քննությունը կարող է պարզել սեղմման աստիճանը։",
+      "en": "Sensation and muscle strength are checked. Nerve conduction studies may clarify the severity of compression.",
+      "ru": "Проверяют чувствительность и силу мышц. Исследование проводимости может уточнить степень сдавления."
+    },
+    "care": {
+      "hy": "Ըստ ծանրության՝ քննարկվում են դաստակի դիրքի հարմարեցում, գիշերային ֆիքսատոր և այլ բուժումներ։ Կայուն թուլությունը պահանջում է գնահատում։",
+      "en": "Depending on severity, care may include wrist positioning, a night splint and other treatments. Persistent weakness needs assessment.",
+      "ru": "В зависимости от тяжести обсуждают положение кисти, ночной ортез и другие методы. Стойкая слабость требует оценки."
+    },
+    "related": [
+      "cubital-tunnel",
+      "nerve-entrapment"
+    ],
+    "image": "wrist"
+  },
+  {
+    "slug": "cubital-tunnel",
+    "group": "nerve",
+    "title": {
+      "hy": "Կուբիտալ թունելի համախտանիշ",
+      "en": "Cubital tunnel syndrome",
+      "ru": "Синдром кубитального канала"
+    },
+    "intro": {
+      "hy": "Արմունկի շրջանում ծղիկային նյարդի սեղմումը հատկապես ազդում է ճկույթի և մատնեմատի զգացողության վրա։",
+      "en": "Compression of the ulnar nerve near the elbow particularly affects sensation in the little and ring fingers.",
+      "ru": "Сдавление локтевого нерва у локтя особенно влияет на чувствительность мизинца и безымянного пальца."
+    },
+    "symptoms": {
+      "hy": [
+        "Ճկույթի և մատնեմատի թմրածություն",
+        "Ցավ ծալած արմունկով կամ ձեռքի թուլություն"
+      ],
+      "en": [
+        "Numbness in the little and ring fingers",
+        "Pain with a bent elbow or hand weakness"
+      ],
+      "ru": [
+        "Онемение мизинца и безымянного пальца",
+        "Боль при согнутом локте или слабость кисти"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են նյարդի տարածքով զգացողությունը, ձեռքի փոքր մկաններն ու արմունկի դիրքի ազդեցությունը։",
+      "en": "Assessment checks the nerve’s sensory distribution, small hand muscles and the effect of elbow position.",
+      "ru": "Оценивают чувствительность в зоне нерва, мелкие мышцы кисти и влияние положения локтя."
+    },
+    "care": {
+      "hy": "Կարևոր է նվազեցնել երկարատև ծալումը և արմունկի վրա ճնշումը։ Հետագա բուժումը կախված է նյարդի վնասման աստիճանից։",
+      "en": "Reducing prolonged bending and pressure on the elbow is important. Further care depends on the degree of nerve involvement.",
+      "ru": "Важно уменьшить длительное сгибание и давление на локоть. Дальнейшее лечение зависит от степени поражения нерва."
+    },
+    "related": [
+      "carpal-tunnel",
+      "nerve-entrapment"
+    ]
+  },
+  {
+    "slug": "achilles-tendinopathy",
+    "group": "lower",
+    "title": {
+      "hy": "Աքիլեսյան ջլի տենդինոպաթիա",
+      "en": "Achilles tendinopathy",
+      "ru": "Тендинопатия ахиллова сухожилия"
+    },
+    "intro": {
+      "hy": "Կրունկի հետևում գտնվող աքիլեսյան ջլի ցավը հաճախ կապված է ծանրաբեռնվածության փոփոխության և ջլի հանդուրժողականության հետ։",
+      "en": "Pain in the Achilles tendon behind the heel is often linked to changes in load and tendon capacity.",
+      "ru": "Боль в ахилловом сухожилии позади пятки часто связана с изменением нагрузки и способностью сухожилия её переносить."
+    },
+    "symptoms": {
+      "hy": [
+        "Առավոտյան կոշտություն",
+        "Ցավ քայլելիս, վազելիս կամ ոտնաթաթի վրա բարձրանալիս"
+      ],
+      "en": [
+        "Morning stiffness",
+        "Pain walking, running or rising onto the toes"
+      ],
+      "ru": [
+        "Утренняя скованность",
+        "Боль при ходьбе, беге или подъёме на носки"
+      ]
+    },
+    "assessment": {
+      "hy": "Որոշվում են ցավի տեղը, ուժը և ծանրաբեռնվածության վերջին փոփոխությունները։ Հանկարծակի պոկվելու զգացումը կարող է նշանակել պատռվածք։",
+      "en": "Assessment identifies the painful area, strength and recent load changes. A sudden snapping sensation may indicate a rupture.",
+      "ru": "Уточняют место боли, силу и изменения нагрузки. Внезапное ощущение разрыва может указывать на повреждение сухожилия."
+    },
+    "care": {
+      "hy": "Ծրագիրը ներառում է ծանրաբեռնվածության կարգավորում և աստիճանական ուժային վարժություններ։ Հանկարծակի «ճտոցը» և հրելու անկարողությունը պահանջում են շտապ գնահատում։",
+      "en": "Care includes load management and progressive strengthening. A sudden pop with inability to push off needs urgent assessment.",
+      "ru": "План включает коррекцию нагрузки и постепенное укрепление. Внезапный хлопок и невозможность оттолкнуться требуют срочной оценки."
+    },
+    "related": [
+      "heel-pain",
+      "sports-overuse-pain"
+    ]
+  },
+  {
+    "slug": "patellar-tendinopathy",
+    "group": "lower",
+    "title": {
+      "hy": "Ծնկոսկրի ջլի տենդինոպաթիա",
+      "en": "Patellar tendinopathy",
+      "ru": "Тендинопатия связки надколенника"
+    },
+    "intro": {
+      "hy": "Ծնկոսկրի տակ տեղակայված ջլի ցավը հաճախ ուժեղանում է ցատկերի, վազքի կամ արագ ուղղության փոփոխության ժամանակ։",
+      "en": "Pain in the tendon below the kneecap often increases with jumping, running or rapid changes of direction.",
+      "ru": "Боль в сухожилии под надколенником часто усиливается при прыжках, беге или быстрой смене направления."
+    },
+    "symptoms": {
+      "hy": [
+        "Ծնկոսկրի ստորին հատվածի տեղային ցավ",
+        "Ցավ ցատկելիս կամ աստիճաններով շարժվելիս"
+      ],
+      "en": [
+        "Local pain below the kneecap",
+        "Pain jumping or using stairs"
+      ],
+      "ru": [
+        "Локальная боль под надколенником",
+        "Боль при прыжках или на лестнице"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են ջլի զգայունությունը, ծնկի ուժը և մարզումների ծավալը՝ բացառելով հոդի այլ խնդիրները։",
+      "en": "Assessment considers tendon tenderness, knee strength and training volume while checking other joint causes.",
+      "ru": "Оценивают болезненность сухожилия, силу колена и объём тренировок, проверяя другие причины в суставе."
+    },
+    "care": {
+      "hy": "Վերականգնումը հիմնվում է բեռի հարմարեցման և փուլային ուժային մարզման վրա՝ առանց վաղաժամ վերադարձի ցատկերին։",
+      "en": "Rehabilitation centres on load adjustment and staged strengthening before returning to jumping.",
+      "ru": "Реабилитация основана на коррекции нагрузки и поэтапном укреплении перед возвращением к прыжкам."
+    },
+    "related": [
+      "knee-pain",
+      "sports-overuse-pain"
+    ]
+  },
+  {
+    "slug": "gluteal-tendinopathy",
+    "group": "lower",
+    "title": {
+      "hy": "Հետույքային ջլերի տենդինոպաթիա",
+      "en": "Gluteal tendinopathy",
+      "ru": "Тендинопатия ягодичных сухожилий"
+    },
+    "intro": {
+      "hy": "Հետույքային մկանների ջլերի խնդիրը կարող է ցավ առաջացնել ազդրի արտաքին կողմում։ Այն մեծ տրոխանտերի ցավային համախտանիշի պատճառներից մեկն է։",
+      "en": "A problem in the gluteal tendons can cause pain on the outer hip. It is one contributor to greater trochanteric pain syndrome.",
+      "ru": "Проблема ягодичных сухожилий может вызывать боль снаружи бедра. Это одна из причин большого вертельного болевого синдрома."
+    },
+    "symptoms": {
+      "hy": [
+        "Ցավ ցավոտ կողմի վրա պառկելիս",
+        "Ցավ քայլելիս կամ մեկ ոտքի վրա կանգնելիս"
+      ],
+      "en": [
+        "Pain lying on the affected side",
+        "Pain walking or standing on one leg"
+      ],
+      "ru": [
+        "Боль лёжа на больном боку",
+        "Боль при ходьбе или стоянии на одной ноге"
+      ]
+    },
+    "assessment": {
+      "hy": "Ստուգվում են ազդրի արտաքին կողմը, կոնքի կայունությունը և ջլերի ծանրաբեռնման արձագանքը։",
+      "en": "Assessment checks the outer hip, pelvic stability and response to tendon loading.",
+      "ru": "Проверяют наружную часть бедра, стабильность таза и реакцию сухожилий на нагрузку."
+    },
+    "care": {
+      "hy": "Կարող են օգնել ջլի սեղմման նվազեցումը, քնի դիրքի փոփոխությունը և հետույքային մկանների աստիճանական ուժեղացումը։",
+      "en": "Care may include reducing tendon compression, adjusting sleeping positions and gradually strengthening the gluteal muscles.",
+      "ru": "Возможны уменьшение сдавления сухожилия, изменение положения во сне и постепенное укрепление ягодичных мышц."
+    },
+    "related": [
+      "greater-trochanteric-pain",
+      "hip-pain"
+    ]
+  },
+  {
+    "slug": "greater-trochanteric-pain",
+    "group": "lower",
+    "title": {
+      "hy": "Մեծ տրոխանտերի ցավային համախտանիշ",
+      "en": "Greater trochanteric pain syndrome",
+      "ru": "Большой вертельный болевой синдром"
+    },
+    "intro": {
+      "hy": "Սա ազդրի արտաքին կողմի ցավերի ընդհանուր անվանում է։ Այն կարող է ընդգրկել հետույքային ջլերն ու հարակից փափուկ հյուսվածքները և միշտ չէ, որ պարզապես բուրսիտ է։",
+      "en": "This is an umbrella term for outer hip pain involving gluteal tendons and nearby soft tissues. It is not always simply bursitis.",
+      "ru": "Это общее название боли снаружи бедра, связанной с ягодичными сухожилиями и соседними мягкими тканями. Причина не всегда только бурсит."
+    },
+    "symptoms": {
+      "hy": [
+        "Արտաքին կողմի տեղային զգայունություն",
+        "Ցավ կողքի վրա պառկելիս կամ աստիճաններով բարձրանալիս"
+      ],
+      "en": [
+        "Local outer hip tenderness",
+        "Pain lying on the side or climbing stairs"
+      ],
+      "ru": [
+        "Локальная болезненность снаружи бедра",
+        "Боль лёжа на боку или при подъёме по лестнице"
+      ]
+    },
+    "assessment": {
+      "hy": "Զննմամբ տարբերակվում են ջլային, հոդային և գոտկատեղից տարածվող ցավերը։",
+      "en": "Examination distinguishes tendon pain from hip joint pain and pain referred from the lower back.",
+      "ru": "Осмотр отличает сухожильную боль от боли в суставе и отражённой боли из поясницы."
+    },
+    "care": {
+      "hy": "Պլանը ներառում է ճնշման ու բեռի նվազեցում, համապատասխան շարժում և ուժային վերականգնում։",
+      "en": "Care includes reducing pressure and excessive load, suitable movement and strengthening.",
+      "ru": "План включает уменьшение давления и чрезмерной нагрузки, подходящие движения и укрепление."
+    },
+    "related": [
+      "gluteal-tendinopathy",
+      "hip-pain"
+    ]
+  },
+  {
+    "slug": "metatarsalgia",
+    "group": "lower",
+    "title": {
+      "hy": "Մետատարզալգիա",
+      "en": "Metatarsalgia",
+      "ru": "Метатарзалгия"
+    },
+    "intro": {
+      "hy": "Մետատարզալգիան ոտնաթաթի առջևի՝ մատների հիմքի հատվածի ցավի նկարագրություն է։ Պատճառը կարող է լինել մեխանիկական ծանրաբեռնում կամ տեղային այլ խնդիր։",
+      "en": "Metatarsalgia describes pain in the ball of the foot at the base of the toes. It may reflect mechanical overload or another local problem.",
+      "ru": "Метатарзалгия описывает боль в переднем отделе стопы у основания пальцев. Возможны механическая перегрузка или другая местная причина."
+    },
+    "symptoms": {
+      "hy": [
+        "Ցավ կանգնելիս կամ քայլելիս",
+        "Ոտնաթաթի առջևի այրոց կամ զգայունություն"
+      ],
+      "en": [
+        "Pain standing or walking",
+        "Burning or tenderness in the forefoot"
+      ],
+      "ru": [
+        "Боль при стоянии или ходьбе",
+        "Жжение или болезненность переднего отдела стопы"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են կոշիկը, ոտնաթաթի կառուցվածքը և ցավի ճշգրիտ տեղը՝ տարբերակելով նյարդի և ոսկրի խնդիրները։",
+      "en": "Assessment considers footwear, foot structure and the exact pain location, distinguishing nerve and bone problems.",
+      "ru": "Оценивают обувь, строение стопы и точное место боли, различая проблемы нерва и кости."
+    },
+    "care": {
+      "hy": "Բեռի բաշխումը կարող է կարգավորվել հարմար կոշիկի, անհատական ներդիրների և ակտիվության փոփոխության միջոցով։",
+      "en": "Load distribution may be adjusted with suitable footwear, individually selected supports and activity changes.",
+      "ru": "Распределение нагрузки можно изменить подходящей обувью, индивидуально подобранными вкладышами и коррекцией активности."
+    },
+    "related": [
+      "mortons-neuroma",
+      "heel-pain"
+    ]
+  },
+  {
+    "slug": "mortons-neuroma",
+    "group": "nerve",
+    "title": {
+      "hy": "Մորտոնի նևրոմա",
+      "en": "Morton’s neuroma",
+      "ru": "Неврома Мортона"
+    },
+    "intro": {
+      "hy": "Ոտնաթաթի մատների միջև նյարդի գրգռումը հաճախ զգացվում է որպես այրող ցավ կամ կոշիկի մեջ «քարի» զգացում։",
+      "en": "Irritation of a nerve between the toes often feels like burning pain or a pebble in the shoe.",
+      "ru": "Раздражение нерва между пальцами стопы часто ощущается как жгучая боль или камешек в обуви."
+    },
+    "symptoms": {
+      "hy": [
+        "Այրող ցավ ոտնաթաթի առջևում",
+        "Մատների ծակծկոց կամ թմրածություն"
+      ],
+      "en": [
+        "Burning pain in the forefoot",
+        "Tingling or numbness in the toes"
+      ],
+      "ru": [
+        "Жгучая боль в переднем отделе стопы",
+        "Покалывание или онемение пальцев"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են մատների միջև զգայունությունը և կոշիկի ազդեցությունը։ Պատկերային քննությունը կարող է օգնել անորոշ դեպքերում։",
+      "en": "Assessment checks tenderness between the toes and the effect of footwear. Imaging may help when the diagnosis is uncertain.",
+      "ru": "Проверяют болезненность между пальцами и влияние обуви. В неясных случаях помогает визуализация."
+    },
+    "care": {
+      "hy": "Քննարկվում են լայն քթամասով կոշիկը, ճնշման նվազեցումը և անհրաժեշտության դեպքում հետագա բուժումները։",
+      "en": "Care may include footwear with a wider toe box, pressure reduction and further treatment when needed.",
+      "ru": "Обсуждают обувь с широким носком, уменьшение давления и дальнейшие методы при необходимости."
+    },
+    "related": [
+      "metatarsalgia",
+      "nerve-entrapment"
+    ]
+  },
+  {
+    "slug": "sports-overuse-pain",
+    "group": "lower",
+    "title": {
+      "hy": "Սպորտային գերծանրաբեռնվածության ցավ",
+      "en": "Sports overuse pain",
+      "ru": "Боль при спортивной перегрузке"
+    },
+    "intro": {
+      "hy": "Երբ մարզումների բեռը աճում է ավելի արագ, քան հյուսվածքների հարմարվելու կարողությունը, կարող են առաջանալ ջլերի, մկանների կամ ոսկրերի ցավեր։",
+      "en": "When training load rises faster than tissues can adapt, pain may develop in tendons, muscles or bones.",
+      "ru": "Когда тренировочная нагрузка растёт быстрее адаптации тканей, могут возникать боли в сухожилиях, мышцах или костях."
+    },
+    "symptoms": {
+      "hy": [
+        "Մարզման ընթացքում կամ հետո կրկնվող ցավ",
+        "Վերականգնման դանդաղում կամ կատարողականի նվազում"
+      ],
+      "en": [
+        "Recurrent pain during or after training",
+        "Slower recovery or reduced performance"
+      ],
+      "ru": [
+        "Повторная боль во время или после тренировок",
+        "Замедление восстановления или снижение результатов"
+      ]
+    },
+    "assessment": {
+      "hy": "Ուսումնասիրվում են բեռի փոփոխությունը, հանգիստը, տեխնիկան և տեղային ցավը։ Ոսկրային կետային ցավը կարող է պահանջել լրացուցիչ քննություն։",
+      "en": "Assessment reviews load changes, recovery, technique and local pain. Focal bone pain may require further investigation.",
+      "ru": "Оценивают изменение нагрузки, отдых, технику и локальную боль. Точечная костная боль может требовать обследования."
+    },
+    "care": {
+      "hy": "Վերադարձը մարզմանը պլանավորվում է փուլերով՝ պահպանելով թույլատրելի ակտիվությունը և վերահսկելով ցավի արձագանքը։",
+      "en": "Return to sport is staged, maintaining tolerable activity and monitoring the pain response.",
+      "ru": "Возвращение к спорту планируют поэтапно, сохраняя переносимую активность и контролируя реакцию боли."
+    },
+    "related": [
+      "achilles-tendinopathy",
+      "patellar-tendinopathy"
+    ]
+  },
+  {
+    "slug": "peripheral-neuropathic-pain",
+    "group": "nerve",
+    "title": {
+      "hy": "Ծայրամասային նեյրոպաթիկ ցավ",
+      "en": "Peripheral neuropathic pain",
+      "ru": "Периферическая нейропатическая боль"
+    },
+    "intro": {
+      "hy": "Այս ցավը կապված է ուղեղից ու ողնուղեղից դուրս գտնվող նյարդերի ախտահարման հետ։ Այն կարող է ընդգրկել մեկ նյարդ կամ մի քանի նյարդ՝ օրինակ ոտնաթաթերում։",
+      "en": "This pain involves nerves outside the brain and spinal cord. It can affect one nerve or several nerves, for example in the feet.",
+      "ru": "Эта боль связана с нервами вне головного и спинного мозга. Может затрагивать один или несколько нервов, например в стопах."
+    },
+    "symptoms": {
+      "hy": [
+        "Այրոց, ծակծկոց կամ հպումից ցավ",
+        "Զգացողության նվազում կամ թուլություն"
+      ],
+      "en": [
+        "Burning, tingling or pain from touch",
+        "Reduced sensation or weakness"
+      ],
+      "ru": [
+        "Жжение, покалывание или боль от прикосновения",
+        "Снижение чувствительности или слабость"
+      ]
+    },
+    "assessment": {
+      "hy": "Որոշվում են տարածումը և հնարավոր պատճառները՝ ներառյալ նյութափոխանակային խնդիրները, վնասվածքը կամ սեղմումը։",
+      "en": "Assessment identifies the distribution and possible causes, including metabolic problems, injury or compression.",
+      "ru": "Определяют распространение и возможные причины: обменные нарушения, травму или сдавление."
+    },
+    "care": {
+      "hy": "Պլանը կապում է պատճառի կառավարումը ցավի վերահսկման, զգացողության նվազման դեպքում վնասվածքների կանխարգելման և վերականգնման հետ։",
+      "en": "Care combines management of the cause with pain control, injury prevention when sensation is reduced, and rehabilitation.",
+      "ru": "План сочетает лечение причины, контроль боли, профилактику травм при сниженной чувствительности и реабилитацию."
+    },
+    "related": [
+      "neuropathic-pain",
+      "diabetic-neuropathic-pain"
+    ]
+  },
+  {
+    "slug": "diabetic-neuropathic-pain",
+    "group": "nerve",
+    "title": {
+      "hy": "Դիաբետիկ նեյրոպաթիկ ցավ",
+      "en": "Diabetic neuropathic pain",
+      "ru": "Диабетическая нейропатическая боль"
+    },
+    "intro": {
+      "hy": "Շաքարային դիաբետի հետ կապված նյարդերի վնասումը կարող է առաջացնել ցավ, հատկապես երկու ոտնաթաթերում։ Թմրածությունը նույնպես կարևոր է՝ նույնիսկ առանց ցավի։",
+      "en": "Nerve damage associated with diabetes can cause pain, especially in both feet. Numbness also matters, even without pain.",
+      "ru": "Повреждение нервов при диабете может вызывать боль, особенно в обеих стопах. Онемение важно даже без боли."
+    },
+    "symptoms": {
+      "hy": [
+        "Ոտնաթաթերի այրոց կամ գիշերային ցավ",
+        "Թմրածություն և ջերմաստիճանը զգալու նվազում"
+      ],
+      "en": [
+        "Burning feet or night pain",
+        "Numbness and reduced temperature sensation"
+      ],
+      "ru": [
+        "Жжение стоп или ночная боль",
+        "Онемение и снижение ощущения температуры"
+      ]
+    },
+    "assessment": {
+      "hy": "Ստուգվում են ոտքերի մաշկը, զգացողությունը և արյան շրջանառությունը։ Քննարկվում է նաև դիաբետի վերահսկումը։",
+      "en": "Assessment checks foot skin, sensation and circulation, alongside diabetes management.",
+      "ru": "Проверяют кожу стоп, чувствительность и кровообращение, обсуждают контроль диабета."
+    },
+    "care": {
+      "hy": "Ցավի բուժումը համադրվում է դիաբետի կառավարման և ոտքերի ամենօրյա խնամքի հետ։ Նոր խոցը, կարմրությունը կամ վարակման նշանները պետք է արագ գնահատել։",
+      "en": "Pain care is combined with diabetes management and daily foot care. A new ulcer, redness or signs of infection need prompt assessment.",
+      "ru": "Лечение боли сочетают с контролем диабета и ежедневным уходом за стопами. Новая язва, покраснение или признаки инфекции требуют быстрой оценки."
+    },
+    "related": [
+      "peripheral-neuropathic-pain"
+    ]
+  },
+  {
+    "slug": "nerve-entrapment",
+    "group": "nerve",
+    "title": {
+      "hy": "Նյարդի սեղմման ցավ",
+      "en": "Nerve entrapment pain",
+      "ru": "Боль при сдавлении нерва"
+    },
+    "intro": {
+      "hy": "Նյարդի վրա տեղային ճնշումը կարող է առաջացնել ցավ, թմրածություն կամ թուլություն դրա սպասարկվող տարածքում։ Կարպալ և կուբիտալ թունելները կոնկրետ օրինակներ են։",
+      "en": "Local pressure on a nerve may cause pain, numbness or weakness in its distribution. Carpal and cubital tunnel syndromes are specific examples.",
+      "ru": "Местное давление на нерв может вызвать боль, онемение или слабость в его зоне. Конкретные примеры — запястный и кубитальный каналы."
+    },
+    "symptoms": {
+      "hy": [
+        "Դիրքից կամ շարժումից ուժեղացող ծակծկոց",
+        "Նյարդի տարածքով զգացողության կամ ուժի փոփոխություն"
+      ],
+      "en": [
+        "Tingling worsened by position or movement",
+        "Changes in sensation or strength along a nerve"
+      ],
+      "ru": [
+        "Покалывание, усиливающееся от положения или движения",
+        "Изменение чувствительности или силы в зоне нерва"
+      ]
+    },
+    "assessment": {
+      "hy": "Պետք է որոշել սեղմման տեղը և տարբերակել այն նյարդարմատի կամ տարածուն նեյրոպաթիայի խնդրից։",
+      "en": "Assessment locates the compression and distinguishes it from a nerve root problem or more widespread neuropathy.",
+      "ru": "Определяют место сдавления и отличают его от проблемы корешка или распространённой нейропатии."
+    },
+    "care": {
+      "hy": "Բուժման ընտրությունը կախված է տեղակայությունից ու ծանրությունից՝ ճնշման նվազեցումից մինչև մասնագիտացված բուժում։",
+      "en": "Care depends on location and severity, from reducing pressure to specialist treatment.",
+      "ru": "Лечение зависит от места и тяжести: от уменьшения давления до специализированных методов."
+    },
+    "related": [
+      "carpal-tunnel",
+      "cubital-tunnel",
+      "meralgia-paresthetica"
+    ]
+  },
+  {
+    "slug": "meralgia-paresthetica",
+    "group": "nerve",
+    "title": {
+      "hy": "Մերալգիա պարեստետիկա",
+      "en": "Meralgia paraesthetica",
+      "ru": "Мералгия парестетическая"
+    },
+    "intro": {
+      "hy": "Ազդրի արտաքին կողմի մաշկային նյարդի սեղմումը առաջացնում է զգացողության փոփոխություններ։ Այս նյարդը շարժողական չէ։",
+      "en": "Compression of the lateral femoral cutaneous nerve alters sensation on the outer thigh. This nerve does not control muscles.",
+      "ru": "Сдавление латерального кожного нерва бедра меняет чувствительность снаружи бедра. Этот нерв не управляет мышцами."
+    },
+    "symptoms": {
+      "hy": [
+        "Ազդրի արտաքին կողմի այրոց կամ թմրածություն",
+        "Հագուստի հպումից անհարմարություն"
+      ],
+      "en": [
+        "Burning or numbness on the outer thigh",
+        "Discomfort from clothing touching the skin"
+      ],
+      "ru": [
+        "Жжение или онемение снаружи бедра",
+        "Дискомфорт от прикосновения одежды"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում է զգացողության տարածքը և գոտկատեղի կամ ազդրի այլ պատճառների հավանականությունը։ Մկանային թուլությունը կարող է այլ խնդրի նշան լինել։",
+      "en": "Assessment checks the sensory area and other back or hip causes. Muscle weakness may suggest a different problem.",
+      "ru": "Оценивают зону чувствительности и другие причины в пояснице или бедре. Мышечная слабость может указывать на другую проблему."
+    },
+    "care": {
+      "hy": "Քննարկվում է գոտու կամ սեղմող հագուստի ճնշման նվազեցումը և պահպանվող ցավի հետագա բուժումը։",
+      "en": "Care may include reducing pressure from belts or tight clothing and further treatment for persistent pain.",
+      "ru": "Возможны уменьшение давления ремня или тесной одежды и дальнейшее лечение сохраняющейся боли."
+    },
+    "related": [
+      "nerve-entrapment",
+      "hip-pain"
+    ]
+  },
+  {
+    "slug": "postherpetic-neuralgia",
+    "group": "nerve",
+    "title": {
+      "hy": "Հետհերպեսային նևրալգիա",
+      "en": "Postherpetic neuralgia",
+      "ru": "Постгерпетическая невралгия"
+    },
+    "intro": {
+      "hy": "Սա գոտևորող հերպեսի ցանից հետո պահպանվող նյարդային ցավ է։ Այն կարող է շարունակվել մաշկի ապաքինումից հետո։",
+      "en": "This is nerve pain that persists after a shingles rash, sometimes after the skin has healed.",
+      "ru": "Это нервная боль, сохраняющаяся после опоясывающего лишая, иногда после заживления кожи."
+    },
+    "symptoms": {
+      "hy": [
+        "Այրող կամ ծակող ցավ նախկին ցանի տարածքում",
+        "Հագուստի թեթև հպումից ցավ"
+      ],
+      "en": [
+        "Burning or stabbing pain where the rash was",
+        "Pain from light clothing contact"
+      ],
+      "ru": [
+        "Жгучая или колющая боль в зоне бывшей сыпи",
+        "Боль от лёгкого контакта одежды"
+      ]
+    },
+    "assessment": {
+      "hy": "Ցավի տեղը համադրվում է ցանի պատմության հետ, գնահատվում են զգացողությունն ու քնի խանգարումը։",
+      "en": "The pain area is compared with the rash history; sensation and sleep disruption are assessed.",
+      "ru": "Место боли сопоставляют с историей сыпи, оценивают чувствительность и нарушения сна."
+    },
+    "care": {
+      "hy": "Ընտրվում է նյարդային ցավին համապատասխան անհատական մոտեցում։ Նոր ցանը, հատկապես աչքի շրջանում, պահանջում է արագ բժշկական գնահատում։",
+      "en": "Individualised treatment is selected for nerve pain. A new rash, especially near the eye, needs prompt medical assessment.",
+      "ru": "Подбирают индивидуальное лечение нервной боли. Новая сыпь, особенно возле глаза, требует быстрой оценки."
+    },
+    "related": [
+      "neuropathic-pain"
+    ]
+  },
+  {
+    "slug": "crps",
+    "group": "nerve",
+    "title": {
+      "hy": "Բարդ ռեգիոնալ ցավային համախտանիշ (CRPS)",
+      "en": "Complex regional pain syndrome (CRPS)",
+      "ru": "Комплексный регионарный болевой синдром (КРБС)"
+    },
+    "intro": {
+      "hy": "CRPS-ը վերջույթի երկարատև ցավային վիճակ է, որը հաճախ սկսվում է վնասվածքից հետո։ Ցավն ուղեկցվում է զգացողության, շարժման և մաշկի փոփոխություններով։",
+      "en": "CRPS is a persistent limb pain condition, often after injury, with changes in sensation, movement and skin.",
+      "ru": "КРБС — длительная боль в конечности, часто после травмы, с изменениями чувствительности, движений и кожи."
+    },
+    "symptoms": {
+      "hy": [
+        "Արտահայտված ցավ ու հպման նկատմամբ զգայունություն",
+        "Այտուց, գույնի կամ ջերմաստիճանի փոփոխություն"
+      ],
+      "en": [
+        "Marked pain and touch sensitivity",
+        "Swelling, colour or temperature changes"
+      ],
+      "ru": [
+        "Выраженная боль и чувствительность к прикосновению",
+        "Отёк, изменение цвета или температуры"
+      ]
+    },
+    "assessment": {
+      "hy": "Ախտորոշումը հիմնվում է նշանների համակցման վրա և պահանջում է այլ պատճառների՝ ներառյալ վարակն ու անոթային խնդիրը, բացառում։",
+      "en": "Diagnosis relies on a combination of findings and exclusion of other causes, including infection and vascular problems.",
+      "ru": "Диагноз основан на сочетании признаков и исключении других причин, включая инфекцию и сосудистые проблемы."
+    },
+    "care": {
+      "hy": "Վաղ գնահատումն ու անհատական վերականգնումը կարևոր են։ Պլանը կարող է համատեղել աստիճանական շարժումը, ցավի վերահսկումն ու զգայունության վերականգնումը։",
+      "en": "Early assessment and individual rehabilitation matter. Care may combine gradual movement, pain management and desensitisation.",
+      "ru": "Важны ранняя оценка и индивидуальная реабилитация. План может сочетать постепенные движения, контроль боли и снижение чувствительности."
+    },
+    "related": [
+      "post-traumatic-neuropathic-pain"
+    ]
+  },
+  {
+    "slug": "pudendal-neuralgia",
+    "group": "nerve",
+    "title": {
+      "hy": "Պուդենդալ նևրալգիա",
+      "en": "Pudendal neuralgia",
+      "ru": "Пудендальная невралгия"
+    },
+    "intro": {
+      "hy": "Ամոթույքային նյարդի հետ կապված ցավը կարող է ընդգրկել շեքը, սեռական օրգանների կամ հետանցքի շրջանը։ Նման ցավն ունի նաև այլ պատճառներ։",
+      "en": "Pain involving the pudendal nerve may affect the perineum, genital or anal area. Similar pain also has other causes.",
+      "ru": "Боль, связанная с половым нервом, может затрагивать промежность, гениталии или область ануса. У похожей боли бывают другие причины."
+    },
+    "symptoms": {
+      "hy": [
+        "Այրող կամ ծակող ցավ շեքի շրջանում",
+        "Նստելիս ուժեղացող անհարմարություն"
+      ],
+      "en": [
+        "Burning or stabbing perineal pain",
+        "Discomfort worsened by sitting"
+      ],
+      "ru": [
+        "Жгучая или колющая боль в промежности",
+        "Дискомфорт, усиливающийся сидя"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են նստելու ազդեցությունը, կոնքի հատակի գործառույթը և ուրոլոգիական կամ գինեկոլոգիական այլ պատճառները։",
+      "en": "Assessment considers sitting, pelvic floor function and other urological or gynaecological causes.",
+      "ru": "Оценивают влияние сидения, функцию тазового дна и другие урологические или гинекологические причины."
+    },
+    "care": {
+      "hy": "Մոտեցումը կարող է ներառել նստելու հարմարեցում, համապատասխան կոնքի հատակի վերականգնում և ցավի մասնագիտացված բուժում։",
+      "en": "Care may include sitting adjustments, appropriate pelvic floor rehabilitation and specialist pain treatment.",
+      "ru": "Возможны адаптация сидения, подходящая реабилитация тазового дна и специализированное лечение боли."
+    },
+    "related": [
+      "neuropathic-pain"
+    ]
+  },
+  {
+    "slug": "intercostal-neuralgia",
+    "group": "nerve",
+    "title": {
+      "hy": "Միջկողային նևրալգիա",
+      "en": "Intercostal neuralgia",
+      "ru": "Межрёберная невралгия"
+    },
+    "intro": {
+      "hy": "Կողերի միջև անցնող նյարդերի ցավը կարող է տարածվել կրծքավանդակի կամ որովայնի պատով։ Կրծքային ցավը միայն նշաններով նյարդային համարել չի կարելի։",
+      "en": "Pain involving nerves between the ribs may spread around the chest or abdominal wall. Chest pain cannot be assumed to be nerve pain from symptoms alone.",
+      "ru": "Боль нервов между рёбрами может распространяться по грудной или брюшной стенке. Нельзя считать боль в груди нервной только по симптомам."
+    },
+    "symptoms": {
+      "hy": [
+        "Գոտևորող այրոց կամ ծակոց",
+        "Հպումից կամ մարմնի շարժումից ցավ"
+      ],
+      "en": [
+        "Band-like burning or stabbing",
+        "Pain with touch or body movement"
+      ],
+      "ru": [
+        "Опоясывающее жжение или покалывание",
+        "Боль от прикосновения или движения"
+      ]
+    },
+    "assessment": {
+      "hy": "Նախ գնահատվում են սրտի, թոքերի և այլ ներքին օրգանների հնարավոր պատճառները, ապա՝ նյարդի տարածքը և նախկին վիրահատությունը կամ ցանը։",
+      "en": "Assessment first considers cardiac, lung and other internal causes, then nerve distribution and previous surgery or rash.",
+      "ru": "Сначала оценивают возможные причины со стороны сердца, лёгких и внутренних органов, затем зону нерва, операции или сыпь в прошлом."
+    },
+    "care": {
+      "hy": "Հաստատված նյարդային ցավի բուժումը հարմարեցվում է պատճառին։ Նոր կրծքային ցավը՝ շնչահեղձությամբ կամ սառը քրտինքով, պահանջում է շտապ օգնություն։",
+      "en": "Confirmed nerve pain is treated according to its cause. New chest pain with breathlessness or cold sweating needs emergency care.",
+      "ru": "Подтверждённую нервную боль лечат с учётом причины. Новая боль в груди с одышкой или холодным потом требует экстренной помощи."
+    },
+    "related": [
+      "post-thoracotomy-pain",
+      "postherpetic-neuralgia"
+    ]
+  },
+  {
+    "slug": "trigeminal-neuralgia",
+    "group": "head",
+    "title": {
+      "hy": "Եռորյակ նյարդի նևրալգիա",
+      "en": "Trigeminal neuralgia",
+      "ru": "Невралгия тройничного нерва"
+    },
+    "intro": {
+      "hy": "Եռորյակ նյարդի նևրալգիան առաջացնում է դեմքի մի կողմում կարճատև, ուժեղ, էլեկտրական հարվածի նման նոպաներ։",
+      "en": "Trigeminal neuralgia causes brief, severe, electric shock-like attacks on one side of the face.",
+      "ru": "Невралгия тройничного нерва вызывает короткие сильные приступы, похожие на удар током, с одной стороны лица."
+    },
+    "symptoms": {
+      "hy": [
+        "Հպումից, ծամելուց կամ ատամները լվանալուց նոպա",
+        "Նոպաների միջև հնարավոր հանգիստ ժամանակահատվածներ"
+      ],
+      "en": [
+        "Attacks triggered by touch, chewing or tooth brushing",
+        "Possible pain-free intervals"
+      ],
+      "ru": [
+        "Приступы от прикосновения, жевания или чистки зубов",
+        "Возможные безболевые промежутки"
+      ]
+    },
+    "assessment": {
+      "hy": "Նոպայի տևողությունն ու հրահրիչները կարևոր են։ Գնահատումը կարող է ներառել նյարդաբանական զննում և MRI։",
+      "en": "Attack duration and triggers matter. Assessment may include neurological examination and MRI.",
+      "ru": "Важны длительность приступа и провоцирующие факторы. Возможны неврологический осмотр и МРТ."
+    },
+    "care": {
+      "hy": "Բուժումը պահանջում է հատուկ ընտրված դեղորայք և անհրաժեշտության դեպքում մասնագիտացված միջամտությունների քննարկում։",
+      "en": "Treatment requires specifically selected medication and, when needed, discussion of specialist procedures.",
+      "ru": "Нужны специально подобранные лекарства и при необходимости обсуждение специализированных вмешательств."
+    },
+    "related": [
+      "facial-neuropathic-pain",
+      "persistent-facial-pain"
+    ]
+  },
+  {
+    "slug": "occipital-neuralgia",
+    "group": "head",
+    "title": {
+      "hy": "Ծոծրակային նևրալգիա",
+      "en": "Occipital neuralgia",
+      "ru": "Затылочная невралгия"
+    },
+    "intro": {
+      "hy": "Ծոծրակային նյարդերի ցավը տարածվում է պարանոցի վերին հատվածից դեպի գլխի հետին մասը։ Այն պետք է տարբերակել միգրենից և այլ գլխացավերից։",
+      "en": "Occipital nerve pain spreads from the upper neck towards the back of the head. It needs to be distinguished from migraine and other headaches.",
+      "ru": "Боль затылочных нервов распространяется от верхней части шеи к затылку. Её отличают от мигрени и других головных болей."
+    },
+    "symptoms": {
+      "hy": [
+        "Կարճատև կրակող կամ ծակող ցավ",
+        "Գլխամաշկի զգայունություն"
+      ],
+      "en": [
+        "Brief shooting or stabbing pain",
+        "Scalp tenderness"
+      ],
+      "ru": [
+        "Короткая стреляющая или колющая боль",
+        "Болезненность кожи головы"
+      ]
+    },
+    "assessment": {
+      "hy": "Զննմամբ ստուգվում են պարանոցը և նյարդի տարածքը։ Գլխացավի մյուս պատճառները գնահատվում են ըստ պատմության։",
+      "en": "Examination checks the neck and nerve area. Other headache causes are assessed from the history.",
+      "ru": "Проверяют шею и зону нерва. Другие причины головной боли оценивают по анамнезу."
+    },
+    "care": {
+      "hy": "Ըստ պատճառի՝ քննարկվում են պարանոցի վերականգնում, ցավի բուժում և ընտրված դեպքերում ախտորոշիչ կամ բուժական բլոկադա։",
+      "en": "Care may include neck rehabilitation, pain treatment and a diagnostic or therapeutic block in selected cases.",
+      "ru": "Возможны реабилитация шеи, лечение боли и в отдельных случаях диагностическая или лечебная блокада."
+    },
+    "related": [
+      "headache",
+      "neck-pain"
+    ]
+  },
+  {
+    "slug": "glossopharyngeal-neuralgia",
+    "group": "head",
+    "title": {
+      "hy": "Լեզվաըմպանային նևրալգիա",
+      "en": "Glossopharyngeal neuralgia",
+      "ru": "Невралгия языкоглоточного нерва"
+    },
+    "intro": {
+      "hy": "Սա հազվադեպ նյարդային ցավ է կոկորդի, լեզվի հետին մասի կամ ականջի շրջանում՝ հաճախ կարճ նոպաներով։",
+      "en": "This is an uncommon nerve pain affecting the throat, back of the tongue or ear, often in brief attacks.",
+      "ru": "Это редкая нервная боль в горле, задней части языка или ухе, часто короткими приступами."
+    },
+    "symptoms": {
+      "hy": [
+        "Կուլ տալուց կամ խոսելուց առաջացող նոպա",
+        "Կոկորդից ականջ տարածվող ցավ"
+      ],
+      "en": [
+        "Attacks triggered by swallowing or talking",
+        "Pain spreading from the throat towards the ear"
+      ],
+      "ru": [
+        "Приступы при глотании или разговоре",
+        "Боль от горла к уху"
+      ]
+    },
+    "assessment": {
+      "hy": "Պետք է բացառել տեղային ԼՕՌ և այլ պատճառները։ Ուշագնացությամբ ուղեկցվող նոպան պահանջում է շտապ գնահատում։",
+      "en": "Local ENT and other causes must be excluded. An attack with fainting needs urgent assessment.",
+      "ru": "Исключают местные ЛОР и другие причины. Приступ с обмороком требует срочной оценки."
+    },
+    "care": {
+      "hy": "Բուժումը պլանավորվում է մասնագիտացված գնահատումից հետո՝ նյարդային ցավի համապատասխան մոտեցմամբ։",
+      "en": "Treatment is planned after specialist assessment using an approach suited to nerve pain.",
+      "ru": "Лечение планируют после специализированной оценки с подходом к нервной боли."
+    },
+    "related": [
+      "trigeminal-neuralgia"
+    ]
+  },
+  {
+    "slug": "facial-neuropathic-pain",
+    "group": "head",
+    "title": {
+      "hy": "Դեմքի նեյրոպաթիկ ցավ",
+      "en": "Facial neuropathic pain",
+      "ru": "Нейропатическая боль лица"
+    },
+    "intro": {
+      "hy": "Դեմքի նեյրոպաթիկ ցավը ներառում է դեմքի զգացողությունը փոխանցող նյարդերի տարբեր ախտահարումներ։ Նոպայաձև նևրալգիան և վնասվածքից հետո ցավը տարբեր ենթատեսակներ են։",
+      "en": "Facial neuropathic pain includes different disorders of nerves carrying facial sensation. Paroxysmal neuralgia and pain after nerve injury are distinct types.",
+      "ru": "Нейропатическая боль лица включает разные поражения чувствительных нервов. Приступообразная невралгия и боль после травмы нерва — разные варианты."
+    },
+    "symptoms": {
+      "hy": [
+        "Այրոց, էլեկտրական ցավ կամ հպման զգայունություն",
+        "Թմրածություն կամ զգացողության փոփոխություն"
+      ],
+      "en": [
+        "Burning, electric pain or touch sensitivity",
+        "Numbness or altered sensation"
+      ],
+      "ru": [
+        "Жжение, боль как удар током или чувствительность к касанию",
+        "Онемение или изменение чувствительности"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են ատամնաբուժական ու ԼՕՌ պատճառները, նյարդի տարածքը և նախկին միջամտությունները։",
+      "en": "Assessment considers dental and ENT causes, nerve distribution and previous procedures.",
+      "ru": "Оценивают стоматологические и ЛОР причины, зону нерва и прошлые вмешательства."
+    },
+    "care": {
+      "hy": "Բուժումը կախված է կոնկրետ ենթատեսակից։ Առանց հաստատված ատամնաբուժական պատճառի կրկնվող միջամտությունները պետք է վերանայել։",
+      "en": "Care depends on the specific type. Repeated dental procedures without a confirmed dental cause should be reconsidered.",
+      "ru": "Лечение зависит от варианта боли. Повторные стоматологические вмешательства без подтверждённой причины следует пересмотреть."
+    },
+    "related": [
+      "trigeminal-neuralgia",
+      "post-traumatic-trigeminal-pain",
+      "persistent-facial-pain"
+    ]
+  },
+  {
+    "slug": "persistent-facial-pain",
+    "group": "head",
+    "title": {
+      "hy": "Դեմքի մշտական ցավ",
+      "en": "Persistent facial pain",
+      "ru": "Постоянная лицевая боль"
+    },
+    "intro": {
+      "hy": "Դեմքի երկարատև ցավը միշտ չէ, որ համապատասխանում է մեկ նյարդի կամ ատամի։ Իդիոպաթիկ անվանումը կիրառվում է միայն համապատասխան գնահատումից հետո։",
+      "en": "Persistent facial pain does not always follow one nerve or tooth. The term idiopathic is used only after appropriate assessment.",
+      "ru": "Длительная лицевая боль не всегда соответствует одному нерву или зубу. Термин «идиопатическая» используют только после соответствующей оценки."
+    },
+    "symptoms": {
+      "hy": [
+        "Երկարատև բութ կամ ցավոտ զգացում",
+        "Անորոշ սահմաններով դեմքային ցավ"
+      ],
+      "en": [
+        "Prolonged dull or aching pain",
+        "Facial pain with poorly defined boundaries"
+      ],
+      "ru": [
+        "Длительная тупая или ноющая боль",
+        "Лицевая боль с нечёткими границами"
+      ]
+    },
+    "assessment": {
+      "hy": "Պետք է գնահատել ատամները, ծնոտը, ԼՕՌ և նյարդաբանական պատճառները՝ առանց միայն ցավի հիմքով նոր միջամտության։",
+      "en": "Dental, jaw, ENT and neurological causes need assessment; pain alone is not a basis for a new procedure.",
+      "ru": "Оценивают зубы, челюсть, ЛОР и неврологические причины; одна боль не является основанием для нового вмешательства."
+    },
+    "care": {
+      "hy": "Պլանը կարող է համադրել ցավի դեղորայքային կառավարումը և գործառույթի, քնի ու առօրյայի վերականգնումը։",
+      "en": "Care may combine medication for pain with restoring function, sleep and daily activities.",
+      "ru": "План может сочетать лекарства от боли и восстановление функции, сна и повседневной активности."
+    },
+    "related": [
+      "facial-neuropathic-pain",
+      "trigeminal-neuralgia"
+    ]
+  },
+  {
+    "slug": "post-traumatic-trigeminal-pain",
+    "group": "head",
+    "title": {
+      "hy": "Եռորյակ նյարդի հետվնասվածքային ցավ",
+      "en": "Post-traumatic trigeminal pain",
+      "ru": "Посттравматическая боль тройничного нерва"
+    },
+    "intro": {
+      "hy": "Դեմքի կամ ատամնաբուժական վնասվածքից հետո եռորյակ նյարդի ախտահարումը կարող է առաջացնել պահպանվող ցավ և զգացողության փոփոխություն։",
+      "en": "Trigeminal nerve injury after facial trauma or a dental procedure may cause persistent pain and sensory change.",
+      "ru": "Повреждение тройничного нерва после травмы лица или стоматологической процедуры может вызвать стойкую боль и изменение чувствительности."
+    },
+    "symptoms": {
+      "hy": [
+        "Վնասվածքի տարածքում այրոց կամ հպումից ցավ",
+        "Թմրածություն կամ փոփոխված զգացողություն"
+      ],
+      "en": [
+        "Burning or touch pain in the injured area",
+        "Numbness or altered sensation"
+      ],
+      "ru": [
+        "Жжение или боль от касания в зоне травмы",
+        "Онемение или изменённая чувствительность"
+      ]
+    },
+    "assessment": {
+      "hy": "Կարևոր են վնասվածքի ժամանակը, նյարդի ճշգրիտ տարածքը և զգացողության ստուգումը։ Նոր նյարդային վնասումը պետք է արագ գնահատել։",
+      "en": "Timing of injury, the exact nerve territory and sensory testing matter. A new nerve injury needs prompt assessment.",
+      "ru": "Важны время травмы, точная зона нерва и проверка чувствительности. Новое повреждение нерва требует быстрой оценки."
+    },
+    "care": {
+      "hy": "Մոտեցումը ներառում է մասնագիտացված գնահատում, նյարդային ցավի կառավարում և անհարկի կրկնվող միջամտությունների կանխում։",
+      "en": "Care includes specialist assessment, nerve pain management and avoiding unnecessary repeat procedures.",
+      "ru": "План включает специализированную оценку, контроль нервной боли и предотвращение ненужных повторных вмешательств."
+    },
+    "related": [
+      "facial-neuropathic-pain",
+      "post-traumatic-neuropathic-pain"
+    ]
+  },
+  {
+    "slug": "post-traumatic-neuropathic-pain",
+    "group": "recovery",
+    "title": {
+      "hy": "Հետվնասվածքային նեյրոպաթիկ ցավ",
+      "en": "Post-traumatic neuropathic pain",
+      "ru": "Посттравматическая нейропатическая боль"
+    },
+    "intro": {
+      "hy": "Վնասվածքի ժամանակ նյարդի ձգումը, սեղմումը կամ վնասումը կարող են պահպանվող ցավ առաջացնել՝ հյուսվածքների ապաքինումից հետո էլ։",
+      "en": "Stretching, compression or damage to a nerve during injury can cause pain that persists after tissues heal.",
+      "ru": "Растяжение, сдавление или повреждение нерва при травме могут вызвать боль, сохраняющуюся после заживления тканей."
+    },
+    "symptoms": {
+      "hy": [
+        "Վնասվածքից հետո այրոց կամ կրակող ցավ",
+        "Նյարդի տարածքով թմրածություն կամ թուլություն"
+      ],
+      "en": [
+        "Burning or shooting pain after injury",
+        "Numbness or weakness in a nerve distribution"
+      ],
+      "ru": [
+        "Жгучая или стреляющая боль после травмы",
+        "Онемение или слабость в зоне нерва"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են վնասվածքի մեխանիզմը, նյարդի տեղակայությունն ու վերականգնման ընթացքը։",
+      "en": "Assessment considers the injury mechanism, the nerve involved and recovery over time.",
+      "ru": "Оценивают механизм травмы, поражённый нерв и динамику восстановления."
+    },
+    "care": {
+      "hy": "Վերականգնումը հարմարեցվում է նյարդի վիճակին և համադրվում ցավի վերահսկման հետ։ Նոր կամ աճող թուլությունը պահանջում է արագ գնահատում։",
+      "en": "Rehabilitation is adapted to nerve function and combined with pain management. New or increasing weakness needs prompt assessment.",
+      "ru": "Реабилитацию адаптируют к состоянию нерва и сочетают с контролем боли. Новая или нарастающая слабость требует быстрой оценки."
+    },
+    "related": [
+      "crps",
+      "painful-neuroma"
+    ]
+  },
+  {
+    "slug": "painful-neuroma",
+    "group": "recovery",
+    "title": {
+      "hy": "Ցավոտ նևրոմա",
+      "en": "Painful neuroma",
+      "ru": "Болезненная неврома"
+    },
+    "intro": {
+      "hy": "Վնասված կամ կտրված նյարդի վերականգնման շրջանում կարող է ձևավորվել զգայուն նյարդային հանգույց։ Այն տարբերվում է ոտնաթաթի Մորտոնի նևրոմայից։",
+      "en": "An injured or cut nerve can form a sensitive nerve bundle during healing. This differs from Morton’s neuroma in the foot.",
+      "ru": "При заживлении повреждённого или пересечённого нерва может образоваться чувствительный нервный узел. Это отличается от невромы Мортона в стопе."
+    },
+    "symptoms": {
+      "hy": [
+        "Մեկ կետին հպվելուց էլեկտրական ցավ",
+        "Ցավ նյարդի նախկին վնասման տարածքում"
+      ],
+      "en": [
+        "Electric pain when one point is touched",
+        "Pain near a previous nerve injury"
+      ],
+      "ru": [
+        "Боль как удар током при касании одной точки",
+        "Боль у прежнего повреждения нерва"
+      ]
+    },
+    "assessment": {
+      "hy": "Ցավի կետը համադրվում է նյարդի և սպիի տեղակայության հետ։ Ընտրված դեպքերում օգնում են ուլտրաձայնը կամ ախտորոշիչ բլոկադան։",
+      "en": "The pain point is compared with the nerve and scar location. Ultrasound or a diagnostic block may help in selected cases.",
+      "ru": "Точку боли сопоставляют с расположением нерва и рубца. В отдельных случаях полезны УЗИ или диагностическая блокада."
+    },
+    "care": {
+      "hy": "Քննարկվում են ճնշման նվազեցում, զգայունության աստիճանական կառավարում և համապատասխան մասնագիտացված բուժում։",
+      "en": "Care may include pressure reduction, gradual desensitisation and appropriate specialist treatment.",
+      "ru": "Возможны уменьшение давления, постепенное снижение чувствительности и подходящее специализированное лечение."
+    },
+    "related": [
+      "scar-neuropathic-pain",
+      "residual-limb-pain"
+    ]
+  },
+  {
+    "slug": "scar-neuropathic-pain",
+    "group": "recovery",
+    "title": {
+      "hy": "Սպիի նեյրոպաթիկ ցավ",
+      "en": "Scar neuropathic pain",
+      "ru": "Нейропатическая боль рубца"
+    },
+    "intro": {
+      "hy": "Ապաքինված սպիի ցավը երբեմն կապված է փոքր նյարդերի վնասման կամ սպիային հյուսվածքում դրանց ներգրավման հետ։",
+      "en": "Pain in a healed scar may involve damage to small nerves or their involvement in scar tissue.",
+      "ru": "Боль в зажившем рубце иногда связана с повреждением мелких нервов или их вовлечением в рубцовую ткань."
+    },
+    "symptoms": {
+      "hy": [
+        "Սպիին հպվելուց այրոց կամ ցավ",
+        "Սպիի շուրջ թմրած կամ գերզգայուն հատված"
+      ],
+      "en": [
+        "Burning or pain when touching the scar",
+        "Numb or sensitive areas around the scar"
+      ],
+      "ru": [
+        "Жжение или боль при касании рубца",
+        "Онемевшие или чувствительные участки вокруг него"
+      ]
+    },
+    "assessment": {
+      "hy": "Տարբերակվում են նյարդային ցավը, սպիի ձգումը, վարակը և տեղային նևրոման։",
+      "en": "Assessment distinguishes nerve pain, scar tension, infection and a local neuroma.",
+      "ru": "Отличают нервную боль, натяжение рубца, инфекцию и местную неврому."
+    },
+    "care": {
+      "hy": "Միայն ապաքինված մաշկի վրա կարելի է քննարկել զգայունության կառավարում և վերականգնում։ Այլ բուժումները ընտրվում են ըստ ցավի աղբյուրի։",
+      "en": "Desensitisation and rehabilitation can be considered on healed skin. Other treatments depend on the pain source.",
+      "ru": "Снижение чувствительности и реабилитацию обсуждают на зажившей коже. Другие методы зависят от источника боли."
+    },
+    "related": [
+      "painful-neuroma",
+      "post-surgical-pain"
+    ]
+  },
+  {
+    "slug": "post-surgical-pain",
+    "group": "recovery",
+    "title": {
+      "hy": "Վիրահատությունից հետո պահպանվող ցավ",
+      "en": "Persistent post-surgical pain",
+      "ru": "Стойкая боль после операции"
+    },
+    "intro": {
+      "hy": "Վիրահատությունից հետո ցավը սովորաբար նվազում է ապաքինման ընթացքում։ Սպասված ժամկետից ավելի երկար պահպանվող ցավը պահանջում է պատճառի վերագնահատում։",
+      "en": "Pain after surgery usually decreases as healing progresses. Pain persisting beyond the expected recovery period needs reassessment.",
+      "ru": "Боль после операции обычно уменьшается по мере заживления. Если она сохраняется дольше ожидаемого восстановления, нужна повторная оценка причины."
+    },
+    "symptoms": {
+      "hy": [
+        "Չնվազող կամ նոր ուժեղացող ցավ",
+        "Սպիի զգայունություն կամ գործառույթի սահմանափակում"
+      ],
+      "en": [
+        "Pain that is not improving or newly worsening",
+        "Scar sensitivity or limited function"
+      ],
+      "ru": [
+        "Не уменьшающаяся или вновь усиливающаяся боль",
+        "Чувствительность рубца или ограничение функции"
+      ]
+    },
+    "assessment": {
+      "hy": "Վերանայվում են վիրահատության տեսակը և ընթացքը։ Նախ պետք է բացառել վարակը, կառուցվածքային բարդությունը կամ սկզբնական խնդրի պահպանումը։",
+      "en": "The operation and recovery are reviewed. Infection, structural complications and persistence of the original problem must first be considered.",
+      "ru": "Пересматривают операцию и восстановление. Сначала учитывают инфекцию, структурные осложнения и сохранение исходной проблемы."
+    },
+    "care": {
+      "hy": "Բուժումը հարմարեցվում է հայտնաբերված պատճառին՝ վիրաբույժի և վերականգնողական թիմի համագործակցությամբ։",
+      "en": "Care is adapted to the identified cause in collaboration with the surgical and rehabilitation teams.",
+      "ru": "Лечение подбирают по найденной причине совместно с хирургом и реабилитационной командой."
+    },
+    "related": [
+      "scar-neuropathic-pain",
+      "post-arthroplasty-pain",
+      "post-hernia-pain"
+    ]
+  },
+  {
+    "slug": "post-arthroplasty-pain",
+    "group": "recovery",
+    "title": {
+      "hy": "Հոդի փոխարինումից հետո ցավ",
+      "en": "Pain after joint replacement",
+      "ru": "Боль после замены сустава"
+    },
+    "intro": {
+      "hy": "Արթրոպլաստիկայից հետո պահպանվող ցավի դեպքում պետք է գնահատել և՛ փոխարինված հոդը, և՛ հարակից հյուսվածքները։",
+      "en": "Persistent pain after arthroplasty requires assessment of both the replaced joint and surrounding tissues.",
+      "ru": "При стойкой боли после артропластики оценивают заменённый сустав и окружающие ткани."
+    },
+    "symptoms": {
+      "hy": [
+        "Ցավ ծանրաբեռնվելիս կամ հանգստի ժամանակ",
+        "Այտուց, կոշտություն կամ անկայունության զգացում"
+      ],
+      "en": [
+        "Pain with loading or at rest",
+        "Swelling, stiffness or a sense of instability"
+      ],
+      "ru": [
+        "Боль при нагрузке или в покое",
+        "Отёк, скованность или ощущение нестабильности"
+      ]
+    },
+    "assessment": {
+      "hy": "Վիրաբույժի գնահատմամբ բացառվում են վարակը, պրոթեզի թուլացումը կամ այլ մեխանիկական պատճառները։",
+      "en": "Surgical assessment checks for infection, implant loosening and other mechanical causes.",
+      "ru": "Хирургическая оценка исключает инфекцию, расшатывание протеза и другие механические причины."
+    },
+    "care": {
+      "hy": "Վերականգնման բեռը փոփոխվում է միայն բարդությունների գնահատումից հետո։",
+      "en": "Rehabilitation loading is adjusted after complications have been assessed.",
+      "ru": "Нагрузку в реабилитации меняют после оценки осложнений."
+    },
+    "related": [
+      "post-surgical-pain",
+      "scar-neuropathic-pain"
+    ]
+  },
+  {
+    "slug": "post-hernia-pain",
+    "group": "recovery",
+    "title": {
+      "hy": "Ճողվածքի վիրահատությունից հետո ցավ",
+      "en": "Pain after hernia surgery",
+      "ru": "Боль после операции по поводу грыжи"
+    },
+    "intro": {
+      "hy": "Աճուկային ճողվածքի վիրահատությունից հետո ցավը կարող է կապված լինել սպիի, նյարդի կամ տեղային այլ խնդրի հետ։",
+      "en": "Pain after inguinal hernia surgery may involve a scar, nerve or another local problem.",
+      "ru": "Боль после операции по поводу паховой грыжи может быть связана с рубцом, нервом или другой местной проблемой."
+    },
+    "symptoms": {
+      "hy": [
+        "Աճուկի ցավ շարժվելիս",
+        "Այրոց կամ տեղային հպման զգայունություն"
+      ],
+      "en": [
+        "Groin pain with movement",
+        "Burning or local touch sensitivity"
+      ],
+      "ru": [
+        "Боль в паху при движении",
+        "Жжение или чувствительность к касанию"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են ճողվածքի կրկնությունը, սպիի շրջանը և ցավի նյարդային տարածումը։",
+      "en": "Assessment checks for hernia recurrence, the scar area and nerve-related pain distribution.",
+      "ru": "Проверяют рецидив грыжи, область рубца и распространение боли по нерву."
+    },
+    "care": {
+      "hy": "Պլանը կազմվում է վիրաբուժական պատճառների գնահատումից հետո՝ տեղային կամ նյարդային ցավին համապատասխան։",
+      "en": "Care is planned after surgical causes are assessed and tailored to local or nerve pain.",
+      "ru": "План составляют после оценки хирургических причин с учётом местной или нервной боли."
+    },
+    "related": [
+      "post-surgical-pain",
+      "scar-neuropathic-pain"
+    ]
+  },
+  {
+    "slug": "post-mastectomy-pain",
+    "group": "recovery",
+    "title": {
+      "hy": "Կրծքագեղձի վիրահատությունից հետո ցավ",
+      "en": "Pain after breast surgery",
+      "ru": "Боль после операции на молочной железе"
+    },
+    "intro": {
+      "hy": "Մաստէկտոմիայից կամ այլ կրծքագեղձային վիրահատությունից հետո ցավը կարող է պահպանվել կրծքային պատում, թևատակում կամ ձեռքի ներսի կողմում։",
+      "en": "After mastectomy or other breast surgery, pain may persist in the chest wall, armpit or inner upper arm.",
+      "ru": "После мастэктомии или другой операции боль может сохраняться в грудной стенке, подмышке или на внутренней стороне плеча."
+    },
+    "symptoms": {
+      "hy": [
+        "Այրոց կամ սպիի զգայունություն",
+        "Ուսի շարժման սահմանափակում"
+      ],
+      "en": [
+        "Burning or scar sensitivity",
+        "Restricted shoulder movement"
+      ],
+      "ru": [
+        "Жжение или чувствительность рубца",
+        "Ограничение движений плеча"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են նյարդային նշանները, ուսի գործառույթը, այտուցը և նոր տեղային փոփոխությունները։",
+      "en": "Assessment considers nerve signs, shoulder function, swelling and new local changes.",
+      "ru": "Оценивают нервные признаки, функцию плеча, отёк и новые местные изменения."
+    },
+    "care": {
+      "hy": "Ցավի վերահսկումը համադրվում է ուսի հարմարեցված վերականգնման և բուժող թիմի հսկողության հետ։",
+      "en": "Pain management is combined with adapted shoulder rehabilitation and review by the treating team.",
+      "ru": "Контроль боли сочетают с адаптированной реабилитацией плеча и наблюдением лечащей команды."
+    },
+    "related": [
+      "post-surgical-pain",
+      "scar-neuropathic-pain"
+    ]
+  },
+  {
+    "slug": "post-thoracotomy-pain",
+    "group": "recovery",
+    "title": {
+      "hy": "Կրծքավանդակի վիրահատությունից հետո ցավ",
+      "en": "Pain after thoracic surgery",
+      "ru": "Боль после операции на грудной клетке"
+    },
+    "intro": {
+      "hy": "Թորակոտոմիայից կամ այլ կրծքային վիրահատությունից հետո ցավը երբեմն կապված է միջկողային նյարդերի և սպիի հետ։",
+      "en": "Pain after thoracotomy or other thoracic surgery may involve intercostal nerves and the scar.",
+      "ru": "Боль после торакотомии или другой грудной операции может быть связана с межрёберными нервами и рубцом."
+    },
+    "symptoms": {
+      "hy": [
+        "Կողերի ուղղությամբ այրոց կամ ցավ",
+        "Ցավ խորը շնչելիս կամ շարժվելիս"
+      ],
+      "en": [
+        "Burning or pain along the ribs",
+        "Pain with deep breathing or movement"
+      ],
+      "ru": [
+        "Жжение или боль вдоль рёбер",
+        "Боль при глубоком вдохе или движении"
+      ]
+    },
+    "assessment": {
+      "hy": "Նոր շնչահեղձությունը, ջերմությունը կամ կրծքային ցավի փոփոխությունը պետք է գնահատել նախքան այն սպիային համարելը։",
+      "en": "New breathlessness, fever or a change in chest pain must be assessed before attributing it to a scar.",
+      "ru": "Новую одышку, лихорадку или изменение боли оценивают до объяснения её рубцом."
+    },
+    "care": {
+      "hy": "Մոտեցումը կարող է համադրել նյարդային ցավի բուժումը, շնչառական և շարժողական վերականգնումը։",
+      "en": "Care may combine nerve pain treatment with breathing and movement rehabilitation.",
+      "ru": "План может сочетать лечение нервной боли с дыхательной и двигательной реабилитацией."
+    },
+    "related": [
+      "post-surgical-pain",
+      "scar-neuropathic-pain"
+    ]
+  },
+  {
+    "slug": "post-amputation-pain",
+    "group": "recovery",
+    "title": {
+      "hy": "Ամպուտացիայից հետո ցավ",
+      "en": "Post-amputation pain",
+      "ru": "Боль после ампутации"
+    },
+    "intro": {
+      "hy": "Ամպուտացիայից հետո ցավը բաժանվում է պահպանված վերջույթի հատվածի ցավի և բացակայող հատվածում զգացվող ֆանտոմային ցավի։ Դրանք կարող են համատեղ լինել։",
+      "en": "Post-amputation pain includes residual limb pain and phantom pain felt in the missing part. Both can occur together.",
+      "ru": "Боль после ампутации включает боль остаточной конечности и фантомную боль в отсутствующей части. Они могут сочетаться."
+    },
+    "symptoms": {
+      "hy": [
+        "Ցավ պահպանված հատվածում",
+        "Ցավ բացակայող վերջույթի զգացողությամբ"
+      ],
+      "en": [
+        "Pain in the remaining part",
+        "Pain felt in the missing limb"
+      ],
+      "ru": [
+        "Боль в оставшейся части",
+        "Боль с ощущением отсутствующей конечности"
+      ]
+    },
+    "assessment": {
+      "hy": "Առաջին քայլը ցավի տեղակայումը պարզելն է՝ մաշկը, սպին, պրոթեզի ճնշումը և նյարդային նշանները ստուգելով։",
+      "en": "The first step is locating the pain and checking skin, scar, prosthetic pressure and nerve signs.",
+      "ru": "Первый шаг — определить место боли, проверить кожу, рубец, давление протеза и нервные признаки."
+    },
+    "care": {
+      "hy": "Բուժումը ընտրվում է ըստ ցավի տեսակի՝ պրոթեզավորման թիմի և վերականգնման մասնագետների հետ։",
+      "en": "Care is selected for the pain type together with the prosthetics and rehabilitation teams.",
+      "ru": "Лечение выбирают по типу боли вместе со специалистами по протезированию и реабилитации."
+    },
+    "related": [
+      "phantom-limb-pain",
+      "residual-limb-pain"
+    ]
+  },
+  {
+    "slug": "phantom-limb-pain",
+    "group": "recovery",
+    "title": {
+      "hy": "Ֆանտոմային վերջույթի ցավ",
+      "en": "Phantom limb pain",
+      "ru": "Фантомная боль конечности"
+    },
+    "intro": {
+      "hy": "Ֆանտոմային ցավը զգացվում է անդամահատված, այլևս գոյություն չունեցող հատվածում։ Այն տարբերվում է առանց ցավի ֆանտոմային զգացողությունից։",
+      "en": "Phantom pain is felt in the amputated part that is no longer present. It differs from a painless phantom sensation.",
+      "ru": "Фантомная боль ощущается в отсутствующей ампутированной части. Она отличается от безболезненного фантомного ощущения."
+    },
+    "symptoms": {
+      "hy": [
+        "Բացակայող հատվածում այրոց կամ սեղմման զգացում",
+        "Նոպայաձև կամ շարունակական ցավ"
+      ],
+      "en": [
+        "Burning or squeezing in the missing part",
+        "Episodic or continuous pain"
+      ],
+      "ru": [
+        "Жжение или сдавление в отсутствующей части",
+        "Приступообразная или постоянная боль"
+      ]
+    },
+    "assessment": {
+      "hy": "Գնահատվում են ցավի նոպաները և պահպանված վերջույթի վիճակը, քանի որ տեղային խնդիրները կարող են զուգակցվել։",
+      "en": "Assessment reviews attacks and the residual limb because local problems can coexist.",
+      "ru": "Оценивают приступы и остаточную конечность, поскольку местные проблемы могут сочетаться."
+    },
+    "care": {
+      "hy": "Անհատական պլանը կարող է ներառել ցավի կառավարում և ընտրված վերականգնողական մեթոդներ, օրինակ՝ հայելային թերապիա։ Արդյունքը տարբեր է մարդկանց միջև։",
+      "en": "Individual care may include pain management and selected rehabilitation methods such as mirror therapy. Response varies between people.",
+      "ru": "Индивидуальный план может включать контроль боли и методы реабилитации, например зеркальную терапию. Эффект различается."
+    },
+    "related": [
+      "post-amputation-pain",
+      "residual-limb-pain"
+    ]
+  },
+  {
+    "slug": "residual-limb-pain",
+    "group": "recovery",
+    "title": {
+      "hy": "Վերջույթի պահպանված հատվածի ցավ",
+      "en": "Residual limb pain",
+      "ru": "Боль в остаточной конечности"
+    },
+    "intro": {
+      "hy": "Այս ցավը զգացվում է ամպուտացիայից հետո պահպանված հատվածում։ Պատճառները կարող են լինել մաշկը, պրոթեզի ճնշումը, սպին կամ նյարդը։",
+      "en": "This pain is felt in the part remaining after amputation. Causes may involve skin, prosthetic pressure, scar or a nerve.",
+      "ru": "Эта боль ощущается в части, оставшейся после ампутации. Причины могут включать кожу, давление протеза, рубец или нерв."
+    },
+    "symptoms": {
+      "hy": [
+        "Տեղային ցավ պրոթեզը կրելիս",
+        "Մեկ կետի ցավ, մաշկի փոփոխություն կամ այրոց"
+      ],
+      "en": [
+        "Local pain when wearing a prosthesis",
+        "Focal pain, skin changes or burning"
+      ],
+      "ru": [
+        "Местная боль при ношении протеза",
+        "Точечная боль, изменения кожи или жжение"
+      ]
+    },
+    "assessment": {
+      "hy": "Ստուգվում են մաշկը, վերքը, պրոթեզի հարմարությունը, արյան շրջանառությունը և նևրոմայի հավանականությունը։",
+      "en": "Assessment checks skin, wounds, prosthetic fit, circulation and possible neuroma.",
+      "ru": "Проверяют кожу, раны, посадку протеза, кровообращение и возможную неврому."
+    },
+    "care": {
+      "hy": "Պլանը ուղղվում է տեղային պատճառին։ Մաշկի վնասումը, կարմրությունը կամ արտահոսքը պահանջում են արագ գնահատում և պրոթեզի օգտագործման վերանայում։",
+      "en": "Care targets the local cause. Skin breakdown, redness or discharge need prompt assessment and review of prosthesis use.",
+      "ru": "Лечение направлено на местную причину. Повреждение кожи, покраснение или выделения требуют быстрой оценки и пересмотра использования протеза."
+    },
+    "related": [
+      "post-amputation-pain",
+      "phantom-limb-pain",
+      "painful-neuroma"
+    ]
+  }
+]
