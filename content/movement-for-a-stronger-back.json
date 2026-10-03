@@ -1,0 +1,226 @@
+{
+  "reviewed": "2026-10-03",
+  "sources": [
+    [
+      "NHS inform · Exercises for back pain",
+      "https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/neck-and-back-problems-and-conditions/exercises-for-back-pain/"
+    ],
+    [
+      "Cochrane · Exercise for chronic low back pain",
+      "https://www.cochrane.org/evidence/CD009790_exercise-treatment-chronic-low-back-pain"
+    ],
+    [
+      "NHS · Strength exercises",
+      "https://www.nhs.uk/live-well/exercise/strength-exercises/"
+    ],
+    [
+      "Berkshire Healthcare NHS · Cervicogenic headaches",
+      "https://www.berkshirehealthcare.nhs.uk/advice/cervicogenic-headaches"
+    ],
+    [
+      "NHS · Scoliosis",
+      "https://www.nhs.uk/conditions/scoliosis/"
+    ],
+    [
+      "NHS · Back pain",
+      "https://www.nhs.uk/conditions/back-pain/"
+    ]
+  ],
+  "languages": {
+    "hy": {
+      "title": "Շարժում՝ ավելի ամուր մեջքի համար",
+      "lead": "Հեշտ շարժումներ տանը, կարճ տեսանյութեր և իրատեսական ծրագիր՝ ավելի ազատ շարժվելու ու առօրյա ծանրաբեռնվածությանը պատրաստ լինելու համար։",
+      "sections": [
+        [
+          "why",
+          "Ինչու է կարևոր կանոնավոր շարժվել",
+          "Մեջքի ցավը միշտ չէ, որ նշանակում է վնասվածք կամ «թույլ ողնաշար»։ Քրոնիկ գոտկատեղային ցավի դեպքում վարժությունները կարող են նվազեցնել ցավը և բարելավել առօրյա գործառույթը։ Արդյունքը տարբեր է մարդկանց միջև, և մեկ լավագույն վարժություն բոլորի համար չկա։ [2]",
+          "Մեղմ շարժումները օգնում են պահպանել շարժունակությունը, իսկ աստիճանաբար ավելացվող ուժային աշխատանքը՝ զարգացնել մկանների ուժն ու դիմացկունությունը։ Կարճ, կրկնվող պարապմունքները թույլ են տալիս աստիճանաբար հարմարվել բեռին։ Այս ցուցադրումները հիմնականում շարժունակության համար են․ ամբողջական ուժային ծրագիրը կարելի է ընտրել ֆիզիոթերապևտի հետ։ [1,3]"
+        ],
+        [
+          "start",
+          "Սկսեք քիչից",
+          "Ընտրեք մեկ կամ երկու շարժում։ Սկզբում կատարեք յուրաքանչյուրից 2–3 դանդաղ կրկնություն՝ հարմարավետ տիրույթում, առանց շունչը պահելու։ Երբ հեշտանում է, մի քանի օրը մեկ ավելացրեք 1–2 կրկնություն։ Մեղմ շարժունակության վարժությունները կարելի է բաժանել օրվա կարճ հատվածների։ Մի փորձեք անմիջապես կատարել տեսանյութի ամբողջ ծրագիրը։ [1]",
+          "Առանձին ուժային պարապմունքների համար շաբաթական առնվազն երկու օրն ընդհանուր մեկնարկային նպատակ է՝ բեռը աստիճանաբար ավելացնելով։ Մնացած օրերին շարունակեք հարմարավետ քայլել և երկար նստելը ընդմիջեք դիրքի փոփոխությամբ։ Վնասվածքից կամ վիրահատությունից հետո հետևեք ձեր անհատական սահմանափակումներին։ [3,6]"
+        ],
+        [
+          "routine",
+          "Մի փոքր քայլ դեպի ուժեղացում",
+          "Եթե անվտանգ կարողանում եք նստել և կանգնել՝ օգտագործեք կայուն, անիվներ չունեցող աթոռ։ Ոտքերը դրեք հատակին՝ կոնքերի լայնությամբ։ Թեթևակի թեքվեք առաջ, դանդաղ կանգնեք, ապա վերահսկված նստեք։ Ձեռքերով հենվեք, եթե անհրաժեշտ է անվտանգության համար։ Սկսեք մի քանի կրկնությունից և աստիճանաբար հասեք 5-ի։ Սա ոտքերի ու առօրյա շարժման ուժային վարժություն է, ոչ ողնաշարի ձևը շտկելու միջոց։ [3]"
+        ],
+        [
+          "headache",
+          "Իսկ գլխացավը և ողնաշարի ձևը՞",
+          "Պարանոցի հոդերից ու մկաններից ծագող որոշ գլխացավերի դեպքում կանոնավոր շարժումը և անհատական ընտրված պարանոցային վարժությունները կարող են օգնել։ Բայց գոտկատեղի այս վարժությունները բոլոր գլխացավերի կանխարգելման միջոց չեն․ հաճախակի կամ նոր գլխացավը պետք է գնահատել առանձին։ [4]",
+          "Շարժումը կարող է բարելավել մկանային աշխատանքը և նվազեցնել կարկամությունը։ Սակայն այս ընդհանուր վարժություններով չի կարելի խոստանալ սկոլիոզի կամ այլ կառուցվածքային դեֆորմացիայի կանխարգելում կամ ուղղում։ Նկատելի կորությունը, ուսերի անհամաչափությունը կամ ողնաշարի ձևի փոփոխությունը պահանջում են բժշկական գնահատում և անհրաժեշտության դեպքում անհատական ծրագիր։ [5,6]"
+        ],
+        [
+          "help",
+          "Երբ դադարեցնել և դիմել օգնության",
+          "Դադարեցրեք, եթե առաջանում է նոր ցավ, ցավը ուժեղանում է, տարածվում է դեպի ոտքը, կա թմրություն, թուլություն կամ գլխապտույտ։ Թեթև շարժումը չպետք է ընդհանուր առմամբ վատացնի վիճակը։ Եթե հաջորդ առավոտ ավելի վատ եք զգում, նվազեցրեք բեռը և խորհրդակցեք մասնագետի հետ։ [1]",
+          "Շտապ օգնություն է պետք մեջքի ցավի հետ միզարձակման կամ աղիքների վերահսկման նոր խանգարման, սեռական օրգանների կամ հետանցքի շուրջ զգացողության կորստի, երկու ոտքերի թուլության կամ լուրջ վնասվածքի դեպքում։ Հանկարծակի ուժեղ կամ արագ վատացող ցավը, հատկապես ջերմության հետ, նույնպես պահանջում է անհետաձգելի գնահատում։ [6]"
+        ]
+      ],
+      "exheading": "4 հեշտ շարժում՝ կարճ տեսանյութերով",
+      "intro": "NHS inform-ի անգլերեն ցուցադրումներ՝ հայերեն քայլերով։ Կատարեք դանդաղ, առանց ուժով ձգելու։ Եթե հատակին իջնելը դժվար է կամ անվտանգ չէ, խնդրեք մասնագետին ընտրել նստած կամ կանգնած տարբերակ։",
+      "ex": [
+        [
+          "Կոնքի մեղմ թեքում",
+          "Պառկեք մեջքի վրա, ծնկները ծալեք, ոտքերը դրեք հենարանին։ Մեղմորեն թեքեք կոնքը՝ գոտկատեղը հենարանին մոտեցնելով, ապա վերադարձեք հանգիստ դիրքի։ Շարժումը փոքր է, շնչառությունը՝ ազատ։",
+          "xbyk3ebdwRI"
+        ],
+        [
+          "Ծնկների մեղմ պտույտներ",
+          "Մեջքի վրա պառկած՝ ծալեք ծնկները և պահեք միասին։ Դանդաղ տարեք դրանք մի կողմ, վերադարձեք կենտրոն, ապա մյուս կողմ։ Ուսերը պահեք հենարանին, ընտրեք հարմարավետ փոքր տիրույթ։",
+          "QxsmVexWs_4"
+        ],
+        [
+          "Մեկ ծնկի մոտեցում",
+          "Մեջքի վրա պառկած՝ մեկ ծալած ծունկը մեղմորեն մոտեցրեք կրծքավանդակին։ Ձեռքերով պահեք ազդրը կամ ծնկի տակ։ Մի քաշեք ուժով։ Վերադարձեք և փոխեք ոտքը։",
+          "I6sP_tzzb_4"
+        ],
+        [
+          "«Կատու–ուղտ» շարժում",
+          "Հենվեք ափերի և ծնկների վրա՝ ձեռքերը ուսերի, ծնկները կոնքերի տակ։ Դանդաղ կլորացրեք մեջքը, ապա մեղմորեն շարժվեք հակառակ ուղղությամբ։ Մի գնացեք ծայրահեղ դիրքերի, պարանոցը մի գերլարեք։",
+          "H3UhkEFPx4Y"
+        ]
+      ],
+      "watch": "Դիտել ցուցադրումը",
+      "fallback": "Բացել YouTube-ում",
+      "sources": "Աղբյուրներ",
+      "note": "Տեսանյութերը NHS inform-ից են, ոչ Pain Clinic-ի անհատական նշանակումներ։ Սկզբում դիտեք ցուցադրումը, հետո փորձեք շարժումը ձեր հարմարավետ տիրույթում։",
+      "book": "Ամրագրել այց",
+      "cta": "Ստացեք ձեր վիճակին համապատասխան շարժման ծրագիր։"
+    },
+    "en": {
+      "title": "Movement for a Stronger Back",
+      "lead": "Simple movements at home, short demonstrations and a realistic plan to move more comfortably and build capacity for everyday tasks.",
+      "sections": [
+        [
+          "why",
+          "Why regular movement matters",
+          "Back pain does not always mean injury or a “weak spine”. For chronic low back pain, exercise can reduce pain and improve daily function. Benefits vary, and no single exercise is best for everyone. [2]",
+          "Gentle movement helps maintain mobility; progressively challenging strength work builds strength and endurance. Small, repeated sessions allow gradual adjustment to activity. These demonstrations mainly address mobility; a physiotherapist can help choose a fuller strengthening programme. [1,3]"
+        ],
+        [
+          "start",
+          "Start small",
+          "Choose one or two movements. Begin with 2–3 slow repetitions of each, within a comfortable range, breathing freely. As they become easier, add 1–2 repetitions every few days. Gentle mobility work can be split into short sessions through the day. You do not have to complete everything in the videos immediately. [1]",
+          "For separate strength sessions, at least two days per week is a general starting goal, increasing the workload gradually. On other days, keep walking comfortably and break up long periods of sitting by changing position. Follow individual restrictions after injury or surgery. [3,6]"
+        ],
+        [
+          "routine",
+          "A small step towards strength",
+          "If you can sit and stand safely, use a stable chair without wheels. Place your feet flat, hip-width apart. Lean slightly forward, stand slowly, then sit down with control. Use your hands for support if needed for safety. Start with a few repetitions and build towards five. This trains leg strength and everyday function; it does not reshape the spine. [3]"
+        ],
+        [
+          "headache",
+          "What about headaches and spinal shape?",
+          "Regular movement and individually selected neck exercises may help some headaches arising from neck joints and muscles. These lower-back exercises do not prevent every type of headache. Frequent or new headaches need their own assessment. [4]",
+          "Movement may improve muscle function and reduce stiffness. These general exercises cannot be claimed to prevent or correct scoliosis or other structural deformities. A visible curve, uneven shoulders or a change in spinal shape needs clinical assessment and, where appropriate, a tailored plan. [5,6]"
+        ],
+        [
+          "help",
+          "When to stop and seek help",
+          "Stop for new pain, worsening pain, pain spreading into the leg, numbness, weakness or dizziness. Gentle exercise should not make your condition worse overall. If you feel worse the next morning, reduce the workload and seek professional advice. [1]",
+          "Seek emergency care for back pain with new bladder or bowel control problems, loss of feeling around the genitals or anus, weakness in both legs, or a serious accident. Sudden severe or rapidly worsening pain, especially with fever, also needs urgent assessment. [6]"
+        ]
+      ],
+      "exheading": "4 easy movements with short videos",
+      "intro": "English demonstrations from NHS inform, with written steps below. Move slowly and avoid forcing a stretch. If getting down to the floor is difficult or unsafe, ask a professional for seated or standing alternatives.",
+      "ex": [
+        [
+          "Pelvic tilts",
+          "Lie on your back with knees bent and feet supported. Gently tilt your pelvis to bring your lower back towards the surface, then return to a relaxed position. Keep the movement small and breathe freely.",
+          "xbyk3ebdwRI"
+        ],
+        [
+          "Knee rolls",
+          "Lie on your back with your knees bent and together. Slowly move them to one side, back to the middle, then the other side. Keep your shoulders supported and use a small, comfortable range.",
+          "QxsmVexWs_4"
+        ],
+        [
+          "Single knee hug",
+          "While lying on your back, gently bring one bent knee towards your chest. Support the thigh or behind the knee with your hands. Do not pull forcefully. Return and change legs.",
+          "I6sP_tzzb_4"
+        ],
+        [
+          "Cat camel",
+          "Start on hands and knees, hands below shoulders and knees below hips. Slowly round your back, then gently move in the opposite direction. Avoid extreme positions or straining your neck.",
+          "H3UhkEFPx4Y"
+        ]
+      ],
+      "watch": "Watch demonstration",
+      "fallback": "Open on YouTube",
+      "sources": "Sources",
+      "note": "Videos are from NHS inform and are not individual prescriptions from Pain Clinic. Watch first, then try the movement within your comfortable range.",
+      "book": "Book an appointment",
+      "cta": "Find a movement programme suited to your situation."
+    },
+    "ru": {
+      "title": "Движение для более крепкой спины",
+      "lead": "Простые движения дома, короткие видеодемонстрации и понятный план, чтобы двигаться свободнее и легче справляться с повседневной нагрузкой.",
+      "sections": [
+        [
+          "why",
+          "Зачем двигаться регулярно",
+          "Боль в спине не всегда означает повреждение или «слабый позвоночник». При хронической боли в пояснице упражнения могут уменьшать боль и улучшать повседневную функцию. Эффект индивидуален: одного лучшего упражнения для всех нет. [2]",
+          "Мягкие движения помогают сохранять подвижность, а постепенно усложняемая силовая нагрузка развивает силу и выносливость. Короткие регулярные занятия позволяют постепенно привыкать к нагрузке. Эти демонстрации главным образом направлены на подвижность; полноценную силовую программу поможет подобрать физиотерапевт. [1,3]"
+        ],
+        [
+          "start",
+          "Начните с малого",
+          "Выберите одно или два движения. Начните с 2–3 медленных повторений каждого в комфортном диапазоне, не задерживая дыхание. Когда станет легче, добавляйте по 1–2 повторения раз в несколько дней. Мягкие упражнения на подвижность можно распределять на короткие занятия в течение дня. Не нужно сразу выполнять всё из видео. [1]",
+          "Для отдельных силовых занятий общая начальная цель — минимум два дня в неделю с постепенным увеличением нагрузки. В другие дни продолжайте комфортную ходьбу и прерывайте длительное сидение сменой положения. После травмы или операции соблюдайте индивидуальные ограничения. [3,6]"
+        ],
+        [
+          "routine",
+          "Небольшой шаг к укреплению",
+          "Если можете безопасно садиться и вставать, используйте устойчивый стул без колёс. Поставьте стопы на пол на ширине таза. Слегка наклонитесь вперёд, медленно встаньте, затем плавно сядьте. При необходимости для безопасности опирайтесь руками. Начните с нескольких повторений и постепенно доведите до пяти. Это упражнение для силы ног и повседневных движений, а не для изменения формы позвоночника. [3]"
+        ],
+        [
+          "headache",
+          "А головные боли и форма позвоночника?",
+          "При некоторых головных болях, связанных с суставами и мышцами шеи, регулярное движение и индивидуально подобранные упражнения для шеи могут помочь. Эти упражнения для поясницы не предотвращают все виды головной боли. Частые или новые головные боли требуют отдельной оценки. [4]",
+          "Движение может улучшать работу мышц и уменьшать скованность. Однако нельзя обещать, что эти общие упражнения предотвратят или исправят сколиоз и другие структурные деформации. Заметное искривление, асимметрия плеч или изменение формы позвоночника требуют медицинской оценки и при необходимости индивидуальной программы. [5,6]"
+        ],
+        [
+          "help",
+          "Когда остановиться и обратиться за помощью",
+          "Прекратите занятие при новой или усиливающейся боли, распространении боли в ногу, онемении, слабости или головокружении. Мягкие упражнения не должны ухудшать состояние в целом. Если следующим утром стало хуже, уменьшите нагрузку и посоветуйтесь со специалистом. [1]",
+          "При боли в спине с новым нарушением контроля мочевого пузыря или кишечника, потерей чувствительности вокруг половых органов или ануса, слабостью обеих ног либо после серьёзной травмы нужна экстренная помощь. Внезапная сильная или быстро нарастающая боль, особенно с температурой, тоже требует срочной оценки. [6]"
+        ]
+      ],
+      "exheading": "4 простых движения с короткими видео",
+      "intro": "Демонстрации NHS inform на английском языке с русскими пояснениями. Двигайтесь медленно, не растягивайтесь через силу. Если опускаться на пол трудно или небезопасно, попросите специалиста подобрать варианты сидя или стоя.",
+      "ex": [
+        [
+          "Наклоны таза",
+          "Лягте на спину, согните колени, поставьте стопы на опору. Мягко наклоните таз, приближая поясницу к поверхности, затем вернитесь в расслабленное положение. Движение небольшое, дыхание свободное.",
+          "xbyk3ebdwRI"
+        ],
+        [
+          "Повороты коленей",
+          "Лёжа на спине, согните колени и держите их вместе. Медленно опустите их в одну сторону, верните в центр, затем в другую. Плечи остаются на опоре; диапазон небольшой и комфортный.",
+          "QxsmVexWs_4"
+        ],
+        [
+          "Подтягивание одного колена",
+          "Лёжа на спине, мягко приблизьте одно согнутое колено к груди. Поддерживайте бедро или область под коленом руками. Не тяните через силу. Вернитесь и смените ногу.",
+          "I6sP_tzzb_4"
+        ],
+        [
+          "«Кошка–верблюд»",
+          "Встаньте на ладони и колени: ладони под плечами, колени под тазом. Медленно округлите спину, затем мягко двигайтесь в обратном направлении. Избегайте крайних положений и напряжения шеи.",
+          "H3UhkEFPx4Y"
+        ]
+      ],
+      "watch": "Смотреть демонстрацию",
+      "fallback": "Открыть на YouTube",
+      "sources": "Источники",
+      "note": "Видео предоставлены NHS inform и не являются индивидуальными назначениями Pain Clinic. Сначала посмотрите, затем пробуйте движение в комфортном диапазоне.",
+      "book": "Записаться на приём",
+      "cta": "Подберите программу движения с учётом вашего состояния."
+    }
+  }
+}
