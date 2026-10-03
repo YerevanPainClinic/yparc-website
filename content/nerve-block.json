@@ -1,0 +1,210 @@
+{
+  "reviewed": "2026-10-03",
+  "sources": [
+    [
+      "ASRA Pain Medicine · Treatment options for chronic pain",
+      "https://asra.com/patient-information/chronic-pain-management/treatment-options-for-chronic-pain"
+    ],
+    [
+      "Cambridge University Hospitals · CT guided nerve root injection",
+      "https://www.cuh.nhs.uk/patient-information/ct-guided-nerve-root-injection/"
+    ],
+    [
+      "Royal Orthopaedic Hospital · Nerve root block",
+      "https://roh.nhs.uk/services-information/pain-management/nerve-root-block"
+    ],
+    [
+      "Cambridge University Hospitals · Local anaesthetic nerve blocks after surgery",
+      "https://www.cuh.nhs.uk/patient-information/local-anaesthetic-nerve-blocks-for-pain-relief-following-surgery-/"
+    ],
+    [
+      "ASRA Pain Medicine · Risks and benefits",
+      "https://asra.com/patient-information/regional-anesthesia/risks-and-benefits"
+    ],
+    [
+      "NICE NG59 · Low back pain and sciatica: recommendations",
+      "https://www.nice.org.uk/guidance/ng59/chapter/recommendations"
+    ],
+    [
+      "Cambridge University Hospitals · Greater occipital nerve block for headache",
+      "https://www.cuh.nhs.uk/patient-information/greater-occipital-nerve-block-for-headache/"
+    ],
+    [
+      "ASRA and partner societies · Corticosteroids for adult chronic pain interventions",
+      "https://asra.com/guidelines-articles/guidelines/guideline-item/guidelines/2024/12/12/use-of-corticosteroids-for-adult-chronic-pain-interventions-sympathetic-and-peripheral-nerve-blocks-trigger-point-injections---guidelines-from-the-american-society-of-regional-anesthesia-and-pain-medicine-the-american-academy-of-pain-medicine"
+    ]
+  ],
+  "languages": {
+    "hy": {
+      "title": "Ի՞նչ է նյարդային բլոկադան",
+      "lead": "Թիրախային բժշկական միջամտություն՝ ցավը նվազեցնելու, որոշ դեպքերում դրա աղբյուրը պարզելու և վերականգնման ծրագրին աջակցելու համար։ Դրա արժեքը ճիշտ ցուցման, ճշգրիտ կատարման և հետագա բուժման պլանի մեջ է։",
+      "alt": "Մասնագետը կատարում է ուլտրաձայնային ուղղորդմամբ միջամտություն",
+      "caption": "Ուլտրաձայնային ուղղորդմամբ միջամտության թեմատիկ պատկեր։",
+      "quote": "Նյարդային բլոկադան մասնագիտացված միջամտություն է՝ հստակ թիրախով, բժշկական նպատակով և արդյունքի գնահատման պլանով։",
+      "sections": [
+        [
+          "what",
+          "Ինչ է կատարվում բլոկադայի ժամանակ",
+          "Նյարդերը ցավի ազդակներ են փոխանցում դեպի ուղեղ։ Բլոկադայի ժամանակ մասնագետը դեղամիջոցը հասցնում է որոշակի նյարդի կամ նյարդերի խմբի շրջակայք։ Տեղային անզգայացնողը ժամանակավորապես նվազեցնում է այդ ազդակների փոխանցումը։ Որոշ դեպքերում ավելացվում է հակաբորբոքային դեղ՝ ըստ ցուցման, ոչ բոլոր բլոկադաների ժամանակ։ [1,2,8]",
+          "«Բլոկադա» բառը չի նշանակում, որ նյարդը մշտապես անջատվում կամ վնասվում է։ Այստեղ խոսքը դեղորայքային բլոկադայի մասին է․ ռադիոհաճախական և նյարդը քայքայող միջամտություններն առանձին մեթոդներ են՝ այլ ցուցումներով։ [1]"
+        ],
+        [
+          "role",
+          "Դերը ժամանակակից ցավի բժշկության մեջ",
+          "Բլոկադաները կիրառվում են վիրահատության և հետվիրահատական ցավազրկման, ինչպես նաև որոշ քրոնիկ ցավային վիճակների դեպքում։ Օրինակ՝ կարող են ընտրվել նյարդարմատի գրգռման հետ կապված որոշ ցավերի կամ գլխացավերի համար՝ մասնագետի գնահատումից հետո։ Դրանք կիրառելի են նաև որպես ախտորոշիչ քայլ՝ հասկանալու, թե որ նյարդային ուղին է մասնակցում ցավին։ [1,2,4,7]",
+          "Ժամանակակից մոտեցման առավելությունը նպատակային ընտրությունն է։ Ուլտրաձայնը, ռենտգենային կամ համակարգչային տոմոգրաֆիայի (ՀՏ) ուղղորդումը, երբ պահանջվում են տվյալ միջամտության համար, օգնում են որոշել թիրախն ու ասեղի դիրքը։ Սակայն բլոկադան բոլոր ցավերի համար չէ․ օրինակ, հստակ հատուկ պատճառ չհաստատված գոտկային ցավի դեպքում ողնաշարային ներարկումները սովորաբար չեն առաջարկվում։ [1,2,6]"
+        ],
+        [
+          "treatment",
+          "Բուժական նպատակը և արդյունքի տևողությունը",
+          "Մկանային ցավազրկող ներարկման դեպքում դեղը սովորաբար ներծծվում է մկանից և ազդում ընդհանուր օրգանիզմում։ Նյարդային բլոկադայի դեպքում դեղը տեղադրվում է ընտրված նյարդի շրջակայքում՝ որոշակի ցավային ուղու վրա ազդելու համար։ Բլոկադայի ընտրությունը պահանջում է պարզել ցավի հնարավոր աղբյուրը և որոշել համապատասխան թիրախը։ [1,2]",
+          "Բլոկադան կարող է լինել բուժման իրական մաս, նույնիսկ եթե ազդեցությունը սահմանափակ ժամանակով է։ Ցավի նվազումը կարող է հեշտացնել վերականգնողական աշխատանքը, իսկ ախտորոշիչ բլոկադայի պատասխանը՝ ուղղորդել հաջորդ բուժումը։ Բուժական նպատակը և ազդեցության տևողությունը տարբեր հարցեր են։ [2,4,6]",
+          "Տեղային անզգայացնողի ազդեցությունը հաճախ տևում է ժամեր։ Հակաբորբոքային բաղադրիչի օգուտը, եթե այն կիրառվել է, կարող է դրսևորվել ավելի ուշ։ Թեթևացումը կարող է լինել կարճ կամ ավելի երկարատև, իսկ որոշ մարդկանց մոտ նշանակալի օգուտ չի լինում։ Բլոկադան միշտ չէ, որ վերացնում է հիվանդության պատճառը կամ վերջնականապես բուժում խնդիրը։ [3,4,7]"
+        ],
+        [
+          "skill",
+          "Ինչու են կարևոր գիտելիքն ու հմտությունը",
+          "Մասնագետը պետք է գնահատի ախտանշանները, իմանա նյարդերի, անոթների ու հարակից հյուսվածքների տեղադրությունը, ընտրի միջամտությունը, դեղն ու դոզան։ Կարևոր են համապատասխան ուղղորդումը, մաշկի մշակումը, ստերիլ աշխատանքը, պացիենտի հսկողությունը և հնարավոր բարդություններին պատրաստ լինելը։ [1,2,5,8]",
+          "Նույնքան կարևոր է արդյունքի հետագա գնահատումը՝ որքան փոխվեցին ցավը, շարժունակությունն ու առօրյա հնարավորությունները։ Բլոկադան կարող է ներառվել դեղորայքի, վարժությունների և այլ բուժումների հետ համակցված ծրագրում։ [1,4,7]"
+        ],
+        [
+          "confidence",
+          "Ինչը կարող է օգնել ավելի հանգիստ որոշում կայացնել",
+          "Անհանգստանալը բնական է։ Մինչև միջամտությունը բժիշկը պետք է բացատրի՝ որ նյարդն է թիրախավորվում, ինչ օգուտ է ակնկալվում, ինչ կզգաք և ինչ այլ տարբերակներ կան։ Անհրաժեշտության դեպքում մաշկը նախ անզգայացվում է։ Որոշ բլոկադաներից հետո ժամանակավոր թմրությունը կամ ծանրության զգացումը սպասելի են․ դրանց տևողությունն ու սահմանափակումները նախապես քննարկեք։ [4,5]",
+          "Բոլոր բլոկադաները նույն տեղում չեն կատարվում, և դրանք բոլորը ողնաշարի միջամտություն չեն։ Դուք կարող եք հարցեր տալ, հայտնել վախերի մասին և որոշումը կայացնել տեղեկացված համաձայնությամբ։ Ճիշտ բացատրությունը, պատրաստված մասնագետը և անվտանգության քայլերը վստահության հիմքն են։ [1,5,7]"
+        ],
+        [
+          "safety",
+          "Անվտանգություն և նախապատրաստում",
+          "Հնարավոր են ներարկման տեղում ցավ կամ կապտուկ, ժամանակավոր թմրություն կամ թուլություն։ Կան նաև արյունահոսության, վարակի, դեղի նկատմամբ ռեակցիայի և հազվադեպ՝ նյարդի վնասման ռիսկեր։ Կոնկրետ ռիսկերը կախված են բլոկադայի տեսակից ու ձեր առողջական վիճակից։ Ուլտրաձայնային ուղղորդումը նույնպես չի վերացնում բոլոր ռիսկերը։ [5]",
+          "Բժշկին հայտնեք արյունը նոսրացնող դեղերի, ալերգիաների, շաքարային դիաբետի, վարակի, հղիության կամ դրա հավանականության մասին։ Դեղերը ինքնուրույն մի դադարեցրեք։ Նախապես ճշտեք սնվելու, տուն վերադառնալու, մեքենա վարելու և ֆիզիկական բեռի վերաբերյալ անհատական ցուցումները։ [1,3,7,8]",
+          "Միջամտությունից հետո շնչառության դժվարացումը, նոր կամ ուժեղացող թուլությունը, ջերմությունը կամ ներարկման տեղում արտահայտված կարմրությունն ու աճող ցավը պահանջում են անհետաձգելի բժշկական գնահատում։ Եթե թմրությունը չի անցնում բժշկի նշած ժամկետում, կապվեք բուժող թիմի հետ։ [5,7]"
+        ]
+      ],
+      "questions": "Ինչ հարցնել բժշկին",
+      "q": [
+        "Ո՞ր նյարդն է թիրախավորվում և ինչու։",
+        "Նպատակը բուժակա՞ն է, ախտորոշի՞չ, թե՞ երկուսն էլ։",
+        "Ի՞նչ արդյունք ու տևողություն կարելի է սպասել իմ դեպքում։",
+        "Ի՞նչ է հաջորդ քայլը՝ օգուտի կամ արդյունքի բացակայության դեպքում։"
+      ],
+      "sources": "Բժշկական աղբյուրներ",
+      "book": "Ամրագրել խորհրդատվություն",
+      "cta": "Քննարկեք՝ արդյոք նյարդային բլոկադան համապատասխանում է ձեր ցավի պատճառին և բուժման նպատակներին։"
+    },
+    "en": {
+      "title": "What Is a Nerve Block?",
+      "lead": "A targeted medical procedure to reduce pain, sometimes identify its source and support rehabilitation. Its value lies in an appropriate indication, skilled delivery and a plan to assess the result.",
+      "alt": "A specialist performs an ultrasound-guided procedure",
+      "caption": "Thematic image of an ultrasound-guided procedure.",
+      "quote": "A nerve block is a specialised procedure with a defined target, a clinical purpose and a plan to assess the outcome.",
+      "sections": [
+        [
+          "what",
+          "What happens during a nerve block?",
+          "Nerves carry pain signals to the brain. During a block, a clinician places medication around a specific nerve or group of nerves. Local anaesthetic temporarily reduces the transmission of these signals. An anti-inflammatory medicine is added in some cases when indicated; it is not needed for every block. [1,2,8]",
+          "The word “block” does not mean that the nerve is permanently switched off or damaged. This article concerns medication-based blocks. Radiofrequency and nerve-destroying procedures are separate techniques with different indications. [1]"
+        ],
+        [
+          "role",
+          "Its role in modern pain medicine",
+          "Blocks are used for surgical anaesthesia and postoperative pain relief, and for selected chronic pain conditions. For example, some nerve-root pain or headache conditions may be suitable after assessment. A block can also help identify which nerve pathway contributes to the pain. [1,2,4,7]",
+          "The strength of modern practice is targeted selection. Ultrasound, X-ray or CT guidance, when required for the procedure, helps locate the target and needle position. Blocks are not appropriate for every pain problem: for example, spinal injections are generally not recommended for non-specific low back pain. [1,2,6]"
+        ],
+        [
+          "treatment",
+          "Treatment goals and duration of benefit",
+          "An intramuscular pain-relief injection is usually absorbed from muscle to act throughout the body. A nerve block places medication around a selected nerve to act on a particular pain pathway. Choosing it involves assessing the likely pain source and identifying an appropriate target. [1,2]",
+          "A block can be a meaningful part of treatment even when its effect is time-limited. Pain relief may make rehabilitation easier; the response to a diagnostic block may guide the next treatment. Its therapeutic purpose and the duration of its effect are different questions. [2,4,6]",
+          "Local anaesthetic often works for hours. Any anti-inflammatory benefit, when that medicine is used, may develop later. Relief can be brief or longer-lasting, and some people obtain no meaningful benefit. A block does not always remove the underlying cause or permanently cure the condition. [3,4,7]"
+        ],
+        [
+          "skill",
+          "Why knowledge and skill matter",
+          "The clinician must assess symptoms, understand the position of nerves, vessels and nearby tissues, and choose the procedure, medication and dose. Appropriate guidance, skin preparation, sterile working, patient monitoring and readiness to manage complications are essential. [1,2,5,8]",
+          "Follow-up matters too: how have pain, mobility and everyday function changed? A block may form part of a combined plan involving medication, exercise and other treatments. [1,4,7]"
+        ],
+        [
+          "confidence",
+          "Making a more confident decision",
+          "Feeling anxious is natural. Beforehand, your clinician should explain the target nerve, expected benefit, what you may feel and the alternatives. The skin may be numbed first where needed. Temporary numbness or heaviness is expected after some blocks; discuss the likely duration and precautions. [4,5]",
+          "Blocks are performed at different sites; they are not all spinal procedures. You can ask questions, explain your concerns and make an informed choice. Clear explanations, a trained clinician and safety measures provide a basis for confidence. [1,5,7]"
+        ],
+        [
+          "safety",
+          "Safety and preparation",
+          "Possible effects include soreness or bruising at the injection site and temporary numbness or weakness. Risks also include bleeding, infection, reactions to medication and, rarely, nerve injury. Your particular risks depend on the block and your health. Ultrasound guidance does not remove every risk. [5]",
+          "Tell your clinician about blood-thinning medicines, allergies, diabetes, infection and pregnancy or possible pregnancy. Do not stop medicines on your own. Ask for individual instructions about eating, getting home, driving and physical activity. [1,3,7,8]",
+          "After a procedure, breathing difficulty, new or worsening weakness, fever, or marked redness and increasing pain at the injection site need urgent medical assessment. Contact the treating team if numbness lasts beyond the timeframe they advised. [5,7]"
+        ]
+      ],
+      "questions": "Questions to ask",
+      "q": [
+        "Which nerve is being targeted, and why?",
+        "Is the purpose treatment, diagnosis or both?",
+        "What benefit and duration are realistic in my case?",
+        "What comes next if the block helps—or does not help?"
+      ],
+      "sources": "Medical sources",
+      "book": "Book a consultation",
+      "cta": "Discuss whether a nerve block fits the cause of your pain and your treatment goals."
+    },
+    "ru": {
+      "title": "Что такое блокада нерва?",
+      "lead": "Прицельная медицинская процедура для уменьшения боли, иногда — уточнения её источника и поддержки реабилитации. Её ценность заключается в правильных показаниях, профессиональном выполнении и оценке результата.",
+      "alt": "Специалист выполняет процедуру под ультразвуковым контролем",
+      "caption": "Тематическое изображение процедуры под ультразвуковым контролем.",
+      "quote": "Блокада нерва — специализированная процедура с определённой мишенью, медицинской целью и планом оценки результата.",
+      "sections": [
+        [
+          "what",
+          "Что происходит во время блокады",
+          "Нервы передают болевые сигналы в мозг. При блокаде специалист вводит лекарство в область определённого нерва или группы нервов. Местный анестетик временно уменьшает передачу этих сигналов. В некоторых случаях по показаниям добавляют противовоспалительный препарат; он нужен не при каждой блокаде. [1,2,8]",
+          "Слово «блокада» не означает, что нерв навсегда отключается или повреждается. Здесь речь идёт о лекарственных блокадах. Радиочастотные и разрушающие нерв процедуры — отдельные методы с другими показаниями. [1]"
+        ],
+        [
+          "role",
+          "Место в современной медицине боли",
+          "Блокады применяют для анестезии при операциях, послеоперационного обезболивания и при некоторых хронических болевых состояниях. Например, после оценки специалиста они могут быть выбраны при определённых корешковых болях или головных болях. Блокада также может помочь выяснить, какой нервный путь участвует в боли. [1,2,4,7]",
+          "Преимущество современного подхода — прицельный выбор. Ультразвук, рентгеновский или КТ-контроль, когда они требуются для конкретной процедуры, помогают определить мишень и положение иглы. Блокада подходит не для каждой боли: например, спинальные инъекции обычно не рекомендуются при неспецифической боли в пояснице. [1,2,6]"
+        ],
+        [
+          "treatment",
+          "Лечебная цель и длительность эффекта",
+          "При внутримышечной обезболивающей инъекции лекарство обычно всасывается из мышцы и действует в организме в целом. При блокаде препарат вводят рядом с выбранным нервом, воздействуя на конкретный болевой путь. Для её выбора необходимо оценить вероятный источник боли и определить подходящую мишень. [1,2]",
+          "Блокада может быть значимой частью лечения, даже если её действие ограничено по времени. Уменьшение боли может облегчить реабилитацию, а ответ на диагностическую блокаду — помочь выбрать следующий метод. Лечебная цель и длительность эффекта — разные вопросы. [2,4,6]",
+          "Местный анестетик часто действует несколько часов. Противовоспалительный эффект, если такой препарат применялся, может проявиться позже. Облегчение бывает коротким или более длительным; некоторые люди не получают значимой пользы. Блокада не всегда устраняет причину болезни или излечивает проблему окончательно. [3,4,7]"
+        ],
+        [
+          "skill",
+          "Почему важны знания и навыки",
+          "Специалист должен оценить симптомы, знать расположение нервов, сосудов и соседних тканей, выбрать процедуру, препарат и дозу. Важны подходящий контроль положения иглы, обработка кожи, стерильная работа, наблюдение за пациентом и готовность к возможным осложнениям. [1,2,5,8]",
+          "Важна и последующая оценка: как изменились боль, подвижность и повседневные возможности? Блокада может входить в комплексный план вместе с лекарствами, упражнениями и другими методами. [1,4,7]"
+        ],
+        [
+          "confidence",
+          "Что помогает принять решение спокойнее",
+          "Тревога естественна. До процедуры врач должен объяснить, какой нерв выбран, какой эффект ожидается, что вы почувствуете и какие есть альтернативы. При необходимости кожу предварительно обезболивают. После некоторых блокад ожидаемы временное онемение или тяжесть; заранее обсудите их длительность и меры предосторожности. [4,5]",
+          "Блокады выполняют в разных областях тела, и не все они связаны с позвоночником. Вы можете задавать вопросы, рассказывать о страхах и принимать решение на основе информированного согласия. Понятные объяснения, подготовленный специалист и меры безопасности — основа доверия. [1,5,7]"
+        ],
+        [
+          "safety",
+          "Безопасность и подготовка",
+          "Возможны болезненность или синяк в месте инъекции, временное онемение или слабость. Есть также риски кровотечения, инфекции, реакции на препарат и, редко, повреждения нерва. Конкретные риски зависят от вида блокады и вашего здоровья. Ультразвуковой контроль тоже не устраняет все риски. [5]",
+          "Сообщите врачу о препаратах, разжижающих кровь, аллергии, диабете, инфекции, беременности или её вероятности. Не отменяйте лекарства самостоятельно. Уточните индивидуальные рекомендации о еде, возвращении домой, вождении и физической нагрузке. [1,3,7,8]",
+          "После процедуры затруднение дыхания, новая или усиливающаяся слабость, температура либо выраженное покраснение и нарастающая боль в месте инъекции требуют срочной медицинской оценки. Если онемение сохраняется дольше указанного врачом срока, свяжитесь с лечащей командой. [5,7]"
+        ]
+      ],
+      "questions": "Что спросить у врача",
+      "q": [
+        "На какой нерв направлена процедура и почему?",
+        "Цель — лечение, диагностика или оба варианта?",
+        "Какой эффект и длительность реалистичны в моём случае?",
+        "Каков следующий шаг при улучшении или отсутствии эффекта?"
+      ],
+      "sources": "Медицинские источники",
+      "book": "Записаться на консультацию",
+      "cta": "Обсудите, подходит ли блокада для причины вашей боли и целей лечения."
+    }
+  }
+}
