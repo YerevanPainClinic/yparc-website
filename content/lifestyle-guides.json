@@ -1,0 +1,337 @@
+{
+  "sources_checked": "2026-10-04",
+  "guides": {
+    "weight-and-pain": {
+      "image": "images/knee-pain-editorial.webp",
+      "sources": [
+        [
+          "CDC · Self-care for arthritis",
+          "https://www.cdc.gov/arthritis/caring/index.html"
+        ],
+        [
+          "WHO · Low back pain",
+          "https://www.who.int/news-room/fact-sheets/detail/low-back-pain"
+        ],
+        [
+          "NHS · Tips to help you lose weight",
+          "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/tips-to-help-you-lose-weight/"
+        ],
+        [
+          "IASP · Nutrition and chronic pain",
+          "https://www.iasp-pain.org/resources/fact-sheets/nutrition-and-chronic-pain/"
+        ],
+        [
+          "NICE NG226 · Osteoarthritis: recommendations",
+          "https://www.nice.org.uk/guidance/NG226/chapter/recommendations"
+        ],
+        [
+          "NHS · Back pain and warning signs",
+          "https://www.nhs.uk/conditions/back-pain/"
+        ]
+      ],
+      "languages": {
+        "hy": {
+          "title": "Քաշի կառավարում և ցավ",
+          "lead": "Քաշը կարող է ազդել հոդերի ծանրաբեռնվածության վրա, բայց ցավը մեկ պատճառ չունի։ Իրատեսական սովորությունները կարող են աջակցել շարժունակությանն ու բուժմանը՝ առանց մեղադրանքի և խիստ դիետաների։",
+          "alt": "Մեծահասակ մարդը նստած ձեռքը պահում է ծնկին",
+          "quote": "Նպատակը միայն կիլոգրամների նվազեցումը չէ․ կարևոր են նաև ավելի ազատ շարժումը, մկանային ուժը և կյանքի որակը։",
+          "sections": [
+            [
+              "connection",
+              "Ինչպե՞ս է քաշը կապված ցավի հետ",
+              "Ծնկներն ու կոնքազդրային հոդերը ամեն օր կրում են մարմնի ծանրությունը։ Ավելորդ քաշը կարող է մեծացնել դրանց բեռը և կապված է որոշ հոդային խնդիրների հետ։ Քաշի ու ցավի կապը միայն մեխանիկական չէ․ նշանակություն ունեն նաև ընդհանուր առողջությունը, սնունդը և այլ գործոններ։ [1,4]",
+              "Ցավ ունեցող մարդուն ճիշտ չէ ասել՝ «ամեն ինչ քաշից է»։ Քրոնիկ ցավի վրա ազդում են նաև քունը, սթրեսը, շարժման հնարավորությունները և հիվանդությունները։ Աջակցությունն ու անհատական գնահատումն ավելի օգտակար են, քան մեղադրանքը։ [2,4]"
+            ],
+            [
+              "back",
+              "Իսկ մեջքի ցավի դեպքում՞",
+              "ԱՀԿ-ն ճարպակալումը նշում է գոտկային ցավի հնարավոր ռիսկի գործոններից մեկը։ Դա չի նշանակում, որ յուրաքանչյուր մեջքի ցավի պատճառը քաշն է կամ նիհարելը պարտադիր կվերացնի այն։ Բուժումը կարող է ներառել կրթություն, հարմարեցված շարժում և այլ անհատապես ընտրված մոտեցումներ։ [2]"
+            ],
+            [
+              "target",
+              "Չափավոր փոփոխությունն էլ կարող է օգնել",
+              "Ավելորդ քաշ կամ ճարպակալում և արթրիտ ունեցող մեծահասակների համար նույնիսկ մոտ 5% քաշի նվազումը կարող է օգնել նվազեցնել ցավն ու առօրյա սահմանափակումները։ Օրինակ՝ 80 կգ քաշի 5%-ը 4 կգ է։ Սա օրինակ է, ոչ բոլորի համար նիհարելու հանձնարարություն կամ ցավի վերացման երաշխիք։ [1]",
+              "Եթե ձեր քաշը առողջ միջակայքում է, ցավի պատճառով ինքնաբերաբար նիհարելու կարիք չկա։ Եթե քաշի նվազեցումը նպատակահարմար է, ընտրեք իրատեսական նպատակ մասնագետի հետ։ Շարժվելն ու բուժում ստանալը պետք չէ հետաձգել մինչև որոշակի քաշի հասնելը։ [1,5]"
+            ],
+            [
+              "habits",
+              "Սկսենք քչից․ գործնական սովորություններ",
+              "Ընտրեք մեկ փոփոխություն՝ օրինակ քաղցր ըմպելիքի մի մասը փոխարինեք ջրով կամ հիմնական կերակուրին ավելացրեք բանջարեղեն։ Սնունդը պահեք բազմազան՝ լոբազգիներով, ամբողջական հացահատիկով և համապատասխան սպիտակուցի աղբյուրներով։ Եթե ցավը դժվարացնում է պատրաստելը, սառեցված բանջարեղենը և պարզ ուտեստները կարող են օգնել։ [3,4]",
+              "Սկսեք ձեզ հարմար շարժումից՝ կարճ քայլքից, ջրում շարժումից կամ մասնագետի ընտրած ուժային վարժություններից։ Բեռը մեծացրեք աստիճանաբար։ Կտրուկ դիետաները, «ճարպ այրող» հավելումները կամ միայն մեկ մթերքից կազմված սննդակարգը չեն փոխարինում կայուն ծրագրին։ [1,3,5]"
+            ],
+            [
+              "progress",
+              "Առաջընթացը գնահատեք ավելի լայն",
+              "Նշեք՝ ավելի հե՞շտ եք քայլում, աստիճան բարձրանում կամ առօրյա գործերը կատարում։ Քաշը կարող է դանդաղ փոխվել, մինչդեռ ուժն ու ակտիվությունն արդեն բարելավվում են։ Ընտրեք սովորություններ, որոնք հնարավոր է շարունակել երկար ժամանակ։ [1,3]"
+            ],
+            [
+              "help",
+              "Երբ է պետք մասնագետի աջակցությունը",
+              "Դիմեք բժշկի կամ սննդաբանի, եթե սննդակարգը դժվար է կառավարել, ունեք ուղեկցող հիվանդություն կամ ուզում եք քննարկել քաշի նվազեցնող դեղորայք։ Հղիության, կրծքով կերակրման կամ սննդային խանգարումների դեպքում ծրագիրը պետք է անհատականացնել։ Մի ընտրեք ուրիշի կալորիականությունը կամ դեղերը ձեզ համար։",
+              "Ցավը մի բացատրեք միայն քաշով։ Անբացատրելի քաշի կորուստը կամ պահպանվող ցավը պահանջում են գնահատում։ Մեջքի ցավի հետ նոր միզարձակման կամ աղիքների վերահսկման խանգարումը, երկու ոտքերի թուլությունը կամ լուրջ վնասվածքը շտապ օգնության պատճառ են։ [6]"
+            ]
+          ],
+          "related": "Կարդացեք նաև",
+          "cta": "Ստացեք ցավի և շարժունակության գնահատում՝ ձեր նպատակներին համապատասխան ծրագրով։"
+        },
+        "en": {
+          "title": "Weight Management and Pain",
+          "lead": "Weight can affect the load on joints, but pain has many causes. Realistic habits can support mobility and treatment without blame or crash diets.",
+          "alt": "An adult sitting with a hand resting on their knee",
+          "quote": "The goal extends beyond kilograms: easier movement, muscle strength and quality of life matter too.",
+          "sections": [
+            [
+              "connection",
+              "How are weight and pain connected?",
+              "Knees and hips carry body weight every day. Excess weight may increase their load and is associated with some joint problems. The connection is not purely mechanical: overall health, nutrition and other factors also matter. [1,4]",
+              "Telling someone that their pain is “all because of weight” is unhelpful. Sleep, stress, opportunities to move and medical conditions also affect chronic pain. Support and individual assessment are more useful than blame. [2,4]"
+            ],
+            [
+              "back",
+              "What about back pain?",
+              "WHO identifies obesity as one possible risk factor for low back pain. This does not mean weight explains every episode, or that losing weight will necessarily remove it. Care may include education, adapted activity and other individual treatments. [2]"
+            ],
+            [
+              "target",
+              "A modest change can help",
+              "For adults with overweight or obesity and arthritis, losing around 5% of body weight can help reduce pain and everyday limitations. For example, 5% of 80 kg is 4 kg. This is an illustration, not a weight-loss prescription for everyone or a guarantee of pain relief. [1]",
+              "If your weight is in a healthy range, pain does not automatically mean you need to lose weight. Where weight loss is appropriate, agree a realistic goal with a professional. You do not have to postpone movement or treatment until reaching a particular weight. [1,5]"
+            ],
+            [
+              "habits",
+              "Start small: practical habits",
+              "Choose one change: replace some sugary drinks with water, or add vegetables to a main meal. Keep food varied, with beans, wholegrains and suitable protein sources. If pain makes cooking difficult, frozen vegetables and simple dishes can help. [3,4]",
+              "Begin with activity that suits you: a short walk, movement in water or selected strength exercises. Increase the workload gradually. Crash diets, “fat-burning” supplements and single-food diets cannot replace a sustainable plan. [1,3,5]"
+            ],
+            [
+              "progress",
+              "Look beyond the scales",
+              "Track whether walking, climbing stairs or everyday tasks become easier. Weight may change slowly while strength and activity improve. Choose habits you can maintain over time. [1,3]"
+            ],
+            [
+              "help",
+              "When to get support",
+              "Talk to a clinician or dietitian if eating habits are hard to manage, you have another health condition or want to discuss weight-loss medication. Pregnancy, breastfeeding and eating disorders require an individual plan. Do not copy someone else’s calorie target or medicines.",
+              "Do not explain pain by weight alone. Unexplained weight loss or persistent pain needs assessment. Back pain with new bladder or bowel control problems, weakness in both legs or a serious accident needs emergency care. [6]"
+            ]
+          ],
+          "related": "Read also",
+          "cta": "Get a pain and mobility assessment with a plan suited to your goals."
+        },
+        "ru": {
+          "title": "Контроль веса и боль",
+          "lead": "Вес может влиять на нагрузку на суставы, но у боли много причин. Реалистичные привычки помогают поддержать подвижность и лечение без обвинений и жёстких диет.",
+          "alt": "Взрослый человек сидит, положив руку на колено",
+          "quote": "Цель — не только меньше килограммов: важны свобода движения, сила мышц и качество жизни.",
+          "sections": [
+            [
+              "connection",
+              "Как вес связан с болью",
+              "Колени и тазобедренные суставы ежедневно несут вес тела. Избыточный вес может увеличивать их нагрузку и связан с некоторыми суставными проблемами. Связь не только механическая: имеют значение общее здоровье, питание и другие факторы. [1,4]",
+              "Говорить человеку, что боль «только из-за веса», неправильно. На хроническую боль влияют также сон, стресс, возможности двигаться и заболевания. Поддержка и индивидуальная оценка полезнее обвинений. [2,4]"
+            ],
+            [
+              "back",
+              "А боль в спине?",
+              "ВОЗ указывает ожирение как один из возможных факторов риска боли в пояснице. Это не значит, что вес объясняет каждый эпизод или что похудение обязательно устранит боль. Помощь может включать обучение, адаптированное движение и другие индивидуальные методы. [2]"
+            ],
+            [
+              "target",
+              "Умеренные изменения тоже помогают",
+              "У взрослых с избыточным весом или ожирением и артритом снижение веса примерно на 5% может уменьшить боль и повседневные ограничения. Например, 5% от 80 кг — это 4 кг. Это пример, а не назначение худеть всем и не гарантия исчезновения боли. [1]",
+              "Если вес находится в здоровом диапазоне, боль не означает, что нужно автоматически худеть. Когда снижение веса целесообразно, согласуйте реалистичную цель со специалистом. Не откладывайте движение и лечение до достижения определённого веса. [1,5]"
+            ],
+            [
+              "habits",
+              "Начнём с малого: полезные привычки",
+              "Выберите одно изменение: замените часть сладких напитков водой или добавьте овощи к основному приёму пищи. Сохраняйте разнообразие: бобовые, цельные злаки и подходящие источники белка. Если из-за боли трудно готовить, могут помочь замороженные овощи и простые блюда. [3,4]",
+              "Начните с подходящего движения: короткой прогулки, занятий в воде или выбранных силовых упражнений. Увеличивайте нагрузку постепенно. Резкие диеты, «жиросжигающие» добавки и питание одним продуктом не заменяют устойчивый план. [1,3,5]"
+            ],
+            [
+              "progress",
+              "Оценивайте не только вес",
+              "Отмечайте, стало ли легче ходить, подниматься по лестнице и выполнять обычные дела. Вес может меняться медленно, пока сила и активность уже улучшаются. Выбирайте привычки, которые сможете сохранять долго. [1,3]"
+            ],
+            [
+              "help",
+              "Когда нужна поддержка",
+              "Обратитесь к врачу или диетологу, если трудно управлять питанием, есть сопутствующее заболевание или вы хотите обсудить лекарства для снижения веса. При беременности, грудном вскармливании и расстройствах пищевого поведения нужен индивидуальный план. Не копируйте чужую калорийность или лекарства.",
+              "Не объясняйте боль только весом. Необъяснимая потеря веса или сохраняющаяся боль требуют оценки. Боль в спине с новым нарушением контроля мочевого пузыря или кишечника, слабостью обеих ног либо после серьёзной травмы требует экстренной помощи. [6]"
+            ]
+          ],
+          "related": "Читайте также",
+          "cta": "Получите оценку боли и подвижности и план с учётом ваших целей."
+        }
+      }
+    },
+    "physical-activity-and-pain": {
+      "image": "images/rehabilitation-1.jpg",
+      "sources": [
+        [
+          "NHS · Back pain",
+          "https://www.nhs.uk/conditions/back-pain/"
+        ],
+        [
+          "Cochrane · Exercise for chronic low back pain",
+          "https://www.cochrane.org/evidence/CD009790_exercise-treatment-chronic-low-back-pain"
+        ],
+        [
+          "CDC · Physical activity and arthritis",
+          "https://www.cdc.gov/arthritis/prevention/index.html"
+        ],
+        [
+          "NHS inform · Coping with a flare-up of chronic pain",
+          "https://www.nhsinform.scot/illnesses-and-conditions/brain-nervs-and-spinal-cord/chronic-pain/coping-with-a-flare-up-of-chronic-pain/"
+        ],
+        [
+          "NHS inform · Exercises for back pain",
+          "https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/neck-and-back-problems-and-conditions/exercises-for-back-pain/"
+        ],
+        [
+          "WHO · Low back pain",
+          "https://www.who.int/news-room/fact-sheets/detail/low-back-pain"
+        ]
+      ],
+      "languages": {
+        "hy": {
+          "title": "Շարժվել, թե՞ հանգստանալ",
+          "lead": "Մեջքի և հոդերի ցավի դեպքում հաճախ օգտակար է շարունակել հարմարեցված շարժումը։ Հանգիստը կարող է օգնել վերականգնվել, իսկ ճիշտ չափված բեռը՝ պահպանել ուժն ու առօրյա հնարավորությունները։",
+          "alt": "Մասնագետն օգնում է կատարել ռեզինե ժապավենով վարժություն",
+          "quote": "Ընտրեք այնպիսի բեռ, որը կարողանում եք կանոնավոր կրկնել՝ հաշվի առնելով ախտանշաններն ու ձեր անհատական սահմանափակումները։",
+          "sections": [
+            [
+              "why",
+              "Ինչու շարժումը հաճախ բուժման մասն է",
+              "Շարժումը օգնում է պահպանել մկանների ուժը, հոդերի շարժունակությունը և առօրյա գործառույթը։ Քրոնիկ գոտկային ցավի դեպքում վարժությունները կարող են նվազեցնել ցավը, թեև արդյունքը տարբեր է մարդկանց միջև։ Մեջքի ցավի ժամանակ երկարատև անկողնային հանգիստը սովորաբար չի առաջարկվում։ [1,2,3]",
+              "Պետք չէ սպասել, մինչև ցավն ամբողջությամբ անցնի, որպեսզի վերադառնաք ամենօրյա փոքր գործողություններին։ Սակայն սա չի նշանակում ուժեղ ցավը անտեսել կամ ցանկացած հիվանդության դեպքում նույն ծրագրով մարզվել։ [1,6]"
+            ],
+            [
+              "rest",
+              "Երբ է հանգիստը օգտակար",
+              "Հանգիստը կարող է լինել կարճ դադար, դիրքի փոփոխություն կամ ժամանակավորապես դժվար գործողության փոխարինում ավելի թեթևով։ Քրոնիկ ցավի սրացման ժամանակ բեռի նվազեցումը և փոքր մասերի բաժանումը կարող են օգնել՝ առանց ամբողջ օրը անշարժ մնալու։ [4]",
+              "Նոր վնասվածքից կամ վիրահատությունից հետո, կամ եթե բժիշկը բեռի սահմանափակում է նշանակել, հետևեք հենց այդ ցուցումներին։ Անսովոր նոր ցավը պետք է գնահատել, ոչ ինքնաբերաբար համարել սովորական սրացում։ [1,6]"
+            ],
+            [
+              "start",
+              "Սկսենք քչից",
+              "Ընտրեք հարմար գործունեություն՝ քայլք, հանգիստ հեծանիվ, ջրում շարժում կամ հարմարեցված տնային վարժություն։ Որպես մեկնարկային օրինակ՝ կարող եք փորձել մի քանի րոպե հանգիստ քայլել, հետո գնահատել ձեր ինքնազգացողությունը։ Հատակին կատարվող վարժությունները մի ընտրեք, եթե իջնելը կամ վեր կենալը անվտանգ չէ։ [1,3,5]",
+              "Կանոնավոր փոքր չափաբաժինները հաճախ ավելի իրատեսական են, քան մեկ ծանր պարապմունքը։ Մեծահասակների ընդհանուր ակտիվության նպատակներին մոտեցեք աստիճանաբար․ պարտադիր չէ առաջին իսկ շաբաթից հասնել ամբողջ ծավալին։ Հոդային խնդիրների դեպքում մասնագետը կարող է ընտրել նաև ուժային վարժություններ։ [3]"
+            ],
+            [
+              "pace",
+              "Ինչպես չափել բեռը",
+              "Լավ օրը մի փորձեք միանգամից լրացնել բոլոր բաց թողած գործերը։ Գործողությունները բաժանեք հատվածների և նախապես ներառեք դադարներ։ Ընտրեք այնպիսի մեկնարկային բեռ, որը կարելի է կրկնել նաև հաջորդ օրերին։ [4]",
+              "Հետևեք՝ ինչպես եք զգում ձեզ պարապմունքի ընթացքում, դրանից հետո և հաջորդ առավոտ։ Թեթև անհարմարությունը հնարավոր է, բայց վարժությունը չպետք է ընդհանուր առմամբ վատացնի վիճակը կամ նոր ցավ առաջացնի։ Եթե ախտանշանները պահպանվում կամ ուժեղանում են, նվազեցրեք բեռը և վերանայեք ծրագիրը մասնագետի հետ։ [5]"
+            ],
+            [
+              "flare",
+              "Եթե ցավը ժամանակավորապես ուժեղացել է",
+              "Նախ ստուգեք՝ արդյոք սա ձեզ ծանոթ սրացում է, թե նոր կամ անսովոր ախտանշան։ Ծանոթ սրացման դեպքում ժամանակավորապես նվազեցրեք դժվար գործողությունները, պահեք հարմարավետ փոքր շարժումները և աստիճանաբար վերադարձեք ձեր սովորական ռեժիմին։ Կտրուկ ավելի ծանր մարզումը չի արագացնում վերադարձը։ [4]",
+              "Առաջընթացը գնահատեք նաև գործառույթով՝ ավելի հեշտ քայլելը, նստելը կամ աշխատանքը շարունակելը։ Եթե սրացումները կրկնվում են կամ ակտիվությունից հետո երկարատև վատացում է լինում, պետք է անհատական գնահատում։ [3,4,6]"
+            ],
+            [
+              "help",
+              "Երբ կանգ առնել և օգնություն խնդրել",
+              "Դադարեցրեք վարժությունը նոր տարածվող ցավի, թմրության, արտահայտված թուլության, գլխապտույտի կամ ինքնազգացողության վատացման դեպքում։ Եթե ցավը չի լավանում մի քանի շաբաթում կամ խանգարում է առօրյային, դիմեք մասնագետի։ [1,5]",
+              "Շտապ օգնություն է պետք մեջքի ցավի հետ միզարձակման կամ աղիքների վերահսկման նոր խանգարման, սեռական օրգանների կամ հետանցքի շուրջ զգացողության կորստի, երկու ոտքերի թուլության կամ լուրջ վնասվածքի դեպքում։ Հանկարծակի ուժեղ կամ արագ վատացող ցավը, հատկապես ջերմության հետ, պահանջում է անհետաձգելի գնահատում։ [1]"
+            ]
+          ],
+          "related": "Սկսելու համար",
+          "cta": "Ստացեք ձեր ցավին և հնարավորություններին համապատասխան շարժման ծրագիր։"
+        },
+        "en": {
+          "title": "Move or Rest?",
+          "lead": "With back or joint pain, adapted movement is often helpful. Rest can support recovery, while a suitable workload helps maintain strength and everyday function.",
+          "alt": "A specialist assists with a resistance-band exercise",
+          "quote": "Choose activity you can repeat regularly, taking account of symptoms and your individual restrictions.",
+          "sections": [
+            [
+              "why",
+              "Why movement is often part of treatment",
+              "Activity helps maintain muscle strength, joint mobility and everyday function. Exercise can reduce chronic low back pain, although benefits vary between people. Prolonged bed rest is generally not recommended for back pain. [1,2,3]",
+              "You do not always have to wait for pain to disappear before returning to small daily activities. This does not mean ignoring severe pain or following the same exercise programme for every condition. [1,6]"
+            ],
+            [
+              "rest",
+              "When rest helps",
+              "Rest can mean a short break, a change of position or temporarily replacing a difficult task with an easier one. During a chronic pain flare, reducing activity and dividing it into smaller parts may help without spending all day inactive. [4]",
+              "After a new injury or surgery, or when a clinician has set restrictions, follow those instructions. New, unusual pain needs assessment rather than automatically being labelled a familiar flare. [1,6]"
+            ],
+            [
+              "start",
+              "Start small",
+              "Choose a suitable activity: walking, gentle cycling, movement in water or adapted home exercise. As a starting example, try a few minutes of comfortable walking, then assess how you feel. Avoid floor exercises if getting down or up is unsafe. [1,3,5]",
+              "Small regular amounts are often more realistic than one demanding session. Work gradually towards general adult activity goals; you do not need to reach the full amount in your first week. A professional can also select strength exercises for joint problems. [3]"
+            ],
+            [
+              "pace",
+              "How to pace activity",
+              "On a good day, avoid trying to catch up on every missed task at once. Divide activities into sections and plan breaks. Choose a starting workload you can repeat on following days. [4]",
+              "Notice how you feel during the session, afterwards and the next morning. Mild discomfort can occur, but exercise should not make your condition worse overall or cause new pain. If symptoms persist or increase, reduce the workload and review the plan with a professional. [5]"
+            ],
+            [
+              "flare",
+              "If pain temporarily increases",
+              "First consider whether this is a familiar flare or a new, unusual symptom. For a familiar flare, temporarily reduce demanding tasks, keep small comfortable movements and gradually return to your usual routine. A sudden increase in hard exercise will not speed this up. [4]",
+              "Track function too: easier walking, sitting or continuing work. Repeated flares or prolonged worsening after activity need individual assessment. [3,4,6]"
+            ],
+            [
+              "help",
+              "When to stop and seek help",
+              "Stop for new spreading pain, numbness, significant weakness, dizziness or feeling unwell. See a professional if pain does not improve over several weeks or interferes with everyday life. [1,5]",
+              "Back pain with new bladder or bowel control problems, loss of feeling around the genitals or anus, weakness in both legs or a serious accident needs emergency care. Sudden severe or rapidly worsening pain, especially with fever, needs urgent assessment. [1]"
+            ]
+          ],
+          "related": "Getting started",
+          "cta": "Get a movement plan suited to your pain and current abilities."
+        },
+        "ru": {
+          "title": "Двигаться или отдыхать?",
+          "lead": "При боли в спине или суставах часто полезно сохранять адаптированное движение. Отдых поддерживает восстановление, а подходящая нагрузка помогает сохранять силу и повседневные возможности.",
+          "alt": "Специалист помогает выполнять упражнение с эластичной лентой",
+          "quote": "Выбирайте нагрузку, которую можете повторять регулярно, с учётом симптомов и индивидуальных ограничений.",
+          "sections": [
+            [
+              "why",
+              "Почему движение часто входит в лечение",
+              "Активность помогает сохранять силу мышц, подвижность суставов и повседневные функции. Упражнения могут уменьшать хроническую боль в пояснице, хотя эффект индивидуален. При боли в спине длительный постельный режим обычно не рекомендуется. [1,2,3]",
+              "Не всегда нужно ждать полного исчезновения боли, чтобы вернуться к небольшим повседневным действиям. Это не означает игнорировать сильную боль или использовать одну программу при всех заболеваниях. [1,6]"
+            ],
+            [
+              "rest",
+              "Когда отдых полезен",
+              "Отдыхом может быть короткий перерыв, смена положения или временная замена трудного действия более лёгким. При обострении хронической боли уменьшение нагрузки и её разделение на небольшие части могут помочь без полной неподвижности на весь день. [4]",
+              "После новой травмы или операции либо при назначенных врачом ограничениях следуйте именно этим рекомендациям. Новую необычную боль нужно оценить, а не автоматически считать привычным обострением. [1,6]"
+            ],
+            [
+              "start",
+              "Начнём с малого",
+              "Выберите подходящее занятие: ходьбу, спокойную езду на велосипеде, движение в воде или адаптированные домашние упражнения. Как пример начала, попробуйте несколько минут комфортной ходьбы и оцените самочувствие. Избегайте упражнений на полу, если опускаться и подниматься небезопасно. [1,3,5]",
+              "Небольшая регулярная нагрузка часто реалистичнее одной тяжёлой тренировки. Приближайтесь к общим целям активности для взрослых постепенно: не нужно достигать полного объёма в первую неделю. При суставных проблемах специалист может подобрать и силовые упражнения. [3]"
+            ],
+            [
+              "pace",
+              "Как дозировать нагрузку",
+              "В хороший день не пытайтесь сразу выполнить все пропущенные дела. Разделяйте действия на части и заранее планируйте перерывы. Выберите начальную нагрузку, которую сможете повторять и в следующие дни. [4]",
+              "Оценивайте самочувствие во время занятия, после него и следующим утром. Небольшой дискомфорт возможен, но упражнения не должны ухудшать состояние в целом или вызывать новую боль. Если симптомы сохраняются или усиливаются, уменьшите нагрузку и пересмотрите программу со специалистом. [5]"
+            ],
+            [
+              "flare",
+              "Если боль временно усилилась",
+              "Сначала определите, похоже ли это на знакомое обострение или появился новый необычный симптом. При привычном обострении временно уменьшите сложные действия, сохраняйте небольшие комфортные движения и постепенно возвращайтесь к обычному режиму. Резкая тяжёлая тренировка не ускорит возвращение. [4]",
+              "Оценивайте и функцию: стало ли легче ходить, сидеть или продолжать работу. Повторные обострения либо длительное ухудшение после активности требуют индивидуальной оценки. [3,4,6]"
+            ],
+            [
+              "help",
+              "Когда остановиться и обратиться за помощью",
+              "Прекратите упражнение при новой распространяющейся боли, онемении, выраженной слабости, головокружении или плохом самочувствии. Если боль не улучшается несколько недель или мешает обычной жизни, обратитесь к специалисту. [1,5]",
+              "Боль в спине с новым нарушением контроля мочевого пузыря или кишечника, потерей чувствительности вокруг половых органов или ануса, слабостью обеих ног либо после серьёзной травмы требует экстренной помощи. Внезапная сильная или быстро нарастающая боль, особенно с температурой, требует срочной оценки. [1]"
+            ]
+          ],
+          "related": "С чего начать",
+          "cta": "Получите программу движения с учётом боли и ваших возможностей."
+        }
+      }
+    }
+  }
+}
