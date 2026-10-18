@@ -2261,7 +2261,7 @@
           ◯ &nbsp; Личный кабинет
         </a>
 
-        <a href="#appointment" class="btn btn-primary">
+        <a href="booking-ru.html" class="btn btn-primary">
           Записаться →
         </a>
 
@@ -2301,7 +2301,7 @@
     <a href="#resources" onclick="toggleMenu()">Материалы</a>
     <a href="#contact" onclick="toggleMenu()">Контакты</a>
 
-    <a href="#appointment" class="btn btn-primary" onclick="toggleMenu()">
+    <a href="booking-ru.html" class="btn btn-primary" onclick="toggleMenu()">
       Записаться на приём
     </a>
 
@@ -2332,7 +2332,7 @@
         </p>
 
         <div class="hero-buttons">
-          <a href="#appointment" class="btn btn-primary">
+          <a href="booking-ru.html" class="btn btn-primary">
             Записаться на консультацию →
           </a>
 
@@ -2739,11 +2739,11 @@
             </div>
 
             <h2 class="section-title">
-              Мы готовы помочь.
+              Запишитесь на приём онлайн.
             </h2>
 
             <p class="section-text">
-              Свяжитесь с YPARC или оставьте заявку на приём.
+              Выберите удобный день и свободное время в нашей системе онлайн-записи.
             </p>
 
 
@@ -2766,65 +2766,14 @@
           </div>
 
 
-          <form
-            class="appointment-form"
-            onsubmit="appointmentSubmit(event)"
-          >
-
-            <input
-              type="text"
-              placeholder="Имя и фамилия"
-              required
-            >
-
-            <input
-              type="tel"
-              placeholder="Номер телефона"
-              required
-            >
-
-            <select required>
-
-              <option value="">
-                Выберите услугу
-              </option>
-
-              <option>
-                Консультация по лечению боли
-              </option>
-
-              <option>
-                Interventional Pain Лечение
-              </option>
-
-              <option>
-                Физиотерапия
-              </option>
-
-              <option>
-                Реабилитация
-              </option>
-
-            </select>
-
-            <input
-              type="date"
-              required
-            >
-
-            <textarea
-              class="full"
-              placeholder="Чем мы можем помочь? (необязательно)"
-            ></textarea>
-
-            <button
-              class="btn btn-primary full"
-              type="submit"
-            >
-              Отправить заявку →
-            </button>
-
-          </form>
+          <div class="appointment-booking" style="display:flex;flex-direction:column;justify-content:center;gap:16px;min-width:0;">
+            <div style="padding:22px;border:1px solid rgba(11,79,60,.12);border-radius:18px;background:#fff;">
+              <div style="font-size:11px;font-weight:800;letter-spacing:.14em;color:#0b4f3c;margin-bottom:10px;">ОНЛАЙН-ЗАПИСЬ</div>
+              <h3 style="font-size:24px;line-height:1.2;font-family:Georgia,serif;color:#06392c;margin-bottom:10px;overflow-wrap:anywhere;">Консультация специалиста по боли</h3>
+              <p style="font-size:14px;color:#66736e;">30 минут</p>
+            </div>
+            <a href="booking-ru.html" class="btn btn-primary" style="text-align:center;">Выбрать дату и время →</a>
+          </div>
 
         </div>
 
@@ -2882,7 +2831,7 @@
           <h4>Пациентам</h4>
 
           <ul>
-            <li><a href="#appointment">Записаться на приём</a></li>
+            <li><a href="booking-ru.html">Записаться на приём</a></li>
             <li><a href="#">Личный кабинет</a></li>
             <li><a href="#resources">Материалы для пациентов</a></li>
             <li><a href="#">Часто задаваемые вопросы</a></li>
@@ -2944,17 +2893,6 @@
     }
 
 
-    function appointmentSubmit(event) {
-
-      event.preventDefault();
-
-      alert(
-        "Спасибо. Ваша заявка на приём получена."
-      );
-
-      event.target.reset();
-
-    }
 
   </script>
 

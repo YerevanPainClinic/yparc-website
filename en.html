@@ -2261,7 +2261,7 @@
           ◯ &nbsp; Patient Login
         </a>
 
-        <a href="#appointment" class="btn btn-primary">
+        <a href="booking-en.html" class="btn btn-primary">
           Book Appointment →
         </a>
 
@@ -2301,7 +2301,7 @@
     <a href="#resources" onclick="toggleMenu()">Resources</a>
     <a href="#contact" onclick="toggleMenu()">Contact</a>
 
-    <a href="#appointment" class="btn btn-primary" onclick="toggleMenu()">
+    <a href="booking-en.html" class="btn btn-primary" onclick="toggleMenu()">
       Book an Appointment
     </a>
 
@@ -2332,7 +2332,7 @@
         </p>
 
         <div class="hero-buttons">
-          <a href="#appointment" class="btn btn-primary">
+          <a href="booking-en.html" class="btn btn-primary">
             Book a Consultation →
           </a>
 
@@ -2749,11 +2749,11 @@
             </div>
 
             <h2 class="section-title">
-              We're Here to Help.
+              Book your appointment online.
             </h2>
 
             <p class="section-text">
-              Contact YPARC or request an appointment with our team.
+              Choose an available day and time in our online booking system.
             </p>
 
 
@@ -2776,65 +2776,14 @@
           </div>
 
 
-          <form
-            class="appointment-form"
-            onsubmit="appointmentSubmit(event)"
-          >
-
-            <input
-              type="text"
-              placeholder="Full Name"
-              required
-            >
-
-            <input
-              type="tel"
-              placeholder="Phone Number"
-              required
-            >
-
-            <select required>
-
-              <option value="">
-                Select Service
-              </option>
-
-              <option>
-                Pain Consultation
-              </option>
-
-              <option>
-                Interventional Pain Treatment
-              </option>
-
-              <option>
-                Physiotherapy
-              </option>
-
-              <option>
-                Rehabilitation
-              </option>
-
-            </select>
-
-            <input
-              type="date"
-              required
-            >
-
-            <textarea
-              class="full"
-              placeholder="How can we help? (optional)"
-            ></textarea>
-
-            <button
-              class="btn btn-primary full"
-              type="submit"
-            >
-              Request Appointment →
-            </button>
-
-          </form>
+          <div class="appointment-booking" style="display:flex;flex-direction:column;justify-content:center;gap:16px;min-width:0;">
+            <div style="padding:22px;border:1px solid rgba(11,79,60,.12);border-radius:18px;background:#fff;">
+              <div style="font-size:11px;font-weight:800;letter-spacing:.14em;color:#0b4f3c;margin-bottom:10px;">ONLINE BOOKING</div>
+              <h3 style="font-size:24px;line-height:1.2;font-family:Georgia,serif;color:#06392c;margin-bottom:10px;overflow-wrap:anywhere;">Pain specialist consultation</h3>
+              <p style="font-size:14px;color:#66736e;">30 minutes</p>
+            </div>
+            <a href="booking-en.html" class="btn btn-primary" style="text-align:center;">Choose a date and time →</a>
+          </div>
 
         </div>
 
@@ -2893,7 +2842,7 @@
           <h4>Patients</h4>
 
           <ul>
-            <li><a href="#appointment">Book Appointment</a></li>
+            <li><a href="booking-en.html">Book Appointment</a></li>
             <li><a href="#">Patient Login</a></li>
             <li><a href="#resources">Patient Resources</a></li>
             <li><a href="#">Frequently Asked Questions</a></li>
@@ -2955,17 +2904,6 @@
     }
 
 
-    function appointmentSubmit(event) {
-
-      event.preventDefault();
-
-      alert(
-        "Thank you. Your appointment request has been received."
-      );
-
-      event.target.reset();
-
-    }
 
   </script>
 
