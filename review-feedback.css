@@ -1,0 +1,8 @@
+/* Patient feedback form */
+.review-feedback{margin:32px auto 0;width:min(1180px,100%);padding:28px;border:1px solid #d9e3dd;border-radius:20px;background:#fff;color:#123d32;scroll-margin-top:110px;box-sizing:border-box}
+.review-feedback summary{cursor:pointer;display:list-item;list-style-position:inside;font:700 17px/1.5 Inter,Arial,sans-serif;color:#0b4f3c;padding:12px 18px;background:#f0f5f1;border-radius:12px}
+.review-feedback summary:hover{background:#e5eee8}.review-feedback summary:focus-visible,.review-feedback a:focus-visible{outline:3px solid #b58a32;outline-offset:4px}
+.review-feedback h3{font:400 30px/1.25 Georgia,serif;margin:26px 0 12px;color:#0b4f3c}.review-feedback p{font:400 15px/1.75 Inter,Arial,sans-serif;max-width:850px;color:#52665d}
+.review-feedback iframe{display:block;width:100%;height:1120px;border:0;margin:20px 0 0;background:#fafafa;border-radius:12px}
+.review-feedback .review-form-link{display:inline-block;margin-top:8px;font-weight:700;color:#0b4f3c;text-decoration:underline}.review-feedback-wrap{padding:48px 20px;background:#f6f3eb}
+@media(max-width:600px){.review-feedback{padding:18px 12px}.review-feedback summary{font-size:16px}.review-feedback iframe{height:1350px}.review-feedback h3{font-size:26px}}
