@@ -6,6 +6,13 @@ from html import escape as e
 R=Path(__file__).resolve().parents[1]
 D=json.loads((R/'content/conditions.json').read_text())
 by={x['slug']:x for x in D}
+assert len(by)==len(D), 'Duplicate condition slug'
+for topic in D:
+ for lang in ['hy','en','ru']:
+  for field in ['title','intro','assessment','assessment_detail','care','care_detail']:
+   assert topic.get(field,{}).get(lang,'').strip(), (topic['slug'],field,lang)
+  assert len(topic['symptoms'][lang])>=5, (topic['slug'],lang)
+ assert topic.get('sources'), topic['slug']
 L={
 'hy': dict(home='Գլխավոր',about='Մեր մասին',conditions='Ցավային վիճակներ',booking='Գրանցվել այցի',patient='Պացիենտի մուտք',symptoms='Ինչ կարող եք զգալ',assessment='Ինչպես է գնահատվում',care='Բուժման մոտեցումներ',urgent='Երբ դիմել անհետաձգելի օգնության',related='Առնչվող թեմաներ',note='Կարևոր է իմանալ',read='Լրացուցիչ ընթերցում',disclaimer='Տեղեկատվությունը կրթական է և չի փոխարինում անհատական բժշկական գնահատմանը։ Ախտանշանների նմանությունը ինքնուրույն ախտորոշման հիմք չէ։',search='Փնտրել ցավային վիճակ',all='Բոլորը',intro='Գտեք համապատասխան թեման ըստ տեղակայման կամ ցավի տեսակի։ Յուրաքանչյուր էջում՝ բնորոշ նշաններ, գնահատում, բուժման մոտեցումներ և ուշադրություն պահանջող իրավիճակներ։',empty='Համապատասխան թեմա չի գտնվել։',address='Պուշկին 56/1, Երևան',toc='Այս էջում',image='Թեմատիկ պատկեր',caption='Պատկերը թեմատիկ նկարազարդում է։',contact='Կապ և այցի գրանցում'),
 'en': dict(home='Home',about='About us',conditions='Pain conditions',booking='Book a visit',patient='Patient access',symptoms='What you may feel',assessment='How it is assessed',care='Approaches to care',urgent='When to seek urgent help',related='Related topics',note='Good to know',read='Further reading',disclaimer='This is educational information and does not replace an individual medical assessment. Similar symptoms alone do not establish a diagnosis.',search='Search pain conditions',all='All topics',intro='Find a topic by location or type of pain. Each page explains typical symptoms, assessment, approaches to care and situations needing prompt attention.',empty='No matching topics found.',address='56/1 Pushkin Street, Yerevan',toc='On this page',image='Illustrative image',caption='Image used as a thematic illustration.',contact='Contact and appointments'),
@@ -25,13 +32,9 @@ WARN={
 'lower':['Ոտքին հենվելու անկարողությունը վնասվածքից հետո, տաք ու կարմիր հոդը՝ ջերմությամբ, կամ հանկարծակի սառը ու գունատ ոտքը պահանջում են անհետաձգելի գնահատում։','Inability to bear weight after injury, a hot red joint with fever, or a suddenly cold pale foot need urgent assessment.','Невозможность опереться на ногу после травмы, горячий красный сустав с лихорадкой или внезапно холодная бледная стопа требуют срочной оценки.'],
 'nerve':['Հանկարծակի կամ արագ աճող թուլությունը, զգացողության կտրուկ կորուստը կամ նոր միզարձակման ու կղազատման խանգարումը պահանջում են անհետաձգելի գնահատում։','Sudden or rapidly increasing weakness, abrupt loss of sensation or new bladder or bowel problems need immediate assessment.','Внезапная или быстро нарастающая слабость, резкая потеря чувствительности или новые нарушения мочеиспускания и дефекации требуют немедленной оценки.'],
 'recovery':['Վերքի կարմրությունը կամ արտահոսքը, ջերմությունը, արագ ուժեղացող ցավը կամ նոր թուլությունը պետք է արագ գնահատել։ Հանկարծակի շնչահեղձության կամ կրծքային ցավի դեպքում դիմեք շտապ օգնության։','Wound redness or discharge, fever, rapidly worsening pain or new weakness need prompt assessment. Sudden breathlessness or chest pain requires emergency care.','Покраснение или выделения из раны, лихорадка, быстро усиливающаяся боль или новая слабость требуют быстрой оценки. При внезапной одышке или боли в груди нужна экстренная помощь.']}
-SOURCES={
-'back-pain':'https://www.nhs.uk/conditions/back-pain/', 'neck-pain':'https://www.nhs.uk/symptoms/neck-pain-and-stiff-neck/', 'sciatica':'https://www.nhs.uk/conditions/sciatica/', 'headache':'https://www.nhs.uk/symptoms/headaches/', 'shoulder-pain':'https://www.nhs.uk/symptoms/shoulder-pain/', 'knee-pain':'https://www.nhs.uk/symptoms/knee-pain/', 'hip-pain':'https://www.nhs.uk/symptoms/hip-pain/', 'heel-pain':'https://www.nhs.uk/symptoms/foot-pain/heel-pain/', 'plantar-fasciitis':'https://www.nhs.uk/conditions/plantar-fasciitis/', 'carpal-tunnel':'https://www.nhs.uk/conditions/carpal-tunnel-syndrome/', 'crps':'https://www.nhs.uk/conditions/complex-regional-pain-syndrome/', 'pudendal-neuralgia':'https://www.nhs.uk/conditions/pudendal-neuralgia/', 'postherpetic-neuralgia':'https://www.nhs.uk/conditions/post-herpetic-neuralgia/', 'trigeminal-neuralgia':'https://www.nhs.uk/conditions/trigeminal-neuralgia/', 'mortons-neuroma':'https://www.nhs.uk/conditions/mortons-neuroma/', 'gluteal-tendinopathy':'https://www.cuh.nhs.uk/patient-information/gluteal-tendinopathy/', 'persistent-facial-pain':'https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/persistent-idiopathic-facial-pain/'}
-for s in ['post-amputation-pain','phantom-limb-pain','residual-limb-pain']: SOURCES[s]='https://www.nhs.uk/tests-and-treatments/amputation/'
-for s in ['peripheral-neuropathic-pain','diabetic-neuropathic-pain','neuropathic-pain']: SOURCES[s]='https://www.nhs.uk/conditions/peripheral-neuropathy/'
 def link(slug,l,label=None): return f'<a href="{slug}-{l}.html">{e(label or by[slug]["title"][l])}</a>'
 def shell(slug,l,title,description,body):
- t=L[l];home='hy.html' if l=='hy' else f'{l}.html'
+ t=L[l];home='index.html' if l=='hy' else f'{l}.html'
  languages=''.join(f'<a href="{slug}-{other}.html" lang="{other}" hreflang="{other}"'+(' aria-current="page"' if l==other else '')+f'>{other.upper()}</a>' for other in L)
  alternates=''.join(f'<link rel="alternate" hreflang="{other}" href="https://painclinic.am/{slug}-{other}.html">' for other in L)
  return f'''<!doctype html>
@@ -48,9 +51,11 @@ def detail(x,l):
  symptoms=''.join(f'<li>{e(s)}</li>' for s in x['symptoms'][l])
  note=f'<aside class="note"><strong>{t["note"]}</strong><p>{e(x["note"][l])}</p></aside>' if x.get('note') else ''
  related=''.join(link(s,l) for s in x['related'])
- source=f'<p class="source">{t["read"]}: <a href="{SOURCES[slug]}">NHS</a></p>' if slug in SOURCES else ''
+ urgent=x.get('urgent',{}).get(l,WARN[x['group']][{'hy':0,'en':1,'ru':2}[l]])
+ sources=" · ".join(f'<a href="{e(item["url"],quote=True)}">{e(item["name"])}</a>' for item in x["sources"])
+ source=f'<p class="source">{t["read"]}: {sources}</p>'
  body=f'''<section class="hero"><div class="wrap"><div class="breadcrumb"><a href="conditions-{l}.html">{t['conditions']}</a> / {e(group(x['group'],l))}</div><div class="hero-grid {'with-image' if image else ''}"><div><p class="eyebrow">{e(group(x['group'],l))}</p><h1>{e(title)}</h1><p class="intro">{e(x['intro'][l])}</p><a class="button" href="booking-{l}.html">{t['booking']}</a></div>{image}</div></div></section>
-<div class="wrap article-layout"><aside class="contents"><strong>{t['toc']}</strong>{toc}</aside><article><section id="symptoms"><span class="number">01</span><h2>{t['symptoms']}</h2><ul class="symptoms">{symptoms}</ul></section><section id="assessment"><span class="number">02</span><h2>{t['assessment']}</h2><p>{e(x['assessment'][l])}</p></section><section id="care"><span class="number">03</span><h2>{t['care']}</h2><p>{e(x['care'][l])}</p>{note}</section><section id="urgent" class="urgent"><h2>{t['urgent']}</h2><p>{WARN[x['group']][{'hy':0,'en':1,'ru':2}[l]]}</p></section><section class="related"><h2>{t['related']}</h2><div>{related}</div></section>{source}<p class="disclaimer">{t['disclaimer']}</p></article></div>'''
+<div class="wrap article-layout"><aside class="contents"><strong>{t['toc']}</strong>{toc}</aside><article><section id="symptoms"><span class="number">01</span><h2>{t['symptoms']}</h2><ul class="symptoms">{symptoms}</ul></section><section id="assessment"><span class="number">02</span><h2>{t['assessment']}</h2><p>{e(x['assessment'][l])}</p><p>{e(x['assessment_detail'][l])}</p></section><section id="care"><span class="number">03</span><h2>{t['care']}</h2><p>{e(x['care'][l])}</p><p>{e(x['care_detail'][l])}</p>{note}</section><section id="urgent" class="urgent"><h2>{t['urgent']}</h2><p>{e(urgent)}</p></section><section class="related"><h2>{t['related']}</h2><div>{related}</div></section>{source}<p class="disclaimer">{t['disclaimer']}</p></article></div>'''
  return shell(slug,l,title,x['intro'][l],body)
 def catalogue(l):
  t=L[l];sections='';filters=''

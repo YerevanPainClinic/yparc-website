@@ -14,22 +14,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ցավ կռանալիս կամ ուղղվելիս",
-        "Ցավ երկար նստելիս կամ կանգնելիս",
-        "Դեպի ոտք տարածվող ցավ",
-        "Թմրածություն, ծակծկոց կամ ուժի փոփոխություն"
+        "Գոտկատեղի բութ ցավ, ձգվածություն կամ շարժվելիս սուր ծակոց։",
+        "Կռանալը, ծանրություն բարձրացնելը կամ երկար նստելը կարող են ուժեղացնել ցավը։",
+        "Հանգստից հետո երբեմն դժվար է ուղղվել կամ սկսել քայլել։",
+        "Ցավը երբեմն տարածվում է հետույք կամ ոտք՝ թմրածությամբ կամ ծակծկոցով։",
+        "Նշեք՝ ցավն ազդո՞ւմ է քնի, քայլելու կամ առօրյա գործերի վրա։"
       ],
       "en": [
-        "Pain when bending or straightening",
-        "Pain with prolonged sitting or standing",
-        "Pain spreading down the leg",
-        "Numbness, tingling or a change in strength"
+        "A dull lumbar ache, tightness or a sharp catch with movement.",
+        "Bending, lifting or prolonged sitting may aggravate the pain.",
+        "Straightening up or starting to walk may feel stiff after rest.",
+        "Pain may spread into the buttock or leg with tingling or numbness.",
+        "Note whether pain disrupts sleep, walking or everyday tasks."
       ],
       "ru": [
-        "Боль при наклонах или выпрямлении",
-        "Боль при длительном сидении или стоянии",
-        "Боль, распространяющаяся в ногу",
-        "Онемение, покалывание или изменение силы"
+        "Ноющая боль в пояснице, напряжение или резкий прострел при движении.",
+        "Наклоны, подъём тяжестей или долгое сидение могут усиливать боль.",
+        "После отдыха бывает трудно выпрямиться или начать ходить из-за скованности.",
+        "Боль иногда распространяется в ягодицу или ногу с покалыванием или онемением.",
+        "Отметьте, мешает ли боль сну, ходьбе или повседневным делам."
       ]
     },
     "assessment": {
@@ -50,6 +53,22 @@
       "hy": "MRI-ի փոփոխությունները միշտ չէ, որ բացատրում են ցավը կամ նշանակում վիրահատության անհրաժեշտություն։",
       "en": "MRI changes do not always explain the pain or mean that surgery is needed.",
       "ru": "Изменения на МРТ не всегда объясняют боль или означают необходимость операции."
+    },
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/conditions/back-pain/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նշեք՝ երբ է սկսվել ցավը, որ դիրքերն են այն փոխում, և կա՞ դեպի վերջույթ տարածում։ Նախկին հետազոտությունների պատասխանները ներկայացրեք բժշկին։",
+      "en": "Describe when pain began, which positions change it and whether it spreads into a limb. Bring any previous investigation reports.",
+      "ru": "Расскажите, когда началась боль, какие положения её меняют и отдаёт ли она в конечность. Возьмите прежние результаты исследований."
+    },
+    "care_detail": {
+      "hy": "Ծրագրի ընթացքը գնահատվում է նաև քնի, քայլքի և սովորական գործերին վերադառնալու հնարավորությամբ։ Բժշկին հայտնեք՝ ինչն է օգնել կամ վատացրել վիճակը։",
+      "en": "Progress is also reviewed through sleep, walking and return to usual tasks. Tell your clinician what has helped or aggravated symptoms.",
+      "ru": "Ход лечения оценивают также по сну, ходьбе и возвращению к привычным делам. Сообщайте врачу, что помогло или ухудшило состояние."
     }
   },
   {
@@ -67,22 +86,25 @@
     },
     "symptoms": {
       "hy": [
-        "Տեղային ցավ կամ կոշտություն",
-        "Գլուխը շրջելու սահմանափակում",
-        "Դեպի ուս կամ ձեռք տարածվող ցավ",
-        "Ձեռքի թմրածություն, ծակծկոց կամ թուլություն"
+        "Պարանոցի տեղային ցավ կամ կոշտություն՝ մեկ կամ երկու կողմում։",
+        "Գլուխը շրջելը կամ հետ նայելը կարող է ցավոտ ու սահմանափակ լինել։",
+        "Համակարգչի առաջ կամ նույն դիրքում երկար մնալը կարող է ուժեղացնել գանգատները։",
+        "Ցավը երբեմն տարածվում է դեպի ուս, թիակ կամ գլխի հետին հատված։",
+        "Ձեռքի թմրածությունը, ծակծկոցը կամ թուլությունը պետք է առանձին հայտնել բժշկին։"
       ],
       "en": [
-        "Local pain or stiffness",
-        "Difficulty turning the head",
-        "Pain spreading to the shoulder or arm",
-        "Arm numbness, tingling or weakness"
+        "Local neck pain or stiffness on one or both sides.",
+        "Turning the head or looking behind may be painful or limited.",
+        "Prolonged computer work or a fixed position may worsen symptoms.",
+        "Pain may spread towards the shoulder, shoulder blade or back of the head.",
+        "Tell the clinician separately about arm tingling, numbness or weakness."
       ],
       "ru": [
-        "Местная боль или скованность",
-        "Ограничение поворота головы",
-        "Боль, распространяющаяся в плечо или руку",
-        "Онемение, покалывание или слабость в руке"
+        "Местная боль или скованность шеи с одной или обеих сторон.",
+        "Повороты головы и взгляд назад могут быть болезненными или ограниченными.",
+        "Длительная работа за компьютером или неподвижная поза могут усиливать жалобы.",
+        "Боль может распространяться в плечо, лопатку или затылок.",
+        "Об онемении, покалывании или слабости в руке отдельно сообщите врачу."
       ]
     },
     "assessment": {
@@ -99,7 +121,28 @@
       "back-pain",
       "shoulder-pain"
     ],
-    "image": "neck"
+    "image": "neck",
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/symptoms/neck-pain-and-stiff-neck/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նշեք՝ երբ է սկսվել ցավը, որ դիրքերն են այն փոխում, և կա՞ դեպի վերջույթ տարածում։ Նախկին հետազոտությունների պատասխանները ներկայացրեք բժշկին։",
+      "en": "Describe when pain began, which positions change it and whether it spreads into a limb. Bring any previous investigation reports.",
+      "ru": "Расскажите, когда началась боль, какие положения её меняют и отдаёт ли она в конечность. Возьмите прежние результаты исследований."
+    },
+    "care_detail": {
+      "hy": "Ծրագրի ընթացքը գնահատվում է նաև քնի, քայլքի և սովորական գործերին վերադառնալու հնարավորությամբ։ Բժշկին հայտնեք՝ ինչն է օգնել կամ վատացրել վիճակը։",
+      "en": "Progress is also reviewed through sleep, walking and return to usual tasks. Tell your clinician what has helped or aggravated symptoms.",
+      "ru": "Ход лечения оценивают также по сну, ходьбе и возвращению к привычным делам. Сообщайте врачу, что помогло или ухудшило состояние."
+    },
+    "urgent": {
+      "hy": "Նոր կամ աճող ձեռքի ու ոտքի թուլությունը, քայլքի կամ ձեռքերի ճարպկության կտրուկ վատացումը և ծանր վնասվածքից հետո ցավը պահանջում են անհետաձգելի գնահատում։ Ջերմությամբ պարանոցի կոշտության ու ուժեղ գլխացավի դեպքում դիմեք շտապ օգնության։",
+      "en": "New or increasing arm or leg weakness, worsening walking or hand coordination, or pain after major trauma needs urgent assessment. A stiff neck with fever and severe headache requires emergency help.",
+      "ru": "Новая или нарастающая слабость рук или ног, ухудшение ходьбы или координации кистей, боль после серьёзной травмы требуют срочной оценки. Скованность шеи с температурой и сильной головной болью требует экстренной помощи."
+    }
   },
   {
     "slug": "headache",
@@ -116,22 +159,25 @@
     },
     "symptoms": {
       "hy": [
-        "Սեղմող կամ զարկող ցավ",
-        "Միակողմանի կամ երկկողմանի տեղակայում",
-        "Սրտխառնոց, լույսի կամ ձայնի նկատմամբ զգայունություն",
-        "Պարանոցի շարժումների հետ կապ կամ ծոծրակային ցավ"
+        "Ցավը կարող է լինել սեղմող, զարկող կամ ծակող՝ տարբեր գլխացավերի դեպքում։",
+        "Այն կարող է տեղակայվել մի կողմում, երկու կողմում կամ ծոծրակում։",
+        "Որոշ նոպաներին միանում են սրտխառնոցը և լույսից կամ ձայնից անհանգստությունը։",
+        "Ֆիզիկական ակտիվությունը կամ պարանոցի շարժումները կարող են փոխել ցավը՝ կախված տեսակից։",
+        "Կարևոր է գրանցել նոպաների տևողությունը, հաճախականությունն ու ընդունած ցավազրկողները։"
       ],
       "en": [
-        "Pressing or throbbing pain",
-        "Pain on one or both sides",
-        "Nausea or sensitivity to light or sound",
-        "A link with neck movement or pain at the back of the head"
+        "Different headaches may feel pressing, throbbing or stabbing.",
+        "Pain may affect one side, both sides or the back of the head.",
+        "Some attacks bring nausea or sensitivity to light or sound.",
+        "Activity or neck movement may change the pain, depending on its type.",
+        "Record attack duration, frequency and which painkillers you take."
       ],
       "ru": [
-        "Давящая или пульсирующая боль",
-        "Боль с одной или обеих сторон",
-        "Тошнота, чувствительность к свету или звуку",
-        "Связь с движениями шеи или боль в затылке"
+        "При разных видах головной боли ощущения бывают давящими, пульсирующими или колющими.",
+        "Боль бывает с одной стороны, с обеих сторон или в затылке.",
+        "Некоторые приступы сопровождаются тошнотой, чувствительностью к свету или звуку.",
+        "Активность или движения шеи могут менять боль в зависимости от её вида.",
+        "Записывайте длительность и частоту приступов, а также принятые обезболивающие."
       ]
     },
     "assessment": {
@@ -152,6 +198,22 @@
       "hy": "Հաճախակի ցավազրկող օգտագործումը երբեմն կարող է պահպանել կամ ուժեղացնել գլխացավերը։ Դեղերի փոփոխությունը քննարկեք բժշկի հետ։",
       "en": "Frequent painkiller use can sometimes maintain or worsen headaches. Discuss medication changes with a clinician.",
       "ru": "Частое применение обезболивающих иногда поддерживает или усиливает головную боль. Изменение лекарств обсудите с врачом."
+    },
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/symptoms/headaches/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Օգտակար է նախապես գրանցել ցավի տեղը, նոպաների տևողությունն ու հաճախականությունը, հնարավոր հարուցիչները և ընդունած դեղերը։ Նշեք նաև նախկին ատամնաբուժական կամ այլ միջամտությունները։",
+      "en": "Record the pain location, attack duration and frequency, possible triggers and medicines used. Mention previous dental or other procedures.",
+      "ru": "Запишите расположение боли, длительность и частоту приступов, возможные провокаторы и принятые лекарства. Укажите прежние стоматологические и другие вмешательства."
+    },
+    "care_detail": {
+      "hy": "Հետևեք ոչ միայն ցավի ուժգնությանը, այլ նաև նոպաների հաճախականությանը և առօրյայի վրա ազդեցությանը։ Դեղերի փոփոխությունն ու արդյունքների գնահատումը քննարկվում են բժշկի հետ։",
+      "en": "Track not only pain intensity but attack frequency and impact on daily life. Review medication changes and treatment response with your clinician.",
+      "ru": "Отслеживайте не только силу боли, но и частоту приступов, влияние на повседневность. Изменения лекарств и результаты обсуждайте с врачом."
     }
   },
   {
@@ -169,22 +231,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ցավ ձեռքը բարձրացնելիս",
-        "Դժվարություն հագնվելիս կամ մեջքին հասնելիս",
-        "Գիշերային ցավ կամ ցավոտ կողմի վրա պառկելու դժվարություն",
-        "Թուլություն կամ շարժումների սահմանափակում"
+        "Ցավ ուսի առջևի կամ արտաքին հատվածում՝ երբեմն դեպի բազուկ տարածմամբ։",
+        "Ձեռքը վեր բարձրացնելը, հագնվելը կամ մեջքին հասնելը կարող են դժվարանալ։",
+        "Գիշերը կամ ցավոտ կողմի վրա պառկելիս ցավը կարող է ուժեղանալ։",
+        "Հնարավոր են կոշտություն, շարժումների սահմանափակում կամ ծանրություն պահելու դժվարություն։",
+        "Ձեռքի թմրածությունը կամ պարանոցից տարածվող ցավը կարող են այլ աղբյուր հուշել։"
       ],
       "en": [
-        "Pain when raising the arm",
-        "Difficulty dressing or reaching behind the back",
-        "Night pain or difficulty lying on the painful side",
-        "Weakness or restricted movement"
+        "Pain at the front or outer shoulder may extend into the upper arm.",
+        "Raising the arm, dressing or reaching behind the back may become difficult.",
+        "Pain may increase at night or when lying on the affected side.",
+        "Stiffness, limited movement or difficulty holding a load may occur.",
+        "Arm numbness or pain spreading from the neck may suggest another source."
       ],
       "ru": [
-        "Боль при поднятии руки",
-        "Трудности при одевании или заведении руки за спину",
-        "Ночная боль или трудности при лежании на больной стороне",
-        "Слабость или ограничение движений"
+        "Боль спереди или снаружи плеча иногда отдаёт в верхнюю часть руки.",
+        "Бывает трудно поднять руку, одеться или завести руку за спину.",
+        "Боль может усиливаться ночью или при лежании на больном боку.",
+        "Возможны скованность, ограничение движений или трудности при удержании тяжести.",
+        "Онемение руки или боль, идущая от шеи, могут указывать на другой источник."
       ]
     },
     "assessment": {
@@ -200,7 +265,23 @@
     "related": [
       "rotator-cuff-pain",
       "neck-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/symptoms/shoulder-pain/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նկարագրեք կոնկրետ դժվարացած գործողությունները՝ հագնվելը, առարկա բռնելը կամ ձեռքը բարձրացնելը։ Նշեք՝ կա՞ գիշերային ցավ, մատների թմրածություն կամ ուժի փոփոխություն։",
+      "en": "Describe tasks that have become difficult, such as dressing, gripping or raising the arm. Mention night pain, finger numbness or strength changes.",
+      "ru": "Опишите затруднившиеся действия: одевание, захват предметов или подъём руки. Укажите ночную боль, онемение пальцев или изменение силы."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ սահմանեք գործնական նպատակներ՝ ավելի հանգիստ քնել, հագնվել կամ ձեռքով առօրյա գործեր կատարել։ Ծանրաբեռնվածության փոփոխությունը հարմարեցվում է ձեր հնարավորություններին։",
+      "en": "Set practical goals with your clinician, such as better sleep, dressing or everyday hand use. Activity changes are adapted to your abilities.",
+      "ru": "Определите с врачом практические цели: спокойнее спать, одеваться или пользоваться рукой в быту. Изменения нагрузки подбирают по вашим возможностям."
+    }
   },
   {
     "slug": "knee-pain",
@@ -217,22 +298,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ցավ քայլելիս կամ աստիճաններով",
-        "Կոշտություն կամ այտուց",
-        "Դժվարություն նստելուց կանգնելիս",
-        "Անկայունության զգացում կամ շարժման արգելակում"
+        "Ցավը կարող է լինել ծնկի առջևում, կողքերին կամ հետևում։",
+        "Քայլելը, աստիճանները, կքանստելը կամ աթոռից վեր կենալը կարող են ցավոտ լինել։",
+        "Կարող են լինել այտուց, ձգվածության զգացում կամ հանգստից հետո կոշտություն։",
+        "Երբեմն ծնկի լրիվ ծալումը կամ ուղղումը սահմանափակվում է։",
+        "«Փակվելը», հենվելիս ծալվելը կամ ցավոտ կտկտոցը պետք է հայտնել բժշկին։"
       ],
       "en": [
-        "Pain with walking or stairs",
-        "Stiffness or swelling",
-        "Difficulty rising from a chair",
-        "Instability or a locked knee"
+        "Pain may be felt at the front, sides or back of the knee.",
+        "Walking, stairs, squatting or rising from a chair may hurt.",
+        "Swelling, tightness or stiffness after rest may occur.",
+        "Fully bending or straightening the knee may become difficult.",
+        "Report locking, giving way or painful clicking to the clinician."
       ],
       "ru": [
-        "Боль при ходьбе или на лестнице",
-        "Скованность или отёк",
-        "Трудности при вставании со стула",
-        "Чувство нестабильности или блокирование колена"
+        "Боль может ощущаться спереди, по бокам или сзади колена.",
+        "Ходьба, лестница, приседание или вставание со стула могут вызывать боль.",
+        "Возможны отёк, чувство натяжения или скованность после отдыха.",
+        "Иногда трудно полностью согнуть или разогнуть колено.",
+        "Сообщите врачу о блокировке, подкашивании или болезненных щелчках."
       ]
     },
     "assessment": {
@@ -249,7 +333,23 @@
       "patellar-tendinopathy",
       "sports-overuse-pain"
     ],
-    "image": "knee"
+    "image": "knee",
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/symptoms/knee-pain/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նշեք՝ որքան կարող եք քայլել, որ կոշիկն եք կրում և որ շարժումներն են ցավոտ։ Օգտակար է պատմել վերջին վնասվածքի կամ ծանրաբեռնվածության փոփոխության մասին։",
+      "en": "Explain how far you can walk, which footwear you use and which movements hurt. Mention recent injury or changes in activity.",
+      "ru": "Расскажите, сколько можете пройти, какую обувь носите и какие движения болезненны. Укажите недавнюю травму или изменение нагрузки."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք քայլելու, աշխատանքի կամ մարզման իրատեսական նպատակները։ Հետագա այցելությանը նշեք՝ ծանրաբեռնվածությունից հետո ինչ է փոխվել և որքան է տևել ցավը։",
+      "en": "Discuss realistic walking, work or exercise goals with your clinician. At follow-up, describe changes after activity and how long pain lasted.",
+      "ru": "Обсудите с врачом реалистичные цели ходьбы, работы или тренировок. На повторном приёме расскажите, что менялось после нагрузки и как долго болело."
+    }
   },
   {
     "slug": "hip-pain",
@@ -266,22 +366,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ցավ քայլելիս կամ աստիճաններով",
-        "Ցավ աճուկում կամ ազդրի կողային մասում",
-        "Ցավ կողքի վրա պառկելիս",
-        "Շարժունակության նվազում կամ կաղություն"
+        "Խորը ցավ աճուկում կամ ցավ կոնքազդրային շրջանի արտաքին կողմում։",
+        "Քայլելը, աստիճան բարձրանալը կամ երկար կանգնելը կարող են ուժեղացնել ցավը։",
+        "Գուլպա կամ կոշիկ հագնելը դժվարանում է, եթե ազդրի շարժումը սահմանափակված է։",
+        "Կողքի վրա պառկելը կարող է ցավոտ լինել, հատկապես արտաքին հատվածի ցավի դեպքում։",
+        "Հնարավոր է կաղալ կամ ցավի տարածում դեպի ազդր, երբեմն՝ ծունկ։"
       ],
       "en": [
-        "Pain with walking or stairs",
-        "Groin or outer-thigh pain",
-        "Pain when lying on the side",
-        "Reduced movement or limping"
+        "A deep groin ache or pain on the outer side of the hip.",
+        "Walking, climbing stairs or prolonged standing may worsen pain.",
+        "Restricted hip movement may make putting on socks or shoes difficult.",
+        "Side-lying may hurt, particularly when the outer hip is painful.",
+        "Limping or pain spreading into the thigh, sometimes the knee, may occur."
       ],
       "ru": [
-        "Боль при ходьбе или на лестнице",
-        "Боль в паху или по наружной стороне бедра",
-        "Боль при лежании на боку",
-        "Снижение подвижности или хромота"
+        "Глубокая боль в паху или боль с наружной стороны тазобедренной области.",
+        "Ходьба, подъём по лестнице или долгое стояние могут усиливать боль.",
+        "При ограничении движений бывает трудно надеть носки или обувь.",
+        "Лежать на боку может быть больно, особенно при наружной локализации боли.",
+        "Возможны хромота и распространение боли в бедро, иногда в колено."
       ]
     },
     "assessment": {
@@ -297,7 +400,23 @@
     "related": [
       "greater-trochanteric-pain",
       "gluteal-tendinopathy"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/symptoms/hip-pain/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նշեք՝ որքան կարող եք քայլել, որ կոշիկն եք կրում և որ շարժումներն են ցավոտ։ Օգտակար է պատմել վերջին վնասվածքի կամ ծանրաբեռնվածության փոփոխության մասին։",
+      "en": "Explain how far you can walk, which footwear you use and which movements hurt. Mention recent injury or changes in activity.",
+      "ru": "Расскажите, сколько можете пройти, какую обувь носите и какие движения болезненны. Укажите недавнюю травму или изменение нагрузки."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք քայլելու, աշխատանքի կամ մարզման իրատեսական նպատակները։ Հետագա այցելությանը նշեք՝ ծանրաբեռնվածությունից հետո ինչ է փոխվել և որքան է տևել ցավը։",
+      "en": "Discuss realistic walking, work or exercise goals with your clinician. At follow-up, describe changes after activity and how long pain lasted.",
+      "ru": "Обсудите с врачом реалистичные цели ходьбы, работы или тренировок. На повторном приёме расскажите, что менялось после нагрузки и как долго болело."
+    }
   },
   {
     "slug": "heel-pain",
@@ -314,22 +433,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ստորին կրունկի ցավ առաջին քայլերին",
-        "Հետևի կրունկի ցավ ծանրաբեռնվածության ժամանակ",
-        "Քայլելուց կամ կանգնելուց հետո ցավ",
-        "Այրող ցավ, թմրածություն կամ ծակծկոց"
+        "Ցավ կրունկի տակ, ներսի եզրին կամ հետևում՝ տարբեր պատճառներով։",
+        "Առավոտյան առաջին քայլերը կամ նստելուց հետո քայլելը կարող են ցավոտ լինել։",
+        "Երկար քայլելուց կամ կանգնելուց հետո ցավը կարող է վերադառնալ կամ ուժեղանալ։",
+        "Հետևի կրունկի ցավը երբեմն ուժեղանում է վազելիս կամ մատների վրա բարձրանալիս։",
+        "Այրոցը, թմրածությունը կամ ծակծկոցը կարող են նյարդային բաղադրիչի մասին հուշել։"
       ],
       "en": [
-        "Pain under the heel with first steps",
-        "Pain at the back of the heel with activity",
-        "Pain after walking or standing",
-        "Burning, numbness or tingling"
+        "Pain may occur under, inside or behind the heel for different reasons.",
+        "First morning steps or walking after sitting may be painful.",
+        "Pain may return or increase after prolonged walking or standing.",
+        "Pain behind the heel may worsen with running or rising onto tiptoes.",
+        "Burning, numbness or tingling may suggest a nerve-related component."
       ],
       "ru": [
-        "Боль снизу пятки при первых шагах",
-        "Боль сзади пятки при нагрузке",
-        "Боль после ходьбы или стояния",
-        "Жжение, онемение или покалывание"
+        "Боль под пяткой, по внутреннему краю или сзади может иметь разные причины.",
+        "Первые утренние шаги или ходьба после сидения могут быть болезненными.",
+        "После долгой ходьбы или стояния боль может возвращаться или усиливаться.",
+        "Боль сзади пятки иногда усиливается при беге или подъёме на носки.",
+        "Жжение, онемение или покалывание могут указывать на нервный компонент."
       ]
     },
     "assessment": {
@@ -350,6 +472,22 @@
       "hy": "Կրունկային շպորան կարող է լինել առանց ցավի։ Ռենտգենում դրա առկայությունը ինքնուրույն չի հաստատում ցավի պատճառը։",
       "en": "A heel spur may be present without pain. An X-ray finding alone does not establish the cause of pain.",
       "ru": "Пяточная шпора может существовать без боли. Одно её наличие на рентгене не устанавливает причину боли."
+    },
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/symptoms/foot-pain/heel-pain/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նշեք՝ որքան կարող եք քայլել, որ կոշիկն եք կրում և որ շարժումներն են ցավոտ։ Օգտակար է պատմել վերջին վնասվածքի կամ ծանրաբեռնվածության փոփոխության մասին։",
+      "en": "Explain how far you can walk, which footwear you use and which movements hurt. Mention recent injury or changes in activity.",
+      "ru": "Расскажите, сколько можете пройти, какую обувь носите и какие движения болезненны. Укажите недавнюю травму или изменение нагрузки."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք քայլելու, աշխատանքի կամ մարզման իրատեսական նպատակները։ Հետագա այցելությանը նշեք՝ ծանրաբեռնվածությունից հետո ինչ է փոխվել և որքան է տևել ցավը։",
+      "en": "Discuss realistic walking, work or exercise goals with your clinician. At follow-up, describe changes after activity and how long pain lasted.",
+      "ru": "Обсудите с врачом реалистичные цели ходьбы, работы или тренировок. На повторном приёме расскажите, что менялось после нагрузки и как долго болело."
     }
   },
   {
@@ -367,19 +505,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ցավ կրունկի ստորին կամ ներքին մասում",
-        "Առավոտյան առաջին քայլերի ցավ",
-        "Ցավի վերադարձ երկար քայլելուց կամ կանգնելուց հետո"
+        "Ցավ հիմնականում կրունկի ստորին կամ ներսային հատվածում, երբեմն՝ ոտքի կամարի երկայնքով։",
+        "Առավոտյան անկողնուց իջնելու առաջին քայլերը հաճախ ամենացավոտն են։",
+        "Նույն ցավը կարող է կրկնվել երկար նստելուց հետո վեր կենալիս։",
+        "Մի փոքր քայլելուց հետո կարող է թեթևանալ, բայց երկար ծանրաբեռնումից՝ նորից ուժեղանալ։",
+        "Վազքը, երկար կանգնելը կամ աստիճանները կարող են ավելացնել գանգատները։"
       ],
       "en": [
-        "Pain under or on the inner side of the heel",
-        "Pain with first steps in the morning",
-        "Pain returning after prolonged walking or standing"
+        "Pain mainly under the inner heel, sometimes along the foot arch.",
+        "The first steps out of bed are often the most painful.",
+        "Similar pain may return when standing after prolonged sitting.",
+        "It may ease after a few steps, then worsen with prolonged loading.",
+        "Running, prolonged standing or stairs may aggravate symptoms."
       ],
       "ru": [
-        "Боль снизу или с внутренней стороны пятки",
-        "Боль при первых шагах утром",
-        "Возвращение боли после длительной ходьбы или стояния"
+        "Боль преимущественно снизу и с внутренней стороны пятки, иногда вдоль свода стопы.",
+        "Первые шаги после подъёма с постели часто самые болезненные.",
+        "Такая же боль может возвращаться при вставании после долгого сидения.",
+        "После нескольких шагов бывает легче, но длительная нагрузка вновь усиливает боль.",
+        "Бег, долгое стояние или лестница могут усиливать жалобы."
       ]
     },
     "assessment": {
@@ -400,6 +544,22 @@
       "hy": "Պլանտար ֆասցիիտը կարող է լինել առանց շպորայի, իսկ շպորան՝ առանց ցավի։",
       "en": "Plantar fasciitis can occur without a heel spur, and a spur can occur without pain.",
       "ru": "Фасциит возможен без шпоры, а шпора — без боли."
+    },
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/conditions/plantar-fasciitis/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նշեք՝ որքան կարող եք քայլել, որ կոշիկն եք կրում և որ շարժումներն են ցավոտ։ Օգտակար է պատմել վերջին վնասվածքի կամ ծանրաբեռնվածության փոփոխության մասին։",
+      "en": "Explain how far you can walk, which footwear you use and which movements hurt. Mention recent injury or changes in activity.",
+      "ru": "Расскажите, сколько можете пройти, какую обувь носите и какие движения болезненны. Укажите недавнюю травму или изменение нагрузки."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք քայլելու, աշխատանքի կամ մարզման իրատեսական նպատակները։ Հետագա այցելությանը նշեք՝ ծանրաբեռնվածությունից հետո ինչ է փոխվել և որքան է տևել ցավը։",
+      "en": "Discuss realistic walking, work or exercise goals with your clinician. At follow-up, describe changes after activity and how long pain lasted.",
+      "ru": "Обсудите с врачом реалистичные цели ходьбы, работы или тренировок. На повторном приёме расскажите, что менялось после нагрузки и как долго болело."
     }
   },
   {
@@ -417,22 +577,25 @@
     },
     "symptoms": {
       "hy": [
-        "Այրող կամ էլեկտրական ցավ",
-        "Ծակծկոց կամ թմրածություն",
-        "Հպումից առաջացող ցավ",
-        "Նյարդի տարածքով տարածվող ցավ"
+        "Այրող, էլեկտրական հարվածի նման կամ կրակող ցավ՝ մեկ կամ մի քանի հատվածում։",
+        "Ծակծկոց, «մրջյունների վազքի» զգացում կամ թմրածություն։",
+        "Հագուստի կամ թեթև հպման ազդեցությունը երբեմն անսպասելիորեն ցավոտ է։",
+        "Ցավը կարող է լինել մշտական կամ կարճ նոպաներով, նաև՝ հանգստի ժամանակ։",
+        "Զգացողության փոփոխությունները կարող են խանգարել քնին կամ առօրյա գործողություններին։"
       ],
       "en": [
-        "Burning or electric pain",
-        "Tingling or numbness",
-        "Pain caused by light touch",
-        "Pain spreading along a nerve distribution"
+        "Burning, electric-shock-like or shooting pain in one or more areas.",
+        "Tingling, pins and needles or areas of numbness.",
+        "Clothing or a light touch may feel unexpectedly painful.",
+        "Pain may be constant or episodic, including at rest.",
+        "Altered sensations may disturb sleep or everyday activities."
       ],
       "ru": [
-        "Жгучая боль или боль как удар током",
-        "Покалывание или онемение",
-        "Боль от лёгкого прикосновения",
-        "Боль в зоне определённого нерва"
+        "Жгучая, стреляющая или похожая на удар током боль в одной или нескольких областях.",
+        "Покалывание, ощущение «мурашек» или участки онемения.",
+        "Прикосновение одежды или лёгкое касание иногда неожиданно болезненны.",
+        "Боль бывает постоянной или приступообразной, в том числе в покое.",
+        "Изменённые ощущения могут мешать сну и повседневной активности."
       ]
     },
     "assessment": {
@@ -449,7 +612,23 @@
       "peripheral-neuropathic-pain",
       "nerve-entrapment"
     ],
-    "image": "wrist"
+    "image": "wrist",
+    "sources": [
+      {
+        "name": "Cleveland Clinic",
+        "url": "https://my.clevelandclinic.org/health/symptoms/15833-neuropathic-pain"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ցույց տվեք ցավի ու թմրածության ճշգրիտ տարածքը և նկարագրեք հպման ազդեցությունը։ Բժշկին ներկայացրեք ուղեկցող հիվանդությունները, ընդունած դեղերն ու նախկին միջամտությունները։",
+      "en": "Identify the precise areas of pain and numbness and describe the effect of touch. Bring details of other conditions, medicines and previous procedures.",
+      "ru": "Покажите точные зоны боли и онемения, опишите влияние прикосновения. Сообщите о других заболеваниях, лекарствах и прежних вмешательствах."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք ցավի ազդեցությունը քնի, աշխատանքի ու շարժման վրա։ Հետագա այցերին նշեք նաև զգացողության և ուժի փոփոխությունները, ոչ միայն ցավի ուժգնությունը։",
+      "en": "Discuss how pain affects sleep, work and movement. At follow-up, report changes in sensation and strength as well as pain intensity.",
+      "ru": "Обсудите влияние боли на сон, работу и движение. На повторных приёмах сообщайте также об изменениях чувствительности и силы."
+    }
   },
   {
     "slug": "sciatica",
@@ -466,16 +645,25 @@
     },
     "symptoms": {
       "hy": [
-        "Հետույքից ոտք իջնող ցավ",
-        "Ծակծկոց, թմրածություն կամ թուլություն"
+        "Ցավ հետույքից դեպի մեկ ոտքի հետին հատված, երբեմն մինչև ոտնաթաթ ու մատներ։",
+        "Ցավը հաճախ այրող կամ կրակող է և կարող է գերազանցել մեջքի ցավը։",
+        "Հազը, փռշտոցը կամ որոշ շարժումներ կարող են ուժեղացնել գանգատները։",
+        "Հնարավոր են նույն ոտքի ծակծկոցը, թմրածությունը կամ ուժի նվազումը։",
+        "Միայն մեջքի տեղային ցավը՝ առանց ոտք տարածման, միշտ չէ, որ իշիաս է։"
       ],
       "en": [
-        "Pain from the buttock down the leg",
-        "Tingling, numbness or weakness"
+        "Pain from the buttock down one leg, sometimes reaching the foot and toes.",
+        "Pain is often burning or shooting and may exceed the back pain.",
+        "Coughing, sneezing or certain movements may aggravate symptoms.",
+        "Tingling, numbness or reduced strength may affect the same leg.",
+        "Local back pain without leg symptoms is not necessarily sciatica."
       ],
       "ru": [
-        "Боль от ягодицы вниз по ноге",
-        "Покалывание, онемение или слабость"
+        "Боль от ягодицы по задней поверхности одной ноги, иногда до стопы и пальцев.",
+        "Боль часто жгучая или стреляющая и может быть сильнее боли в спине.",
+        "Кашель, чихание или некоторые движения могут усиливать жалобы.",
+        "В той же ноге возможны покалывание, онемение или снижение силы.",
+        "Только местная боль в спине без симптомов в ноге не обязательно является ишиасом."
       ]
     },
     "assessment": {
@@ -491,7 +679,23 @@
     "related": [
       "back-pain",
       "neuropathic-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/conditions/sciatica/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նշեք՝ երբ է սկսվել ցավը, որ դիրքերն են այն փոխում, և կա՞ դեպի վերջույթ տարածում։ Նախկին հետազոտությունների պատասխանները ներկայացրեք բժշկին։",
+      "en": "Describe when pain began, which positions change it and whether it spreads into a limb. Bring any previous investigation reports.",
+      "ru": "Расскажите, когда началась боль, какие положения её меняют и отдаёт ли она в конечность. Возьмите прежние результаты исследований."
+    },
+    "care_detail": {
+      "hy": "Ծրագրի ընթացքը գնահատվում է նաև քնի, քայլքի և սովորական գործերին վերադառնալու հնարավորությամբ։ Բժշկին հայտնեք՝ ինչն է օգնել կամ վատացրել վիճակը։",
+      "en": "Progress is also reviewed through sleep, walking and return to usual tasks. Tell your clinician what has helped or aggravated symptoms.",
+      "ru": "Ход лечения оценивают также по сну, ходьбе и возвращению к привычным делам. Сообщайте врачу, что помогло или ухудшило состояние."
+    }
   },
   {
     "slug": "rotator-cuff-pain",
@@ -508,16 +712,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ցավ ձեռքը բարձրացնելիս",
-        "Գիշերային ցավ կամ ուժի նվազում"
+        "Ցավ ուսի արտաքին մասում կամ բազկի վերին հատվածում։",
+        "Ձեռքը վեր բարձրացնելը կամ իջեցնելը, օրինակ՝ դարակին հասնելը, կարող է ցավոտ լինել։",
+        "Ցավոտ կողմի վրա պառկելը կարող է խանգարել գիշերային քնին։",
+        "Մազերը սանրելիս, հագնվելիս կամ ձեռք պտտելիս կարող է թուլություն զգացվել։",
+        "Վնասվածքից հետո հանկարծակի ուժի կորուստը պահանջում է արագ գնահատում։"
       ],
       "en": [
-        "Pain when lifting the arm",
-        "Night pain or reduced strength"
+        "Pain over the outer shoulder or upper arm.",
+        "Raising or lowering the arm, such as reaching a shelf, may hurt.",
+        "Lying on the affected shoulder may disturb sleep.",
+        "Combing hair, dressing or rotating the arm may reveal weakness.",
+        "Sudden loss of strength after injury needs prompt assessment."
       ],
       "ru": [
-        "Боль при подъёме руки",
-        "Ночная боль или снижение силы"
+        "Боль снаружи плеча или в верхней части руки.",
+        "Поднимать или опускать руку, например тянуться к полке, бывает больно.",
+        "Лежание на больном плече может нарушать сон.",
+        "При расчёсывании, одевании или вращении руки может ощущаться слабость.",
+        "Внезапная потеря силы после травмы требует быстрой оценки."
       ]
     },
     "assessment": {
@@ -532,7 +745,23 @@
     },
     "related": [
       "shoulder-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "AAOS OrthoInfo",
+        "url": "https://www.orthoinfo.org/diseases--conditions/rotator-cuff-tears/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նկարագրեք կոնկրետ դժվարացած գործողությունները՝ հագնվելը, առարկա բռնելը կամ ձեռքը բարձրացնելը։ Նշեք՝ կա՞ գիշերային ցավ, մատների թմրածություն կամ ուժի փոփոխություն։",
+      "en": "Describe tasks that have become difficult, such as dressing, gripping or raising the arm. Mention night pain, finger numbness or strength changes.",
+      "ru": "Опишите затруднившиеся действия: одевание, захват предметов или подъём руки. Укажите ночную боль, онемение пальцев или изменение силы."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ սահմանեք գործնական նպատակներ՝ ավելի հանգիստ քնել, հագնվել կամ ձեռքով առօրյա գործեր կատարել։ Ծանրաբեռնվածության փոփոխությունը հարմարեցվում է ձեր հնարավորություններին։",
+      "en": "Set practical goals with your clinician, such as better sleep, dressing or everyday hand use. Activity changes are adapted to your abilities.",
+      "ru": "Определите с врачом практические цели: спокойнее спать, одеваться или пользоваться рукой в быту. Изменения нагрузки подбирают по вашим возможностям."
+    }
   },
   {
     "slug": "tennis-elbow",
@@ -549,16 +778,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ցավ բռնելիս կամ բարձրացնելիս",
-        "Արմունկի արտաքին կողմի զգայունություն"
+        "Ցավ կամ այրոց արմնկի արտաքին ոսկրային հատվածի մոտ։",
+        "Բաժակ բարձրացնելը, ձեռք սեղմելը կամ պայուսակ բռնելը կարող են ցավ առաջացնել։",
+        "Գանգատները կարող են ուժեղանալ դաստակը հետ տանելու կամ պտտելու ժամանակ։",
+        "Ցավը երբեմն տարածվում է նախաբազկի արտաքին հատվածով։",
+        "Բռնելու ուժը կարող է թվալ նվազած՝ ցավի պատճառով, նույնիսկ առանց սպորտով զբաղվելու։"
       ],
       "en": [
-        "Pain with gripping or lifting",
-        "Tenderness on the outer elbow"
+        "Pain or burning near the bony outer side of the elbow.",
+        "Lifting a cup, shaking hands or carrying a bag may hurt.",
+        "Extending or turning the wrist may aggravate symptoms.",
+        "Pain sometimes extends along the outer forearm.",
+        "Grip may feel weaker because of pain, even in non-athletes."
       ],
       "ru": [
-        "Боль при захвате или подъёме",
-        "Болезненность снаружи локтя"
+        "Боль или жжение около наружного костного выступа локтя.",
+        "Боль может возникать при поднятии чашки, рукопожатии или удержании сумки.",
+        "Разгибание или поворот кисти могут усиливать жалобы.",
+        "Боль иногда распространяется по наружной стороне предплечья.",
+        "Сила хвата может казаться сниженной из-за боли даже у тех, кто не занимается спортом."
       ]
     },
     "assessment": {
@@ -574,7 +812,23 @@
     "related": [
       "golfers-elbow",
       "sports-overuse-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "AAOS OrthoInfo",
+        "url": "https://www.orthoinfo.org/diseases--conditions/tennis-elbow-lateral-epicondylitis/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նկարագրեք կոնկրետ դժվարացած գործողությունները՝ հագնվելը, առարկա բռնելը կամ ձեռքը բարձրացնելը։ Նշեք՝ կա՞ գիշերային ցավ, մատների թմրածություն կամ ուժի փոփոխություն։",
+      "en": "Describe tasks that have become difficult, such as dressing, gripping or raising the arm. Mention night pain, finger numbness or strength changes.",
+      "ru": "Опишите затруднившиеся действия: одевание, захват предметов или подъём руки. Укажите ночную боль, онемение пальцев или изменение силы."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ սահմանեք գործնական նպատակներ՝ ավելի հանգիստ քնել, հագնվել կամ ձեռքով առօրյա գործեր կատարել։ Ծանրաբեռնվածության փոփոխությունը հարմարեցվում է ձեր հնարավորություններին։",
+      "en": "Set practical goals with your clinician, such as better sleep, dressing or everyday hand use. Activity changes are adapted to your abilities.",
+      "ru": "Определите с врачом практические цели: спокойнее спать, одеваться или пользоваться рукой в быту. Изменения нагрузки подбирают по вашим возможностям."
+    }
   },
   {
     "slug": "golfers-elbow",
@@ -591,16 +845,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ներքին կողմի ցավ և զգայունություն",
-        "Ցավ բռնելիս կամ դաստակը ծալելիս"
+        "Ցավ և հպման զգայունություն արմնկի ներսային հատվածում։",
+        "Բռնելը, քաշելը կամ ծանրություն բարձրացնելը կարող են ուժեղացնել ցավը։",
+        "Դաստակը ծալելիս կամ նախաբազուկը պտտելիս կարող է ցավ առաջանալ։",
+        "Ցավը երբեմն տարածվում է նախաբազկի ներսային հատվածով։",
+        "Ճկույթի կամ մատնեմատի թմրածության դեպքում պետք է ստուգել նաև նյարդը։"
       ],
       "en": [
-        "Inner elbow pain and tenderness",
-        "Pain with gripping or wrist flexion"
+        "Pain and tenderness on the inner side of the elbow.",
+        "Gripping, pulling or lifting may worsen the pain.",
+        "Bending the wrist or rotating the forearm may provoke pain.",
+        "Pain may extend along the inner forearm.",
+        "Little- or ring-finger numbness also needs assessment of the nerve."
       ],
       "ru": [
-        "Боль и болезненность внутри локтя",
-        "Боль при захвате или сгибании кисти"
+        "Боль и болезненность при касании с внутренней стороны локтя.",
+        "Захват, тяга или подъём тяжести могут усиливать боль.",
+        "Сгибание кисти или поворот предплечья могут провоцировать боль.",
+        "Боль может распространяться по внутренней стороне предплечья.",
+        "При онемении мизинца или безымянного пальца нужно проверить и нерв."
       ]
     },
     "assessment": {
@@ -616,7 +879,23 @@
     "related": [
       "tennis-elbow",
       "cubital-tunnel"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "Royal Orthopaedic Hospital (NHS)",
+        "url": "https://roh.nhs.uk/services-information/therapy/golfers-elbow"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նկարագրեք կոնկրետ դժվարացած գործողությունները՝ հագնվելը, առարկա բռնելը կամ ձեռքը բարձրացնելը։ Նշեք՝ կա՞ գիշերային ցավ, մատների թմրածություն կամ ուժի փոփոխություն։",
+      "en": "Describe tasks that have become difficult, such as dressing, gripping or raising the arm. Mention night pain, finger numbness or strength changes.",
+      "ru": "Опишите затруднившиеся действия: одевание, захват предметов или подъём руки. Укажите ночную боль, онемение пальцев или изменение силы."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ սահմանեք գործնական նպատակներ՝ ավելի հանգիստ քնել, հագնվել կամ ձեռքով առօրյա գործեր կատարել։ Ծանրաբեռնվածության փոփոխությունը հարմարեցվում է ձեր հնարավորություններին։",
+      "en": "Set practical goals with your clinician, such as better sleep, dressing or everyday hand use. Activity changes are adapted to your abilities.",
+      "ru": "Определите с врачом практические цели: спокойнее спать, одеваться или пользоваться рукой в быту. Изменения нагрузки подбирают по вашим возможностям."
+    }
   },
   {
     "slug": "carpal-tunnel",
@@ -633,16 +912,25 @@
     },
     "symptoms": {
       "hy": [
-        "Բթամատի, ցուցամատի ու միջնամատի ծակծկոց",
-        "Գիշերային թմրածություն կամ բռնելու թուլություն"
+        "Ծակծկոց կամ թմրածություն բթամատում, ցուցամատում, միջնամատում և մատնեմատի մի մասում։",
+        "Գանգատները հաճախ ուժեղանում են գիշերը և կարող են արթնացնել քնից։",
+        "Հեռախոս պահելը կամ դաստակը երկար ծալած պահելը կարող են ավելացնել անհանգստությունը։",
+        "Երբեմն ձեռքը թափահարելուց հետո զգացողությունը ժամանակավորապես թեթևանում է։",
+        "Բութ մատի թուլությունը, մանր գործերի դժվարացումը կամ իրեր գցելը գնահատման պատճառ են։"
       ],
       "en": [
-        "Tingling in the thumb, index and middle fingers",
-        "Night numbness or weak grip"
+        "Tingling or numbness in the thumb, index, middle and part of the ring finger.",
+        "Symptoms often worsen at night and may wake you.",
+        "Holding a phone or keeping the wrist bent may increase discomfort.",
+        "Shaking the hand may temporarily ease the symptoms.",
+        "Thumb weakness, difficulty with fine tasks or dropping objects warrant assessment."
       ],
       "ru": [
-        "Покалывание в большом, указательном и среднем пальцах",
-        "Ночное онемение или слабый захват"
+        "Покалывание или онемение большого, указательного, среднего и части безымянного пальца.",
+        "Жалобы часто усиливаются ночью и могут будить.",
+        "Удержание телефона или длительно согнутая кисть могут усиливать дискомфорт.",
+        "Встряхивание кисти иногда временно облегчает симптомы.",
+        "Слабость большого пальца, трудности с мелкими действиями или выпадение предметов требуют оценки."
       ]
     },
     "assessment": {
@@ -659,7 +947,23 @@
       "cubital-tunnel",
       "nerve-entrapment"
     ],
-    "image": "wrist"
+    "image": "wrist",
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/conditions/carpal-tunnel-syndrome/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ցույց տվեք ցավի ու թմրածության ճշգրիտ տարածքը և նկարագրեք հպման ազդեցությունը։ Բժշկին ներկայացրեք ուղեկցող հիվանդությունները, ընդունած դեղերն ու նախկին միջամտությունները։",
+      "en": "Identify the precise areas of pain and numbness and describe the effect of touch. Bring details of other conditions, medicines and previous procedures.",
+      "ru": "Покажите точные зоны боли и онемения, опишите влияние прикосновения. Сообщите о других заболеваниях, лекарствах и прежних вмешательствах."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք ցավի ազդեցությունը քնի, աշխատանքի ու շարժման վրա։ Հետագա այցերին նշեք նաև զգացողության և ուժի փոփոխությունները, ոչ միայն ցավի ուժգնությունը։",
+      "en": "Discuss how pain affects sleep, work and movement. At follow-up, report changes in sensation and strength as well as pain intensity.",
+      "ru": "Обсудите влияние боли на сон, работу и движение. На повторных приёмах сообщайте также об изменениях чувствительности и силы."
+    }
   },
   {
     "slug": "cubital-tunnel",
@@ -676,16 +980,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ճկույթի և մատնեմատի թմրածություն",
-        "Ցավ ծալած արմունկով կամ ձեռքի թուլություն"
+        "Թմրածություն կամ ծակծկոց հիմնականում ճկույթում և մատնեմատի մի մասում։",
+        "Արմունկը երկար ծալած պահելը, օրինակ՝ հեռախոսով խոսելիս, ուժեղացնում է գանգատները։",
+        "Արմնկի վրա հենվելիս կարող է ցավ կամ «հոսանքի» զգացում առաջանալ։",
+        "Գիշերը կարող եք արթնանալ մատների թմրածության պատճառով։",
+        "Առաջացած դեպքերում դժվարանում են մատների շարժումներն ու մանր առարկաներ բռնելը։"
       ],
       "en": [
-        "Numbness in the little and ring fingers",
-        "Pain with a bent elbow or hand weakness"
+        "Numbness or tingling mainly in the little finger and part of the ring finger.",
+        "Keeping the elbow bent, such as during a phone call, can worsen symptoms.",
+        "Leaning on the elbow may cause pain or an electric sensation.",
+        "Finger numbness may wake you during the night.",
+        "More advanced compression may impair finger movement and fine handling."
       ],
       "ru": [
-        "Онемение мизинца и безымянного пальца",
-        "Боль при согнутом локте или слабость кисти"
+        "Онемение или покалывание преимущественно в мизинце и части безымянного пальца.",
+        "Долго согнутый локоть, например при разговоре по телефону, может усиливать жалобы.",
+        "При опоре на локоть возможны боль или ощущение «тока».",
+        "Онемение пальцев может будить ночью.",
+        "При более выраженном сдавлении затрудняются движения пальцев и мелкие действия."
       ]
     },
     "assessment": {
@@ -701,7 +1014,23 @@
     "related": [
       "carpal-tunnel",
       "nerve-entrapment"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "North Tees and Hartlepool NHS",
+        "url": "https://www.nth.nhs.uk/resources/hand-therapy-cubital-tunnel-syndrome/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ցույց տվեք ցավի ու թմրածության ճշգրիտ տարածքը և նկարագրեք հպման ազդեցությունը։ Բժշկին ներկայացրեք ուղեկցող հիվանդությունները, ընդունած դեղերն ու նախկին միջամտությունները։",
+      "en": "Identify the precise areas of pain and numbness and describe the effect of touch. Bring details of other conditions, medicines and previous procedures.",
+      "ru": "Покажите точные зоны боли и онемения, опишите влияние прикосновения. Сообщите о других заболеваниях, лекарствах и прежних вмешательствах."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք ցավի ազդեցությունը քնի, աշխատանքի ու շարժման վրա։ Հետագա այցերին նշեք նաև զգացողության և ուժի փոփոխությունները, ոչ միայն ցավի ուժգնությունը։",
+      "en": "Discuss how pain affects sleep, work and movement. At follow-up, report changes in sensation and strength as well as pain intensity.",
+      "ru": "Обсудите влияние боли на сон, работу и движение. На повторных приёмах сообщайте также об изменениях чувствительности и силы."
+    }
   },
   {
     "slug": "achilles-tendinopathy",
@@ -718,16 +1047,25 @@
     },
     "symptoms": {
       "hy": [
-        "Առավոտյան կոշտություն",
-        "Ցավ քայլելիս, վազելիս կամ ոտնաթաթի վրա բարձրանալիս"
+        "Ցավ կրունկի հետևում կամ դրանից փոքր-ինչ վեր՝ Աքիլեսյան ջլի երկայնքով։",
+        "Առավոտյան կամ հանգստից հետո առաջին քայլերին լինում է կոշտություն։",
+        "Վազքը, ցատկերը կամ մատների վրա բարձրանալը կարող են ուժեղացնել ցավը։",
+        "Ջիլը երբեմն հաստացած, ուռած կամ հպման նկատմամբ զգայուն է։",
+        "Ցավը երբեմն թեթևանում է շարժման սկզբում, բայց վերադառնում ծանրաբեռնումից հետո։"
       ],
       "en": [
-        "Morning stiffness",
-        "Pain walking, running or rising onto the toes"
+        "Pain behind or just above the heel along the Achilles tendon.",
+        "Stiffness occurs with the first steps after sleep or rest.",
+        "Running, jumping or rising onto tiptoes may aggravate pain.",
+        "The tendon may feel thickened, swollen or tender to touch.",
+        "Pain may ease early in activity but return after loading."
       ],
       "ru": [
-        "Утренняя скованность",
-        "Боль при ходьбе, беге или подъёме на носки"
+        "Боль сзади или чуть выше пятки по ходу ахиллова сухожилия.",
+        "Первые шаги после сна или отдыха сопровождаются скованностью.",
+        "Бег, прыжки или подъём на носки могут усиливать боль.",
+        "Сухожилие может быть утолщённым, отёчным или болезненным при касании.",
+        "В начале движения боль иногда уменьшается, но возвращается после нагрузки."
       ]
     },
     "assessment": {
@@ -743,7 +1081,28 @@
     "related": [
       "heel-pain",
       "sports-overuse-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "Guy’s and St Thomas’ NHS",
+        "url": "https://www.guysandstthomas.nhs.uk/health-information/achilles-tendinopathy"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նշեք՝ որքան կարող եք քայլել, որ կոշիկն եք կրում և որ շարժումներն են ցավոտ։ Օգտակար է պատմել վերջին վնասվածքի կամ ծանրաբեռնվածության փոփոխության մասին։",
+      "en": "Explain how far you can walk, which footwear you use and which movements hurt. Mention recent injury or changes in activity.",
+      "ru": "Расскажите, сколько можете пройти, какую обувь носите и какие движения болезненны. Укажите недавнюю травму или изменение нагрузки."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք քայլելու, աշխատանքի կամ մարզման իրատեսական նպատակները։ Հետագա այցելությանը նշեք՝ ծանրաբեռնվածությունից հետո ինչ է փոխվել և որքան է տևել ցավը։",
+      "en": "Discuss realistic walking, work or exercise goals with your clinician. At follow-up, describe changes after activity and how long pain lasted.",
+      "ru": "Обсудите с врачом реалистичные цели ходьбы, работы или тренировок. На повторном приёме расскажите, что менялось после нагрузки и как долго болело."
+    },
+    "urgent": {
+      "hy": "Հանկարծակի ճտոցը կամ հարվածի զգացումը սրունքի հետևում՝ քայլելու կամ մատների վրա բարձրանալու դժվարությամբ, կարող է ջլի պատռվածքի նշան լինել։ Դիմեք անհետաձգելի գնահատման։",
+      "en": "A sudden snap or a feeling of being struck in the calf, with difficulty walking or pushing onto the toes, may indicate tendon rupture. Seek urgent assessment.",
+      "ru": "Внезапный щелчок или ощущение удара сзади голени с трудностью ходьбы или подъёма на носки могут указывать на разрыв сухожилия. Нужна срочная оценка."
+    }
   },
   {
     "slug": "patellar-tendinopathy",
@@ -760,16 +1119,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ծնկոսկրի ստորին հատվածի տեղային ցավ",
-        "Ցավ ցատկելիս կամ աստիճաններով շարժվելիս"
+        "Տեղային ցավ ծնկոսկրի տակ՝ ջլի ամրացման հատվածում։",
+        "Ցատկելը, վազքը կամ աստիճաններով շարժվելը կարող են ուժեղացնել ցավը։",
+        "Կքանստելիս կամ ծնկով ծանրություն ընդունելիս առաջանում է ցավ։",
+        "Առավոտյան կամ հանգստից հետո հնարավոր է ջլի կոշտություն։",
+        "Ցավը երբեմն թեթևանում է տաքանալուց հետո, բայց վերադառնում մարզումից հետո։"
       ],
       "en": [
-        "Local pain below the kneecap",
-        "Pain jumping or using stairs"
+        "Local pain just below the kneecap at the tendon.",
+        "Jumping, running or stairs may aggravate the pain.",
+        "Squatting or loading the bent knee can be painful.",
+        "The tendon may feel stiff after sleep or rest.",
+        "Pain may ease during warm-up but return after exercise."
       ],
       "ru": [
-        "Локальная боль под надколенником",
-        "Боль при прыжках или на лестнице"
+        "Местная боль непосредственно под надколенником в области сухожилия.",
+        "Прыжки, бег или лестница могут усиливать боль.",
+        "Приседание или нагрузка на согнутое колено могут быть болезненными.",
+        "После сна или отдыха возможна скованность в области сухожилия.",
+        "Боль иногда уменьшается после разминки, но возвращается после тренировки."
       ]
     },
     "assessment": {
@@ -785,7 +1153,23 @@
     "related": [
       "knee-pain",
       "sports-overuse-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "Kingston and Richmond NHS",
+        "url": "https://www.kingstonandrichmond.nhs.uk/patients-and-families/patient-leaflets/patellar-tendinopathy"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նշեք՝ որքան կարող եք քայլել, որ կոշիկն եք կրում և որ շարժումներն են ցավոտ։ Օգտակար է պատմել վերջին վնասվածքի կամ ծանրաբեռնվածության փոփոխության մասին։",
+      "en": "Explain how far you can walk, which footwear you use and which movements hurt. Mention recent injury or changes in activity.",
+      "ru": "Расскажите, сколько можете пройти, какую обувь носите и какие движения болезненны. Укажите недавнюю травму или изменение нагрузки."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք քայլելու, աշխատանքի կամ մարզման իրատեսական նպատակները։ Հետագա այցելությանը նշեք՝ ծանրաբեռնվածությունից հետո ինչ է փոխվել և որքան է տևել ցավը։",
+      "en": "Discuss realistic walking, work or exercise goals with your clinician. At follow-up, describe changes after activity and how long pain lasted.",
+      "ru": "Обсудите с врачом реалистичные цели ходьбы, работы или тренировок. На повторном приёме расскажите, что менялось после нагрузки и как долго болело."
+    }
   },
   {
     "slug": "gluteal-tendinopathy",
@@ -802,16 +1186,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ցավ ցավոտ կողմի վրա պառկելիս",
-        "Ցավ քայլելիս կամ մեկ ոտքի վրա կանգնելիս"
+        "Ցավ կոնքազդրային շրջանի արտաքին կողմում՝ ոսկրային ելունի մոտ։",
+        "Ցավոտ կողմի վրա պառկելը հաճախ խանգարում է քնին։",
+        "Աստիճանները, երկար քայլելը կամ մեկ ոտքի վրա կանգնելը կարող են ցավոտ լինել։",
+        "Ոտքերը խաչելը կամ ազդրը դեպի ներս տանելը կարող են ուժեղացնել գանգատները։",
+        "Ցավը երբեմն տարածվում է ազդրի արտաքին կողմով։"
       ],
       "en": [
-        "Pain lying on the affected side",
-        "Pain walking or standing on one leg"
+        "Pain on the outer hip near the bony prominence.",
+        "Lying on the painful side often disturbs sleep.",
+        "Stairs, longer walks or standing on one leg may hurt.",
+        "Crossing the legs or bringing the hip inward may aggravate symptoms.",
+        "Pain sometimes spreads down the outer thigh."
       ],
       "ru": [
-        "Боль лёжа на больном боку",
-        "Боль при ходьбе или стоянии на одной ноге"
+        "Боль снаружи тазобедренной области рядом с костным выступом.",
+        "Лежание на больном боку часто мешает сну.",
+        "Лестница, длительная ходьба или стояние на одной ноге могут вызывать боль.",
+        "Скрещивание ног или приведение бедра внутрь могут усиливать жалобы.",
+        "Боль иногда распространяется по наружной стороне бедра."
       ]
     },
     "assessment": {
@@ -827,7 +1220,27 @@
     "related": [
       "greater-trochanteric-pain",
       "hip-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.cuh.nhs.uk/patient-information/gluteal-tendinopathy/"
+      },
+      {
+        "name": "Royal National Orthopaedic Hospital (NHS)",
+        "url": "https://www.rnoh.nhs.uk/patients-and-visitors/patient-information-guides/patients-guide-gluteal-tendinopathy"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նշեք՝ որքան կարող եք քայլել, որ կոշիկն եք կրում և որ շարժումներն են ցավոտ։ Օգտակար է պատմել վերջին վնասվածքի կամ ծանրաբեռնվածության փոփոխության մասին։",
+      "en": "Explain how far you can walk, which footwear you use and which movements hurt. Mention recent injury or changes in activity.",
+      "ru": "Расскажите, сколько можете пройти, какую обувь носите и какие движения болезненны. Укажите недавнюю травму или изменение нагрузки."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք քայլելու, աշխատանքի կամ մարզման իրատեսական նպատակները։ Հետագա այցելությանը նշեք՝ ծանրաբեռնվածությունից հետո ինչ է փոխվել և որքան է տևել ցավը։",
+      "en": "Discuss realistic walking, work or exercise goals with your clinician. At follow-up, describe changes after activity and how long pain lasted.",
+      "ru": "Обсудите с врачом реалистичные цели ходьбы, работы или тренировок. На повторном приёме расскажите, что менялось после нагрузки и как долго болело."
+    }
   },
   {
     "slug": "greater-trochanteric-pain",
@@ -844,16 +1257,25 @@
     },
     "symptoms": {
       "hy": [
-        "Արտաքին կողմի տեղային զգայունություն",
-        "Ցավ կողքի վրա պառկելիս կամ աստիճաններով բարձրանալիս"
+        "Ցավ և հպման զգայունություն կոնքի արտաքին ոսկրային ելունի շրջանում։",
+        "Կողքի վրա պառկելը կամ այդ հատվածին ճնշելը կարող են ցավ առաջացնել։",
+        "Քայլքը, աստիճաններն ու երկար կանգնելը կարող են ավելացնել գանգատները։",
+        "Աթոռից վեր կենալիս կամ մեկ ոտքի վրա հենվելիս ցավը կարող է նկատելի դառնալ։",
+        "Ցավը երբեմն տարածվում է ազդրի արտաքին մակերեսով՝ առանց հոդի ներսի խնդրի։"
       ],
       "en": [
-        "Local outer hip tenderness",
-        "Pain lying on the side or climbing stairs"
+        "Pain and tenderness over the bony outer hip.",
+        "Side-lying or direct pressure on the area may hurt.",
+        "Walking, stairs and prolonged standing may increase symptoms.",
+        "Rising from a chair or single-leg loading may reveal pain.",
+        "Pain may spread down the outer thigh without an intra-articular problem."
       ],
       "ru": [
-        "Локальная болезненность снаружи бедра",
-        "Боль лёжа на боку или при подъёме по лестнице"
+        "Боль и болезненность при касании над наружным костным выступом бедра.",
+        "Лежание на боку или прямое давление на эту область могут вызывать боль.",
+        "Ходьба, лестница и долгое стояние могут усиливать жалобы.",
+        "Боль может проявляться при вставании со стула или опоре на одну ногу.",
+        "Боль может отдавать по наружной поверхности бедра без внутрисуставной проблемы."
       ]
     },
     "assessment": {
@@ -869,7 +1291,27 @@
     "related": [
       "gluteal-tendinopathy",
       "hip-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "Cambridge University Hospitals (NHS)",
+        "url": "https://www.cuh.nhs.uk/patient-information/gluteal-tendinopathy/"
+      },
+      {
+        "name": "Royal National Orthopaedic Hospital (NHS)",
+        "url": "https://www.rnoh.nhs.uk/patients-and-visitors/patient-information-guides/patients-guide-gluteal-tendinopathy"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նշեք՝ որքան կարող եք քայլել, որ կոշիկն եք կրում և որ շարժումներն են ցավոտ։ Օգտակար է պատմել վերջին վնասվածքի կամ ծանրաբեռնվածության փոփոխության մասին։",
+      "en": "Explain how far you can walk, which footwear you use and which movements hurt. Mention recent injury or changes in activity.",
+      "ru": "Расскажите, сколько можете пройти, какую обувь носите и какие движения болезненны. Укажите недавнюю травму или изменение нагрузки."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք քայլելու, աշխատանքի կամ մարզման իրատեսական նպատակները։ Հետագա այցելությանը նշեք՝ ծանրաբեռնվածությունից հետո ինչ է փոխվել և որքան է տևել ցավը։",
+      "en": "Discuss realistic walking, work or exercise goals with your clinician. At follow-up, describe changes after activity and how long pain lasted.",
+      "ru": "Обсудите с врачом реалистичные цели ходьбы, работы или тренировок. На повторном приёме расскажите, что менялось после нагрузки и как долго болело."
+    }
   },
   {
     "slug": "metatarsalgia",
@@ -886,16 +1328,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ցավ կանգնելիս կամ քայլելիս",
-        "Ոտնաթաթի առջևի այրոց կամ զգայունություն"
+        "Ցավ ոտնաթաթի առաջային հենման հատվածում՝ մատների հիմքերի տակ։",
+        "Կարող եք զգալ այրոց, բութ ցավ կամ կարծես մանր քարերի վրա քայլել։",
+        "Քայլելը, վազքը կամ երկար կանգնելը հաճախ ուժեղացնում են ցավը։",
+        "Նեղ կամ բարձրակրունկ կոշիկները կարող են մեծացնել ճնշումն ու անհանգստությունը։",
+        "Հանգստանալիս կամ կոշիկը փոխելուց հետո ցավը երբեմն թեթևանում է։"
       ],
       "en": [
-        "Pain standing or walking",
-        "Burning or tenderness in the forefoot"
+        "Pain in the ball of the foot beneath the toe bases.",
+        "It may burn, ache or feel like walking on small stones.",
+        "Walking, running or prolonged standing often worsen pain.",
+        "Narrow or high-heeled shoes may increase pressure and discomfort.",
+        "Rest or changing footwear may ease the pain."
       ],
       "ru": [
-        "Боль при стоянии или ходьбе",
-        "Жжение или болезненность переднего отдела стопы"
+        "Боль в переднем опорном отделе стопы под основаниями пальцев.",
+        "Возможны жжение, ноющая боль или ощущение ходьбы по мелким камешкам.",
+        "Ходьба, бег или долгое стояние часто усиливают боль.",
+        "Узкая обувь или высокий каблук могут усиливать давление и дискомфорт.",
+        "Отдых или смена обуви иногда облегчают боль."
       ]
     },
     "assessment": {
@@ -911,7 +1362,23 @@
     "related": [
       "mortons-neuroma",
       "heel-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/symptoms/foot-pain/pain-in-the-ball-of-the-foot/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նշեք՝ որքան կարող եք քայլել, որ կոշիկն եք կրում և որ շարժումներն են ցավոտ։ Օգտակար է պատմել վերջին վնասվածքի կամ ծանրաբեռնվածության փոփոխության մասին։",
+      "en": "Explain how far you can walk, which footwear you use and which movements hurt. Mention recent injury or changes in activity.",
+      "ru": "Расскажите, сколько можете пройти, какую обувь носите и какие движения болезненны. Укажите недавнюю травму или изменение нагрузки."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք քայլելու, աշխատանքի կամ մարզման իրատեսական նպատակները։ Հետագա այցելությանը նշեք՝ ծանրաբեռնվածությունից հետո ինչ է փոխվել և որքան է տևել ցավը։",
+      "en": "Discuss realistic walking, work or exercise goals with your clinician. At follow-up, describe changes after activity and how long pain lasted.",
+      "ru": "Обсудите с врачом реалистичные цели ходьбы, работы или тренировок. На повторном приёме расскажите, что менялось после нагрузки и как долго болело."
+    }
   },
   {
     "slug": "mortons-neuroma",
@@ -928,16 +1395,25 @@
     },
     "symptoms": {
       "hy": [
-        "Այրող ցավ ոտնաթաթի առջևում",
-        "Մատների ծակծկոց կամ թմրածություն"
+        "Այրող կամ կրակող ցավ մատների հիմքերի միջև՝ հաճախ երրորդ և չորրորդ մատների շրջանում։",
+        "Կարծես կոշիկի մեջ քար կա կամ գուլպան ծալված է։",
+        "Հնարավոր է հարակից մատների ծակծկոց կամ թմրածություն։",
+        "Նեղ կոշիկը, բարձրակրունկը կամ ոտնաթաթը սեղմելը կարող են սրել ցավը։",
+        "Կոշիկը հանելը և ծանրաբեռնվածությունը նվազեցնելը երբեմն ժամանակավորապես թեթևացնում են գանգատները։"
       ],
       "en": [
-        "Burning pain in the forefoot",
-        "Tingling or numbness in the toes"
+        "Burning or shooting forefoot pain, often between the third and fourth toes.",
+        "It may feel like a pebble or folded sock inside the shoe.",
+        "Nearby toes may tingle or feel numb.",
+        "Tight shoes, high heels or squeezing the forefoot may provoke pain.",
+        "Removing the shoe and reducing load may provide temporary relief."
       ],
       "ru": [
-        "Жгучая боль в переднем отделе стопы",
-        "Покалывание или онемение пальцев"
+        "Жгучая или стреляющая боль спереди стопы, часто между третьим и четвёртым пальцами.",
+        "Бывает ощущение камешка или складки носка в обуви.",
+        "В соседних пальцах возможны покалывание или онемение.",
+        "Тесная обувь, каблуки или сдавливание переднего отдела стопы могут провоцировать боль.",
+        "Снятие обуви и уменьшение нагрузки иногда временно облегчают жалобы."
       ]
     },
     "assessment": {
@@ -953,7 +1429,23 @@
     "related": [
       "metatarsalgia",
       "nerve-entrapment"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/conditions/mortons-neuroma/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ցույց տվեք ցավի ու թմրածության ճշգրիտ տարածքը և նկարագրեք հպման ազդեցությունը։ Բժշկին ներկայացրեք ուղեկցող հիվանդությունները, ընդունած դեղերն ու նախկին միջամտությունները։",
+      "en": "Identify the precise areas of pain and numbness and describe the effect of touch. Bring details of other conditions, medicines and previous procedures.",
+      "ru": "Покажите точные зоны боли и онемения, опишите влияние прикосновения. Сообщите о других заболеваниях, лекарствах и прежних вмешательствах."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք ցավի ազդեցությունը քնի, աշխատանքի ու շարժման վրա։ Հետագա այցերին նշեք նաև զգացողության և ուժի փոփոխությունները, ոչ միայն ցավի ուժգնությունը։",
+      "en": "Discuss how pain affects sleep, work and movement. At follow-up, report changes in sensation and strength as well as pain intensity.",
+      "ru": "Обсудите влияние боли на сон, работу и движение. На повторных приёмах сообщайте также об изменениях чувствительности и силы."
+    }
   },
   {
     "slug": "sports-overuse-pain",
@@ -970,16 +1462,25 @@
     },
     "symptoms": {
       "hy": [
-        "Մարզման ընթացքում կամ հետո կրկնվող ցավ",
-        "Վերականգնման դանդաղում կամ կատարողականի նվազում"
+        "Ցավ, որը կրկնվում է նույն շարժման կամ մարզման ժամանակ։",
+        "Սկզբում ցավը կարող է լինել միայն մարզումից հետո, հետո՝ նաև ընթացքում։",
+        "Հնարավոր են տեղային զգայունություն, կոշտություն կամ թեթև այտուց։",
+        "Կարող են նվազել ուժը, շարժման ազատությունը կամ մարզական արդյունքները։",
+        "Կոնկրետ ոսկրային կետի ցավը կամ հանգստի ցավը պետք է գնահատել առանձին։"
       ],
       "en": [
-        "Recurrent pain during or after training",
-        "Slower recovery or reduced performance"
+        "Pain that repeatedly appears with the same movement or training.",
+        "Pain may begin after exercise and later occur during activity.",
+        "Local tenderness, stiffness or mild swelling may occur.",
+        "Strength, movement or sporting performance may decline.",
+        "Focal bone tenderness or pain at rest needs specific assessment."
       ],
       "ru": [
-        "Повторная боль во время или после тренировок",
-        "Замедление восстановления или снижение результатов"
+        "Боль, повторяющаяся при одном и том же движении или тренировке.",
+        "Сначала боль бывает после нагрузки, затем может появляться и во время неё.",
+        "Возможны местная болезненность, скованность или небольшой отёк.",
+        "Могут снижаться сила, подвижность или спортивные результаты.",
+        "Боль в конкретной костной точке или в покое требует отдельной оценки."
       ]
     },
     "assessment": {
@@ -995,7 +1496,23 @@
     "related": [
       "achilles-tendinopathy",
       "patellar-tendinopathy"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NIAMS / NIH",
+        "url": "https://www.niams.nih.gov/health-topics/sports-injuries"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Նշեք՝ որքան կարող եք քայլել, որ կոշիկն եք կրում և որ շարժումներն են ցավոտ։ Օգտակար է պատմել վերջին վնասվածքի կամ ծանրաբեռնվածության փոփոխության մասին։",
+      "en": "Explain how far you can walk, which footwear you use and which movements hurt. Mention recent injury or changes in activity.",
+      "ru": "Расскажите, сколько можете пройти, какую обувь носите и какие движения болезненны. Укажите недавнюю травму или изменение нагрузки."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք քայլելու, աշխատանքի կամ մարզման իրատեսական նպատակները։ Հետագա այցելությանը նշեք՝ ծանրաբեռնվածությունից հետո ինչ է փոխվել և որքան է տևել ցավը։",
+      "en": "Discuss realistic walking, work or exercise goals with your clinician. At follow-up, describe changes after activity and how long pain lasted.",
+      "ru": "Обсудите с врачом реалистичные цели ходьбы, работы или тренировок. На повторном приёме расскажите, что менялось после нагрузки и как долго болело."
+    }
   },
   {
     "slug": "peripheral-neuropathic-pain",
@@ -1012,16 +1529,25 @@
     },
     "symptoms": {
       "hy": [
-        "Այրոց, ծակծկոց կամ հպումից ցավ",
-        "Զգացողության նվազում կամ թուլություն"
+        "Այրոց, ծակծկոց կամ էլեկտրական հարվածի նման ցավ վերջույթներում։",
+        "Կարող են լինել թմրած հատվածներ կամ ցավ՝ թեթև հպումից։",
+        "Երբեմն զգացողության փոփոխությունը սկսվում է ոտնաթաթերից և աստիճանաբար տարածվում։",
+        "Ջերմությունը, սառնությունը կամ փոքր վնասվածքը կարող են վատ զգացվել։",
+        "Որոշ դեպքերում միանում են մկանային թուլությունը կամ հավասարակշռության դժվարությունը։"
       ],
       "en": [
-        "Burning, tingling or pain from touch",
-        "Reduced sensation or weakness"
+        "Burning, tingling or electric-shock-like pain in the limbs.",
+        "Numb patches or pain from a light touch may occur.",
+        "Altered sensation sometimes starts in the feet and gradually spreads.",
+        "Heat, cold or minor injuries may be less noticeable.",
+        "Some people also develop weakness or balance difficulties."
       ],
       "ru": [
-        "Жжение, покалывание или боль от прикосновения",
-        "Снижение чувствительности или слабость"
+        "Жжение, покалывание или похожая на удар током боль в конечностях.",
+        "Возможны участки онемения или боль от лёгкого прикосновения.",
+        "Иногда изменения чувствительности начинаются со стоп и постепенно распространяются.",
+        "Тепло, холод или небольшие повреждения могут ощущаться хуже.",
+        "В некоторых случаях присоединяются слабость или трудности с равновесием."
       ]
     },
     "assessment": {
@@ -1037,7 +1563,23 @@
     "related": [
       "neuropathic-pain",
       "diabetic-neuropathic-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NINDS / NIH",
+        "url": "https://www.ninds.nih.gov/health-information/disorders/peripheral-neuropathy"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ցույց տվեք ցավի ու թմրածության ճշգրիտ տարածքը և նկարագրեք հպման ազդեցությունը։ Բժշկին ներկայացրեք ուղեկցող հիվանդությունները, ընդունած դեղերն ու նախկին միջամտությունները։",
+      "en": "Identify the precise areas of pain and numbness and describe the effect of touch. Bring details of other conditions, medicines and previous procedures.",
+      "ru": "Покажите точные зоны боли и онемения, опишите влияние прикосновения. Сообщите о других заболеваниях, лекарствах и прежних вмешательствах."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք ցավի ազդեցությունը քնի, աշխատանքի ու շարժման վրա։ Հետագա այցերին նշեք նաև զգացողության և ուժի փոփոխությունները, ոչ միայն ցավի ուժգնությունը։",
+      "en": "Discuss how pain affects sleep, work and movement. At follow-up, report changes in sensation and strength as well as pain intensity.",
+      "ru": "Обсудите влияние боли на сон, работу и движение. На повторных приёмах сообщайте также об изменениях чувствительности и силы."
+    }
   },
   {
     "slug": "diabetic-neuropathic-pain",
@@ -1054,16 +1596,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ոտնաթաթերի այրոց կամ գիշերային ցավ",
-        "Թմրածություն և ջերմաստիճանը զգալու նվազում"
+        "Այրող կամ ծակող ցավ ոտնաթաթերում՝ հաճախ երկու կողմում։",
+        "Ցավը կարող է ավելի զգալի լինել գիշերը և խանգարել քնին։",
+        "Հնարավոր են թմրածություն, ծակծկոց կամ թեթև հպման ցավոտ զգացում։",
+        "Ջերմաստիճանի և ցավի զգացողության նվազումը կարող է աննկատ թողնել վերքը։",
+        "Քայլելիս կարող եք զգալ անկայունություն կամ ոտքերի թուլություն։"
       ],
       "en": [
-        "Burning feet or night pain",
-        "Numbness and reduced temperature sensation"
+        "Burning or stabbing pain in the feet, often on both sides.",
+        "Pain may be more noticeable at night and disturb sleep.",
+        "Numbness, tingling or pain from light contact may occur.",
+        "Reduced temperature and pain sensation can let a wound go unnoticed.",
+        "Walking may feel unsteady or the feet may feel weak."
       ],
       "ru": [
-        "Жжение стоп или ночная боль",
-        "Онемение и снижение ощущения температуры"
+        "Жгучая или колющая боль в стопах, часто с обеих сторон.",
+        "Боль может сильнее ощущаться ночью и мешать сну.",
+        "Возможны онемение, покалывание или боль от лёгкого прикосновения.",
+        "Снижение температурной и болевой чувствительности может оставлять рану незамеченной.",
+        "При ходьбе могут ощущаться неустойчивость или слабость ног."
       ]
     },
     "assessment": {
@@ -1078,7 +1629,28 @@
     },
     "related": [
       "peripheral-neuropathic-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NIDDK / NIH",
+        "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies/peripheral-neuropathy"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ցույց տվեք ցավի ու թմրածության ճշգրիտ տարածքը և նկարագրեք հպման ազդեցությունը։ Բժշկին ներկայացրեք ուղեկցող հիվանդությունները, ընդունած դեղերն ու նախկին միջամտությունները։",
+      "en": "Identify the precise areas of pain and numbness and describe the effect of touch. Bring details of other conditions, medicines and previous procedures.",
+      "ru": "Покажите точные зоны боли и онемения, опишите влияние прикосновения. Сообщите о других заболеваниях, лекарствах и прежних вмешательствах."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք ցավի ազդեցությունը քնի, աշխատանքի ու շարժման վրա։ Հետագա այցերին նշեք նաև զգացողության և ուժի փոփոխությունները, ոչ միայն ցավի ուժգնությունը։",
+      "en": "Discuss how pain affects sleep, work and movement. At follow-up, report changes in sensation and strength as well as pain intensity.",
+      "ru": "Обсудите влияние боли на сон, работу и движение. На повторных приёмах сообщайте также об изменениях чувствительности и силы."
+    },
+    "urgent": {
+      "hy": "Ոտնաթաթի նոր վերքը, կարմրությունը, տաքությունը կամ այտուցը պետք է արագ գնահատել, նույնիսկ եթե ցավը թույլ է։ Ջերմությամբ վատացումը կամ հանկարծակի սառը ու գունատ ոտքը պահանջում են անհետաձգելի օգնություն։",
+      "en": "A new foot wound, redness, warmth or swelling needs prompt assessment, even with little pain. Deterioration with fever or a suddenly cold pale foot needs urgent help.",
+      "ru": "Новая рана стопы, покраснение, жар или отёк требуют быстрой оценки даже при слабой боли. Ухудшение с температурой или внезапно холодная бледная стопа требуют срочной помощи."
+    }
   },
   {
     "slug": "nerve-entrapment",
@@ -1095,16 +1667,25 @@
     },
     "symptoms": {
       "hy": [
-        "Դիրքից կամ շարժումից ուժեղացող ծակծկոց",
-        "Նյարդի տարածքով զգացողության կամ ուժի փոփոխություն"
+        "Ցավ, այրոց կամ ծակծկոց տվյալ նյարդի սպասարկած հատվածում։",
+        "Որոշ դիրքեր, կրկնվող շարժումներ կամ տեղային ճնշումը կարող են սրել գանգատները։",
+        "Հնարավոր է մասնակի թմրածություն կամ հպման զգացողության փոփոխություն։",
+        "Ցավը երբեմն տարածվում է սեղմման հատվածից դեպի վերջույթի հեռավոր մասերը։",
+        "Ավելի արտահայտված ախտահարման դեպքում կարող են թուլանալ համապատասխան մկանները։"
       ],
       "en": [
-        "Tingling worsened by position or movement",
-        "Changes in sensation or strength along a nerve"
+        "Pain, burning or tingling in the affected nerve territory.",
+        "Certain positions, repeated movements or local pressure may worsen symptoms.",
+        "Partial numbness or altered touch sensation may occur.",
+        "Pain may spread beyond the compression towards the hand or foot.",
+        "More marked nerve involvement may weaken the associated muscles."
       ],
       "ru": [
-        "Покалывание, усиливающееся от положения или движения",
-        "Изменение чувствительности или силы в зоне нерва"
+        "Боль, жжение или покалывание в зоне соответствующего нерва.",
+        "Определённые позы, повторные движения или местное давление могут усиливать жалобы.",
+        "Возможны частичное онемение или изменение ощущения прикосновения.",
+        "Боль иногда распространяется от места сдавления к кисти или стопе.",
+        "При более выраженном поражении могут ослабевать соответствующие мышцы."
       ]
     },
     "assessment": {
@@ -1121,7 +1702,23 @@
       "carpal-tunnel",
       "cubital-tunnel",
       "meralgia-paresthetica"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "Cleveland Clinic",
+        "url": "https://my.clevelandclinic.org/health/diseases/22137-nerve-compression-syndrome"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ցույց տվեք ցավի ու թմրածության ճշգրիտ տարածքը և նկարագրեք հպման ազդեցությունը։ Բժշկին ներկայացրեք ուղեկցող հիվանդությունները, ընդունած դեղերն ու նախկին միջամտությունները։",
+      "en": "Identify the precise areas of pain and numbness and describe the effect of touch. Bring details of other conditions, medicines and previous procedures.",
+      "ru": "Покажите точные зоны боли и онемения, опишите влияние прикосновения. Сообщите о других заболеваниях, лекарствах и прежних вмешательствах."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք ցավի ազդեցությունը քնի, աշխատանքի ու շարժման վրա։ Հետագա այցերին նշեք նաև զգացողության և ուժի փոփոխությունները, ոչ միայն ցավի ուժգնությունը։",
+      "en": "Discuss how pain affects sleep, work and movement. At follow-up, report changes in sensation and strength as well as pain intensity.",
+      "ru": "Обсудите влияние боли на сон, работу и движение. На повторных приёмах сообщайте также об изменениях чувствительности и силы."
+    }
   },
   {
     "slug": "meralgia-paresthetica",
@@ -1138,16 +1735,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ազդրի արտաքին կողմի այրոց կամ թմրածություն",
-        "Հագուստի հպումից անհարմարություն"
+        "Այրոց, թմրածություն կամ ծակծկոց ազդրի առաջաարտաքին մակերեսին։",
+        "Գանգատները սովորաբար մեկ կողմում են և չեն հասնում ոտնաթաթին։",
+        "Նեղ հագուստը, գոտին կամ մաշկին թեթև հպումը կարող են անհարմար լինել։",
+        "Երկար կանգնելը կամ քայլելը կարող են ուժեղացնել ցավը։",
+        "Այս զգացող նյարդի խնդիրը սովորաբար մկանային թուլություն չի առաջացնում։"
       ],
       "en": [
-        "Burning or numbness on the outer thigh",
-        "Discomfort from clothing touching the skin"
+        "Burning, numbness or tingling over the front-outer thigh.",
+        "Symptoms are usually one-sided and do not reach the foot.",
+        "Tight clothing, a belt or light skin contact may feel uncomfortable.",
+        "Prolonged standing or walking may increase the pain.",
+        "This sensory nerve problem does not usually cause muscle weakness."
       ],
       "ru": [
-        "Жжение или онемение снаружи бедра",
-        "Дискомфорт от прикосновения одежды"
+        "Жжение, онемение или покалывание по передненаружной поверхности бедра.",
+        "Жалобы обычно односторонние и не доходят до стопы.",
+        "Тесная одежда, ремень или лёгкое прикосновение могут вызывать дискомфорт.",
+        "Долгое стояние или ходьба могут усиливать боль.",
+        "Поражение этого чувствительного нерва обычно не вызывает мышечной слабости."
       ]
     },
     "assessment": {
@@ -1163,7 +1769,23 @@
     "related": [
       "nerve-entrapment",
       "hip-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "Cleveland Clinic",
+        "url": "https://my.clevelandclinic.org/health/diseases/17959-meralgia-paresthetica"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ցույց տվեք ցավի ու թմրածության ճշգրիտ տարածքը և նկարագրեք հպման ազդեցությունը։ Բժշկին ներկայացրեք ուղեկցող հիվանդությունները, ընդունած դեղերն ու նախկին միջամտությունները։",
+      "en": "Identify the precise areas of pain and numbness and describe the effect of touch. Bring details of other conditions, medicines and previous procedures.",
+      "ru": "Покажите точные зоны боли и онемения, опишите влияние прикосновения. Сообщите о других заболеваниях, лекарствах и прежних вмешательствах."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք ցավի ազդեցությունը քնի, աշխատանքի ու շարժման վրա։ Հետագա այցերին նշեք նաև զգացողության և ուժի փոփոխությունները, ոչ միայն ցավի ուժգնությունը։",
+      "en": "Discuss how pain affects sleep, work and movement. At follow-up, report changes in sensation and strength as well as pain intensity.",
+      "ru": "Обсудите влияние боли на сон, работу и движение. На повторных приёмах сообщайте также об изменениях чувствительности и силы."
+    }
   },
   {
     "slug": "postherpetic-neuralgia",
@@ -1180,16 +1802,25 @@
     },
     "symptoms": {
       "hy": [
-        "Այրող կամ ծակող ցավ նախկին ցանի տարածքում",
-        "Հագուստի թեթև հպումից ցավ"
+        "Շարունակվող ցավ այն հատվածում, որտեղ նախկինում գոտևորող հերպեսի ցանն էր։",
+        "Ցավը կարող է լինել այրող, ծակող կամ էլեկտրական նոպաներով։",
+        "Հագուստի հպումը կամ անկողնու շփումը երբեմն շատ ցավոտ են։",
+        "Կարող են միանալ քորը, ծակծկոցը կամ թմրած հատվածները։",
+        "Ցավը կարող է պահպանվել ցանի ապաքինումից հետո և խանգարել քնին։"
       ],
       "en": [
-        "Burning or stabbing pain where the rash was",
-        "Pain from light clothing contact"
+        "Persistent pain in the area previously affected by shingles.",
+        "Pain may burn, stab or arrive in electric-like bursts.",
+        "Clothing or bedclothes touching the skin may be very painful.",
+        "Itching, tingling or numb patches may accompany the pain.",
+        "Pain may continue after the rash heals and disrupt sleep."
       ],
       "ru": [
-        "Жгучая или колющая боль в зоне бывшей сыпи",
-        "Боль от лёгкого контакта одежды"
+        "Продолжающаяся боль в области, где ранее была сыпь опоясывающего лишая.",
+        "Боль бывает жгучей, колющей или в виде электрических прострелов.",
+        "Прикосновение одежды или постельного белья иногда очень болезненно.",
+        "Боль могут сопровождать зуд, покалывание или участки онемения.",
+        "Боль может сохраняться после заживления сыпи и нарушать сон."
       ]
     },
     "assessment": {
@@ -1204,7 +1835,23 @@
     },
     "related": [
       "neuropathic-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/conditions/post-herpetic-neuralgia/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ցույց տվեք ցավի ու թմրածության ճշգրիտ տարածքը և նկարագրեք հպման ազդեցությունը։ Բժշկին ներկայացրեք ուղեկցող հիվանդությունները, ընդունած դեղերն ու նախկին միջամտությունները։",
+      "en": "Identify the precise areas of pain and numbness and describe the effect of touch. Bring details of other conditions, medicines and previous procedures.",
+      "ru": "Покажите точные зоны боли и онемения, опишите влияние прикосновения. Сообщите о других заболеваниях, лекарствах и прежних вмешательствах."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք ցավի ազդեցությունը քնի, աշխատանքի ու շարժման վրա։ Հետագա այցերին նշեք նաև զգացողության և ուժի փոփոխությունները, ոչ միայն ցավի ուժգնությունը։",
+      "en": "Discuss how pain affects sleep, work and movement. At follow-up, report changes in sensation and strength as well as pain intensity.",
+      "ru": "Обсудите влияние боли на сон, работу и движение. На повторных приёмах сообщайте также об изменениях чувствительности и силы."
+    }
   },
   {
     "slug": "crps",
@@ -1221,16 +1868,25 @@
     },
     "symptoms": {
       "hy": [
-        "Արտահայտված ցավ ու հպման նկատմամբ զգայունություն",
-        "Այտուց, գույնի կամ ջերմաստիճանի փոփոխություն"
+        "Շարունակվող ուժեղ ցավ՝ հաճախ վերջույթում, որը անհամաչափ է սկզբնական վնասվածքին։",
+        "Թեթև հպումը կամ փոքր շարժումը կարող են ուժեղ ցավ առաջացնել։",
+        "Մաշկի գույնը կամ ջերմաստիճանը կարող են տարբերվել մյուս վերջույթից։",
+        "Հնարավոր են այտուց, քրտնարտադրության փոփոխություն և շարժումների կոշտություն։",
+        "Երբեմն փոխվում են եղունգները կամ մաշկը, և վերջույթն օգտագործելը դժվարանում է։"
       ],
       "en": [
-        "Marked pain and touch sensitivity",
-        "Swelling, colour or temperature changes"
+        "Persistent limb pain that seems disproportionate to the initial injury.",
+        "Light touch or small movements may cause marked pain.",
+        "Skin colour or temperature may differ from the other limb.",
+        "Swelling, altered sweating and movement stiffness may occur.",
+        "Skin or nail changes may develop, with difficulty using the limb."
       ],
       "ru": [
-        "Выраженная боль и чувствительность к прикосновению",
-        "Отёк, изменение цвета или температуры"
+        "Продолжающаяся боль в конечности, несоразмерная первоначальной травме.",
+        "Лёгкое касание или небольшое движение могут вызывать выраженную боль.",
+        "Цвет или температура кожи могут отличаться от другой конечности.",
+        "Возможны отёк, изменение потоотделения и скованность движений.",
+        "Иногда меняются кожа или ногти и становится трудно пользоваться конечностью."
       ]
     },
     "assessment": {
@@ -1245,7 +1901,23 @@
     },
     "related": [
       "post-traumatic-neuropathic-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/conditions/complex-regional-pain-syndrome/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ցույց տվեք ցավի ու թմրածության ճշգրիտ տարածքը և նկարագրեք հպման ազդեցությունը։ Բժշկին ներկայացրեք ուղեկցող հիվանդությունները, ընդունած դեղերն ու նախկին միջամտությունները։",
+      "en": "Identify the precise areas of pain and numbness and describe the effect of touch. Bring details of other conditions, medicines and previous procedures.",
+      "ru": "Покажите точные зоны боли и онемения, опишите влияние прикосновения. Сообщите о других заболеваниях, лекарствах и прежних вмешательствах."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք ցավի ազդեցությունը քնի, աշխատանքի ու շարժման վրա։ Հետագա այցերին նշեք նաև զգացողության և ուժի փոփոխությունները, ոչ միայն ցավի ուժգնությունը։",
+      "en": "Discuss how pain affects sleep, work and movement. At follow-up, report changes in sensation and strength as well as pain intensity.",
+      "ru": "Обсудите влияние боли на сон, работу и движение. На повторных приёмах сообщайте также об изменениях чувствительности и силы."
+    }
   },
   {
     "slug": "pudendal-neuralgia",
@@ -1262,16 +1934,25 @@
     },
     "symptoms": {
       "hy": [
-        "Այրող կամ ծակող ցավ շեքի շրջանում",
-        "Նստելիս ուժեղացող անհարմարություն"
+        "Այրող, կրակող կամ ծակծկող ցավ շեքի, սեռական օրգանների կամ հետանցքի շրջանում։",
+        "Նստելը հաճախ ուժեղացնում է ցավը, իսկ կանգնելը կարող է թեթևացնել։",
+        "Անհանգստությունը կարող է օրվա ընթացքում աստիճանաբար ավելանալ։",
+        "Որոշ մարդկանց մոտ ցավն առնչվում է սեռական հարաբերությանը կամ զուգարան գնալուն։",
+        "Նման գանգատները կարող են այլ պատճառներ ունենալ, ուստի պահանջում են գնահատում։"
       ],
       "en": [
-        "Burning or stabbing perineal pain",
-        "Discomfort worsened by sitting"
+        "Burning, shooting or tingling pain around the perineum, genitals or anus.",
+        "Sitting often worsens pain; standing may ease it.",
+        "Discomfort may build up through the day.",
+        "Some people have pain with sexual activity or toileting.",
+        "Similar symptoms have other possible causes and need assessment."
       ],
       "ru": [
-        "Жгучая или колющая боль в промежности",
-        "Дискомфорт, усиливающийся сидя"
+        "Жгучая, стреляющая или покалывающая боль в промежности, гениталиях или области ануса.",
+        "Сидение часто усиливает боль, а вставание может облегчать её.",
+        "Дискомфорт может постепенно нарастать в течение дня.",
+        "У некоторых людей боль связана с половой активностью или посещением туалета.",
+        "Подобные жалобы могут иметь другие причины и требуют оценки."
       ]
     },
     "assessment": {
@@ -1286,7 +1967,23 @@
     },
     "related": [
       "neuropathic-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/conditions/pudendal-neuralgia/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ցույց տվեք ցավի ու թմրածության ճշգրիտ տարածքը և նկարագրեք հպման ազդեցությունը։ Բժշկին ներկայացրեք ուղեկցող հիվանդությունները, ընդունած դեղերն ու նախկին միջամտությունները։",
+      "en": "Identify the precise areas of pain and numbness and describe the effect of touch. Bring details of other conditions, medicines and previous procedures.",
+      "ru": "Покажите точные зоны боли и онемения, опишите влияние прикосновения. Сообщите о других заболеваниях, лекарствах и прежних вмешательствах."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք ցավի ազդեցությունը քնի, աշխատանքի ու շարժման վրա։ Հետագա այցերին նշեք նաև զգացողության և ուժի փոփոխությունները, ոչ միայն ցավի ուժգնությունը։",
+      "en": "Discuss how pain affects sleep, work and movement. At follow-up, report changes in sensation and strength as well as pain intensity.",
+      "ru": "Обсудите влияние боли на сон, работу и движение. На повторных приёмах сообщайте также об изменениях чувствительности и силы."
+    }
   },
   {
     "slug": "intercostal-neuralgia",
@@ -1303,16 +2000,25 @@
     },
     "symptoms": {
       "hy": [
-        "Գոտևորող այրոց կամ ծակոց",
-        "Հպումից կամ մարմնի շարժումից ցավ"
+        "Գոտու նման ցավ՝ կողոսկրի երկայնքով, կրծքավանդակի մի կողմում կամ որովայնի վերին մասում։",
+        "Ցավը կարող է լինել այրող, կրակող կամ սուր ծակող։",
+        "Մարմինը պտտելը, խորը շունչը կամ հազը կարող են ուժեղացնել ցավը։",
+        "Նույն շերտում հնարավոր են մաշկի թմրածություն կամ հպման ցավոտ զգացողություն։",
+        "Նոր կրծքային ցավը չի կարելի ինքնուրույն համարել միայն նյարդային ցավ։"
       ],
       "en": [
-        "Band-like burning or stabbing",
-        "Pain with touch or body movement"
+        "Band-like pain along a rib, one chest side or the upper abdomen.",
+        "Pain may feel burning, shooting or sharply stabbing.",
+        "Twisting, deep breathing or coughing may worsen pain.",
+        "The same strip of skin may feel numb or painful to touch.",
+        "New chest pain must not be assumed to be nerve pain."
       ],
       "ru": [
-        "Опоясывающее жжение или покалывание",
-        "Боль от прикосновения или движения"
+        "Полосовидная боль вдоль ребра, с одной стороны груди или вверху живота.",
+        "Боль бывает жгучей, стреляющей или резко колющей.",
+        "Повороты туловища, глубокий вдох или кашель могут усиливать боль.",
+        "В той же полосе кожи возможны онемение или болезненность прикосновения.",
+        "Новую боль в груди нельзя самостоятельно считать только нервной болью."
       ]
     },
     "assessment": {
@@ -1328,7 +2034,28 @@
     "related": [
       "post-thoracotomy-pain",
       "postherpetic-neuralgia"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NCBI Bookshelf / StatPearls",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK560865/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ցույց տվեք ցավի ու թմրածության ճշգրիտ տարածքը և նկարագրեք հպման ազդեցությունը։ Բժշկին ներկայացրեք ուղեկցող հիվանդությունները, ընդունած դեղերն ու նախկին միջամտությունները։",
+      "en": "Identify the precise areas of pain and numbness and describe the effect of touch. Bring details of other conditions, medicines and previous procedures.",
+      "ru": "Покажите точные зоны боли и онемения, опишите влияние прикосновения. Сообщите о других заболеваниях, лекарствах и прежних вмешательствах."
+    },
+    "care_detail": {
+      "hy": "Բժշկի հետ քննարկեք ցավի ազդեցությունը քնի, աշխատանքի ու շարժման վրա։ Հետագա այցերին նշեք նաև զգացողության և ուժի փոփոխությունները, ոչ միայն ցավի ուժգնությունը։",
+      "en": "Discuss how pain affects sleep, work and movement. At follow-up, report changes in sensation and strength as well as pain intensity.",
+      "ru": "Обсудите влияние боли на сон, работу и движение. На повторных приёмах сообщайте также об изменениях чувствительности и силы."
+    },
+    "urgent": {
+      "hy": "Նոր կամ անբացատրելի կրծքային ցավը, հատկապես շնչահեղձությամբ, սառը քրտինքով, ուշագնացությամբ կամ դեպի ձեռք ու ծնոտ տարածմամբ, պահանջում է շտապ օգնություն։ Այն մի համարեք նյարդային ցավ՝ առանց գնահատման։",
+      "en": "New or unexplained chest pain, especially with breathlessness, cold sweating, fainting or spread to the arm or jaw, needs emergency care. Do not assume it is nerve pain without assessment.",
+      "ru": "Новая или необъяснимая боль в груди, особенно с одышкой, холодным потом, обмороком или распространением в руку либо челюсть, требует экстренной помощи. Не считайте её нервной болью без оценки."
+    }
   },
   {
     "slug": "trigeminal-neuralgia",
@@ -1345,16 +2072,25 @@
     },
     "symptoms": {
       "hy": [
-        "Հպումից, ծամելուց կամ ատամները լվանալուց նոպա",
-        "Նոպաների միջև հնարավոր հանգիստ ժամանակահատվածներ"
+        "Հանկարծակի, շատ ուժեղ «էլեկտրական» ցավ՝ սովորաբար դեմքի մեկ կողմում։",
+        "Նոպաները հաճախ տևում են վայրկյաններ մինչև մոտ երկու րոպե։",
+        "Ցավը կարող է ընդգրկել այտը, ծնոտը, ատամների շրջանը կամ ճակատը։",
+        "Դեմքին դիպչելը, ծամելը, խոսելը կամ ատամները լվանալը կարող են նոպա հարուցել։",
+        "Նոպաների միջև կարող են լինել հանգիստ շրջաններ, երբեմն՝ նաև ֆոնային ցավ։"
       ],
       "en": [
-        "Attacks triggered by touch, chewing or tooth brushing",
-        "Possible pain-free intervals"
+        "Sudden severe electric-like pain, usually on one side of the face.",
+        "Attacks often last seconds to around two minutes.",
+        "Pain may affect the cheek, jaw, tooth region or forehead.",
+        "Touching the face, chewing, talking or toothbrushing may trigger attacks.",
+        "There may be pain-free intervals, sometimes with background aching."
       ],
       "ru": [
-        "Приступы от прикосновения, жевания или чистки зубов",
-        "Возможные безболевые промежутки"
+        "Внезапная сильная «электрическая» боль, обычно с одной стороны лица.",
+        "Приступы часто длятся от секунд примерно до двух минут.",
+        "Боль может охватывать щёку, челюсть, область зубов или лоб.",
+        "Касание лица, жевание, разговор или чистка зубов могут провоцировать приступ.",
+        "Между приступами возможны безболевые промежутки, иногда сохраняется фоновая боль."
       ]
     },
     "assessment": {
@@ -1370,7 +2106,23 @@
     "related": [
       "facial-neuropathic-pain",
       "persistent-facial-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/conditions/trigeminal-neuralgia/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Օգտակար է նախապես գրանցել ցավի տեղը, նոպաների տևողությունն ու հաճախականությունը, հնարավոր հարուցիչները և ընդունած դեղերը։ Նշեք նաև նախկին ատամնաբուժական կամ այլ միջամտությունները։",
+      "en": "Record the pain location, attack duration and frequency, possible triggers and medicines used. Mention previous dental or other procedures.",
+      "ru": "Запишите расположение боли, длительность и частоту приступов, возможные провокаторы и принятые лекарства. Укажите прежние стоматологические и другие вмешательства."
+    },
+    "care_detail": {
+      "hy": "Հետևեք ոչ միայն ցավի ուժգնությանը, այլ նաև նոպաների հաճախականությանը և առօրյայի վրա ազդեցությանը։ Դեղերի փոփոխությունն ու արդյունքների գնահատումը քննարկվում են բժշկի հետ։",
+      "en": "Track not only pain intensity but attack frequency and impact on daily life. Review medication changes and treatment response with your clinician.",
+      "ru": "Отслеживайте не только силу боли, но и частоту приступов, влияние на повседневность. Изменения лекарств и результаты обсуждайте с врачом."
+    }
   },
   {
     "slug": "occipital-neuralgia",
@@ -1387,16 +2139,25 @@
     },
     "symptoms": {
       "hy": [
-        "Կարճատև կրակող կամ ծակող ցավ",
-        "Գլխամաշկի զգայունություն"
+        "Սուր կրակող կամ «հոսանքի» նման ցավ՝ պարանոցի վերին մասից դեպի ծոծրակ։",
+        "Ցավը կարող է տարածվել գլխամաշկով դեպի գագաթ, երբեմն՝ աչքի հետևը։",
+        "Գլխամաշկը կարող է ցավոտ լինել սանրելիս կամ բարձին հպվելիս։",
+        "Հնարավոր են կարճ նոպաներ և դրանց միջև բութ ցավ։",
+        "Պարանոցի որոշ շարժումներ կամ նյարդի շրջանին ճնշումը կարող են սրել ցավը։"
       ],
       "en": [
-        "Brief shooting or stabbing pain",
-        "Scalp tenderness"
+        "Shooting or electric pain from the upper neck towards the back of the head.",
+        "Pain may spread over the scalp towards the crown or behind an eye.",
+        "Combing the hair or resting on a pillow may hurt the scalp.",
+        "Brief attacks may alternate with a background ache.",
+        "Certain neck movements or pressure near the nerve may provoke pain."
       ],
       "ru": [
-        "Короткая стреляющая или колющая боль",
-        "Болезненность кожи головы"
+        "Стреляющая или «электрическая» боль от верхней части шеи к затылку.",
+        "Боль может распространяться по коже головы к темени или за глаз.",
+        "Расчёсывание волос или касание подушки могут быть болезненными для кожи головы.",
+        "Короткие приступы могут чередоваться с фоновой ноющей болью.",
+        "Некоторые движения шеи или давление около нерва могут провоцировать боль."
       ]
     },
     "assessment": {
@@ -1412,7 +2173,23 @@
     "related": [
       "headache",
       "neck-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "Johns Hopkins Medicine",
+        "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/occipital-neuralgia"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Օգտակար է նախապես գրանցել ցավի տեղը, նոպաների տևողությունն ու հաճախականությունը, հնարավոր հարուցիչները և ընդունած դեղերը։ Նշեք նաև նախկին ատամնաբուժական կամ այլ միջամտությունները։",
+      "en": "Record the pain location, attack duration and frequency, possible triggers and medicines used. Mention previous dental or other procedures.",
+      "ru": "Запишите расположение боли, длительность и частоту приступов, возможные провокаторы и принятые лекарства. Укажите прежние стоматологические и другие вмешательства."
+    },
+    "care_detail": {
+      "hy": "Հետևեք ոչ միայն ցավի ուժգնությանը, այլ նաև նոպաների հաճախականությանը և առօրյայի վրա ազդեցությանը։ Դեղերի փոփոխությունն ու արդյունքների գնահատումը քննարկվում են բժշկի հետ։",
+      "en": "Track not only pain intensity but attack frequency and impact on daily life. Review medication changes and treatment response with your clinician.",
+      "ru": "Отслеживайте не только силу боли, но и частоту приступов, влияние на повседневность. Изменения лекарств и результаты обсуждайте с врачом."
+    }
   },
   {
     "slug": "glossopharyngeal-neuralgia",
@@ -1429,16 +2206,25 @@
     },
     "symptoms": {
       "hy": [
-        "Կուլ տալուց կամ խոսելուց առաջացող նոպա",
-        "Կոկորդից ականջ տարածվող ցավ"
+        "Կարճատև ուժեղ ծակող կամ կրակող ցավ՝ կոկորդում կամ լեզվի հետին մասում։",
+        "Ցավը սովորաբար մեկ կողմում է և կարող է տարածվել դեպի ականջ։",
+        "Կուլ տալը, խոսելը, հազը կամ հորանջելը կարող են նոպա առաջացնել։",
+        "Նոպաները կարող են կրկնվել և ստիպել խուսափել ուտելուց կամ խոսելուց։",
+        "Ուշագնացության կամ արտահայտված գլխապտույտի ուղեկցությամբ նոպան պահանջում է անհետաձգելի գնահատում։"
       ],
       "en": [
-        "Attacks triggered by swallowing or talking",
-        "Pain spreading from the throat towards the ear"
+        "Brief severe stabbing or shooting pain in the throat or tongue base.",
+        "Pain is usually one-sided and may spread towards the ear.",
+        "Swallowing, talking, coughing or yawning may trigger an attack.",
+        "Repeated attacks may make eating or speaking difficult.",
+        "An attack with fainting or marked dizziness needs urgent assessment."
       ],
       "ru": [
-        "Приступы при глотании или разговоре",
-        "Боль от горла к уху"
+        "Короткая сильная колющая или стреляющая боль в горле или у корня языка.",
+        "Боль обычно односторонняя и может отдавать в ухо.",
+        "Глотание, разговор, кашель или зевание могут вызывать приступ.",
+        "Повторные приступы могут затруднять приём пищи или разговор.",
+        "Приступ с обмороком или выраженным головокружением требует срочной оценки."
       ]
     },
     "assessment": {
@@ -1453,7 +2239,28 @@
     },
     "related": [
       "trigeminal-neuralgia"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "Cleveland Clinic",
+        "url": "https://my.clevelandclinic.org/health/diseases/15799-glossopharyngeal-neuralgia-gpn"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Օգտակար է նախապես գրանցել ցավի տեղը, նոպաների տևողությունն ու հաճախականությունը, հնարավոր հարուցիչները և ընդունած դեղերը։ Նշեք նաև նախկին ատամնաբուժական կամ այլ միջամտությունները։",
+      "en": "Record the pain location, attack duration and frequency, possible triggers and medicines used. Mention previous dental or other procedures.",
+      "ru": "Запишите расположение боли, длительность и частоту приступов, возможные провокаторы и принятые лекарства. Укажите прежние стоматологические и другие вмешательства."
+    },
+    "care_detail": {
+      "hy": "Հետևեք ոչ միայն ցավի ուժգնությանը, այլ նաև նոպաների հաճախականությանը և առօրյայի վրա ազդեցությանը։ Դեղերի փոփոխությունն ու արդյունքների գնահատումը քննարկվում են բժշկի հետ։",
+      "en": "Track not only pain intensity but attack frequency and impact on daily life. Review medication changes and treatment response with your clinician.",
+      "ru": "Отслеживайте не только силу боли, но и частоту приступов, влияние на повседневность. Изменения лекарств и результаты обсуждайте с врачом."
+    },
+    "urgent": {
+      "hy": "Ցավային նոպան՝ ուշագնացությամբ, արտահայտված գլխապտույտով կամ սրտի աշխատանքի փոփոխությամբ, պահանջում է անհետաձգելի գնահատում։ Շնչառության կամ կուլ տալու սուր դժվարության դեպքում դիմեք շտապ օգնության։",
+      "en": "An attack with fainting, marked dizziness or heart-rate changes needs urgent assessment. Seek emergency help for acute breathing or swallowing difficulty.",
+      "ru": "Приступ с обмороком, выраженным головокружением или изменением сердечного ритма требует срочной оценки. При остром затруднении дыхания или глотания нужна экстренная помощь."
+    }
   },
   {
     "slug": "facial-neuropathic-pain",
@@ -1470,16 +2277,25 @@
     },
     "symptoms": {
       "hy": [
-        "Այրոց, էլեկտրական ցավ կամ հպման զգայունություն",
-        "Թմրածություն կամ զգացողության փոփոխություն"
+        "Այրող կամ էլեկտրական ցավ դեմքի, շրթունքի, ծնոտի կամ բերանի որոշ հատվածում։",
+        "Հնարավոր են ծակծկոց, թմրածություն կամ հպման զգացողության փոփոխություն։",
+        "Թեթև հպումը, դեմքը լվանալը կամ սառը օդը կարող են անհարմար լինել։",
+        "Ցավը կարող է լինել շարունակական կամ նոպայաձև՝ կախված նյարդային խնդրից։",
+        "Գանգատների կապը վնասվածքի, հերպեսի կամ միջամտության հետ կարևոր է գնահատման համար։"
       ],
       "en": [
-        "Burning, electric pain or touch sensitivity",
-        "Numbness or altered sensation"
+        "Burning or electric pain in part of the face, lip, jaw or mouth.",
+        "Tingling, numbness or altered touch sensation may occur.",
+        "Light touch, washing the face or cool air may feel uncomfortable.",
+        "Pain may be continuous or episodic, depending on the nerve problem.",
+        "A link with injury, shingles or a procedure helps guide assessment."
       ],
       "ru": [
-        "Жжение, боль как удар током или чувствительность к касанию",
-        "Онемение или изменение чувствительности"
+        "Жгучая или «электрическая» боль в части лица, губы, челюсти или рта.",
+        "Возможны покалывание, онемение или изменение ощущения прикосновения.",
+        "Лёгкое касание, умывание или прохладный воздух могут вызывать дискомфорт.",
+        "Боль бывает постоянной или приступообразной в зависимости от поражения нерва.",
+        "Связь с травмой, лишаём или вмешательством важна для оценки."
       ]
     },
     "assessment": {
@@ -1496,7 +2312,23 @@
       "trigeminal-neuralgia",
       "post-traumatic-trigeminal-pain",
       "persistent-facial-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "UT Southwestern Medical Center",
+        "url": "https://utswmed.org/medblog/trigeminal-neuralgia-neuropathy/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Օգտակար է նախապես գրանցել ցավի տեղը, նոպաների տևողությունն ու հաճախականությունը, հնարավոր հարուցիչները և ընդունած դեղերը։ Նշեք նաև նախկին ատամնաբուժական կամ այլ միջամտությունները։",
+      "en": "Record the pain location, attack duration and frequency, possible triggers and medicines used. Mention previous dental or other procedures.",
+      "ru": "Запишите расположение боли, длительность и частоту приступов, возможные провокаторы и принятые лекарства. Укажите прежние стоматологические и другие вмешательства."
+    },
+    "care_detail": {
+      "hy": "Հետևեք ոչ միայն ցավի ուժգնությանը, այլ նաև նոպաների հաճախականությանը և առօրյայի վրա ազդեցությանը։ Դեղերի փոփոխությունն ու արդյունքների գնահատումը քննարկվում են բժշկի հետ։",
+      "en": "Track not only pain intensity but attack frequency and impact on daily life. Review medication changes and treatment response with your clinician.",
+      "ru": "Отслеживайте не только силу боли, но и частоту приступов, влияние на повседневность. Изменения лекарств и результаты обсуждайте с врачом."
+    }
   },
   {
     "slug": "persistent-facial-pain",
@@ -1513,16 +2345,25 @@
     },
     "symptoms": {
       "hy": [
-        "Երկարատև բութ կամ ցավոտ զգացում",
-        "Անորոշ սահմաններով դեմքային ցավ"
+        "Երկարատև բութ, ճնշող կամ մղկտացող ցավ դեմքի կամ բերանի շրջանում։",
+        "Ցավի սահմանները հաճախ դժվար է մեկ կետով ցույց տալ։",
+        "Ցավը կարող է առկա լինել օրվա մեծ մասում և տատանվել ուժգնությամբ։",
+        "Այն միշտ չէ, որ համապատասխանում է մեկ ատամի կամ նյարդի տարածքին։",
+        "Մշտական ցավը կարող է խանգարել սնվելուն, կենտրոնանալուն և առօրյա գործերին։"
       ],
       "en": [
-        "Prolonged dull or aching pain",
-        "Facial pain with poorly defined boundaries"
+        "Prolonged dull, pressing or aching pain in the face or mouth.",
+        "The painful area can be difficult to pinpoint precisely.",
+        "Pain may last much of the day and vary in intensity.",
+        "It does not necessarily follow one tooth or nerve territory.",
+        "Persistent pain can interfere with eating, concentration and daily activities."
       ],
       "ru": [
-        "Длительная тупая или ноющая боль",
-        "Лицевая боль с нечёткими границами"
+        "Длительная тупая, давящая или ноющая боль в лице или полости рта.",
+        "Границы боли часто трудно указать одной точкой.",
+        "Боль может присутствовать большую часть дня и менять интенсивность.",
+        "Она не обязательно соответствует одному зубу или зоне одного нерва.",
+        "Постоянная боль может мешать еде, сосредоточению и повседневным делам."
       ]
     },
     "assessment": {
@@ -1538,7 +2379,23 @@
     "related": [
       "facial-neuropathic-pain",
       "trigeminal-neuralgia"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/persistent-idiopathic-facial-pain/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Օգտակար է նախապես գրանցել ցավի տեղը, նոպաների տևողությունն ու հաճախականությունը, հնարավոր հարուցիչները և ընդունած դեղերը։ Նշեք նաև նախկին ատամնաբուժական կամ այլ միջամտությունները։",
+      "en": "Record the pain location, attack duration and frequency, possible triggers and medicines used. Mention previous dental or other procedures.",
+      "ru": "Запишите расположение боли, длительность и частоту приступов, возможные провокаторы и принятые лекарства. Укажите прежние стоматологические и другие вмешательства."
+    },
+    "care_detail": {
+      "hy": "Հետևեք ոչ միայն ցավի ուժգնությանը, այլ նաև նոպաների հաճախականությանը և առօրյայի վրա ազդեցությանը։ Դեղերի փոփոխությունն ու արդյունքների գնահատումը քննարկվում են բժշկի հետ։",
+      "en": "Track not only pain intensity but attack frequency and impact on daily life. Review medication changes and treatment response with your clinician.",
+      "ru": "Отслеживайте не только силу боли, но и частоту приступов, влияние на повседневность. Изменения лекарств и результаты обсуждайте с врачом."
+    }
   },
   {
     "slug": "post-traumatic-trigeminal-pain",
@@ -1555,16 +2412,25 @@
     },
     "symptoms": {
       "hy": [
-        "Վնասվածքի տարածքում այրոց կամ հպումից ցավ",
-        "Թմրածություն կամ փոփոխված զգացողություն"
+        "Դեմքի կամ բերանի ցավ՝ նյարդի վնասվածքից կամ որոշ միջամտություններից հետո։",
+        "Այրող, կրակող կամ ցավոտ ծակծկոց՝ վնասված ճյուղի տարածքում։",
+        "Հնարավոր են շրթունքի, կզակի, լնդի կամ լեզվի թմրած հատվածներ։",
+        "Հպումը կամ սովորական բերանային գործողությունները կարող են ցավոտ դառնալ։",
+        "Ցավը կարող է լինել մշտական, նոպաներով կամ երկուսի համակցությամբ։"
       ],
       "en": [
-        "Burning or touch pain in the injured area",
-        "Numbness or altered sensation"
+        "Facial or oral pain following nerve injury or certain procedures.",
+        "Burning, shooting or painful tingling in the injured branch territory.",
+        "Numb areas may affect the lip, chin, gum or tongue.",
+        "Touch or ordinary oral activities may become painful.",
+        "Pain may be constant, episodic or a mixture of both."
       ],
       "ru": [
-        "Жжение или боль от касания в зоне травмы",
-        "Онемение или изменённая чувствительность"
+        "Боль в лице или полости рта после травмы нерва или некоторых вмешательств.",
+        "Жжение, прострелы или болезненное покалывание в зоне повреждённой ветви.",
+        "Участки онемения возможны на губе, подбородке, десне или языке.",
+        "Прикосновение или обычные действия во рту могут стать болезненными.",
+        "Боль бывает постоянной, приступообразной или сочетает оба варианта."
       ]
     },
     "assessment": {
@@ -1580,7 +2446,27 @@
     "related": [
       "facial-neuropathic-pain",
       "post-traumatic-neuropathic-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "International Headache Society / ICHD-3",
+        "url": "https://ichd-3.org/13-painful-cranial-neuropathies-and-other-facial-pains/13-1-trigeminal-neuralgia/13-1-2-painful-trigeminal-neuropathy/13-1-2-3-painful-post-traumatic-trigeminal-neuropathy/"
+      },
+      {
+        "name": "UT Southwestern Medical Center",
+        "url": "https://utswmed.org/medblog/trigeminal-neuralgia-neuropathy/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Օգտակար է նախապես գրանցել ցավի տեղը, նոպաների տևողությունն ու հաճախականությունը, հնարավոր հարուցիչները և ընդունած դեղերը։ Նշեք նաև նախկին ատամնաբուժական կամ այլ միջամտությունները։",
+      "en": "Record the pain location, attack duration and frequency, possible triggers and medicines used. Mention previous dental or other procedures.",
+      "ru": "Запишите расположение боли, длительность и частоту приступов, возможные провокаторы и принятые лекарства. Укажите прежние стоматологические и другие вмешательства."
+    },
+    "care_detail": {
+      "hy": "Հետևեք ոչ միայն ցավի ուժգնությանը, այլ նաև նոպաների հաճախականությանը և առօրյայի վրա ազդեցությանը։ Դեղերի փոփոխությունն ու արդյունքների գնահատումը քննարկվում են բժշկի հետ։",
+      "en": "Track not only pain intensity but attack frequency and impact on daily life. Review medication changes and treatment response with your clinician.",
+      "ru": "Отслеживайте не только силу боли, но и частоту приступов, влияние на повседневность. Изменения лекарств и результаты обсуждайте с врачом."
+    }
   },
   {
     "slug": "post-traumatic-neuropathic-pain",
@@ -1597,16 +2483,25 @@
     },
     "symptoms": {
       "hy": [
-        "Վնասվածքից հետո այրոց կամ կրակող ցավ",
-        "Նյարդի տարածքով թմրածություն կամ թուլություն"
+        "Վնասվածքից հետո պահպանվող այրող կամ կրակող ցավ՝ նյարդի տարածքում։",
+        "Ծակծկոց, թմրածություն կամ «մրջյունների վազքի» զգացում։",
+        "Հագուստի շփումը կամ թեթև հպումը կարող են ցավ առաջացնել։",
+        "Նյարդի ձգումը կամ որոշ շարժումներ կարող են սրել գանգատները։",
+        "Կախված վնասվածքից՝ հնարավոր են մկանային թուլություն կամ շարժման դժվարություն։"
       ],
       "en": [
-        "Burning or shooting pain after injury",
-        "Numbness or weakness in a nerve distribution"
+        "Burning or shooting pain persisting after injury in a nerve territory.",
+        "Tingling, numbness or pins and needles may occur.",
+        "Clothing contact or light touch may provoke pain.",
+        "Nerve stretch or certain movements may aggravate symptoms.",
+        "Depending on the injury, weakness or movement difficulty may occur."
       ],
       "ru": [
-        "Жгучая или стреляющая боль после травмы",
-        "Онемение или слабость в зоне нерва"
+        "Сохраняющаяся после травмы жгучая или стреляющая боль по ходу нерва.",
+        "Возможны покалывание, онемение или ощущение «мурашек».",
+        "Трение одежды или лёгкое прикосновение могут вызывать боль.",
+        "Натяжение нерва или некоторые движения могут усиливать жалобы.",
+        "В зависимости от травмы возможны слабость или затруднение движений."
       ]
     },
     "assessment": {
@@ -1622,7 +2517,23 @@
     "related": [
       "crps",
       "painful-neuroma"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "UChicago Medicine",
+        "url": "https://www.uchicagomedicine.org/conditions-services/orthopaedics/nerve-injury"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ներկայացրեք վիրահատության կամ վնասվածքի ամսաթիվը, դուրսգրման փաստաթղթերը և վերականգնման ընթացքը։ Նշեք՝ ցավը նոր է, ուժեղանո՞ւմ է, թե դանդաղ թեթևանում։",
+      "en": "Bring the operation or injury date, discharge information and recovery history. Explain whether pain is new, worsening or gradually improving.",
+      "ru": "Укажите дату операции или травмы, возьмите выписку и сведения о восстановлении. Объясните, новая ли боль, усиливается она или постепенно уменьшается."
+    },
+    "care_detail": {
+      "hy": "Հետագա քայլերը համադրեք վիրաբույժի տված սահմանափակումների հետ։ Նշեք՝ ինչ գործողություններ են արդեն հնարավոր և որ գանգատներն են դեռ խանգարում վերականգնմանը։",
+      "en": "Coordinate the next steps with your surgeon’s restrictions. Record activities you can now manage and symptoms that still limit recovery.",
+      "ru": "Согласуйте дальнейшие шаги с ограничениями хирурга. Отмечайте, какие действия уже доступны и какие жалобы ещё мешают восстановлению."
+    }
   },
   {
     "slug": "painful-neuroma",
@@ -1639,16 +2550,25 @@
     },
     "symptoms": {
       "hy": [
-        "Մեկ կետին հպվելուց էլեկտրական ցավ",
-        "Ցավ նյարդի նախկին վնասման տարածքում"
+        "Շատ զգայուն կոնկրետ կետ՝ նախկին վնասվածքի, կտրվածքի կամ վիրահատության մոտ։",
+        "Այդ կետին հպվելիս կարող է լինել էլեկտրական կամ կրակող ցավ։",
+        "Ցավը երբեմն տարածվում է նյարդի ուղով դեպի հարակից հատվածներ։",
+        "Կարող են լինել այրոց, ծակծկոց կամ զգացողության նվազում։",
+        "Հագուստի, կոշիկի կամ պրոթեզի ճնշումը կարող է ուժեղացնել ցավը։"
       ],
       "en": [
-        "Electric pain when one point is touched",
-        "Pain near a previous nerve injury"
+        "A very tender focal point near an old injury, cut or operation.",
+        "Touching that point may cause electric or shooting pain.",
+        "Pain may radiate along the nerve into nearby areas.",
+        "Burning, tingling or reduced sensation may coexist.",
+        "Pressure from clothing, footwear or a prosthesis may worsen pain."
       ],
       "ru": [
-        "Боль как удар током при касании одной точки",
-        "Боль у прежнего повреждения нерва"
+        "Очень чувствительная точка рядом с прежней травмой, порезом или операцией.",
+        "Касание этой точки может вызывать «электрическую» или стреляющую боль.",
+        "Боль иногда распространяется по ходу нерва в соседние области.",
+        "Могут сочетаться жжение, покалывание или снижение чувствительности.",
+        "Давление одежды, обуви или протеза может усиливать боль."
       ]
     },
     "assessment": {
@@ -1664,7 +2584,23 @@
     "related": [
       "scar-neuropathic-pain",
       "residual-limb-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "UChicago Medicine",
+        "url": "https://www.uchicagomedicine.org/forefront/orthopaedics-articles/nerve-pain-after-injury-or-surgery"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ներկայացրեք վիրահատության կամ վնասվածքի ամսաթիվը, դուրսգրման փաստաթղթերը և վերականգնման ընթացքը։ Նշեք՝ ցավը նոր է, ուժեղանո՞ւմ է, թե դանդաղ թեթևանում։",
+      "en": "Bring the operation or injury date, discharge information and recovery history. Explain whether pain is new, worsening or gradually improving.",
+      "ru": "Укажите дату операции или травмы, возьмите выписку и сведения о восстановлении. Объясните, новая ли боль, усиливается она или постепенно уменьшается."
+    },
+    "care_detail": {
+      "hy": "Հետագա քայլերը համադրեք վիրաբույժի տված սահմանափակումների հետ։ Նշեք՝ ինչ գործողություններ են արդեն հնարավոր և որ գանգատներն են դեռ խանգարում վերականգնմանը։",
+      "en": "Coordinate the next steps with your surgeon’s restrictions. Record activities you can now manage and symptoms that still limit recovery.",
+      "ru": "Согласуйте дальнейшие шаги с ограничениями хирурга. Отмечайте, какие действия уже доступны и какие жалобы ещё мешают восстановлению."
+    }
   },
   {
     "slug": "scar-neuropathic-pain",
@@ -1681,16 +2617,25 @@
     },
     "symptoms": {
       "hy": [
-        "Սպիին հպվելուց այրոց կամ ցավ",
-        "Սպիի շուրջ թմրած կամ գերզգայուն հատված"
+        "Այրոց կամ ծակող ցավ սպիի վրա կամ դրա շուրջ՝ վերքի փակվելուց հետո։",
+        "Թեթև շփումը, հագուստը կամ լվացվելը կարող են ցավոտ լինել։",
+        "Սպիի շուրջ կարող են հերթագայվել թմրած և գերզգայուն հատվածներ։",
+        "Ձգող ցավը կամ շարժման սահմանափակումը կարող են առնչվել նաև սպիի ձգվածությանը։",
+        "Նոր կարմրությունը, տաքությունը կամ արտահոսքը սովորական նյարդային ցավ չեն համարվում։"
       ],
       "en": [
-        "Burning or pain when touching the scar",
-        "Numb or sensitive areas around the scar"
+        "Burning or stabbing around a scar after the wound has closed.",
+        "Light contact, clothing or washing may be painful.",
+        "Numb and hypersensitive patches may coexist around the scar.",
+        "Pulling pain or limited movement may also involve scar tightness.",
+        "New redness, warmth or discharge should not be dismissed as nerve pain."
       ],
       "ru": [
-        "Жжение или боль при касании рубца",
-        "Онемевшие или чувствительные участки вокруг него"
+        "Жжение или колющая боль в области рубца после закрытия раны.",
+        "Лёгкое касание, одежда или мытьё могут быть болезненными.",
+        "Вокруг рубца могут сочетаться онемевшие и сверхчувствительные участки.",
+        "Тянущая боль или ограничение движения могут быть связаны и с натяжением рубца.",
+        "Новое покраснение, жар или выделения нельзя списывать на нервную боль."
       ]
     },
     "assessment": {
@@ -1706,7 +2651,23 @@
     "related": [
       "painful-neuroma",
       "post-surgical-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "University Hospitals Plymouth NHS",
+        "url": "https://www.plymouthhospitals.nhs.uk/display-pil/pil-desensitisation-8277"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ներկայացրեք վիրահատության կամ վնասվածքի ամսաթիվը, դուրսգրման փաստաթղթերը և վերականգնման ընթացքը։ Նշեք՝ ցավը նոր է, ուժեղանո՞ւմ է, թե դանդաղ թեթևանում։",
+      "en": "Bring the operation or injury date, discharge information and recovery history. Explain whether pain is new, worsening or gradually improving.",
+      "ru": "Укажите дату операции или травмы, возьмите выписку и сведения о восстановлении. Объясните, новая ли боль, усиливается она или постепенно уменьшается."
+    },
+    "care_detail": {
+      "hy": "Հետագա քայլերը համադրեք վիրաբույժի տված սահմանափակումների հետ։ Նշեք՝ ինչ գործողություններ են արդեն հնարավոր և որ գանգատներն են դեռ խանգարում վերականգնմանը։",
+      "en": "Coordinate the next steps with your surgeon’s restrictions. Record activities you can now manage and symptoms that still limit recovery.",
+      "ru": "Согласуйте дальнейшие шаги с ограничениями хирурга. Отмечайте, какие действия уже доступны и какие жалобы ещё мешают восстановлению."
+    }
   },
   {
     "slug": "post-surgical-pain",
@@ -1723,16 +2684,25 @@
     },
     "symptoms": {
       "hy": [
-        "Չնվազող կամ նոր ուժեղացող ցավ",
-        "Սպիի զգայունություն կամ գործառույթի սահմանափակում"
+        "Ցավ վիրահատված կամ հարակից հատվածում, որը սպասվածից երկար է պահպանվում։",
+        "Ցավը կարող է լինել բութ, ձգող, այրող կամ էլեկտրական բնույթի։",
+        "Հնարավոր են սպիի գերզգայունություն, թմրածություն կամ հպման ցավ։",
+        "Շարժվելը, քնելը կամ առօրյա ակտիվությանը վերադառնալը կարող են դժվարանալ։",
+        "Նոր ուժեղացող ցավը, ջերմությունը կամ վերքի փոփոխությունները պահանջում են վերագնահատում։"
       ],
       "en": [
-        "Pain that is not improving or newly worsening",
-        "Scar sensitivity or limited function"
+        "Pain in or near the operated area lasting longer than expected.",
+        "Pain may ache, pull, burn or feel electric.",
+        "Scar sensitivity, numbness or pain from touch may occur.",
+        "Movement, sleep or return to usual activity may become difficult.",
+        "Newly worsening pain, fever or wound changes need reassessment."
       ],
       "ru": [
-        "Не уменьшающаяся или вновь усиливающаяся боль",
-        "Чувствительность рубца или ограничение функции"
+        "Боль в оперированной или соседней области, сохраняющаяся дольше ожидаемого.",
+        "Боль бывает ноющей, тянущей, жгучей или «электрической».",
+        "Возможны чувствительность рубца, онемение или боль от прикосновения.",
+        "Движение, сон или возвращение к обычной активности могут затрудняться.",
+        "Новое усиление боли, температура или изменения раны требуют повторной оценки."
       ]
     },
     "assessment": {
@@ -1749,7 +2719,27 @@
       "scar-neuropathic-pain",
       "post-arthroplasty-pain",
       "post-hernia-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "Cambridge University Hospitals (NHS)",
+        "url": "https://www.cuh.nhs.uk/my-planned-care-a-z/pain-management-clinic/"
+      },
+      {
+        "name": "UChicago Medicine",
+        "url": "https://www.uchicagomedicine.org/patients-visitors/patient-information/preparing-for-your-hospital-stay/preparing-for-your-procedure-or-surgery/pain-management"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ներկայացրեք վիրահատության կամ վնասվածքի ամսաթիվը, դուրսգրման փաստաթղթերը և վերականգնման ընթացքը։ Նշեք՝ ցավը նոր է, ուժեղանո՞ւմ է, թե դանդաղ թեթևանում։",
+      "en": "Bring the operation or injury date, discharge information and recovery history. Explain whether pain is new, worsening or gradually improving.",
+      "ru": "Укажите дату операции или травмы, возьмите выписку и сведения о восстановлении. Объясните, новая ли боль, усиливается она или постепенно уменьшается."
+    },
+    "care_detail": {
+      "hy": "Հետագա քայլերը համադրեք վիրաբույժի տված սահմանափակումների հետ։ Նշեք՝ ինչ գործողություններ են արդեն հնարավոր և որ գանգատներն են դեռ խանգարում վերականգնմանը։",
+      "en": "Coordinate the next steps with your surgeon’s restrictions. Record activities you can now manage and symptoms that still limit recovery.",
+      "ru": "Согласуйте дальнейшие шаги с ограничениями хирурга. Отмечайте, какие действия уже доступны и какие жалобы ещё мешают восстановлению."
+    }
   },
   {
     "slug": "post-arthroplasty-pain",
@@ -1766,16 +2756,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ցավ ծանրաբեռնվելիս կամ հանգստի ժամանակ",
-        "Այտուց, կոշտություն կամ անկայունության զգացում"
+        "Պահպանվող կամ կրկին առաջացած ցավ՝ փոխարինված հոդի շրջանում։",
+        "Քայլելը, աստիճանները կամ հոդի վրա ծանրություն ընդունելը կարող են ցավոտ լինել։",
+        "Կարող են լինել կոշտություն, շարժման սահմանափակում կամ կրկնվող այտուց։",
+        "Անկայունության զգացումը կամ նոր մեխանիկական անհանգստությունը պետք է հայտնել վիրաբույժին։",
+        "Ջերմությամբ տաք հոդը կամ վերքի արտահոսքը պահանջում են արագ գնահատում։"
       ],
       "en": [
-        "Pain with loading or at rest",
-        "Swelling, stiffness or a sense of instability"
+        "Persistent or returning pain around a replaced joint.",
+        "Walking, stairs or loading the joint may be painful.",
+        "Stiffness, restricted movement or recurrent swelling may occur.",
+        "Report instability or new mechanical symptoms to the surgical team.",
+        "A hot joint with fever or wound discharge needs prompt assessment."
       ],
       "ru": [
-        "Боль при нагрузке или в покое",
-        "Отёк, скованность или ощущение нестабильности"
+        "Сохраняющаяся или вновь возникшая боль в области заменённого сустава.",
+        "Ходьба, лестница или опора на сустав могут быть болезненными.",
+        "Возможны скованность, ограничение движений или повторяющийся отёк.",
+        "О неустойчивости или новых механических ощущениях сообщите хирургу.",
+        "Горячий сустав с температурой или выделения из раны требуют быстрой оценки."
       ]
     },
     "assessment": {
@@ -1791,7 +2790,23 @@
     "related": [
       "post-surgical-pain",
       "scar-neuropathic-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "Cleveland Clinic",
+        "url": "https://health.clevelandclinic.org/why-is-there-so-much-pain-after-knee-replacement"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ներկայացրեք վիրահատության կամ վնասվածքի ամսաթիվը, դուրսգրման փաստաթղթերը և վերականգնման ընթացքը։ Նշեք՝ ցավը նոր է, ուժեղանո՞ւմ է, թե դանդաղ թեթևանում։",
+      "en": "Bring the operation or injury date, discharge information and recovery history. Explain whether pain is new, worsening or gradually improving.",
+      "ru": "Укажите дату операции или травмы, возьмите выписку и сведения о восстановлении. Объясните, новая ли боль, усиливается она или постепенно уменьшается."
+    },
+    "care_detail": {
+      "hy": "Հետագա քայլերը համադրեք վիրաբույժի տված սահմանափակումների հետ։ Նշեք՝ ինչ գործողություններ են արդեն հնարավոր և որ գանգատներն են դեռ խանգարում վերականգնմանը։",
+      "en": "Coordinate the next steps with your surgeon’s restrictions. Record activities you can now manage and symptoms that still limit recovery.",
+      "ru": "Согласуйте дальнейшие шаги с ограничениями хирурга. Отмечайте, какие действия уже доступны и какие жалобы ещё мешают восстановлению."
+    }
   },
   {
     "slug": "post-hernia-pain",
@@ -1808,16 +2823,25 @@
     },
     "symptoms": {
       "hy": [
-        "Աճուկի ցավ շարժվելիս",
-        "Այրոց կամ տեղային հպման զգայունություն"
+        "Պահպանվող ցավ աճուկում կամ նախկին ճողվածքի վիրահատության սպիի մոտ։",
+        "Ցավը կարող է լինել այրող, կրակող կամ տեղային ձգող։",
+        "Քայլելը, կռանալը կամ որոշ դիրքեր կարող են ուժեղացնել գանգատները։",
+        "Հնարավոր են սպիի շրջանի թմրածություն կամ հագուստի հպման ցավոտություն։",
+        "Նոր ցավոտ ուռուցիկությունը՝ փսխմամբ, կամ սուր ուժեղ ցավը պահանջում են անհետաձգելի գնահատում։"
       ],
       "en": [
-        "Groin pain with movement",
-        "Burning or local touch sensitivity"
+        "Persistent groin pain or pain near the hernia-repair scar.",
+        "Pain may burn, shoot or feel like local pulling.",
+        "Walking, bending or certain positions may increase symptoms.",
+        "Numbness or pain from clothing contact may affect the scar area.",
+        "A new bulge with vomiting or severe acute pain needs urgent assessment."
       ],
       "ru": [
-        "Боль в паху при движении",
-        "Жжение или чувствительность к касанию"
+        "Сохраняющаяся боль в паху или около рубца после операции по поводу грыжи.",
+        "Боль бывает жгучей, стреляющей или местной тянущей.",
+        "Ходьба, наклоны или некоторые позы могут усиливать жалобы.",
+        "В области рубца возможны онемение или боль от прикосновения одежды.",
+        "Новое выпячивание с рвотой или острой сильной болью требует срочной оценки."
       ]
     },
     "assessment": {
@@ -1833,7 +2857,32 @@
     "related": [
       "post-surgical-pain",
       "scar-neuropathic-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "East Kent Hospitals NHS",
+        "url": "https://leaflets.ekhuft.nhs.uk/hernia-repair-surgery-aftercare-advice/html/"
+      },
+      {
+        "name": "Frimley Health NHS",
+        "url": "https://www.fhft.nhs.uk/patients-and-visitors/patient-information-library/inguinal-hernia-repair"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ներկայացրեք վիրահատության կամ վնասվածքի ամսաթիվը, դուրսգրման փաստաթղթերը և վերականգնման ընթացքը։ Նշեք՝ ցավը նոր է, ուժեղանո՞ւմ է, թե դանդաղ թեթևանում։",
+      "en": "Bring the operation or injury date, discharge information and recovery history. Explain whether pain is new, worsening or gradually improving.",
+      "ru": "Укажите дату операции или травмы, возьмите выписку и сведения о восстановлении. Объясните, новая ли боль, усиливается она или постепенно уменьшается."
+    },
+    "care_detail": {
+      "hy": "Հետագա քայլերը համադրեք վիրաբույժի տված սահմանափակումների հետ։ Նշեք՝ ինչ գործողություններ են արդեն հնարավոր և որ գանգատներն են դեռ խանգարում վերականգնմանը։",
+      "en": "Coordinate the next steps with your surgeon’s restrictions. Record activities you can now manage and symptoms that still limit recovery.",
+      "ru": "Согласуйте дальнейшие шаги с ограничениями хирурга. Отмечайте, какие действия уже доступны и какие жалобы ещё мешают восстановлению."
+    },
+    "urgent": {
+      "hy": "Նոր ցավոտ ուռուցիկությունը՝ փսխմամբ կամ աղիքային անցանելիության խանգարման նշաններով, և հանկարծակի ուժեղ աճուկային ցավը պահանջում են անհետաձգելի գնահատում։ Վերքի արտահոսքը, կարմրությունը կամ ջերմությունը նույնպես արագ հայտնեք բժշկին։",
+      "en": "A new painful bulge with vomiting or signs of bowel obstruction, or sudden severe groin pain, needs urgent assessment. Promptly report wound discharge, redness or fever as well.",
+      "ru": "Новое болезненное выпячивание с рвотой или признаками кишечной непроходимости, либо внезапная сильная боль в паху требуют срочной оценки. О выделениях из раны, покраснении или температуре также быстро сообщите врачу."
+    }
   },
   {
     "slug": "post-mastectomy-pain",
@@ -1850,16 +2899,25 @@
     },
     "symptoms": {
       "hy": [
-        "Այրոց կամ սպիի զգայունություն",
-        "Ուսի շարժման սահմանափակում"
+        "Ցավ կրծքի, կրծքավանդակի պատի, անութի կամ բազկի ներսային հատվածում։",
+        "Ցավը կարող է լինել այրող, կրակող, ծակծկող կամ բութ։",
+        "Հնարավոր են սպիի գերզգայունություն և հարակից հատվածների թմրածություն։",
+        "Ձեռքը բարձրացնելը, հագնվելը կամ ուսի շարժումները կարող են դժվարանալ։",
+        "Նոր այտուցը, գոյացությունը կամ ցավի փոփոխությունը պետք է քննարկել բուժող թիմի հետ։"
       ],
       "en": [
-        "Burning or scar sensitivity",
-        "Restricted shoulder movement"
+        "Pain in the breast, chest wall, armpit or inner upper arm.",
+        "Pain may burn, shoot, tingle or ache.",
+        "Scar sensitivity and numbness in nearby areas may occur.",
+        "Raising the arm, dressing or moving the shoulder may be difficult.",
+        "Discuss new swelling, a lump or changing pain with your treating team."
       ],
       "ru": [
-        "Жжение или чувствительность рубца",
-        "Ограничение движений плеча"
+        "Боль в груди, грудной стенке, подмышке или внутренней части плеча.",
+        "Боль бывает жгучей, стреляющей, покалывающей или ноющей.",
+        "Возможны чувствительность рубца и онемение соседних участков.",
+        "Может быть трудно поднять руку, одеться или двигать плечом.",
+        "Новый отёк, уплотнение или изменение боли обсудите с лечащей командой."
       ]
     },
     "assessment": {
@@ -1875,7 +2933,23 @@
     "related": [
       "post-surgical-pain",
       "scar-neuropathic-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "Breast Cancer Now",
+        "url": "https://breastcancernow.org/about-breast-cancer/treatment/ongoing-pain-after-breast-surgery-lymph-node-removal-or-radiotherapy"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ներկայացրեք վիրահատության կամ վնասվածքի ամսաթիվը, դուրսգրման փաստաթղթերը և վերականգնման ընթացքը։ Նշեք՝ ցավը նոր է, ուժեղանո՞ւմ է, թե դանդաղ թեթևանում։",
+      "en": "Bring the operation or injury date, discharge information and recovery history. Explain whether pain is new, worsening or gradually improving.",
+      "ru": "Укажите дату операции или травмы, возьмите выписку и сведения о восстановлении. Объясните, новая ли боль, усиливается она или постепенно уменьшается."
+    },
+    "care_detail": {
+      "hy": "Հետագա քայլերը համադրեք վիրաբույժի տված սահմանափակումների հետ։ Նշեք՝ ինչ գործողություններ են արդեն հնարավոր և որ գանգատներն են դեռ խանգարում վերականգնմանը։",
+      "en": "Coordinate the next steps with your surgeon’s restrictions. Record activities you can now manage and symptoms that still limit recovery.",
+      "ru": "Согласуйте дальнейшие шаги с ограничениями хирурга. Отмечайте, какие действия уже доступны и какие жалобы ещё мешают восстановлению."
+    }
   },
   {
     "slug": "post-thoracotomy-pain",
@@ -1892,16 +2966,25 @@
     },
     "symptoms": {
       "hy": [
-        "Կողերի ուղղությամբ այրոց կամ ցավ",
-        "Ցավ խորը շնչելիս կամ շարժվելիս"
+        "Շարունակվող ցավ կրծքավանդակի վիրահատական սպիի կամ կողերի երկայնքով։",
+        "Ցավը կարող է լինել այրող, ծակող կամ գոտու նման տարածվող։",
+        "Մարմինը պտտելը, հազը կամ խորը շունչը կարող են ցավոտ լինել։",
+        "Սպիի շուրջ երբեմն լինում են թմրածություն կամ հպման գերզգայունություն։",
+        "Նոր շնչահեղձությունը, ջերմությունը կամ անսովոր կրծքային ցավը պահանջում են արագ օգնություն։"
       ],
       "en": [
-        "Burning or pain along the ribs",
-        "Pain with deep breathing or movement"
+        "Persistent pain along the thoracic surgical scar or ribs.",
+        "Pain may burn, stab or spread in a band.",
+        "Twisting, coughing or taking a deep breath may hurt.",
+        "Numbness or sensitivity to touch may surround the scar.",
+        "New breathlessness, fever or unusual chest pain needs prompt help."
       ],
       "ru": [
-        "Жжение или боль вдоль рёбер",
-        "Боль при глубоком вдохе или движении"
+        "Продолжающаяся боль вдоль послеоперационного рубца грудной клетки или рёбер.",
+        "Боль бывает жгучей, колющей или распространяется полосой.",
+        "Поворот туловища, кашель или глубокий вдох могут вызывать боль.",
+        "Вокруг рубца возможны онемение или чувствительность к прикосновению.",
+        "Новая одышка, температура или необычная боль в груди требуют быстрой помощи."
       ]
     },
     "assessment": {
@@ -1917,7 +3000,27 @@
     "related": [
       "post-surgical-pain",
       "scar-neuropathic-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "University College London Hospitals (NHS)",
+        "url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/thoracic-surgery-information-and-advice-patients-relatives-and-carers"
+      },
+      {
+        "name": "St George’s University Hospitals NHS",
+        "url": "https://www.stgeorges.nhs.uk/service/thoracic-surgery/patients/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ներկայացրեք վիրահատության կամ վնասվածքի ամսաթիվը, դուրսգրման փաստաթղթերը և վերականգնման ընթացքը։ Նշեք՝ ցավը նոր է, ուժեղանո՞ւմ է, թե դանդաղ թեթևանում։",
+      "en": "Bring the operation or injury date, discharge information and recovery history. Explain whether pain is new, worsening or gradually improving.",
+      "ru": "Укажите дату операции или травмы, возьмите выписку и сведения о восстановлении. Объясните, новая ли боль, усиливается она или постепенно уменьшается."
+    },
+    "care_detail": {
+      "hy": "Հետագա քայլերը համադրեք վիրաբույժի տված սահմանափակումների հետ։ Նշեք՝ ինչ գործողություններ են արդեն հնարավոր և որ գանգատներն են դեռ խանգարում վերականգնմանը։",
+      "en": "Coordinate the next steps with your surgeon’s restrictions. Record activities you can now manage and symptoms that still limit recovery.",
+      "ru": "Согласуйте дальнейшие шаги с ограничениями хирурга. Отмечайте, какие действия уже доступны и какие жалобы ещё мешают восстановлению."
+    }
   },
   {
     "slug": "post-amputation-pain",
@@ -1934,16 +3037,25 @@
     },
     "symptoms": {
       "hy": [
-        "Ցավ պահպանված հատվածում",
-        "Ցավ բացակայող վերջույթի զգացողությամբ"
+        "Ցավը կարող է զգացվել պահպանված հատվածում կամ բացակայող վերջույթում։",
+        "Պահպանված հատվածի ցավը երբեմն կապված է հպման, վերքի կամ պրոթեզի ճնշման հետ։",
+        "Բացակայող մասում ցավը կարող է լինել այրող, սեղմող կամ կրակող։",
+        "Ցավի երկու տեսակները կարող են միաժամանակ լինել և տարբեր բուժում պահանջել։",
+        "Նշեք՝ երբ է ցավը սկսվում և փոխվո՞ւմ է պրոթեզը հանելիս։"
       ],
       "en": [
-        "Pain in the remaining part",
-        "Pain felt in the missing limb"
+        "Pain may be felt in the residual limb or the missing part.",
+        "Residual pain may relate to touch, a wound or prosthetic pressure.",
+        "Pain in the missing part may burn, squeeze or shoot.",
+        "Both types can coexist and may need different approaches.",
+        "Note when pain begins and whether removing the prosthesis changes it."
       ],
       "ru": [
-        "Боль в оставшейся части",
-        "Боль с ощущением отсутствующей конечности"
+        "Боль может ощущаться в сохранённой части или в отсутствующей конечности.",
+        "Боль в сохранённой части иногда связана с касанием, раной или давлением протеза.",
+        "В отсутствующей части боль бывает жгучей, сдавливающей или стреляющей.",
+        "Оба вида могут сочетаться и требовать разных подходов.",
+        "Отметьте, когда начинается боль и меняется ли она после снятия протеза."
       ]
     },
     "assessment": {
@@ -1959,7 +3071,23 @@
     "related": [
       "phantom-limb-pain",
       "residual-limb-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/tests-and-treatments/amputation/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ներկայացրեք վիրահատության կամ վնասվածքի ամսաթիվը, դուրսգրման փաստաթղթերը և վերականգնման ընթացքը։ Նշեք՝ ցավը նոր է, ուժեղանո՞ւմ է, թե դանդաղ թեթևանում։",
+      "en": "Bring the operation or injury date, discharge information and recovery history. Explain whether pain is new, worsening or gradually improving.",
+      "ru": "Укажите дату операции или травмы, возьмите выписку и сведения о восстановлении. Объясните, новая ли боль, усиливается она или постепенно уменьшается."
+    },
+    "care_detail": {
+      "hy": "Հետագա քայլերը համադրեք վիրաբույժի տված սահմանափակումների հետ։ Նշեք՝ ինչ գործողություններ են արդեն հնարավոր և որ գանգատներն են դեռ խանգարում վերականգնմանը։",
+      "en": "Coordinate the next steps with your surgeon’s restrictions. Record activities you can now manage and symptoms that still limit recovery.",
+      "ru": "Согласуйте дальнейшие шаги с ограничениями хирурга. Отмечайте, какие действия уже доступны и какие жалобы ещё мешают восстановлению."
+    }
   },
   {
     "slug": "phantom-limb-pain",
@@ -1976,16 +3104,25 @@
     },
     "symptoms": {
       "hy": [
-        "Բացակայող հատվածում այրոց կամ սեղմման զգացում",
-        "Նոպայաձև կամ շարունակական ցավ"
+        "Ցավ, որը զգացվում է արդեն բացակայող ոտնաթաթում, ձեռքում կամ այլ հատվածում։",
+        "Կարող է թվալ, թե բացակայող մասը այրվում է, սեղմվում կամ ջղաձգվում։",
+        "Հնարավոր են էլեկտրական հարվածի նման կարճ ցավային ալիքներ։",
+        "Ցավը կարող է գալ նոպաներով կամ պահպանվել ավելի երկար։",
+        "Բացակայող վերջույթի ոչ ցավոտ զգացողությունն ինքնին ֆանտոմային ցավ չէ։"
       ],
       "en": [
-        "Burning or squeezing in the missing part",
-        "Episodic or continuous pain"
+        "Pain felt in a foot, hand or other part that is no longer present.",
+        "The missing part may seem to burn, squeeze or cramp.",
+        "Brief waves of electric-shock-like pain may occur.",
+        "Pain may come in attacks or last longer.",
+        "A non-painful missing-limb sensation is not itself phantom pain."
       ],
       "ru": [
-        "Жжение или сдавление в отсутствующей части",
-        "Приступообразная или постоянная боль"
+        "Боль ощущается в стопе, кисти или другой части, которой уже нет.",
+        "Может казаться, что отсутствующая часть горит, сдавливается или сводится судорогой.",
+        "Возможны короткие волны боли, похожей на удар током.",
+        "Боль может возникать приступами или сохраняться дольше.",
+        "Неболезненное ощущение отсутствующей конечности само по себе не является фантомной болью."
       ]
     },
     "assessment": {
@@ -2001,7 +3138,23 @@
     "related": [
       "post-amputation-pain",
       "residual-limb-pain"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "University Hospitals Sussex NHS",
+        "url": "https://www.uhsussex.nhs.uk/resources/phantom-limb-sensation-pain-following-amputation/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ներկայացրեք վիրահատության կամ վնասվածքի ամսաթիվը, դուրսգրման փաստաթղթերը և վերականգնման ընթացքը։ Նշեք՝ ցավը նոր է, ուժեղանո՞ւմ է, թե դանդաղ թեթևանում։",
+      "en": "Bring the operation or injury date, discharge information and recovery history. Explain whether pain is new, worsening or gradually improving.",
+      "ru": "Укажите дату операции или травмы, возьмите выписку и сведения о восстановлении. Объясните, новая ли боль, усиливается она или постепенно уменьшается."
+    },
+    "care_detail": {
+      "hy": "Հետագա քայլերը համադրեք վիրաբույժի տված սահմանափակումների հետ։ Նշեք՝ ինչ գործողություններ են արդեն հնարավոր և որ գանգատներն են դեռ խանգարում վերականգնմանը։",
+      "en": "Coordinate the next steps with your surgeon’s restrictions. Record activities you can now manage and symptoms that still limit recovery.",
+      "ru": "Согласуйте дальнейшие шаги с ограничениями хирурга. Отмечайте, какие действия уже доступны и какие жалобы ещё мешают восстановлению."
+    }
   },
   {
     "slug": "residual-limb-pain",
@@ -2018,16 +3171,25 @@
     },
     "symptoms": {
       "hy": [
-        "Տեղային ցավ պրոթեզը կրելիս",
-        "Մեկ կետի ցավ, մաշկի փոփոխություն կամ այրոց"
+        "Ցավ ամպուտացիայից հետո պահպանված վերջույթի իրական հատվածում։",
+        "Պրոթեզ հագնելը կամ հենվելը կարող են առաջացնել ճնշման տեղային ցավ։",
+        "Մաշկի շփումը կարող է ուղեկցվել կարմրությամբ, գրգռմամբ կամ վերքով։",
+        "Կոնկրետ կետի հպումը երբեմն առաջացնում է այրող կամ էլեկտրական ցավ։",
+        "Հանգստի ժամանակ ցավը կամ նոր մաշկային փոփոխությունները պետք է գնահատել առանձին։"
       ],
       "en": [
-        "Local pain when wearing a prosthesis",
-        "Focal pain, skin changes or burning"
+        "Pain located in the physical limb remaining after amputation.",
+        "Wearing a prosthesis or weight-bearing may cause focal pressure pain.",
+        "Skin friction may cause redness, irritation or a sore.",
+        "Touching a focal point may trigger burning or electric pain.",
+        "Pain at rest or new skin changes need specific assessment."
       ],
       "ru": [
-        "Местная боль при ношении протеза",
-        "Точечная боль, изменения кожи или жжение"
+        "Боль в реально сохранённой части конечности после ампутации.",
+        "Надевание протеза или опора могут вызывать местную боль от давления.",
+        "Трение кожи может сопровождаться покраснением, раздражением или ранкой.",
+        "Касание определённой точки иногда вызывает жгучую или «электрическую» боль.",
+        "Боль в покое или новые изменения кожи требуют отдельной оценки."
       ]
     },
     "assessment": {
@@ -2044,6 +3206,26 @@
       "post-amputation-pain",
       "phantom-limb-pain",
       "painful-neuroma"
-    ]
+    ],
+    "sources": [
+      {
+        "name": "Guy’s and St Thomas’ NHS",
+        "url": "https://www.guysandstthomas.nhs.uk/leg-amputation"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/tests-and-treatments/amputation/"
+      }
+    ],
+    "assessment_detail": {
+      "hy": "Ներկայացրեք վիրահատության կամ վնասվածքի ամսաթիվը, դուրսգրման փաստաթղթերը և վերականգնման ընթացքը։ Նշեք՝ ցավը նոր է, ուժեղանո՞ւմ է, թե դանդաղ թեթևանում։",
+      "en": "Bring the operation or injury date, discharge information and recovery history. Explain whether pain is new, worsening or gradually improving.",
+      "ru": "Укажите дату операции или травмы, возьмите выписку и сведения о восстановлении. Объясните, новая ли боль, усиливается она или постепенно уменьшается."
+    },
+    "care_detail": {
+      "hy": "Հետագա քայլերը համադրեք վիրաբույժի տված սահմանափակումների հետ։ Նշեք՝ ինչ գործողություններ են արդեն հնարավոր և որ գանգատներն են դեռ խանգարում վերականգնմանը։",
+      "en": "Coordinate the next steps with your surgeon’s restrictions. Record activities you can now manage and symptoms that still limit recovery.",
+      "ru": "Согласуйте дальнейшие шаги с ограничениями хирурга. Отмечайте, какие действия уже доступны и какие жалобы ещё мешают восстановлению."
+    }
   }
 ]
