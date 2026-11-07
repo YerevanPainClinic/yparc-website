@@ -12,6 +12,8 @@
   >
 
   <style>
+.safety-signs {padding-left:1.4em;margin:20px 0;line-height:1.7}.safety-signs li{margin:12px 0}.safety-sources{font-size:13px;margin-top:24px;line-height:1.6}.safety-sources a{text-decoration:underline}
+
     :root {
       --navy:#17385f;
       --navy-deep:#102b49;
@@ -656,9 +658,7 @@
       <div class="quiz-top">
 
         <div class="progress-info">
-          <span id="progressText">
-            Question 1 / 10
-          </span>
+          <span id="progressText">Safety check first</span>
 
           <span>
             Pain Check
@@ -680,7 +680,14 @@
 
         <!-- QUESTION 1 -->
 
-        <div class="quiz-step active" data-step="1">
+        <div class="quiz-step active" data-step="0">
+<div class="step-label">SAFETY CHECK</div><h2>First, could you need urgent help?</h2>
+<p>Do you have any of the following? Do not wait to finish the questionnaire if these signs are present.</p><ul class="safety-signs"><li>Sudden chest pain or pressure that does not go away, especially with pain spreading to an arm, jaw or back, or breathlessness, sweating, nausea or fainting.</li><li>A sudden, unusually severe headache, especially with changes in speech, vision or awareness.</li><li>Sudden facial drooping, trouble speaking, or new weakness or numbness on one side of the body, even if it has now stopped.</li><li>New bladder or bowel dysfunction with back or leg pain, numbness around the genitals or bottom, or rapidly worsening limb weakness.</li><li>Pain with loss of consciousness, severe difficulty breathing, or fever with a stiff neck or confusion.</li></ul>
+<p><strong>This list is not exhaustive. Their absence does not rule out a serious condition. Seek urgent help if your condition suddenly worsens.</strong></p><div class="answers">
+<div class="answer"><input type="radio" name="q0" id="q0red" value="red"><label for="q0red"><span class="radio-ui"></span>Yes, at least one is present</label></div><div class="answer"><input type="radio" name="q0" id="q0clear" value="clear"><label for="q0clear"><span class="radio-ui"></span>No, none of these are present</label></div><div class="answer"><input type="radio" name="q0" id="q0unsure" value="unsure"><label for="q0unsure"><span class="radio-ui"></span>I am not sure</label></div></div><div class="quiz-error" role="alert">Choose an answer.</div><div class="quiz-actions"><button class="quiz-btn btn-next" onclick="nextStep()">Continue →</button></div>
+<p class="safety-sources">Sources: <a href="https://www.nhs.uk/symptoms/chest-pain/">NHS — Chest pain</a> · <a href="https://www.nhs.uk/symptoms/headaches/">NHS — Headaches</a> · <a href="https://www.nhs.uk/conditions/stroke/symptoms/">NHS — Stroke</a> · <a href="https://www.nhs.uk/conditions/back-pain/">NHS — Back pain</a></p>
+<noscript><p>JavaScript is needed for this questionnaire. Do not wait if warning signs are present: call 103 in Armenia.</p></noscript></div>
+<div class="quiz-step" data-step="1">
 
           <div class="step-label">
             PAIN LOCATION
@@ -762,7 +769,7 @@
             Please select an answer.
           </div>
 
-          <div class="quiz-actions">
+          <div class="quiz-actions"><button class="quiz-btn btn-back" onclick="prevStep()">← Safety check</button>
             <button class="quiz-btn btn-next" onclick="nextStep()">
               Next →
             </button>
@@ -1290,21 +1297,24 @@
 </footer>
 
 
+<script src="pain-check-safety.js"></script>
 <script>
 
-  let currentStep = 1;
+  const safetyCopy = {"label": "SAFETY CHECK", "question": "First, could you need urgent help?", "intro": "Do you have any of the following? Do not wait to finish the questionnaire if these signs are present.", "items": ["Sudden chest pain or pressure that does not go away, especially with pain spreading to an arm, jaw or back, or breathlessness, sweating, nausea or fainting.", "A sudden, unusually severe headache, especially with changes in speech, vision or awareness.", "Sudden facial drooping, trouble speaking, or new weakness or numbness on one side of the body, even if it has now stopped.", "New bladder or bowel dysfunction with back or leg pain, numbness around the genitals or bottom, or rapidly worsening limb weakness.", "Pain with loss of consciousness, severe difficulty breathing, or fever with a stiff neck or confusion."], "yes": "Yes, at least one is present", "no": "No, none of these are present", "unsure": "I am not sure", "next": "Continue →", "back": "← Safety check", "error": "Choose an answer.", "progress": "Safety check first", "stopped": "Questionnaire stopped", "note": "This list is not exhaustive. Their absence does not rule out a serious condition. Seek urgent help if your condition suddenly worsens.", "sources": "Sources", "nojs": "JavaScript is needed for this questionnaire. Do not wait if warning signs are present: call 103 in Armenia.", "urgentTitle": "Do not wait for an online appointment", "urgentLead": "These warning signs may need emergency medical care. This questionnaire cannot rule out a serious condition.", "urgentBox": "Urgent medical assessment", "urgentText": "If any listed warning sign is present, call 103 in Armenia. If you are unsure whether a symptom is dangerous, stop self-assessment and contact a medical service immediately. Do not drive yourself.", "call": "Ambulance in Armenia: 103", "outside": "Outside Armenia, call your local emergency number.", "chestTitle": "Chest pain needs medical assessment", "chestLead": "This questionnaire cannot determine whether chest pain comes from the heart, lungs, muscles or another cause. We do not classify it as routine musculoskeletal pain.", "chestBox": "Do not rely on this questionnaire alone", "chestText": "If pain is new, persistent, severe or accompanied by the warning signs above, call 103 in Armenia. For recurring or concerning pain, contact a clinician to determine how urgently you need assessment.", "clinic": "Contact the clinic"};
+  let currentStep = 0;
   const totalSteps = 10;
 
 
   function updateProgress() {
 
     const percent =
-      ((currentStep - 1) / totalSteps) * 100;
+      (Math.max(0, currentStep - 1) / totalSteps) * 100;
 
     document.getElementById("progressBar").style.width =
       percent + "%";
 
     document.getElementById("progressText").textContent =
+      currentStep === 0 ? safetyCopy.progress :
       "Question " + currentStep + " / " + totalSteps;
 
   }
@@ -1353,6 +1363,7 @@
   function nextStep() {
 
     if (!validateStep()) return;
+    if (stopForSafety()) return;
 
     document.querySelector(
       '.quiz-step[data-step="' +
@@ -1404,6 +1415,7 @@
   function showResult() {
 
     if (!validateStep()) return;
+    if (stopForSafety()) return;
 
 
     const answers = {};
@@ -1418,10 +1430,7 @@
        RED FLAG SCREEN
     ============================================= */
 
-    const redFlag =
-      answers.q8 === "red" ||
-      answers.q9 === "red" ||
-      answers.q10 === "red";
+
 
 
     /* =============================================
@@ -1522,29 +1531,7 @@
        RED FLAG RESULT
     ============================================= */
 
-    if (redFlag) {
 
-      icon.textContent = "!";
-
-      title.textContent =
-        "Urgent medical assessment is recommended";
-
-      lead.textContent =
-        "At least one of your answers may require prompt medical assessment. This questionnaire cannot determine the cause.";
-
-      box.classList.add("result-warning");
-
-      boxTitle.textContent =
-        "Do not rely only on an online questionnaire";
-
-      boxText.textContent =
-        "New or rapidly worsening weakness, new bladder or bowel dysfunction, perineal numbness, or a marked deterioration in general health with pain may require urgent medical assessment.";
-
-      actions.innerHTML =
-        '<a href="tel:103" class="result-link result-primary">Ambulance in Armenia: 103</a>';
-
-      return;
-    }
 
 
     box.classList.remove("result-warning");
@@ -1670,10 +1657,14 @@
       "resultScreen"
     ).style.display = "none";
 
-    currentStep = 1;
+    document.querySelectorAll('.quiz-step').forEach(step => step.classList.remove('active'));
+    document.querySelectorAll('.quiz-error').forEach(error => error.style.display = 'none');
+    document.getElementById('resultActions').replaceChildren();
+    document.getElementById('resultBox').classList.remove('result-warning');
+    currentStep = 0;
 
     document.querySelector(
-      '.quiz-step[data-step="1"]'
+      '.quiz-step[data-step="0"]'
     ).classList.add("active");
 
     updateProgress();
