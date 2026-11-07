@@ -62,7 +62,7 @@ for(const lang of ['hy','en','ru']) {
     assert.equal(f.run('stopForSafety()'),true);noBooking(f);checks++;
   }
   // A normal, fully answered path still produces the existing non-diagnostic orientation.
-  f=fixture(lang);Object.assign(f.answers,{q0:'clear',q1:'back',q2:'mechanical',q3:'no',q4:'no',q5:'yes',q6:'no',q7:'short',q8:'no',q9:'no',q10:'no'});
+  f=fixture(lang);Object.assign(f.answers,{q0:'clear',q1:'back',q2:'mechanical',q3:'no',q4:'no',q5:'yes',q6:'no',q7:'acute',q8:'no',q9:'no',q10:'no'});
   for(let i=0;i<10;i++)f.run('nextStep()');f.run('showResult()');
   assert.equal(f.doc.getElementById('resultScreen').style.display,'block');
   assert(f.doc.getElementById('resultActions').innerHTML.includes(`booking-${lang}.html`));checks++;
